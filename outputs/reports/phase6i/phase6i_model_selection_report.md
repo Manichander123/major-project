@@ -1,6 +1,6 @@
-# Phase 6I: Robustness Validation and Final Model Selection Report
+﻿# Phase 6I: Robustness Validation and Final Model Selection Report
 
-**Timestamp:** 2026-10-20T08:01:20.861129  
+**Timestamp:** 2026-10-20T13:28:20.258780
 **Cohort:** N = 7843 eligible farms across 7 crop classes  
 **Cross-Validation:** 5-Fold StratifiedGroupKFold grouped strictly by Sub-District (Mandal)  
 **Audit Status:** **PASS** (Protected hashes verified, zero Mandal overlap, zero leakage)  
@@ -24,12 +24,12 @@
 
 ## 2. Re-Calculated Four-Way Benchmark Matrix
 
-| Model Configuration | Feature Count | Sample Weighting | Pooled Macro-F1 | Balanced Accuracy | Overall Accuracy | Weighted-F1 | Fold Macro-F1 (Mean ± Std) |
+| Model Configuration | Feature Count | Sample Weighting | Pooled Macro-F1 | Balanced Accuracy | Overall Accuracy | Weighted-F1 | Fold Macro-F1 (Mean Â± Std) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **`unweighted_S+T`** | 140 | Unweighted | **0.7069** | 0.6914 | 0.7873 | 0.7796 | 0.6997 ± 0.0228 |
-| **`weighted_S+T`** | 140 | Inverse-Freq | **0.7226** | 0.718 | 0.7881 | 0.7857 | 0.7117 ± 0.0181 |
-| **`unweighted_S+T+P`** | 160 | Unweighted | **0.7038** | 0.6895 | 0.79 | 0.7818 | 0.6965 ± 0.0173 |
-| **`weighted_S+T+P`** | 160 | Inverse-Freq | **0.7228** | 0.7167 | 0.7905 | 0.7879 | 0.7131 ± 0.0133 |
+| **`unweighted_S+T`** | 140 | Unweighted | **0.7069** | 0.6914 | 0.7873 | 0.7796 | 0.6997 Â± 0.0228 |
+| **`weighted_S+T`** | 140 | Inverse-Freq | **0.7226** | 0.718 | 0.7881 | 0.7857 | 0.7117 Â± 0.0181 |
+| **`unweighted_S+T+P`** | 160 | Unweighted | **0.7038** | 0.6895 | 0.79 | 0.7818 | 0.6965 Â± 0.0173 |
+| **`weighted_S+T+P`** | 160 | Inverse-Freq | **0.7228** | 0.7167 | 0.7905 | 0.7879 | 0.7131 Â± 0.0133 |
 
 ---
 
@@ -72,12 +72,12 @@
 
 ## 5. Parcel-Area Subgroup Analysis
 
-| Area Quartile | Area Range (m²) | N | Weighted S+T Macro-F1 | Weighted S+T+P Macro-F1 | Area Macro-F1 Delta | Best Model |
+| Area Quartile | Area Range (mÂ²) | N | Weighted S+T Macro-F1 | Weighted S+T+P Macro-F1 | Area Macro-F1 Delta | Best Model |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Q1_small** | 54 - 1,257 m² | 1961 | 0.6598 | 0.6465 | **-0.0133** | **Weighted S+T** |
-| **Q2_med_low** | 1,257 - 2,783 m² | 1961 | 0.7332 | 0.7184 | **-0.0148** | **Weighted S+T** |
-| **Q3_med_high** | 2,784 - 5,517 m² | 1960 | 0.7400 | 0.7530 | **+0.0130** | **Weighted S+T+P** |
-| **Q4_large** | 5,528 - 69,491 m² | 1961 | 0.7253 | 0.7219 | **-0.0034** | **Weighted S+T** |
+| **Q1_small** | 54 - 1,257 mÂ² | 1961 | 0.6598 | 0.6465 | **-0.0133** | **Weighted S+T** |
+| **Q2_med_low** | 1,257 - 2,783 mÂ² | 1961 | 0.7332 | 0.7184 | **-0.0148** | **Weighted S+T** |
+| **Q3_med_high** | 2,784 - 5,517 mÂ² | 1960 | 0.7400 | 0.7530 | **+0.0130** | **Weighted S+T+P** |
+| **Q4_large** | 5,528 - 69,491 mÂ² | 1961 | 0.7253 | 0.7219 | **-0.0034** | **Weighted S+T** |
 
 ---
 

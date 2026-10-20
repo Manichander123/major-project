@@ -62,3 +62,19 @@ __geocache__/
 # Logs
 *.log
 logs/
+
+# Generated research data — do not upload by default
+outputs/data/
+outputs/satellite_cache/
+
+# Trained models — keep out of Git
+outputs/models/
+
+# Generated figures, including spatial maps
+outputs/figures/
+
+# Python test cache
+.pytest_cache/
+
+# Raw project dataset and access documents - keep out of public Git
+/datasss/

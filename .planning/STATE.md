@@ -1,46 +1,47 @@
 ## Current State
-- **Active Phase**: Phase 6H — Spatial Texture Integration and S/T/P Feature Ablation
-- **Current Stage**: Stage 1: Read-Only Audit & Feasibility Preflight (COMPLETE — Awaiting Stage 2 Approval)
-- **Status**: Stage 1 audit complete. 10 core preflight items answered with empirical evidence. Zero local rasters identified; GEE server-side glcmTexture() recommended. Awaiting explicit authorization before Stage 2.
+- **Active Milestone**: Phase 6 Completed (Phase 6I: Robustness Validation and Final Model Selection Complete & Audited)
+- **Primary Operational Model**: **`Weighted S+T`** (140 Spectral + Temporal features, inverse-frequency weighted regularized XGBoost)
+- **Cohort**: 7,843 eligible training farms across 14 districts and 116 Mandals in Telangana
+- **Validation**: 5-Fold StratifiedGroupKFold grouped strictly by Sub-District (Mandal) with zero spatial group overlap
+- **Authoritative Performance**:
+  - **Pooled Out-of-Fold Macro-F1**: **0.7226** *(Existing spatial cross-validation result, NOT a test-set score)*
+  - **Balanced Accuracy**: **0.7180**
+  - **Overall Accuracy**: **0.7881**
+  - **Fold Macro-F1**: **0.7117 ± 0.0181** (Range: 0.6919 to 0.7381)
+- **Status of Test Dataset (`datasss/Test.csv`)**: **UNPROCESSED / NOT EVALUATED**. The 2,718 test parcels have not undergone Sentinel-2 satellite feature extraction or model inference.
+- **Status of Downstream Modules**: Crop-health classification (`category`), irrigation recommendations, weather integration, and dashboard/agent functionality are **NOT YET IMPLEMENTED**.
 
 ## Progress Summary
 | Stage | Description | Gate / Checkpoint | Status | Completed Date |
 | :--- | :--- | :---: | :---: | :---: |
-| **Phase 6F Stage 1** | Dataset Inventory, Independent Audit & Reconciliation | **Gate A** | **PASS** | 2026-10-18 |
-| **Phase 6F Stage 2** | Failure Recovery & Schema Validation | Checkpoint | **PASS (5/5 Recovered)** | 2026-10-18 |
-| **Phase 6F Stage 3** | Final Cohort Harmonization & Feature Readiness | **Gate B** | **PASS (7,888 Harmonized)** | 2026-10-18 |
-| **Phase 6F Stage 4A** | Read-Only Modeling Preflight & Verification | Preflight | **READY WITH CAVEATS** | 2026-10-18 |
-| **Phase 6F Stage 4B** | Controlled Model Benchmarking & Scientific Evaluation | Final Review | **PASS (All 4 Experiments Complete)** | 2026-10-18 |
-| **Phase 6F Stage 4C** | Read-Only Scientific Benchmark Integrity Audit | Audit Checkpoint | **PASS WITH SCIENTIFIC ADDENDA** | 2026-10-18 |
-| **Phase 6G Pilot** | Bounded Nested Grouped CV Pilot (Outer Fold 0) | Pilot Gate | **PASS (Trial 4 Selected, 10 Trials)** | 2026-10-18 |
-| **Phase 6G Exp 2** | Imbalance-Aware Sample Weighting Pilot (Outer Fold 0) | Exp 2 Gate | **PASS (Balanced Inv-Freq Selected, 7 Strategies)** | 2026-10-18 |
-| **Phase 6H Stage 1** | Spatial Texture Preflight & S/T/P Ablation Audit | Preflight Gate | **PASS (Audit Complete & Verified)** | 2026-10-18 |
-| **Phase 6H Stage 2** | Spatial Texture Extraction Module Implementation | Checkpoint | **PENDING USER APPROVAL** | — |
-| **Phase 6H Stage 3** | Seven-Experiment S/T/P Feature Ablation Benchmark | Final Review | **PENDING STAGE 2** | — |
+| **Phase 1-5** | Geometry Repair, EDA, Indices Suite | Milestone | **PASS** | 2026-10-16 |
+| **Phase 6A** | Tabular/Calendar Baseline (Archived: post-harvest leakage & spatial autocorrelation) | Archived | **SUPERSEDED** | 2026-10-16 |
+| **Phase 6C-6E** | Multi-temporal Sentinel-2 Extraction Campaign (15 chunks, daily mosaic) | Checkpoint | **PASS** | 2026-10-17 |
+| **Phase 6F** | Full-Scale Dataset Audit & 5-Fold Benchmark (7,843 farms, unweighted) | Gate B / Final Review | **PASS (Macro-F1: 0.7038)** | 2026-10-18 |
+| **Phase 6G** | Bounded Hyperparameter Tuning & Sample Weighting Pilot (Outer Fold 0) | Pilot Gate | **PASS (Trial 4 + Inv-Freq Selected)** | 2026-10-18 |
+| **Phase 6H** | GLCM Spatial Texture Extraction & 7-Way S/T/P Ablation Benchmark | Checkpoint | **PASS (S+T Parity Established, p=0.8600)** | 2026-10-19 |
+| **Phase 6I** | Robustness Validation, Parsimony Analysis & Final Model Selection | Final Decision Gate | **PASS (Weighted S+T Selected, Macro-F1: 0.7226)** | 2026-10-20 |
+| **Test Set Ingestion** | Sentinel-2 Feature Extraction & Inference on `datasss/Test.csv` (2,718 farms) | Execution Gate | **NOT YET PROCESSED** | — |
+| **Crop Health Module** | Secondary Target (`category`) Modeling & Diagnosis | Gate | **NOT YET IMPLEMENTED** | — |
+| **Weather / Agromet** | ERA5 / CHIRPS Meteorological Integration | Gate | **NOT YET IMPLEMENTED** | — |
+| **Water / Irrigation** | Crop Water Stress & FAO-56 Penman-Monteith Irrigation Advisory | Gate | **NOT YET IMPLEMENTED** | — |
+| **Dashboard & Agents** | Streamlit Web App & LangChain Advisory Agents | Delivery Gate | **NOT YET IMPLEMENTED** | — |
 
-## Phase 6G Pilot Findings (Outer Fold 0 Exploratory Pilot)
-- **Inner Tuning Search (3-Fold Grouped on 93 Mandals, N=6,335):**
-  - Trial 0 (Baseline ref): Inner Macro-F1 = 0.6649 (Acc: 0.7631, Red Gram F1: 0.2559)
-  - Selected Trial 4 (`depth=7, colsample=0.75, subsample=0.8, reg_lambda=5.0, gamma=0.2, reg_alpha=0.2`): Inner Macro-F1 = **0.6797** (+0.0148 over baseline; Red Gram F1: 0.3022)
-- **Outer Fold 0 Refit & Untouched Evaluation (N=1,508):**
-  - Tuned Model: Macro-F1 = **0.7024**, Accuracy = **0.7798** (Baseline: Macro-F1 = 0.7095, Acc = 0.7818)
-  - Red Gram Outer F1 = **0.3636** (Recall: 25.00%, Precision: 66.67%)
-  - Total pilot runtime: 577.8s (~9.6 minutes) for 30 inner fits + 1 outer refit.
+## Authoritative Phase 6I Benchmark Findings (N=7,843 Eligible Farms)
+- **Model Decision**: Weighted S+T (140 features) selected over Weighted S+T+P (160 features) via Occam's razor:
+  - Both achieve statistically indistinguishable Macro-F1 (0.7226 vs 0.7228; cluster bootstrap 95% CI [-0.0066, +0.0092], $p=0.8600$).
+  - S+T achieves superior minority class recall on Red Gram (F1: **0.4420** vs 0.4317) and Chillies (F1: **0.5343** vs 0.5217).
+  - Eliminates 20 GLCM texture rasters, avoiding boundary pixel contamination in smallholder parcels (35% of farms < 1,800 m²) and reducing GEE computational overhead.
+- **Per-Class F1 Performance (Weighted S+T, 5-Fold Spatial CV)**:
+  - `Bengal Gram` (N=938): F1 = **0.8275** (Prec: 0.7916, Rec: 0.8667)
+  - `Chillies` (N=601): F1 = **0.5343** (Prec: 0.5249, Rec: 0.5441)
+  - `Cotton` (N=1679): F1 = **0.8097** (Prec: 0.7939, Rec: 0.8261)
+  - `Groundnut` (N=768): F1 = **0.8647** (Prec: 0.8597, Rec: 0.8698)
+  - `Maize` (N=1376): F1 = **0.7090** (Prec: 0.7492, Rec: 0.6730)
+  - `Paddy` (N=2260): F1 = **0.8708** (Prec: 0.8664, Rec: 0.8752)
+  - `Red Gram` (N=221): F1 = **0.4420** (Prec: 0.5467, Rec: 0.3710)
 
-## Phase 6G Experiment 2 Findings (Imbalance-Aware Pilot on Outer Fold 0)
-- **Inner Grouped Weighting Search (7 Strategies across 3 Folds, N=6,335):**
-  - `unweighted_ref`: Inner Macro-F1 = 0.6797 (Red Gram F1: 0.3022, Recall: 20.61%, Confused w/ Cotton: 70/165)
-  - `balanced_inv_freq` **(SELECTED)**: Inner Macro-F1 = **0.7020** (Red Gram F1: 0.4211, Recall: 33.94%, Chillies Recall: 50.81%)
-  - Modest Red Gram upweighting (`red_gram_2.0x`): Inner Macro-F1 = 0.6861 (Red Gram F1: 0.3605)
-- **Outer Fold 0 Refit & Untouched Evaluation (N=1,508):**
-  - Outer Macro-F1 = **0.7339** (+0.0315 over unweighted Trial 4, +0.0244 over Phase 6F baseline)
-  - Balanced Accuracy = **0.7336** (+0.0386 over unweighted Trial 4)
-  - Red Gram F1 = **0.5263** (+0.1627; Recall: **44.64%** vs 25.00%, Precision: 64.10%)
-  - Red Gram misclassification into Cotton dropped from 36/56 down to 12/56.
-  - Overall accuracy preserved at **78.45%** (vs 77.98% unweighted, 78.18% baseline).
-
-## Integrity & Regression Verification
-- All 76 project unit tests pass (`python -m unittest discover tests`).
-- All 24 protected baseline files verified 100% bit-for-bit identical before and after execution.
-- Zero spatial data leakage across Mandals (0 Mandal overlap across inner and outer splits).
-- All Phase 6G Experiment 2 outputs strictly isolated in `outputs/data/phase6g/`, `outputs/reports/phase6g/`, and `outputs/models/phase6g/`.
+## Integrity & Verification
+- Unit test suite: 83 targeted offline unit tests passing (`python -m unittest tests/test_*.py`).
+- Zero spatial group leakage across Mandals (0 Mandal overlap across all 5 folds).
+- Archived experiments (`src/models/archive/baseline_rf.py` and `train_pilot_models.py`) isolated with explicit leakage disclaimers.
