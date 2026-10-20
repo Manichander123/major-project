@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment & credentials — NEVER commit these
+.env
+*.env
+*.pem
+credentials.json
+service_account*.json
+token.json
+ee_token*
+
+# Outputs (large files) — keep structure, ignore content
+outputs/models/*.pkl
+outputs/models/*.joblib
+outputs/models/*.bin
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/reports/*.html
+outputs/reports/*.pdf
+
+# Satellite downloads (can be re-derived)
+downloads/
+*.tif
+*.tiff
+*.geotiff
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+
+# Data caches
+*.parquet
+*.feather
+*.arrow
+__geocache__/
+
+# Logs
+*.log
+logs/

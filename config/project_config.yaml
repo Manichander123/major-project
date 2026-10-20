@@ -1,0 +1,188 @@
+# ============================================================
+# config/project_config.yaml
+# Project-level configuration for the Crop Monitoring pipeline.
+# Load with PyYAML: import yaml; cfg = yaml.safe_load(open('config/project_config.yaml'))
+# ============================================================
+
+project:
+  name: "Telangana Crop Monitoring & Irrigation Decision Support"
+  version: "0.1.0"
+  state: "Telangana"
+
+# ── Data paths (relative to project root) ────────────────────
+paths:
+  data_dir: "datasss"          # Raw data — DO NOT MODIFY contents
+  outputs_dir: "outputs"
+  figures_dir: "outputs/figures"
+  reports_dir: "outputs/reports"
+  models_dir: "outputs/models"
+  cache_dir: "outputs/cache"   # Cached GEE features etc.
+
+# ── Dataset files ─────────────────────────────────────────────
+data_files:
+  train: "Train.csv"
+  test: "Test.csv"
+  sample_submission: "SampleSubmission.csv"
+
+# ── CRS & geometry ────────────────────────────────────────────
+crs:
+  geographic: "EPSG:4326"        # Input CRS (WGS84) — confirmed by official notebook
+  metric: "EPSG:32644"           # WGS84 / UTM Zone 44N — covers Telangana; used for m² area
+
+geometry:
+  wkt_column: "geometry"
+  geometry_type: "POLYGON"
+
+# ── Primary target variable (Crop Classification) ────────────
+target:
+  column: "Crop"
+  classes:
+    - "Paddy"
+    - "Cotton"
+    - "Maize"
+    - "Bengal Gram"
+    - "Groundnut"
+    - "Chillies"
+    - "Red Gram"
+
+# ── Secondary target (Crop Health — future module) ────────────
+# Preserved for Phase 6b / secondary classification pipeline.
+# DO NOT delete 'category' from the dataset.
+secondary_target:
+  column: "category"
+  classes:
+    - "Healthy"
+    - "Diseased"
+    - "Pests"
+    - "Stressed"
+  positive_classes:             # Classes that indicate crop stress / intervention needed
+    - "Diseased"
+    - "Pests"
+    - "Stressed"
+
+# ── Crop types ────────────────────────────────────────────────
+crops:
+  - "Paddy"
+  - "Cotton"
+  - "Maize"
+  - "Bengal Gram"
+  - "Groundnut"
+  - "Chillies"
+  - "Red Gram"
+
+# ── Seasons ───────────────────────────────────────────────────
+seasons:
+  - "Kharif"
+  - "Rabi"
+
+# ── Districts ─────────────────────────────────────────────────
+districts:
+  - "Adilabad"
+  - "Kamareddy"
+  - "Khammam"
+  - "Mahabubabad"
+  - "Mahabubnagar"
+  - "Medak"
+  - "Nagarkurnool"
+  - "Nalgonda"
+  - "Narayanpet"
+  - "Nirmal"
+  - "Siddipet"
+  - "Vikarabad"
+  - "Wanaparthy"
+  - "Warangal"
+
+# ── Sentinel-2 parameters (Phase 4) ──────────────────────────
+sentinel2:
+  collection: "COPERNICUS/S2_SR_HARMONIZED"
+  cloud_cover_threshold: 20          # Max cloud cover % to filter images
+  scale_m: 10                        # Native resolution of 10m bands
+  geometry_scale_factor: 5           # Expand polygon by 5x for image download (as per starter)
+  bands:
+    rgb:
+      - "B4"    # Red
+      - "B3"    # Green
+      - "B2"    # Blue
+    vegetation:
+      - "B8"    # NIR
+      - "B4"    # Red (for NDVI)
+      - "B11"   # SWIR1 (for NDWI/moisture)
+      - "B12"   # SWIR2
+    full_10m:
+      - "B2"
+      - "B3"
+      - "B4"
+      - "B8"
+    full_20m:
+      - "B5"    # Red Edge 1
+      - "B6"    # Red Edge 2
+      - "B7"    # Red Edge 3
+      - "B8A"   # Red Edge 4 / NIR narrow
+      - "B11"   # SWIR1
+      - "B12"   # SWIR2
+
+# ── Vegetation Indices (Phase 5) ──────────────────────────────
+vegetation_indices:
+  ndvi:
+    name: "NDVI"
+    formula: "(NIR - Red) / (NIR + Red)"
+    bands: ["B8", "B4"]
+  ndwi:
+    name: "NDWI"
+    formula: "(Green - NIR) / (Green + NIR)"
+    bands: ["B3", "B8"]
+  evi:
+    name: "EVI"
+    formula: "2.5 * (NIR - Red) / (NIR + 6*Red - 7.5*Blue + 1)"
+    bands: ["B8", "B4", "B2"]
+  savi:
+    name: "SAVI"
+    formula: "1.5 * (NIR - Red) / (NIR + Red + 0.5)"
+    bands: ["B8", "B4"]
+  lswi:
+    name: "LSWI"
+    formula: "(NIR - SWIR1) / (NIR + SWIR1)"
+    bands: ["B8", "B11"]
+  ndre:
+    name: "NDRE"
+    formula: "(NIR - RedEdge) / (NIR + RedEdge)"
+    bands: ["B8", "B5"]
+
+# ── Machine Learning (Phase 6) ────────────────────────────────
+ml:
+  random_seed: 42
+  cv_folds: 5
+  test_size: 0.2
+  scoring_metric: "f1_macro"
+  models:
+    random_forest:
+      n_estimators: 300
+      max_depth: 15
+      min_samples_split: 5
+      class_weight: "balanced"
+    xgboost:
+      n_estimators: 300
+      max_depth: 7
+      learning_rate: 0.05
+      subsample: 0.8
+      colsample_bytree: 0.8
+
+# ── Google Earth Engine (Phase 4+) ───────────────────────────
+# DO NOT put credentials here. Use environment variables or .env file.
+earth_engine:
+  project: "scientific-axle-446313-i6"   # Google Cloud project for Earth Engine
+  max_workers: 4        # Parallel download threads
+
+# ── Irrigation thresholds (Phase 10-11) ──────────────────────
+irrigation:
+  # Reference ET estimation method
+  et_method: "FAO_Penman_Monteith"
+  # Soil water depletion threshold before triggering irrigation recommendation (%)
+  depletion_threshold_pct: 50
+  # Water application efficiency by irrigation type
+  efficiency:
+    Flood: 0.60
+    Sprinkler: 0.75
+    Drip: 0.90
+    Surface: 0.60
+    default: 0.70
