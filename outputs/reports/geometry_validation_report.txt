@@ -1,0 +1,25 @@
+=================================================================
+  GEOMETRY VALIDATION & SUMMARY REPORT
+=================================================================
+
+[TRAIN DATASET]
+  Total farms             : 7,888
+  Initial invalid         : 1
+  Post-repair valid       : 7,888
+  Area (ha) [min/mean/max]: 0.0054 / 0.4231 / 6.9491
+  Area (m²) [mean/median] : 4231.0 / 2779.0
+  Perimeter (m) [mean]    : 249.9
+  Compactness [mean]      : 0.6885
+  Vertex count [mean]     : 7.43
+  Within Telangana bbox   : 7,888
+
+[TEST DATASET]
+  Total farms             : 2,718
+  Initial invalid         : 1
+  Post-repair valid       : 2,718
+  Area (ha) [min/mean/max]: 0.0069 / 0.3612 / 4.8004
+  Area (m²) [mean/median] : 3612.0 / 2610.0
+  Perimeter (m) [mean]    : 238.8
+  Compactness [mean]      : 0.6758
+  Vertex count [mean]     : 8.00
+  Within Telangana bbox   : 2,718

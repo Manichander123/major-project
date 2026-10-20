@@ -1,0 +1,126 @@
+{
+  "gate_audit_name": "Phase 6D Pre-Extraction Gate Audit",
+  "audit_date": "2026-10-15",
+  "verdict": "GATE_PASSED_READY_FOR_APPROVAL",
+  "source_label_reconciliation": {
+    "source_dataset_path": "datasss/Train.csv",
+    "source_file_sha256": "29d31920f5b9aaea8213d7993dedc50c5d19458906f85642d360d785bb07aa06",
+    "source_file_size_bytes": 3497588,
+    "total_rows": 7888,
+    "target_column": "Crop",
+    "target_column_nulls": 0,
+    "actual_class_distribution": {
+      "Paddy": 2268,
+      "Cotton": 1692,
+      "Maize": 1384,
+      "Bengal Gram": 938,
+      "Groundnut": 768,
+      "Chillies": 614,
+      "Red Gram": 224,
+      "Total": 7888
+    },
+    "prior_reported_claims": {
+      "Paddy": 2130,
+      "Cotton": 1624,
+      "Maize": 1475,
+      "Bengal Gram": 244,
+      "Groundnut": 201,
+      "Chillies": 948,
+      "Red Gram": 1266,
+      "Total": 7888
+    },
+    "discrepancy_root_cause": "The prior Phase 6D draft contained a transcription transposition where Red Gram (actual 224) was misreported as 1266, and Bengal Gram (actual 938) was misreported as 244. Crucially, datasss/Train.csv on disk is completely intact and unaltered (SHA256 verified).",
+    "class_feasibility_assessment": {
+      "bottleneck_class": "Red Gram",
+      "red_gram_total_available": 224,
+      "red_gram_used_in_phase6c": 50,
+      "red_gram_unextracted_candidates": 174,
+      "red_gram_phase6d_target": 53,
+      "candidate_draw_ratio": "30.5% (53 / 174) - completely feasible with zero risk of class starvation",
+      "all_other_classes_draw_ratio": "< 9.5% of available unextracted pool"
+    },
+    "manifest_and_oof_reconciliation": {
+      "manifest_path": "outputs/data/s2_phase6c_manifest_350.csv",
+      "manifest_rows": 352,
+      "features_path": "outputs/data/s2_phase6c_350_features.csv",
+      "features_rows": 352,
+      "successful_extractions": 348,
+      "failed_extractions": 4,
+      "failed_farm_ids": [1319251, 1298973, 1322898, 1298212],
+      "failure_reasons": "Monsoon 100% cloud cover over growing windows (2 Chillies, 1 Maize, 1 Paddy)",
+      "oof_predictions_path": "outputs/data/phase6c_oof_predictions.csv",
+      "oof_predictions_rows": 348,
+      "farm_id_alignment": "100% agreement across manifest, clean features, and OOF predictions",
+      "crop_label_mismatches": 0
+    }
+  },
+  "daily_mosaicking_architecture": {
+    "module": "src/satellite/s2_extractor.py",
+    "function": "mosaic_same_date_scenes",
+    "mechanism": "Extracts unique acquisition dates from collection, mosaics scenes acquired on the same date (overlapping MGRS tiles) before temporal median reduction.",
+    "cloud_shadow_masking": "Applied via SCL (Scene Classification Layer) masking classes 3 (shadow), 8 (cloud med), 9 (cloud high), 10 (cirrus), 11 (snow). Mosaicking allows clear pixels from overlapping swaths on the same date to shine through.",
+    "missing_value_handling": "Windows with zero unmasked pixels evaluate to np.nan (never 0.0), preserving radiometric integrity and preventing fabricated zeros.",
+    "configuration": "Added daily_mosaic=True parameter to extract_zonal_stats_for_farm and BatchSentinelExtractor."
+  },
+  "automated_tests": {
+    "test_suite": "tests/test_pre_extraction_gate.py",
+    "tests_run": 7,
+    "tests_passed": 7,
+    "tests_failed": 0,
+    "test_cases": [
+      "test_duplicate_same_date_acquisitions_collapsed (PASSED)",
+      "test_daily_mosaicking_prevents_temporal_swath_overweighting (PASSED)",
+      "test_scl_cloud_and_shadow_masking (PASSED)",
+      "test_daily_mosaic_clear_pixel_shines_through_cloudy_tile (PASSED)",
+      "test_missing_observations_preserve_nan_not_zero (PASSED)",
+      "test_checkpoint_resume_safeguards (PASSED)",
+      "test_manifest_feature_oof_alignment (PASSED)"
+    ]
+  },
+  "model_feature_boundaries": {
+    "satellite_only_track": {
+      "feature_count": 60,
+      "features": "14 spectral indices x 4 phenological windows (56) + 4 multi-temporal dynamic deltas (ndvi_growth_delta, peak_to_early_ratio, ndvi_senescence_delta, moisture_loss_delta)",
+      "leakage_audit": "Strictly excludes all ground truth calendar dates, duration, season, and spatial coordinates."
+    },
+    "multimodal_track": {
+      "feature_count": 70,
+      "additional_features": [
+        "area_ha",
+        "perimeter_m",
+        "compactness",
+        "vertex_count",
+        "sowing_month",
+        "sowing_doy",
+        "harvest_month",
+        "harvest_doy",
+        "duration_days",
+        "Season"
+      ]
+    },
+    "retrospective_vs_operational_boundary": {
+      "retrospective_classification": "Post-harvest census / subsidy audit where full growing season and harvest dates are known. Uses all 4 windows + duration_days + harvest_month/doy.",
+      "operational_early_season_prediction": "In-season crop identification during vegetative stage. Strictly forbids harvest dates (HDate, harvest_month, harvest_doy, duration_days) and mid/late season indices as target leakage. Uses only sowing calendar + early phenological window + farm geometry."
+    }
+  },
+  "extraction_workload_and_safeguards": {
+    "batch_size": 372,
+    "recommended_manifest": "outputs/data/s2_phase6d_recommended_manifest_372.csv",
+    "target_per_crop": {
+      "Bengal Gram": 53,
+      "Chillies": 53,
+      "Cotton": 53,
+      "Groundnut": 53,
+      "Maize": 53,
+      "Paddy": 54,
+      "Red Gram": 53,
+      "Total": 372
+    },
+    "expected_combined_eval_support": "~102-103 valid farms per class (approx 720 total)",
+    "estimated_runtime": "3.5 to 4.5 minutes (ThreadPoolExecutor with 4 workers @ ~2.5s/farm)",
+    "checkpoint_interval": 5,
+    "checkpoint_path": "outputs/data/s2_phase6d_batch3_raw_bands.csv",
+    "resume_behavior": "Skips existing success status; retries failed records",
+    "phase6c_preservation": "Phase 6C artifacts (s2_phase6c_350_*) remain 100% untouched and unoverwritten."
+  }
+}

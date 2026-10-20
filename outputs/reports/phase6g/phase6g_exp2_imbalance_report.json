@@ -1,0 +1,395 @@
+{
+  "experiment": "Phase 6G Experiment 2 (Imbalance-Aware Pilot on Outer Fold 0)",
+  "timestamp": "2026-10-18T17:52:40.247134",
+  "status": "COMPLETED SUCCESSFULLY",
+  "scope_boundary_note": "EXPLORATORY PILOT RESULT ON OUTER FOLD 0 ONLY. NOT A FINAL 5-FOLD GENERALIZATION ESTIMATE.",
+  "outer_fold": 0,
+  "outer_train_samples": 6335,
+  "outer_val_samples": 1508,
+  "feature_count": 140,
+  "strategies_evaluated": 7,
+  "selected_strategy": {
+    "strategy_id": "balanced_inv_freq",
+    "name": "Inverse-Frequency Balanced",
+    "formula": "w_c = N / (K * N_c)",
+    "sample_class_weights": {
+      "Bengal Gram": 1.166,
+      "Chillies": 1.8393,
+      "Cotton": 0.6761,
+      "Groundnut": 1.3388,
+      "Maize": 0.8189,
+      "Paddy": 0.5018,
+      "Red Gram": 6.3036
+    },
+    "inner_macro_f1": 0.702,
+    "inner_accuracy": 0.7725,
+    "inner_balanced_accuracy": 0.6957,
+    "inner_weighted_f1": 0.7694,
+    "inner_red_gram_f1": 0.4211,
+    "inner_red_gram_recall": 0.3394,
+    "inner_red_gram_precision": 0.5545,
+    "inner_red_gram_correct": 56,
+    "inner_red_gram_confused_cotton": 56,
+    "inner_chillies_f1": 0.4936,
+    "inner_chillies_recall": 0.5081,
+    "inner_chillies_precision": 0.4799,
+    "mean_best_iteration": 295,
+    "fit_time_seconds": 58.33
+  },
+  "outer_class_weights_fitted": {
+    "Bengal Gram": 1.2019,
+    "Chillies": 1.832,
+    "Cotton": 0.6744,
+    "Groundnut": 1.3568,
+    "Maize": 0.8168,
+    "Paddy": 0.5011,
+    "Red Gram": 5.4848
+  },
+  "outer_validation_metrics": {
+    "macro_f1": 0.7339,
+    "accuracy": 0.7845,
+    "balanced_accuracy": 0.7336,
+    "weighted_f1": 0.7814
+  },
+  "phase6f_fold0_baseline": {
+    "macro_f1": 0.7095,
+    "accuracy": 0.7818,
+    "balanced_accuracy": 0.6973,
+    "red_gram_recall": 0.25,
+    "red_gram_precision": 0.7,
+    "red_gram_f1": 0.3684
+  },
+  "unweighted_pilot_fold0": {
+    "macro_f1": 0.7024,
+    "accuracy": 0.7798,
+    "balanced_accuracy": 0.695,
+    "red_gram_recall": 0.25,
+    "red_gram_precision": 0.6667,
+    "red_gram_f1": 0.3636
+  },
+  "delta_vs_baseline": {
+    "macro_f1": 0.0244,
+    "accuracy": 0.0027,
+    "red_gram_recall": 0.1964,
+    "red_gram_f1": 0.1579
+  },
+  "delta_vs_unweighted_pilot": {
+    "macro_f1": 0.0315,
+    "accuracy": 0.0047,
+    "red_gram_recall": 0.1964,
+    "red_gram_f1": 0.1627
+  },
+  "per_class_metrics": {
+    "Bengal Gram": {
+      "precision": 0.8061,
+      "recall": 0.8541,
+      "f1": 0.8294,
+      "support": 185
+    },
+    "Chillies": {
+      "precision": 0.5566,
+      "recall": 0.5514,
+      "f1": 0.554,
+      "support": 107
+    },
+    "Cotton": {
+      "precision": 0.804,
+      "recall": 0.8279,
+      "f1": 0.8158,
+      "support": 337
+    },
+    "Groundnut": {
+      "precision": 0.7966,
+      "recall": 0.9307,
+      "f1": 0.8584,
+      "support": 101
+    },
+    "Maize": {
+      "precision": 0.7397,
+      "recall": 0.6679,
+      "f1": 0.702,
+      "support": 268
+    },
+    "Paddy": {
+      "precision": 0.8457,
+      "recall": 0.8568,
+      "f1": 0.8512,
+      "support": 454
+    },
+    "Red Gram": {
+      "precision": 0.641,
+      "recall": 0.4464,
+      "f1": 0.5263,
+      "support": 56
+    }
+  },
+  "outer_red_gram_forensics": {
+    "support": 56,
+    "correct_predictions": 25,
+    "confused_with_cotton": 12
+  },
+  "confusion_matrix": [
+    [
+      158,
+      2,
+      9,
+      0,
+      16,
+      0,
+      0
+    ],
+    [
+      0,
+      59,
+      8,
+      6,
+      9,
+      25,
+      0
+    ],
+    [
+      11,
+      12,
+      279,
+      8,
+      11,
+      5,
+      11
+    ],
+    [
+      0,
+      0,
+      5,
+      94,
+      0,
+      2,
+      0
+    ],
+    [
+      11,
+      18,
+      16,
+      3,
+      179,
+      39,
+      2
+    ],
+    [
+      7,
+      14,
+      18,
+      6,
+      19,
+      389,
+      1
+    ],
+    [
+      9,
+      1,
+      12,
+      1,
+      8,
+      0,
+      25
+    ]
+  ],
+  "strategy_ledger": [
+    {
+      "strategy_id": "unweighted_ref",
+      "name": "Trial 4 Unweighted (Reference)",
+      "formula": "w_c = 1.0",
+      "sample_class_weights": {
+        "Bengal Gram": 1.0,
+        "Chillies": 1.0,
+        "Cotton": 1.0,
+        "Groundnut": 1.0,
+        "Maize": 1.0,
+        "Paddy": 1.0,
+        "Red Gram": 1.0
+      },
+      "inner_macro_f1": 0.6797,
+      "inner_accuracy": 0.7699,
+      "inner_balanced_accuracy": 0.6669,
+      "inner_weighted_f1": 0.761,
+      "inner_red_gram_f1": 0.3022,
+      "inner_red_gram_recall": 0.2061,
+      "inner_red_gram_precision": 0.5667,
+      "inner_red_gram_correct": 34,
+      "inner_red_gram_confused_cotton": 70,
+      "inner_chillies_f1": 0.4767,
+      "inner_chillies_recall": 0.4251,
+      "inner_chillies_precision": 0.5426,
+      "mean_best_iteration": 270,
+      "fit_time_seconds": 60.3
+    },
+    {
+      "strategy_id": "balanced_inv_freq",
+      "name": "Inverse-Frequency Balanced",
+      "formula": "w_c = N / (K * N_c)",
+      "sample_class_weights": {
+        "Bengal Gram": 1.166,
+        "Chillies": 1.8393,
+        "Cotton": 0.6761,
+        "Groundnut": 1.3388,
+        "Maize": 0.8189,
+        "Paddy": 0.5018,
+        "Red Gram": 6.3036
+      },
+      "inner_macro_f1": 0.702,
+      "inner_accuracy": 0.7725,
+      "inner_balanced_accuracy": 0.6957,
+      "inner_weighted_f1": 0.7694,
+      "inner_red_gram_f1": 0.4211,
+      "inner_red_gram_recall": 0.3394,
+      "inner_red_gram_precision": 0.5545,
+      "inner_red_gram_correct": 56,
+      "inner_red_gram_confused_cotton": 56,
+      "inner_chillies_f1": 0.4936,
+      "inner_chillies_recall": 0.5081,
+      "inner_chillies_precision": 0.4799,
+      "mean_best_iteration": 295,
+      "fit_time_seconds": 58.33
+    },
+    {
+      "strategy_id": "sqrt_balanced",
+      "name": "Smoothed Square-Root Inverse-Frequency",
+      "formula": "w_c = sqrt(N_max / N_c)",
+      "sample_class_weights": {
+        "Bengal Gram": 1.5244,
+        "Chillies": 1.9146,
+        "Cotton": 1.1608,
+        "Groundnut": 1.6334,
+        "Maize": 1.2775,
+        "Paddy": 1.0,
+        "Red Gram": 3.5444
+      },
+      "inner_macro_f1": 0.6858,
+      "inner_accuracy": 0.7706,
+      "inner_balanced_accuracy": 0.6762,
+      "inner_weighted_f1": 0.7642,
+      "inner_red_gram_f1": 0.3291,
+      "inner_red_gram_recall": 0.2364,
+      "inner_red_gram_precision": 0.5417,
+      "inner_red_gram_correct": 39,
+      "inner_red_gram_confused_cotton": 64,
+      "inner_chillies_f1": 0.4795,
+      "inner_chillies_recall": 0.4615,
+      "inner_chillies_precision": 0.4989,
+      "mean_best_iteration": 237,
+      "fit_time_seconds": 57.64
+    },
+    {
+      "strategy_id": "red_gram_1.5x",
+      "name": "Targeted Red Gram Upweight (1.5x)",
+      "formula": "w_RedGram = 1.5, others = 1.0",
+      "sample_class_weights": {
+        "Bengal Gram": 1.0,
+        "Chillies": 1.0,
+        "Cotton": 1.0,
+        "Groundnut": 1.0,
+        "Maize": 1.0,
+        "Paddy": 1.0,
+        "Red Gram": 1.5
+      },
+      "inner_macro_f1": 0.6758,
+      "inner_accuracy": 0.7687,
+      "inner_balanced_accuracy": 0.6641,
+      "inner_weighted_f1": 0.7599,
+      "inner_red_gram_f1": 0.2931,
+      "inner_red_gram_recall": 0.2061,
+      "inner_red_gram_precision": 0.5075,
+      "inner_red_gram_correct": 34,
+      "inner_red_gram_confused_cotton": 69,
+      "inner_chillies_f1": 0.4582,
+      "inner_chillies_recall": 0.4049,
+      "inner_chillies_precision": 0.5277,
+      "mean_best_iteration": 255,
+      "fit_time_seconds": 53.78
+    },
+    {
+      "strategy_id": "red_gram_2.0x",
+      "name": "Targeted Red Gram Upweight (2.0x)",
+      "formula": "w_RedGram = 2.0, others = 1.0",
+      "sample_class_weights": {
+        "Bengal Gram": 1.0,
+        "Chillies": 1.0,
+        "Cotton": 1.0,
+        "Groundnut": 1.0,
+        "Maize": 1.0,
+        "Paddy": 1.0,
+        "Red Gram": 2.0
+      },
+      "inner_macro_f1": 0.6861,
+      "inner_accuracy": 0.7705,
+      "inner_balanced_accuracy": 0.672,
+      "inner_weighted_f1": 0.7621,
+      "inner_red_gram_f1": 0.3605,
+      "inner_red_gram_recall": 0.2545,
+      "inner_red_gram_precision": 0.6176,
+      "inner_red_gram_correct": 42,
+      "inner_red_gram_confused_cotton": 65,
+      "inner_chillies_f1": 0.4568,
+      "inner_chillies_recall": 0.4069,
+      "inner_chillies_precision": 0.5207,
+      "mean_best_iteration": 252,
+      "fit_time_seconds": 52.24
+    },
+    {
+      "strategy_id": "targeted_1.5x_1.3x",
+      "name": "Targeted Red Gram (1.5x) + Chillies (1.3x)",
+      "formula": "w_RedGram = 1.5, w_Chillies = 1.3, others = 1.0",
+      "sample_class_weights": {
+        "Bengal Gram": 1.0,
+        "Chillies": 1.3,
+        "Cotton": 1.0,
+        "Groundnut": 1.0,
+        "Maize": 1.0,
+        "Paddy": 1.0,
+        "Red Gram": 1.5
+      },
+      "inner_macro_f1": 0.6799,
+      "inner_accuracy": 0.7699,
+      "inner_balanced_accuracy": 0.6687,
+      "inner_weighted_f1": 0.7619,
+      "inner_red_gram_f1": 0.2996,
+      "inner_red_gram_recall": 0.2061,
+      "inner_red_gram_precision": 0.5484,
+      "inner_red_gram_correct": 34,
+      "inner_red_gram_confused_cotton": 67,
+      "inner_chillies_f1": 0.4746,
+      "inner_chillies_recall": 0.4453,
+      "inner_chillies_precision": 0.5081,
+      "mean_best_iteration": 251,
+      "fit_time_seconds": 52.12
+    },
+    {
+      "strategy_id": "targeted_2.0x_1.3x",
+      "name": "Targeted Red Gram (2.0x) + Chillies (1.3x)",
+      "formula": "w_RedGram = 2.0, w_Chillies = 1.3, others = 1.0",
+      "sample_class_weights": {
+        "Bengal Gram": 1.0,
+        "Chillies": 1.3,
+        "Cotton": 1.0,
+        "Groundnut": 1.0,
+        "Maize": 1.0,
+        "Paddy": 1.0,
+        "Red Gram": 2.0
+      },
+      "inner_macro_f1": 0.6779,
+      "inner_accuracy": 0.7686,
+      "inner_balanced_accuracy": 0.6668,
+      "inner_weighted_f1": 0.7607,
+      "inner_red_gram_f1": 0.2882,
+      "inner_red_gram_recall": 0.2,
+      "inner_red_gram_precision": 0.5156,
+      "inner_red_gram_correct": 33,
+      "inner_red_gram_confused_cotton": 71,
+      "inner_chillies_f1": 0.4798,
+      "inner_chillies_recall": 0.4453,
+      "inner_chillies_precision": 0.5201,
+      "mean_best_iteration": 252,
+      "fit_time_seconds": 52.26
+    }
+  ],
+  "total_runtime_seconds": 410.48
+}

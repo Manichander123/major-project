@@ -1,0 +1,54 @@
+{
+  "dataset_name": "Sentinel-2 Multi-Crop Expanded Dataset (Phase 6C)",
+  "total_manifest_farms": 352,
+  "total_extracted_records": 352,
+  "status_distribution": {
+    "success": 348,
+    "failed": 4
+  },
+  "crop_distribution": {
+    "Chillies": 51,
+    "Maize": 51,
+    "Bengal Gram": 50,
+    "Cotton": 50,
+    "Groundnut": 50,
+    "Paddy": 50,
+    "Red Gram": 50
+  },
+  "index_missing_pct": {
+    "ndvi_early": 14.77,
+    "ndvi_mid": 6.25,
+    "ndvi_late": 6.25,
+    "ndvi_full": 1.14,
+    "ndmi_early": 14.77,
+    "ndmi_mid": 6.25,
+    "ndmi_late": 6.25,
+    "ndmi_full": 1.14,
+    "evi_full": 1.14,
+    "ndre1_full": 1.14,
+    "msi_full": 1.14
+  },
+  "index_ranges": {
+    "ndvi_full": {
+      "min": 0.1055,
+      "max": 0.8288,
+      "mean": 0.4658
+    },
+    "evi_full": {
+      "min": 0.0506,
+      "max": 0.7199,
+      "mean": 0.3086
+    },
+    "ndwi_full": {
+      "min": -0.7283,
+      "max": -0.2769,
+      "mean": -0.5076
+    },
+    "ndmi_full": {
+      "min": -0.2376,
+      "max": 0.3873,
+      "mean": 0.0392
+    }
+  },
+  "suitable_for_modeling": true
+}

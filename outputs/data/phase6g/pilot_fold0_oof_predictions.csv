@@ -1,0 +1,1509 @@
+FarmID,fold,Sub-District,true_crop,predicted_crop,selected_trial_id,pilot_run
+287538,0,Yeldurthy,Paddy,Paddy,4,phase6g_pilot_fold0
+183626,0,Doultabad,Paddy,Paddy,4,phase6g_pilot_fold0
+741404,0,Doultabad,Paddy,Paddy,4,phase6g_pilot_fold0
+391860,0,Doultabad,Paddy,Paddy,4,phase6g_pilot_fold0
+1326775,0,Havelighanpur,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1326776,0,Havelighanpur,Maize,Maize,4,phase6g_pilot_fold0
+1326814,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326822,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1326823,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1326824,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1326825,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1326826,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1326829,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1326830,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1326831,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1326832,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+666491,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1326839,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326840,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326841,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1331856,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326842,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326869,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326870,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326871,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326872,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326873,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326874,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326875,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326931,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326932,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326933,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326934,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1326952,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1331861,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326953,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326954,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326955,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326961,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1326975,0,Inderavelly,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1331863,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326977,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326980,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326981,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326982,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1326998,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+165024,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+599507,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1327038,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1327056,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1327057,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1327058,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1327059,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1327060,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1327061,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1331868,0,Inderavelly,Maize,Chillies,4,phase6g_pilot_fold0
+1327077,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1331870,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327078,0,Bazarhathnoor,Maize,Cotton,4,phase6g_pilot_fold0
+1331871,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327079,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327080,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327081,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327082,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327083,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327084,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327085,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327086,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327087,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327088,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327089,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327090,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327091,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327092,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327093,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327094,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327095,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+253686,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327096,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327097,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327098,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327099,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327100,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1331873,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327101,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327102,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327103,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327104,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327105,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327106,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327107,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327108,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327109,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327110,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327111,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327112,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327113,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327114,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327115,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327116,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327117,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327118,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327119,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327120,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327121,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327122,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327123,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327124,0,Bazarhathnoor,Maize,Maize,4,phase6g_pilot_fold0
+1327125,0,Bazarhathnoor,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1327141,0,Bela,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1327142,0,Bela,Maize,Maize,4,phase6g_pilot_fold0
+611567,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327144,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327145,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327146,0,Neradigonda,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1327147,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327157,0,Bazarhathnoor,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1327159,0,Neradigonda,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1327160,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331874,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327166,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327167,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327168,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1327171,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327175,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327184,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327185,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327186,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+103592,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327188,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327189,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327195,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331876,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327224,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327225,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327226,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327227,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327228,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327229,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327230,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331877,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331878,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327231,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327232,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327233,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327234,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327235,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327236,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327237,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327238,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327239,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327240,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327241,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327252,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327253,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1327254,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1327255,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327256,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+308337,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327258,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327259,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327260,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327261,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327262,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+84410,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327264,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327265,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331879,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327266,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327267,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327268,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327269,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1327270,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327271,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327272,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327274,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331880,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327275,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327276,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1327316,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327317,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327318,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327319,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327323,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327324,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327325,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327326,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327327,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331882,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327328,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327329,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327336,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327337,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327338,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327339,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327340,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327341,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327342,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327343,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327344,0,Urkonda,Groundnut,Cotton,4,phase6g_pilot_fold0
+1327345,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327346,0,Urkonda,Groundnut,Cotton,4,phase6g_pilot_fold0
+1327347,0,Urkonda,Groundnut,Paddy,4,phase6g_pilot_fold0
+1327348,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327349,0,Urkonda,Groundnut,Paddy,4,phase6g_pilot_fold0
+1327350,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327351,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327352,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327353,0,Urkonda,Groundnut,Cotton,4,phase6g_pilot_fold0
+1327354,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327439,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327440,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327441,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327442,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327443,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327444,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327445,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327446,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327447,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327448,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327449,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327450,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327451,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327452,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327453,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327454,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327459,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327460,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327461,0,Balanagar,Groundnut,Cotton,4,phase6g_pilot_fold0
+1327462,0,Balanagar,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327469,0,Doma,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1327470,0,Doma,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331930,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327977,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327978,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327979,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1331931,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327980,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327981,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327982,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327983,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327984,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327985,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327986,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327987,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327988,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327989,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327990,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327991,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327992,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327993,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327994,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+803159,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327996,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1331932,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327997,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1327998,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328074,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328075,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328076,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328077,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328078,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328087,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328088,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328226,0,Peddavoora,Paddy,Paddy,4,phase6g_pilot_fold0
+1328227,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328293,0,Peddavoora,Paddy,Paddy,4,phase6g_pilot_fold0
+1328294,0,Peddavoora,Paddy,Paddy,4,phase6g_pilot_fold0
+1328295,0,Peddavoora,Paddy,Paddy,4,phase6g_pilot_fold0
+1328296,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328297,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328298,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328299,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328300,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328301,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328302,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328303,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328304,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328305,0,Peda Adisharla Palli,Paddy,Paddy,4,phase6g_pilot_fold0
+1328306,0,Peddavoora,Paddy,Cotton,4,phase6g_pilot_fold0
+1328307,0,Peddavoora,Paddy,Paddy,4,phase6g_pilot_fold0
+1328309,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328310,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328311,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+385476,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328371,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328372,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328373,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328384,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328385,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328387,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328388,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328389,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328390,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1328552,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328553,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328554,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328555,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328556,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328592,0,Peda Adisharla Palli,Cotton,Cotton,4,phase6g_pilot_fold0
+1328593,0,Peda Adisharla Palli,Cotton,Paddy,4,phase6g_pilot_fold0
+1328594,0,Peda Adisharla Palli,Cotton,Paddy,4,phase6g_pilot_fold0
+1328595,0,Peda Adisharla Palli,Cotton,Cotton,4,phase6g_pilot_fold0
+1328596,0,Peda Adisharla Palli,Cotton,Paddy,4,phase6g_pilot_fold0
+1328597,0,Peda Adisharla Palli,Cotton,Paddy,4,phase6g_pilot_fold0
+1328819,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328820,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328821,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328822,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328823,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328824,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328825,0,Peddavoora,Cotton,Paddy,4,phase6g_pilot_fold0
+1328826,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328827,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328828,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328829,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328830,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328831,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328832,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1331979,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328833,0,Peddavoora,Cotton,Paddy,4,phase6g_pilot_fold0
+1328834,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328835,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328836,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328837,0,Peddavoora,Cotton,Groundnut,4,phase6g_pilot_fold0
+1328838,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+258863,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328840,0,Peddavoora,Cotton,Cotton,4,phase6g_pilot_fold0
+1328874,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328875,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1328876,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1329420,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1332008,0,Midjil,Cotton,Groundnut,4,phase6g_pilot_fold0
+1329421,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1332009,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1332010,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1329427,0,Balanagar,Cotton,Cotton,4,phase6g_pilot_fold0
+1329428,0,Balanagar,Cotton,Cotton,4,phase6g_pilot_fold0
+1329429,0,Balanagar,Cotton,Cotton,4,phase6g_pilot_fold0
+1329439,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329440,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329441,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+369257,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329443,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329444,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1332011,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329445,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1332012,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329446,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329447,0,Midjil,Cotton,Groundnut,4,phase6g_pilot_fold0
+1329448,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1329449,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1332013,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329450,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329451,0,Urkonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1329452,0,Midjil,Cotton,Groundnut,4,phase6g_pilot_fold0
+1329453,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1329454,0,Midjil,Cotton,Cotton,4,phase6g_pilot_fold0
+1329460,0,Balanagar,Cotton,Cotton,4,phase6g_pilot_fold0
+1329531,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329532,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329533,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329534,0,Mahabubnagar_Urban,Paddy,Red Gram,4,phase6g_pilot_fold0
+1329535,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329536,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329537,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1332018,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329538,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329539,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329626,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329627,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329628,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329629,0,Mahabubnagar_Urban,Paddy,Paddy,4,phase6g_pilot_fold0
+1329630,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329631,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329632,0,Mahabubnagar_Urban,Paddy,Groundnut,4,phase6g_pilot_fold0
+1329633,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329653,0,Midjil,Paddy,Groundnut,4,phase6g_pilot_fold0
+1329655,0,Mahabubnagar_Urban,Paddy,Cotton,4,phase6g_pilot_fold0
+1329656,0,Midjil,Paddy,Paddy,4,phase6g_pilot_fold0
+1329657,0,Urkonda,Paddy,Paddy,4,phase6g_pilot_fold0
+1329658,0,Urkonda,Paddy,Groundnut,4,phase6g_pilot_fold0
+1329659,0,Urkonda,Paddy,Paddy,4,phase6g_pilot_fold0
+1332021,0,Urkonda,Paddy,Paddy,4,phase6g_pilot_fold0
+1329660,0,Urkonda,Paddy,Paddy,4,phase6g_pilot_fold0
+1329661,0,Midjil,Paddy,Paddy,4,phase6g_pilot_fold0
+1329662,0,Midjil,Paddy,Paddy,4,phase6g_pilot_fold0
+1329775,0,Doultabad,Paddy,Paddy,4,phase6g_pilot_fold0
+1329776,0,Doultabad,Paddy,Paddy,4,phase6g_pilot_fold0
+1329777,0,Doultabad,Paddy,Paddy,4,phase6g_pilot_fold0
+1329959,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1329975,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1329976,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1329985,0,Peda Adisharla Palli,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1329986,0,Peda Adisharla Palli,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330038,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330039,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330040,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330041,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330042,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330043,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1330067,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330068,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+344892,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330070,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330071,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330073,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330074,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330075,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330076,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330077,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330078,0,Neradigonda,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330087,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330088,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330089,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330090,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330091,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330092,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330093,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330094,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1332056,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330095,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330096,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330097,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330098,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330101,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330154,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330155,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330156,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330157,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330158,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330159,0,Neradigonda,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1330186,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330187,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330188,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330189,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330190,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330191,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330192,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330193,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330241,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330242,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330244,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330246,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330247,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330248,0,Bela,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330249,0,Bela,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330250,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330251,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330252,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330253,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330254,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330255,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330256,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330260,0,Neradigonda,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+883139,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330264,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330265,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330270,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330276,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330277,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330278,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330279,0,Bazarhathnoor,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330280,0,Bazarhathnoor,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1330281,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330282,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330283,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330284,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330285,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330286,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1332069,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330287,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330288,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330289,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330290,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330291,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330292,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1332070,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330293,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330294,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330295,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330296,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1332071,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330297,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330298,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330299,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330300,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330301,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330302,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330303,0,Bazarhathnoor,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330320,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330321,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330322,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330323,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330325,0,Bela,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1330326,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1330328,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1330329,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1330332,0,Bayyaram,Chillies,Maize,4,phase6g_pilot_fold0
+1330349,0,Singareni,Chillies,Chillies,4,phase6g_pilot_fold0
+1330359,0,Bayyaram,Chillies,Maize,4,phase6g_pilot_fold0
+1330360,0,Bayyaram,Chillies,Groundnut,4,phase6g_pilot_fold0
+1330364,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1330365,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+1330366,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+1330377,0,Bayyaram,Chillies,Groundnut,4,phase6g_pilot_fold0
+1330378,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1330379,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1330383,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1330420,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330423,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330425,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330426,0,Dornakal,Chillies,Groundnut,4,phase6g_pilot_fold0
+1330427,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330428,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330429,0,Dornakal,Chillies,Groundnut,4,phase6g_pilot_fold0
+356557,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330434,0,Dornakal,Chillies,Cotton,4,phase6g_pilot_fold0
+1330438,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330445,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330446,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+246388,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330451,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330452,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1332074,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330455,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330456,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330460,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330461,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330462,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330463,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1332076,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330464,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330467,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330468,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330471,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330472,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330473,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+343085,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330477,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330479,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1332077,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1332078,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330488,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330489,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330490,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330492,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330494,0,Dornakal,Chillies,Cotton,4,phase6g_pilot_fold0
+1330495,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330496,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330499,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330502,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330505,0,Dornakal,Chillies,Cotton,4,phase6g_pilot_fold0
+1330510,0,Dornakal,Chillies,Maize,4,phase6g_pilot_fold0
+1330511,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+698185,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330536,0,Dornakal,Chillies,Cotton,4,phase6g_pilot_fold0
+1330537,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330539,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330540,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330541,0,Dornakal,Chillies,Chillies,4,phase6g_pilot_fold0
+1330542,0,Dornakal,Chillies,Paddy,4,phase6g_pilot_fold0
+1330583,0,Dornakal,Chillies,Cotton,4,phase6g_pilot_fold0
+1330727,0,Nekkonda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330731,0,Nekkonda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330737,0,Nekkonda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330767,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330768,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330770,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330771,0,Kothaguda,Chillies,Maize,4,phase6g_pilot_fold0
+1330776,0,Kothaguda,Chillies,Cotton,4,phase6g_pilot_fold0
+1330778,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330782,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1330907,0,Narsapur_G,Maize,Maize,4,phase6g_pilot_fold0
+1330908,0,Narsapur_G,Maize,Maize,4,phase6g_pilot_fold0
+18639,0,Narsapur_G,Maize,Maize,4,phase6g_pilot_fold0
+1330910,0,Narsapur_G,Maize,Maize,4,phase6g_pilot_fold0
+1331205,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1331206,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1331207,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1331258,0,Narsapur_G,Maize,Maize,4,phase6g_pilot_fold0
+1331358,0,Peddavoora,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331375,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331376,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331377,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331378,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331379,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331380,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331381,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331382,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331383,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331384,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331385,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331386,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331387,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331389,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331533,0,Doma,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331534,0,Doma,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331535,0,Doma,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331626,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331627,0,Midjil,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331628,0,Midjil,Groundnut,Cotton,4,phase6g_pilot_fold0
+1331629,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331630,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331631,0,Urkonda,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1331680,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+368847,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331682,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1331685,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331686,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331691,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331693,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1332148,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331694,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331695,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331696,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331697,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1331699,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331700,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331701,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+920610,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331703,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331704,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331705,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331706,0,Inderavelly,Red Gram,Bengal Gram,4,phase6g_pilot_fold0
+1331707,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331708,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331709,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331710,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331712,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331713,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331714,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331715,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1332149,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331717,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1331718,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331830,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331831,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1331832,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331833,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1331834,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1331835,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1297513,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1297514,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1297526,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1297524,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1297593,0,Kanagal,Cotton,Cotton,4,phase6g_pilot_fold0
+1297559,0,Kanagal,Cotton,Groundnut,4,phase6g_pilot_fold0
+1297541,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1297547,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1297764,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+1297809,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+1297760,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+1298161,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1298096,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1298090,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+52626,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1298401,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1298398,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1298403,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1298635,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1298544,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1298559,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1298563,0,Kanagal,Cotton,Groundnut,4,phase6g_pilot_fold0
+1304596,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1304594,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+566879,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1304603,0,Kothaguda,Cotton,Cotton,4,phase6g_pilot_fold0
+1304606,0,Kothaguda,Cotton,Cotton,4,phase6g_pilot_fold0
+1304605,0,Kothaguda,Cotton,Cotton,4,phase6g_pilot_fold0
+948046,0,Kothaguda,Paddy,Paddy,4,phase6g_pilot_fold0
+1304598,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1304601,0,Kothaguda,Paddy,Paddy,4,phase6g_pilot_fold0
+1304679,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1304794,0,Kothaguda,Paddy,Paddy,4,phase6g_pilot_fold0
+1304796,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1304795,0,Kothaguda,Paddy,Paddy,4,phase6g_pilot_fold0
+1304793,0,Kothaguda,Chillies,Chillies,4,phase6g_pilot_fold0
+1304799,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1304797,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1305612,0,Nekkonda,Chillies,Chillies,4,phase6g_pilot_fold0
+1307068,0,Beeravelli,Cotton,Cotton,4,phase6g_pilot_fold0
+1307014,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307299,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307300,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307359,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307064,0,Beeravelli,Cotton,Cotton,4,phase6g_pilot_fold0
+1307458,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307016,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307364,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307009,0,Nekkonda,Chillies,Chillies,4,phase6g_pilot_fold0
+1307307,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307291,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307075,0,Beeravelli,Cotton,Chillies,4,phase6g_pilot_fold0
+1307010,0,Nekkonda,Chillies,Chillies,4,phase6g_pilot_fold0
+1307296,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307439,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1305672,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1306872,0,Inderavelly,Cotton,Chillies,4,phase6g_pilot_fold0
+1305728,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307602,0,Kanagal,Paddy,Paddy,4,phase6g_pilot_fold0
+1307790,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1313708,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1313707,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1313703,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1313837,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1313705,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1313975,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1314149,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1314297,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1314288,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1314291,0,Inderavelly,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1317987,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317948,0,Inderavelly,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1318076,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317984,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317993,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1318011,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318002,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318013,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1318073,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318016,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317992,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317981,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318077,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317955,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317976,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317944,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317979,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317998,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317957,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318096,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318085,0,Inderavelly,Cotton,Chillies,4,phase6g_pilot_fold0
+1318003,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317945,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1317978,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318083,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318072,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318430,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1318757,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+486381,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1318731,0,Inderavelly,Maize,Chillies,4,phase6g_pilot_fold0
+1318754,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1318749,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318745,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318760,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318744,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318761,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318738,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318768,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1318742,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1318764,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1318765,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1318767,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318835,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318801,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1318842,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1318821,0,Inderavelly,Cotton,Red Gram,4,phase6g_pilot_fold0
+1318832,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1318827,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1318826,0,Inderavelly,Cotton,Red Gram,4,phase6g_pilot_fold0
+446046,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1318828,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1318830,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318824,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318829,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318816,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318792,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1318818,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318841,0,Inderavelly,Cotton,Chillies,4,phase6g_pilot_fold0
+1318820,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+540943,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1319388,0,Yeldurthy,Chillies,Groundnut,4,phase6g_pilot_fold0
+1319389,0,Yeldurthy,Chillies,Cotton,4,phase6g_pilot_fold0
+1319402,0,Yeldurthy,Cotton,Cotton,4,phase6g_pilot_fold0
+1319427,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1319428,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1319433,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1319437,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1319438,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1319440,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1319442,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1323476,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323512,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323679,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323158,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1323161,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1322855,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1322907,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1305495,0,Beeravelli,Cotton,Paddy,4,phase6g_pilot_fold0
+1305490,0,Beeravelli,Cotton,Cotton,4,phase6g_pilot_fold0
+1307653,0,Inderavelly,Maize,Chillies,4,phase6g_pilot_fold0
+1307787,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1318093,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+733211,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1318751,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1318811,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1321067,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321068,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321070,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1321071,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1321074,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321077,0,Inderavelly,Cotton,Chillies,4,phase6g_pilot_fold0
+1321078,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321080,0,Inderavelly,Maize,Paddy,4,phase6g_pilot_fold0
+1321083,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321085,0,Inderavelly,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1321086,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321139,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321142,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1321144,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1321149,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321150,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1321152,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1321156,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1321160,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1321164,0,Inderavelly,Bengal Gram,Chillies,4,phase6g_pilot_fold0
+1321215,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1321219,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321223,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+506653,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1321230,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+907684,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+584619,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321254,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321260,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321265,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1321266,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321276,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321283,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1321289,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321293,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321296,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321301,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321302,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321366,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1321389,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321393,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321394,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321400,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1321404,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1321414,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1321731,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1322070,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1322076,0,Inderavelly,Maize,Bengal Gram,4,phase6g_pilot_fold0
+447901,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1322083,0,Inderavelly,Red Gram,Groundnut,4,phase6g_pilot_fold0
+1322084,0,Inderavelly,Maize,Paddy,4,phase6g_pilot_fold0
+1322086,0,Inderavelly,Red Gram,Cotton,4,phase6g_pilot_fold0
+1322088,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1322140,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1322141,0,Inderavelly,Bengal Gram,Cotton,4,phase6g_pilot_fold0
+1322147,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1322162,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1322166,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1322167,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1322169,0,Inderavelly,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1322170,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1322177,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1322245,0,Inderavelly,Red Gram,Red Gram,4,phase6g_pilot_fold0
+1322251,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+172836,0,Mahabubnagar_Rural,Paddy,Groundnut,4,phase6g_pilot_fold0
+1322346,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322348,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322350,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+340576,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322356,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322359,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322363,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322367,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322370,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322373,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322377,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322382,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+1322386,0,Mahabubnagar_Rural,Groundnut,Groundnut,4,phase6g_pilot_fold0
+497465,0,Inderavelly,Bengal Gram,Chillies,4,phase6g_pilot_fold0
+1323750,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323752,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323763,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323767,0,Havelighanpur,Maize,Chillies,4,phase6g_pilot_fold0
+1323770,0,Havelighanpur,Chillies,Chillies,4,phase6g_pilot_fold0
+1323775,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323776,0,Havelighanpur,Red Gram,Cotton,4,phase6g_pilot_fold0
+1323778,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323781,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323783,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323785,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323790,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323803,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323808,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323812,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323814,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323817,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323818,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323827,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323828,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323829,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323830,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323832,0,Havelighanpur,Maize,Paddy,4,phase6g_pilot_fold0
+1323833,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323834,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1323836,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323837,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323838,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+1323839,0,Havelighanpur,Paddy,Chillies,4,phase6g_pilot_fold0
+1323840,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323842,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323844,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+948812,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323846,0,Bayyaram,Chillies,Paddy,4,phase6g_pilot_fold0
+1323848,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+1323850,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323852,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+604502,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+1323863,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323867,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323869,0,Bayyaram,Chillies,Chillies,4,phase6g_pilot_fold0
+1323871,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323878,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323880,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323882,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323883,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323888,0,Inderavelly,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1323890,0,Bayyaram,Chillies,Cotton,4,phase6g_pilot_fold0
+1323891,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323892,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323893,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1323895,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+1323896,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323898,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1323899,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323901,0,Havelighanpur,Paddy,Groundnut,4,phase6g_pilot_fold0
+110978,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+189109,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323905,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323907,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1323908,0,Havelighanpur,Paddy,Cotton,4,phase6g_pilot_fold0
+1323910,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1323911,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323912,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1323914,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323917,0,Inderavelly,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+263458,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323920,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323922,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1323925,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323926,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323930,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323931,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323933,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323936,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323938,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323940,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323946,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+513836,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323950,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323955,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323956,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323959,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323960,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323962,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323963,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323965,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323967,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323969,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323971,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+76136,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323974,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323976,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323977,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323979,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323980,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323982,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323985,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323988,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323991,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+179845,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323995,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1323999,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324000,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324001,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324005,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324006,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324009,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+390332,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324017,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324019,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324020,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+834160,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+259219,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324027,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324029,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324034,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324038,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324040,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324043,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324044,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324048,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324050,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324054,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324056,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324059,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324082,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324084,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324085,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324087,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324089,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324090,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324094,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324095,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324098,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324101,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324103,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324109,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324110,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324112,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324113,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324117,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324118,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324122,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324124,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324127,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324128,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324132,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324133,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324134,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324135,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324138,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324139,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+588229,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324145,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324146,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324148,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324149,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324153,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324154,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324156,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324158,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324159,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324160,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324161,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324162,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324163,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324165,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1307292,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307369,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1307416,0,Inderavelly,Red Gram,Maize,4,phase6g_pilot_fold0
+1324252,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324253,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324254,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324255,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324256,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324257,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324258,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324259,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324260,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324261,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324263,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324264,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324266,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324269,0,Havelighanpur,Paddy,Bengal Gram,4,phase6g_pilot_fold0
+1324270,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324272,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324273,0,Havelighanpur,Paddy,Maize,4,phase6g_pilot_fold0
+1324275,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324276,0,Havelighanpur,Paddy,Maize,4,phase6g_pilot_fold0
+1324278,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324280,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324281,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324284,0,Havelighanpur,Paddy,Maize,4,phase6g_pilot_fold0
+1324285,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324286,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324288,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324289,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324290,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324291,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324292,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324293,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324294,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324295,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324296,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324297,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324298,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324299,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324300,0,Havelighanpur,Paddy,Cotton,4,phase6g_pilot_fold0
+1324302,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324303,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324304,0,Havelighanpur,Paddy,Bengal Gram,4,phase6g_pilot_fold0
+1324305,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324306,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324307,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324308,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324309,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324310,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324311,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324312,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324313,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324314,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324315,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324316,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324317,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324318,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324319,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324320,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324321,0,Havelighanpur,Paddy,Maize,4,phase6g_pilot_fold0
+1324322,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324323,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324324,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324325,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324326,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324328,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324329,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324330,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324331,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324332,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324333,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324335,0,Havelighanpur,Maize,Cotton,4,phase6g_pilot_fold0
+1324336,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324339,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324340,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324344,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324345,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324348,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324351,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324354,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324357,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324358,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324359,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324363,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324364,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324368,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+305595,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+301722,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324372,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324373,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324374,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324375,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324376,0,Havelighanpur,Paddy,Bengal Gram,4,phase6g_pilot_fold0
+1324377,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324378,0,Havelighanpur,Paddy,Bengal Gram,4,phase6g_pilot_fold0
+1324379,0,Havelighanpur,Paddy,Maize,4,phase6g_pilot_fold0
+1324380,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324381,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324382,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324383,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324384,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324385,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324386,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324387,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324388,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324389,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324390,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324395,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324396,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324397,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324398,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324399,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324400,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324401,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324402,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324403,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324406,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324407,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324409,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+94683,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324412,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324415,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324417,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324418,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324420,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324422,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324424,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324426,0,Havelighanpur,Paddy,Maize,4,phase6g_pilot_fold0
+55969,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324429,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324431,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324432,0,Havelighanpur,Paddy,Bengal Gram,4,phase6g_pilot_fold0
+1324433,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324434,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324435,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324436,0,Havelighanpur,Paddy,Bengal Gram,4,phase6g_pilot_fold0
+1324437,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324438,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324439,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324440,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324441,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324442,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324444,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324445,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324446,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324447,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324448,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324449,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324450,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324451,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324452,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324453,0,Havelighanpur,Paddy,Cotton,4,phase6g_pilot_fold0
+1324454,0,Havelighanpur,Paddy,Paddy,4,phase6g_pilot_fold0
+1324869,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1326434,0,Inderavelly,Bengal Gram,Maize,4,phase6g_pilot_fold0
+1326435,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1326437,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1326438,0,Inderavelly,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1326439,0,Inderavelly,Bengal Gram,Bengal Gram,4,phase6g_pilot_fold0
+1326440,0,Inderavelly,Maize,Bengal Gram,4,phase6g_pilot_fold0
+1326441,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1326442,0,Inderavelly,Maize,Maize,4,phase6g_pilot_fold0
+1326443,0,Inderavelly,Maize,Cotton,4,phase6g_pilot_fold0
+1326452,0,Beeravelli,Maize,Chillies,4,phase6g_pilot_fold0
+1326453,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326454,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326455,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326457,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326465,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326467,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326468,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326469,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326470,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326473,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326474,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326476,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+886877,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326478,0,Beeravelli,Maize,Chillies,4,phase6g_pilot_fold0
+1326479,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+358633,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326481,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326482,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326484,0,Beeravelli,Maize,Chillies,4,phase6g_pilot_fold0
+1326485,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326486,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326487,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326488,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326489,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326490,0,Beeravelli,Maize,Chillies,4,phase6g_pilot_fold0
+1326491,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326492,0,Beeravelli,Maize,Cotton,4,phase6g_pilot_fold0
+1326493,0,Beeravelli,Maize,Paddy,4,phase6g_pilot_fold0
+1326496,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1326497,0,Beeravelli,Maize,Maize,4,phase6g_pilot_fold0
+1316230,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1300035,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1297477,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1319959,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1322472,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1325136,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+304276,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+627411,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1300099,0,Kothaguda,Maize,Paddy,4,phase6g_pilot_fold0
+1303834,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+653541,0,Kothaguda,Maize,Maize,4,phase6g_pilot_fold0
+1300199,0,Kothaguda,Maize,Chillies,4,phase6g_pilot_fold0
+1301843,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1317118,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1304181,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1300724,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1306042,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+852196,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1317026,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+647842,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+621062,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1302888,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+531403,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1324931,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1306295,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1305496,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1315877,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1314741,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+266284,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1315999,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1300708,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+748602,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1297589,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+17289,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1297478,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1307780,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1303390,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1323929,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+803707,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+712286,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1320381,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1297857,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+969467,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1304743,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+1301302,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1315358,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1313826,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1308017,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+366737,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+199162,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1325039,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1309821,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+693970,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+605494,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1306004,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1320643,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+284989,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+246479,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+116126,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1299656,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1309327,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1303943,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1301783,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1322835,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1310691,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+290739,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1308254,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1319965,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+846397,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+373641,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1312626,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1324524,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+464008,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1316796,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1300339,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+942460,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1301430,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1312490,0,Bayyaram,Maize,Chillies,4,phase6g_pilot_fold0
+1304367,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1326228,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+598222,0,Bayyaram,Maize,Chillies,4,phase6g_pilot_fold0
+578278,0,Bayyaram,Maize,Chillies,4,phase6g_pilot_fold0
+1311386,0,Bayyaram,Maize,Groundnut,4,phase6g_pilot_fold0
+1322604,0,Bayyaram,Maize,Groundnut,4,phase6g_pilot_fold0
+5500,0,Bayyaram,Maize,Chillies,4,phase6g_pilot_fold0
+826221,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1303237,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1298438,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+172949,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1306492,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+810371,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+503679,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1305093,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1302525,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1317344,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1300631,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1305418,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1316819,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1298967,0,Bayyaram,Maize,Groundnut,4,phase6g_pilot_fold0
+1300794,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1310572,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1316416,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+1325220,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+429895,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+540600,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1310533,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+54844,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+753035,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+549036,0,Bayyaram,Maize,Red Gram,4,phase6g_pilot_fold0
+1323934,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+1320337,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1311357,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+483653,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+691933,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1320577,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1307111,0,Bayyaram,Maize,Cotton,4,phase6g_pilot_fold0
+1313652,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1301899,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+431197,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1326456,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1319975,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1298139,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1304121,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1309226,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1323432,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1301288,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+1302340,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+796449,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1301201,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1314738,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1318052,0,Bayyaram,Maize,Paddy,4,phase6g_pilot_fold0
+1300661,0,Bayyaram,Maize,Maize,4,phase6g_pilot_fold0
+638092,0,Nekkonda,Paddy,Paddy,4,phase6g_pilot_fold0
+1314737,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1306798,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1325461,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1309242,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1305092,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1303853,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1303272,0,Bayyaram,Paddy,Cotton,4,phase6g_pilot_fold0
+1318814,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+64287,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1306472,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1316384,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1299480,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+4139,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+381326,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+879932,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+27766,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1298408,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1314622,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1299624,0,Bayyaram,Paddy,Cotton,4,phase6g_pilot_fold0
+1299531,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1316317,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+619956,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1320998,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+954160,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+688404,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1303647,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1317391,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1311670,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+1316043,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1313766,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+1307435,0,Bayyaram,Paddy,Cotton,4,phase6g_pilot_fold0
+618888,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1303067,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1309586,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1311441,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+237718,0,Bayyaram,Paddy,Chillies,4,phase6g_pilot_fold0
+1307829,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1322226,0,Bayyaram,Paddy,Maize,4,phase6g_pilot_fold0
+1299731,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+725341,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+1314656,0,Bayyaram,Paddy,Paddy,4,phase6g_pilot_fold0
+976016,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1300271,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+833562,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+677076,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1312605,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1304852,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1325975,0,Inderavelly,Cotton,Red Gram,4,phase6g_pilot_fold0
+1311025,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1306611,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1312517,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1297833,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1324664,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1311487,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1313164,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1305533,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1304945,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+307639,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1299757,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1319822,0,Bazarhathnoor,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1306305,0,Bazarhathnoor,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1310001,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1300007,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1320178,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1308988,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+729029,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1316075,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+166245,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1323411,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+781625,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1298424,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+969938,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1304297,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1310275,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+295636,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1298295,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+1307994,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+484759,0,Bazarhathnoor,Cotton,Cotton,4,phase6g_pilot_fold0
+256189,0,Inderavelly,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+1319018,0,Inderavelly,Cotton,Maize,4,phase6g_pilot_fold0
+554596,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1305101,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+844982,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+748927,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+686293,0,Inderavelly,Cotton,Cotton,4,phase6g_pilot_fold0
+1309033,0,Inderavelly,Cotton,Red Gram,4,phase6g_pilot_fold0
+1310549,0,Neradigonda,Cotton,Red Gram,4,phase6g_pilot_fold0
+1300381,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1309010,0,Neradigonda,Cotton,Bengal Gram,4,phase6g_pilot_fold0
+717989,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1325375,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+300193,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1325890,0,Neradigonda,Cotton,Cotton,4,phase6g_pilot_fold0
+1324778,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1317263,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+883434,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1320567,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1310053,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1308849,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+593707,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+698182,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+336773,0,Bela,Cotton,Maize,4,phase6g_pilot_fold0
+91819,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+789083,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1301102,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+133034,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1299401,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1319215,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1309876,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+523339,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+683371,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1308119,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1303012,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1308371,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+141882,0,Bela,Cotton,Maize,4,phase6g_pilot_fold0
+1303564,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1311282,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1320787,0,Bela,Cotton,Maize,4,phase6g_pilot_fold0
+1320328,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1314247,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1303387,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1316864,0,Bela,Cotton,Maize,4,phase6g_pilot_fold0
+1303404,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1312851,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1324076,0,Bela,Cotton,Chillies,4,phase6g_pilot_fold0
+1307135,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1311423,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1315062,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1315597,0,Bela,Cotton,Maize,4,phase6g_pilot_fold0
+1297907,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1314946,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+497181,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+166176,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1313289,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1298256,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0
+1323180,0,Bela,Cotton,Cotton,4,phase6g_pilot_fold0

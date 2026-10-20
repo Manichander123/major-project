@@ -1,0 +1,334 @@
+[
+  {
+    "farm_id": 1327181,
+    "crop": "Bengal Gram",
+    "season": "Rabi",
+    "desc": "Extreme 3-tile overlap",
+    "window": [
+      "2023-11-24",
+      "2024-04-13"
+    ],
+    "total_tile_scenes": 165,
+    "unique_acquisition_dates": 45,
+    "tile_overlap_ratio": 3.67,
+    "band_differences": {
+      "B2": {
+        "raw": 512.57,
+        "daily": 526.28,
+        "diff": 13.71,
+        "pct_diff": 2.676
+      },
+      "B3": {
+        "raw": 751.44,
+        "daily": 748.49,
+        "diff": -2.95,
+        "pct_diff": -0.393
+      },
+      "B4": {
+        "raw": 760.1,
+        "daily": 714.32,
+        "diff": -45.77,
+        "pct_diff": -6.022
+      },
+      "B8": {
+        "raw": 2021.57,
+        "daily": 2019.73,
+        "diff": -1.85,
+        "pct_diff": -0.091
+      },
+      "B11": {
+        "raw": 1927.95,
+        "daily": 1896.65,
+        "diff": -31.3,
+        "pct_diff": -1.624
+      },
+      "B12": {
+        "raw": 1124.1,
+        "daily": 1096.44,
+        "diff": -27.66,
+        "pct_diff": -2.461
+      },
+      "B5": {
+        "raw": 1185.61,
+        "daily": 1151.0,
+        "diff": -34.61,
+        "pct_diff": -2.919
+      },
+      "B6": {
+        "raw": 1870.11,
+        "daily": 1860.61,
+        "diff": -9.49,
+        "pct_diff": -0.508
+      },
+      "B7": {
+        "raw": 2043.29,
+        "daily": 2029.48,
+        "diff": -13.81,
+        "pct_diff": -0.676
+      },
+      "B8A": {
+        "raw": 2212.61,
+        "daily": 2185.43,
+        "diff": -27.18,
+        "pct_diff": -1.229
+      }
+    },
+    "indices": {
+      "ndvi_raw": 0.4535,
+      "ndvi_daily": 0.47746,
+      "ndvi_delta": 0.02397,
+      "ndmi_raw": 0.0237,
+      "ndmi_daily": 0.03143,
+      "ndmi_delta": 0.00772
+    }
+  },
+  {
+    "farm_id": 1331695,
+    "crop": "Red Gram",
+    "season": "Kharif",
+    "desc": "Long duration Kharif monsoon",
+    "window": [
+      "2023-01-07",
+      "2023-12-30"
+    ],
+    "total_tile_scenes": 159,
+    "unique_acquisition_dates": 81,
+    "tile_overlap_ratio": 1.96,
+    "band_differences": {
+      "B2": {
+        "raw": 479.11,
+        "daily": 477.47,
+        "diff": -1.65,
+        "pct_diff": -0.343
+      },
+      "B3": {
+        "raw": 702.15,
+        "daily": 701.53,
+        "diff": -0.62,
+        "pct_diff": -0.088
+      },
+      "B4": {
+        "raw": 786.02,
+        "daily": 784.7,
+        "diff": -1.32,
+        "pct_diff": -0.168
+      },
+      "B8": {
+        "raw": 1807.88,
+        "daily": 1794.14,
+        "diff": -13.74,
+        "pct_diff": -0.76
+      },
+      "B11": {
+        "raw": 1913.69,
+        "daily": 1920.84,
+        "diff": 7.15,
+        "pct_diff": 0.374
+      },
+      "B12": {
+        "raw": 1326.74,
+        "daily": 1337.76,
+        "diff": 11.02,
+        "pct_diff": 0.831
+      },
+      "B5": {
+        "raw": 1122.35,
+        "daily": 1133.48,
+        "diff": 11.13,
+        "pct_diff": 0.991
+      },
+      "B6": {
+        "raw": 1672.05,
+        "daily": 1674.29,
+        "diff": 2.24,
+        "pct_diff": 0.134
+      },
+      "B7": {
+        "raw": 1857.87,
+        "daily": 1849.2,
+        "diff": -8.66,
+        "pct_diff": -0.466
+      },
+      "B8A": {
+        "raw": 2001.26,
+        "daily": 1994.45,
+        "diff": -6.81,
+        "pct_diff": -0.34
+      }
+    },
+    "indices": {
+      "ndvi_raw": 0.39395,
+      "ndvi_daily": 0.39143,
+      "ndvi_delta": -0.00252,
+      "ndmi_raw": -0.02843,
+      "ndmi_daily": -0.03411,
+      "ndmi_delta": -0.00568
+    }
+  },
+  {
+    "farm_id": 1327617,
+    "crop": "Maize",
+    "season": "Rabi",
+    "desc": "Moderate dual-tile overlap",
+    "window": [
+      "2023-12-17",
+      "2024-04-27"
+    ],
+    "total_tile_scenes": 89,
+    "unique_acquisition_dates": 26,
+    "tile_overlap_ratio": 3.42,
+    "band_differences": {
+      "B2": {
+        "raw": 531.19,
+        "daily": 544.7,
+        "diff": 13.51,
+        "pct_diff": 2.544
+      },
+      "B3": {
+        "raw": 793.0,
+        "daily": 804.17,
+        "diff": 11.16,
+        "pct_diff": 1.408
+      },
+      "B4": {
+        "raw": 869.12,
+        "daily": 879.09,
+        "diff": 9.98,
+        "pct_diff": 1.148
+      },
+      "B8": {
+        "raw": 1951.68,
+        "daily": 2109.49,
+        "diff": 157.81,
+        "pct_diff": 8.086
+      },
+      "B11": {
+        "raw": 1959.16,
+        "daily": 1973.71,
+        "diff": 14.56,
+        "pct_diff": 0.743
+      },
+      "B12": {
+        "raw": 1383.24,
+        "daily": 1383.45,
+        "diff": 0.21,
+        "pct_diff": 0.015
+      },
+      "B5": {
+        "raw": 1197.95,
+        "daily": 1199.24,
+        "diff": 1.28,
+        "pct_diff": 0.107
+      },
+      "B6": {
+        "raw": 1734.07,
+        "daily": 1866.04,
+        "diff": 131.97,
+        "pct_diff": 7.61
+      },
+      "B7": {
+        "raw": 1856.73,
+        "daily": 2047.97,
+        "diff": 191.24,
+        "pct_diff": 10.3
+      },
+      "B8A": {
+        "raw": 1991.89,
+        "daily": 2185.81,
+        "diff": 193.92,
+        "pct_diff": 9.736
+      }
+    },
+    "indices": {
+      "ndvi_raw": 0.38378,
+      "ndvi_daily": 0.4117,
+      "ndvi_delta": 0.02792,
+      "ndmi_raw": -0.00191,
+      "ndmi_daily": 0.03325,
+      "ndmi_delta": 0.03516
+    }
+  },
+  {
+    "farm_id": 1324368,
+    "crop": "Paddy",
+    "season": "Rabi",
+    "desc": "Dual-tile wet crop overlap",
+    "window": [
+      "2023-12-11",
+      "2024-05-19"
+    ],
+    "total_tile_scenes": 96,
+    "unique_acquisition_dates": 50,
+    "tile_overlap_ratio": 1.92,
+    "band_differences": {
+      "B2": {
+        "raw": 432.74,
+        "daily": 411.01,
+        "diff": -21.73,
+        "pct_diff": -5.021
+      },
+      "B3": {
+        "raw": 717.09,
+        "daily": 700.53,
+        "diff": -16.56,
+        "pct_diff": -2.31
+      },
+      "B4": {
+        "raw": 630.71,
+        "daily": 607.59,
+        "diff": -23.11,
+        "pct_diff": -3.665
+      },
+      "B8": {
+        "raw": 3001.25,
+        "daily": 2980.6,
+        "diff": -20.65,
+        "pct_diff": -0.688
+      },
+      "B11": {
+        "raw": 1815.75,
+        "daily": 1800.35,
+        "diff": -15.4,
+        "pct_diff": -0.848
+      },
+      "B12": {
+        "raw": 1118.49,
+        "daily": 1106.78,
+        "diff": -11.71,
+        "pct_diff": -1.047
+      },
+      "B5": {
+        "raw": 1172.16,
+        "daily": 1166.39,
+        "diff": -5.77,
+        "pct_diff": -0.492
+      },
+      "B6": {
+        "raw": 2373.51,
+        "daily": 2361.13,
+        "diff": -12.38,
+        "pct_diff": -0.522
+      },
+      "B7": {
+        "raw": 2954.3,
+        "daily": 2914.28,
+        "diff": -40.02,
+        "pct_diff": -1.355
+      },
+      "B8A": {
+        "raw": 3054.19,
+        "daily": 3009.14,
+        "diff": -45.06,
+        "pct_diff": -1.475
+      }
+    },
+    "indices": {
+      "ndvi_raw": 0.65269,
+      "ndvi_daily": 0.66134,
+      "ndvi_delta": 0.00865,
+      "ndmi_raw": 0.24611,
+      "ndmi_daily": 0.24687,
+      "ndmi_delta": 0.00076
+    }
+  }
+]

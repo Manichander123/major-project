@@ -1,0 +1,3584 @@
+{
+  "Exp_A_primary": {
+    "experiment": "Exp_A",
+    "run_name": "Full-Season Satellite Retrospective",
+    "run_type": "primary",
+    "n_samples": 7843,
+    "excluded_samples": 0,
+    "n_features": 34,
+    "feature_names": [
+      "B2_full_mean",
+      "B2_full_std",
+      "B3_full_mean",
+      "B3_full_std",
+      "B4_full_mean",
+      "B4_full_std",
+      "B8_full_mean",
+      "B8_full_std",
+      "B5_full_mean",
+      "B5_full_std",
+      "B6_full_mean",
+      "B6_full_std",
+      "B7_full_mean",
+      "B7_full_std",
+      "B8A_full_mean",
+      "B8A_full_std",
+      "B11_full_mean",
+      "B11_full_std",
+      "B12_full_mean",
+      "B12_full_std",
+      "ndvi_full",
+      "evi_full",
+      "gndvi_full",
+      "savi_full",
+      "msavi_full",
+      "ndmi_full",
+      "ndwi_full",
+      "ndre1_full",
+      "ndre2_full",
+      "psri_full",
+      "bsi_full",
+      "msi_full",
+      "cire_full",
+      "cig_full"
+    ],
+    "class_distribution": {
+      "Paddy": 2260,
+      "Cotton": 1679,
+      "Maize": 1376,
+      "Bengal Gram": 938,
+      "Groundnut": 768,
+      "Chillies": 601,
+      "Red Gram": 221
+    },
+    "models": {
+      "dummy": {
+        "model_name": "dummy",
+        "fit_time_seconds": 0.07,
+        "pooled_oof_macro_f1": 0.0639,
+        "pooled_oof_accuracy": 0.2882,
+        "pooled_oof_balanced_accuracy": 0.1429,
+        "pooled_oof_weighted_f1": 0.1289,
+        "fold_macro_f1_mean": 0.0639,
+        "fold_macro_f1_std": 0.0014,
+        "fold_accuracy_mean": 0.2884,
+        "fold_accuracy_std": 0.0083,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.2881550427132475,
+            "recall": 1.0,
+            "f1": 0.44739186380283086,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            938,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            601,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1679,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            768,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1376,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2260,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            221,
+            0
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.3010610079575597,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06611329547109364,
+            "weighted_f1": 0.1393289476174639,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.281875,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06282649578602773,
+            "weighted_f1": 0.12396452949780595,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.28213166144200624,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06287111421585749,
+            "weighted_f1": 0.1241655233730101,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.2954248366013072,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06515784921435779,
+            "weighted_f1": 0.13474472870210985,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.2813664596273292,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06273803753202686,
+            "weighted_f1": 0.12356665653047032,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          }
+        ]
+      },
+      "rf": {
+        "model_name": "rf",
+        "fit_time_seconds": 8.72,
+        "pooled_oof_macro_f1": 0.59,
+        "pooled_oof_accuracy": 0.7106,
+        "pooled_oof_balanced_accuracy": 0.5977,
+        "pooled_oof_weighted_f1": 0.6976,
+        "fold_macro_f1_mean": 0.5879,
+        "fold_macro_f1_std": 0.0361,
+        "fold_accuracy_mean": 0.7102,
+        "fold_accuracy_std": 0.0451,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.6678571428571428,
+            "recall": 0.7974413646055437,
+            "f1": 0.7269193391642371,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.4085603112840467,
+            "recall": 0.34941763727121466,
+            "f1": 0.37668161434977576,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.6805555555555556,
+            "recall": 0.7296009529481834,
+            "f1": 0.704225352112676,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.763095238095238,
+            "recall": 0.8346354166666666,
+            "f1": 0.7972636815920398,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.6872322193658955,
+            "recall": 0.5828488372093024,
+            "f1": 0.6307510813999213,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.8130762782900252,
+            "recall": 0.8584070796460177,
+            "f1": 0.8351269909599656,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.4375,
+            "recall": 0.03167420814479638,
+            "f1": 0.05907172995780591,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            748,
+            8,
+            73,
+            3,
+            79,
+            24,
+            3
+          ],
+          [
+            8,
+            210,
+            147,
+            36,
+            86,
+            114,
+            0
+          ],
+          [
+            104,
+            101,
+            1225,
+            81,
+            69,
+            97,
+            2
+          ],
+          [
+            2,
+            50,
+            35,
+            641,
+            16,
+            24,
+            0
+          ],
+          [
+            164,
+            72,
+            112,
+            45,
+            802,
+            177,
+            4
+          ],
+          [
+            23,
+            56,
+            118,
+            31,
+            92,
+            1940,
+            0
+          ],
+          [
+            71,
+            17,
+            90,
+            3,
+            23,
+            10,
+            7
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.696949602122016,
+            "balanced_accuracy": 0.5906352690234785,
+            "macro_f1": 0.5744083487274851,
+            "weighted_f1": 0.6776222501454384,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.017857142857142856,
+            "red_gram_f1": 0.03389830508474576
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.7875,
+            "balanced_accuracy": 0.6528509878264808,
+            "macro_f1": 0.6519242932117489,
+            "weighted_f1": 0.7759189520824915,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.7304075235109718,
+            "balanced_accuracy": 0.6000135483224562,
+            "macro_f1": 0.6013336235521959,
+            "weighted_f1": 0.7191399566717083,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.047619047619047616,
+            "red_gram_f1": 0.08333333333333333
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.673202614379085,
+            "balanced_accuracy": 0.5717951399034359,
+            "macro_f1": 0.5590171803755501,
+            "weighted_f1": 0.6557137851094311,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.6666666666666666,
+            "red_gram_recall": 0.06779661016949153,
+            "red_gram_f1": 0.12307692307692307
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.6627329192546584,
+            "balanced_accuracy": 0.5712428297478979,
+            "macro_f1": 0.5528509934560164,
+            "weighted_f1": 0.6538022137426818,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.5,
+            "red_gram_recall": 0.01694915254237288,
+            "red_gram_f1": 0.03278688524590164
+          }
+        ]
+      },
+      "xgb": {
+        "model_name": "xgb",
+        "fit_time_seconds": 40.54,
+        "pooled_oof_macro_f1": 0.6174,
+        "pooled_oof_accuracy": 0.7366,
+        "pooled_oof_balanced_accuracy": 0.6178,
+        "pooled_oof_weighted_f1": 0.7234,
+        "fold_macro_f1_mean": 0.6164,
+        "fold_macro_f1_std": 0.0316,
+        "fold_accuracy_mean": 0.7363,
+        "fold_accuracy_std": 0.037,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.7160852713178295,
+            "recall": 0.7878464818763327,
+            "f1": 0.750253807106599,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.49764150943396224,
+            "recall": 0.35108153078202997,
+            "f1": 0.4117073170731707,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.7042553191489361,
+            "recall": 0.7885646217986897,
+            "f1": 0.7440292216914863,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.8085106382978723,
+            "recall": 0.8411458333333334,
+            "f1": 0.824505424377792,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.6946442845723422,
+            "recall": 0.6315406976744186,
+            "f1": 0.6615911686334222,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.8182947019867549,
+            "recall": 0.8747787610619469,
+            "f1": 0.8455945252352438,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.2682926829268293,
+            "recall": 0.049773755656108594,
+            "f1": 0.08396946564885496,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            739,
+            5,
+            63,
+            4,
+            101,
+            16,
+            10
+          ],
+          [
+            5,
+            211,
+            142,
+            31,
+            83,
+            127,
+            2
+          ],
+          [
+            63,
+            63,
+            1324,
+            61,
+            64,
+            91,
+            13
+          ],
+          [
+            0,
+            27,
+            40,
+            646,
+            14,
+            41,
+            0
+          ],
+          [
+            148,
+            60,
+            107,
+            35,
+            869,
+            152,
+            5
+          ],
+          [
+            16,
+            52,
+            103,
+            19,
+            93,
+            1977,
+            0
+          ],
+          [
+            61,
+            6,
+            101,
+            3,
+            27,
+            12,
+            11
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.73342175066313,
+            "balanced_accuracy": 0.6270734019505607,
+            "macro_f1": 0.6217360303383187,
+            "weighted_f1": 0.7161607319680225,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.25,
+            "red_gram_recall": 0.03571428571428571,
+            "red_gram_f1": 0.0625
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.79875,
+            "balanced_accuracy": 0.6624892803448116,
+            "macro_f1": 0.6678147157066406,
+            "weighted_f1": 0.7859792295106284,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.25,
+            "red_gram_recall": 0.038461538461538464,
+            "red_gram_f1": 0.06666666666666668
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.7504702194357367,
+            "balanced_accuracy": 0.6181486220232847,
+            "macro_f1": 0.6261187981168003,
+            "weighted_f1": 0.7393242283545699,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.2222222222222222,
+            "red_gram_recall": 0.09523809523809523,
+            "red_gram_f1": 0.13333333333333333
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.6993464052287581,
+            "balanced_accuracy": 0.5854002919517486,
+            "macro_f1": 0.5797021619724836,
+            "weighted_f1": 0.6826975092523905,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.0847457627118644,
+            "red_gram_f1": 0.13513513513513511
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.6993788819875777,
+            "balanced_accuracy": 0.601352425388684,
+            "macro_f1": 0.5868380269404466,
+            "weighted_f1": 0.6867284283057051,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.2,
+            "red_gram_recall": 0.01694915254237288,
+            "red_gram_f1": 0.03125
+          }
+        ]
+      }
+    }
+  },
+  "Exp_B_primary": {
+    "experiment": "Exp_B",
+    "run_name": "Early-Season Satellite Primary",
+    "run_type": "primary",
+    "n_samples": 7843,
+    "excluded_samples": 0,
+    "n_features": 34,
+    "feature_names": [
+      "B2_early_mean",
+      "B2_early_std",
+      "B3_early_mean",
+      "B3_early_std",
+      "B4_early_mean",
+      "B4_early_std",
+      "B8_early_mean",
+      "B8_early_std",
+      "B5_early_mean",
+      "B5_early_std",
+      "B6_early_mean",
+      "B6_early_std",
+      "B7_early_mean",
+      "B7_early_std",
+      "B8A_early_mean",
+      "B8A_early_std",
+      "B11_early_mean",
+      "B11_early_std",
+      "B12_early_mean",
+      "B12_early_std",
+      "ndvi_early",
+      "evi_early",
+      "gndvi_early",
+      "savi_early",
+      "msavi_early",
+      "ndmi_early",
+      "ndwi_early",
+      "ndre1_early",
+      "ndre2_early",
+      "psri_early",
+      "bsi_early",
+      "msi_early",
+      "cire_early",
+      "cig_early"
+    ],
+    "class_distribution": {
+      "Paddy": 2260,
+      "Cotton": 1679,
+      "Maize": 1376,
+      "Bengal Gram": 938,
+      "Groundnut": 768,
+      "Chillies": 601,
+      "Red Gram": 221
+    },
+    "models": {
+      "dummy": {
+        "model_name": "dummy",
+        "fit_time_seconds": 0.07,
+        "pooled_oof_macro_f1": 0.0639,
+        "pooled_oof_accuracy": 0.2882,
+        "pooled_oof_balanced_accuracy": 0.1429,
+        "pooled_oof_weighted_f1": 0.1289,
+        "fold_macro_f1_mean": 0.0639,
+        "fold_macro_f1_std": 0.0014,
+        "fold_accuracy_mean": 0.2884,
+        "fold_accuracy_std": 0.0083,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.2881550427132475,
+            "recall": 1.0,
+            "f1": 0.44739186380283086,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            938,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            601,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1679,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            768,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1376,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2260,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            221,
+            0
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.3010610079575597,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06611329547109364,
+            "weighted_f1": 0.1393289476174639,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.281875,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06282649578602773,
+            "weighted_f1": 0.12396452949780595,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.28213166144200624,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06287111421585749,
+            "weighted_f1": 0.1241655233730101,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.2954248366013072,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06515784921435779,
+            "weighted_f1": 0.13474472870210985,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.2813664596273292,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06273803753202686,
+            "weighted_f1": 0.12356665653047032,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          }
+        ]
+      },
+      "rf": {
+        "model_name": "rf",
+        "fit_time_seconds": 9.02,
+        "pooled_oof_macro_f1": 0.5101,
+        "pooled_oof_accuracy": 0.5977,
+        "pooled_oof_balanced_accuracy": 0.5244,
+        "pooled_oof_weighted_f1": 0.5952,
+        "fold_macro_f1_mean": 0.5051,
+        "fold_macro_f1_std": 0.0247,
+        "fold_accuracy_mean": 0.5974,
+        "fold_accuracy_std": 0.0366,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.6919691969196919,
+            "recall": 0.6705756929637526,
+            "f1": 0.6811044937736871,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.3233333333333333,
+            "recall": 0.16139767054908485,
+            "f1": 0.2153163152053274,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.5617913832199547,
+            "recall": 0.5902322811197142,
+            "f1": 0.5756607609642753,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.6197975253093363,
+            "recall": 0.7174479166666666,
+            "f1": 0.6650573325286663,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.5878312070657508,
+            "recall": 0.43531976744186046,
+            "f1": 0.5002087682672234,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.7261410788381742,
+            "recall": 0.7743362831858407,
+            "f1": 0.7494646680942184,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.1286231884057971,
+            "recall": 0.3212669683257919,
+            "f1": 0.18369987063389392,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            629,
+            3,
+            127,
+            7,
+            133,
+            29,
+            10
+          ],
+          [
+            4,
+            97,
+            163,
+            64,
+            67,
+            168,
+            38
+          ],
+          [
+            75,
+            67,
+            991,
+            157,
+            106,
+            184,
+            99
+          ],
+          [
+            1,
+            24,
+            100,
+            551,
+            8,
+            45,
+            39
+          ],
+          [
+            154,
+            49,
+            173,
+            34,
+            599,
+            220,
+            147
+          ],
+          [
+            25,
+            52,
+            149,
+            53,
+            83,
+            1750,
+            148
+          ],
+          [
+            21,
+            8,
+            61,
+            23,
+            23,
+            14,
+            71
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.5596816976127321,
+            "balanced_accuracy": 0.49912498618885953,
+            "macro_f1": 0.48008717984379545,
+            "weighted_f1": 0.5559381095441591,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.15702479338842976,
+            "red_gram_recall": 0.3392857142857143,
+            "red_gram_f1": 0.21468926553672316
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.663125,
+            "balanced_accuracy": 0.5517845736430759,
+            "macro_f1": 0.5384229604439807,
+            "weighted_f1": 0.648662547053593,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.05128205128205128,
+            "red_gram_recall": 0.07692307692307693,
+            "red_gram_f1": 0.06153846153846155
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.5774294670846395,
+            "balanced_accuracy": 0.4725107624766967,
+            "macro_f1": 0.4730605183198194,
+            "weighted_f1": 0.5804064609720256,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.02027027027027027,
+            "red_gram_recall": 0.14285714285714285,
+            "red_gram_f1": 0.03550295857988165
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.6098039215686275,
+            "balanced_accuracy": 0.5206290781084926,
+            "macro_f1": 0.517297398796007,
+            "weighted_f1": 0.6063215257893292,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.17346938775510204,
+            "red_gram_recall": 0.288135593220339,
+            "red_gram_f1": 0.21656050955414013
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.5770186335403726,
+            "balanced_accuracy": 0.5379351571505893,
+            "macro_f1": 0.5165533743421293,
+            "weighted_f1": 0.5779170269326277,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.2054794520547945,
+            "red_gram_recall": 0.5084745762711864,
+            "red_gram_f1": 0.29268292682926833
+          }
+        ]
+      },
+      "xgb": {
+        "model_name": "xgb",
+        "fit_time_seconds": 49.77,
+        "pooled_oof_macro_f1": 0.5058,
+        "pooled_oof_accuracy": 0.6245,
+        "pooled_oof_balanced_accuracy": 0.5064,
+        "pooled_oof_weighted_f1": 0.6053,
+        "fold_macro_f1_mean": 0.504,
+        "fold_macro_f1_std": 0.026,
+        "fold_accuracy_mean": 0.6243,
+        "fold_accuracy_std": 0.0373,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.687089715536105,
+            "recall": 0.6695095948827292,
+            "f1": 0.6781857451403888,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.36538461538461536,
+            "recall": 0.1896838602329451,
+            "f1": 0.2497261774370208,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.5928411633109619,
+            "recall": 0.631328171530673,
+            "f1": 0.6114796654167869,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.6807453416149069,
+            "recall": 0.7135416666666666,
+            "f1": 0.6967577876668786,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.5253164556962026,
+            "recall": 0.48255813953488375,
+            "f1": 0.503030303030303,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.684402332361516,
+            "recall": 0.8309734513274336,
+            "f1": 0.750599520383693,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.375,
+            "recall": 0.027149321266968326,
+            "f1": 0.05063291139240506,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            628,
+            6,
+            135,
+            7,
+            133,
+            28,
+            1
+          ],
+          [
+            3,
+            114,
+            158,
+            46,
+            89,
+            189,
+            2
+          ],
+          [
+            82,
+            50,
+            1060,
+            133,
+            118,
+            232,
+            4
+          ],
+          [
+            2,
+            32,
+            98,
+            548,
+            42,
+            46,
+            0
+          ],
+          [
+            161,
+            60,
+            137,
+            28,
+            664,
+            323,
+            3
+          ],
+          [
+            19,
+            44,
+            138,
+            25,
+            156,
+            1878,
+            0
+          ],
+          [
+            19,
+            6,
+            62,
+            18,
+            62,
+            48,
+            6
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.593501326259947,
+            "balanced_accuracy": 0.48618978527882195,
+            "macro_f1": 0.4847505667675961,
+            "weighted_f1": 0.5719973870558391,
+            "red_gram_support": 56,
+            "red_gram_precision": 1.0,
+            "red_gram_recall": 0.03571428571428571,
+            "red_gram_f1": 0.0689655172413793
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.690625,
+            "balanced_accuracy": 0.5655225031991088,
+            "macro_f1": 0.5550057143477926,
+            "weighted_f1": 0.6697725031732524,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.6163009404388715,
+            "balanced_accuracy": 0.4832387029206805,
+            "macro_f1": 0.49224811884325165,
+            "weighted_f1": 0.5919199633854674,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.2857142857142857,
+            "red_gram_recall": 0.09523809523809523,
+            "red_gram_f1": 0.14285714285714285
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.634640522875817,
+            "balanced_accuracy": 0.5011634015093002,
+            "macro_f1": 0.5004138360489973,
+            "weighted_f1": 0.6109693853218829,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.5,
+            "red_gram_recall": 0.01694915254237288,
+            "red_gram_f1": 0.03278688524590164
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.5863354037267081,
+            "balanced_accuracy": 0.49191576109582286,
+            "macro_f1": 0.48773722696864574,
+            "weighted_f1": 0.5779625077300153,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.01694915254237288,
+            "red_gram_f1": 0.03225806451612903
+          }
+        ]
+      }
+    }
+  },
+  "Exp_B_sensitivity_complete_case": {
+    "experiment": "Exp_B",
+    "run_name": "Early-Season Satellite Complete-Case Sensitivity",
+    "run_type": "sensitivity_complete_case",
+    "n_samples": 7298,
+    "excluded_samples": 545,
+    "n_features": 34,
+    "feature_names": [
+      "B2_early_mean",
+      "B2_early_std",
+      "B3_early_mean",
+      "B3_early_std",
+      "B4_early_mean",
+      "B4_early_std",
+      "B8_early_mean",
+      "B8_early_std",
+      "B5_early_mean",
+      "B5_early_std",
+      "B6_early_mean",
+      "B6_early_std",
+      "B7_early_mean",
+      "B7_early_std",
+      "B8A_early_mean",
+      "B8A_early_std",
+      "B11_early_mean",
+      "B11_early_std",
+      "B12_early_mean",
+      "B12_early_std",
+      "ndvi_early",
+      "evi_early",
+      "gndvi_early",
+      "savi_early",
+      "msavi_early",
+      "ndmi_early",
+      "ndwi_early",
+      "ndre1_early",
+      "ndre2_early",
+      "psri_early",
+      "bsi_early",
+      "msi_early",
+      "cire_early",
+      "cig_early"
+    ],
+    "class_distribution": {
+      "Paddy": 2111,
+      "Cotton": 1582,
+      "Maize": 1233,
+      "Bengal Gram": 929,
+      "Groundnut": 729,
+      "Chillies": 563,
+      "Red Gram": 151
+    },
+    "models": {
+      "rf": {
+        "model_name": "rf",
+        "fit_time_seconds": 8.38,
+        "pooled_oof_macro_f1": 0.5058,
+        "pooled_oof_accuracy": 0.6332,
+        "pooled_oof_balanced_accuracy": 0.5113,
+        "pooled_oof_weighted_f1": 0.6173,
+        "fold_macro_f1_mean": 0.5035,
+        "fold_macro_f1_std": 0.021,
+        "fold_accuracy_mean": 0.6323,
+        "fold_accuracy_std": 0.0267,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.6948775055679287,
+            "recall": 0.6716899892357373,
+            "f1": 0.6830870279146142,
+            "support": 929
+          },
+          "Chillies": {
+            "precision": 0.3373134328358209,
+            "recall": 0.20071047957371227,
+            "f1": 0.2516703786191537,
+            "support": 563
+          },
+          "Cotton": {
+            "precision": 0.5624290578887627,
+            "recall": 0.6264222503160556,
+            "f1": 0.5927033492822966,
+            "support": 1582
+          },
+          "Groundnut": {
+            "precision": 0.6234498308906427,
+            "recall": 0.7585733882030178,
+            "f1": 0.6844059405940595,
+            "support": 729
+          },
+          "Maize": {
+            "precision": 0.5879446640316206,
+            "recall": 0.48256285482562855,
+            "f1": 0.5300668151447662,
+            "support": 1233
+          },
+          "Paddy": {
+            "precision": 0.7292887029288703,
+            "recall": 0.8256750355281857,
+            "f1": 0.7744945567651633,
+            "support": 2111
+          },
+          "Red Gram": {
+            "precision": 0.14285714285714285,
+            "recall": 0.013245033112582781,
+            "f1": 0.024242424242424242,
+            "support": 151
+          }
+        },
+        "confusion_matrix": [
+          [
+            624,
+            1,
+            130,
+            7,
+            135,
+            29,
+            3
+          ],
+          [
+            3,
+            113,
+            163,
+            60,
+            69,
+            154,
+            1
+          ],
+          [
+            74,
+            71,
+            991,
+            158,
+            101,
+            184,
+            3
+          ],
+          [
+            1,
+            28,
+            100,
+            553,
+            8,
+            39,
+            0
+          ],
+          [
+            151,
+            55,
+            166,
+            33,
+            595,
+            228,
+            5
+          ],
+          [
+            24,
+            59,
+            151,
+            56,
+            78,
+            1743,
+            0
+          ],
+          [
+            21,
+            8,
+            61,
+            20,
+            26,
+            13,
+            2
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1390,
+            "accuracy": 0.6014388489208633,
+            "balanced_accuracy": 0.4909048114764101,
+            "macro_f1": 0.47970718335757256,
+            "weighted_f1": 0.5867308040392122,
+            "red_gram_support": 38,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.02631578947368421,
+            "red_gram_f1": 0.048780487804878044
+          },
+          {
+            "fold": 1,
+            "val_samples": 1563,
+            "accuracy": 0.6788227767114523,
+            "balanced_accuracy": 0.5554817118118037,
+            "macro_f1": 0.5424289094177914,
+            "weighted_f1": 0.6599122804800633,
+            "red_gram_support": 24,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1448,
+            "accuracy": 0.6353591160220995,
+            "balanced_accuracy": 0.4953765210677989,
+            "macro_f1": 0.5043350320747122,
+            "weighted_f1": 0.6164964203296297,
+            "red_gram_support": 19,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.05263157894736842,
+            "red_gram_f1": 0.09090909090909091
+          },
+          {
+            "fold": 3,
+            "val_samples": 1432,
+            "accuracy": 0.6340782122905028,
+            "balanced_accuracy": 0.5019653305751898,
+            "macro_f1": 0.4974387966000619,
+            "weighted_f1": 0.6175776453959945,
+            "red_gram_support": 41,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 4,
+            "val_samples": 1465,
+            "accuracy": 0.6116040955631399,
+            "balanced_accuracy": 0.504231109403848,
+            "macro_f1": 0.4938286815481948,
+            "weighted_f1": 0.5990859813127549,
+            "red_gram_support": 29,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          }
+        ]
+      },
+      "xgb": {
+        "model_name": "xgb",
+        "fit_time_seconds": 37.46,
+        "pooled_oof_macro_f1": 0.5286,
+        "pooled_oof_accuracy": 0.6561,
+        "pooled_oof_balanced_accuracy": 0.5285,
+        "pooled_oof_weighted_f1": 0.6402,
+        "fold_macro_f1_mean": 0.5257,
+        "fold_macro_f1_std": 0.0165,
+        "fold_accuracy_mean": 0.6552,
+        "fold_accuracy_std": 0.027,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.6844978165938864,
+            "recall": 0.6749192680301399,
+            "f1": 0.6796747967479675,
+            "support": 929
+          },
+          "Chillies": {
+            "precision": 0.3698630136986301,
+            "recall": 0.19182948490230906,
+            "f1": 0.25263157894736843,
+            "support": 563
+          },
+          "Cotton": {
+            "precision": 0.5922818791946308,
+            "recall": 0.6694058154235145,
+            "f1": 0.628486646884273,
+            "support": 1582
+          },
+          "Groundnut": {
+            "precision": 0.67375,
+            "recall": 0.7393689986282579,
+            "f1": 0.7050359712230215,
+            "support": 729
+          },
+          "Maize": {
+            "precision": 0.5932203389830508,
+            "recall": 0.5393349553933495,
+            "f1": 0.5649957519116398,
+            "support": 1233
+          },
+          "Paddy": {
+            "precision": 0.7540152155536771,
+            "recall": 0.8450971103742302,
+            "f1": 0.796962251507706,
+            "support": 2111
+          },
+          "Red Gram": {
+            "precision": 0.4,
+            "recall": 0.039735099337748346,
+            "f1": 0.07228915662650602,
+            "support": 151
+          }
+        },
+        "confusion_matrix": [
+          [
+            627,
+            5,
+            131,
+            6,
+            133,
+            22,
+            5
+          ],
+          [
+            3,
+            108,
+            153,
+            47,
+            86,
+            165,
+            1
+          ],
+          [
+            85,
+            46,
+            1059,
+            135,
+            100,
+            156,
+            1
+          ],
+          [
+            3,
+            31,
+            109,
+            539,
+            9,
+            38,
+            0
+          ],
+          [
+            159,
+            55,
+            134,
+            27,
+            665,
+            191,
+            2
+          ],
+          [
+            20,
+            43,
+            137,
+            29,
+            98,
+            1784,
+            0
+          ],
+          [
+            19,
+            4,
+            65,
+            17,
+            30,
+            10,
+            6
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1390,
+            "accuracy": 0.6287769784172662,
+            "balanced_accuracy": 0.5104040261157025,
+            "macro_f1": 0.5125993944752812,
+            "weighted_f1": 0.6141872308067658,
+            "red_gram_support": 38,
+            "red_gram_precision": 0.75,
+            "red_gram_recall": 0.07894736842105263,
+            "red_gram_f1": 0.14285714285714285
+          },
+          {
+            "fold": 1,
+            "val_samples": 1563,
+            "accuracy": 0.7018554062699937,
+            "balanced_accuracy": 0.5707258543335051,
+            "macro_f1": 0.5580920325118324,
+            "weighted_f1": 0.6811041961220072,
+            "red_gram_support": 24,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1448,
+            "accuracy": 0.6429558011049724,
+            "balanced_accuracy": 0.5043926432375397,
+            "macro_f1": 0.5167193699750038,
+            "weighted_f1": 0.6256676023833921,
+            "red_gram_support": 19,
+            "red_gram_precision": 0.4,
+            "red_gram_recall": 0.10526315789473684,
+            "red_gram_f1": 0.16666666666666666
+          },
+          {
+            "fold": 3,
+            "val_samples": 1432,
+            "accuracy": 0.6682960893854749,
+            "balanced_accuracy": 0.5223806756875129,
+            "macro_f1": 0.520686437381106,
+            "weighted_f1": 0.6499484688734871,
+            "red_gram_support": 41,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 4,
+            "val_samples": 1465,
+            "accuracy": 0.6341296928327645,
+            "balanced_accuracy": 0.523788535903961,
+            "macro_f1": 0.5204181053467322,
+            "weighted_f1": 0.623307979255539,
+            "red_gram_support": 29,
+            "red_gram_precision": 0.25,
+            "red_gram_recall": 0.034482758620689655,
+            "red_gram_f1": 0.0606060606060606
+          }
+        ]
+      }
+    }
+  },
+  "Exp_C_primary": {
+    "experiment": "Exp_C",
+    "run_name": "Multi-Temporal Trajectory Satellite Primary",
+    "run_type": "primary",
+    "n_samples": 7843,
+    "excluded_samples": 0,
+    "n_features": 140,
+    "feature_names": [
+      "B2_early_mean",
+      "B2_early_std",
+      "B3_early_mean",
+      "B3_early_std",
+      "B4_early_mean",
+      "B4_early_std",
+      "B8_early_mean",
+      "B8_early_std",
+      "B5_early_mean",
+      "B5_early_std",
+      "B6_early_mean",
+      "B6_early_std",
+      "B7_early_mean",
+      "B7_early_std",
+      "B8A_early_mean",
+      "B8A_early_std",
+      "B11_early_mean",
+      "B11_early_std",
+      "B12_early_mean",
+      "B12_early_std",
+      "B2_mid_mean",
+      "B2_mid_std",
+      "B3_mid_mean",
+      "B3_mid_std",
+      "B4_mid_mean",
+      "B4_mid_std",
+      "B8_mid_mean",
+      "B8_mid_std",
+      "B5_mid_mean",
+      "B5_mid_std",
+      "B6_mid_mean",
+      "B6_mid_std",
+      "B7_mid_mean",
+      "B7_mid_std",
+      "B8A_mid_mean",
+      "B8A_mid_std",
+      "B11_mid_mean",
+      "B11_mid_std",
+      "B12_mid_mean",
+      "B12_mid_std",
+      "B2_late_mean",
+      "B2_late_std",
+      "B3_late_mean",
+      "B3_late_std",
+      "B4_late_mean",
+      "B4_late_std",
+      "B8_late_mean",
+      "B8_late_std",
+      "B5_late_mean",
+      "B5_late_std",
+      "B6_late_mean",
+      "B6_late_std",
+      "B7_late_mean",
+      "B7_late_std",
+      "B8A_late_mean",
+      "B8A_late_std",
+      "B11_late_mean",
+      "B11_late_std",
+      "B12_late_mean",
+      "B12_late_std",
+      "B2_full_mean",
+      "B2_full_std",
+      "B3_full_mean",
+      "B3_full_std",
+      "B4_full_mean",
+      "B4_full_std",
+      "B8_full_mean",
+      "B8_full_std",
+      "B5_full_mean",
+      "B5_full_std",
+      "B6_full_mean",
+      "B6_full_std",
+      "B7_full_mean",
+      "B7_full_std",
+      "B8A_full_mean",
+      "B8A_full_std",
+      "B11_full_mean",
+      "B11_full_std",
+      "B12_full_mean",
+      "B12_full_std",
+      "ndvi_early",
+      "evi_early",
+      "gndvi_early",
+      "savi_early",
+      "msavi_early",
+      "ndmi_early",
+      "ndwi_early",
+      "ndre1_early",
+      "ndre2_early",
+      "psri_early",
+      "bsi_early",
+      "msi_early",
+      "cire_early",
+      "cig_early",
+      "ndvi_mid",
+      "evi_mid",
+      "gndvi_mid",
+      "savi_mid",
+      "msavi_mid",
+      "ndmi_mid",
+      "ndwi_mid",
+      "ndre1_mid",
+      "ndre2_mid",
+      "psri_mid",
+      "bsi_mid",
+      "msi_mid",
+      "cire_mid",
+      "cig_mid",
+      "ndvi_late",
+      "evi_late",
+      "gndvi_late",
+      "savi_late",
+      "msavi_late",
+      "ndmi_late",
+      "ndwi_late",
+      "ndre1_late",
+      "ndre2_late",
+      "psri_late",
+      "bsi_late",
+      "msi_late",
+      "cire_late",
+      "cig_late",
+      "ndvi_full",
+      "evi_full",
+      "gndvi_full",
+      "savi_full",
+      "msavi_full",
+      "ndmi_full",
+      "ndwi_full",
+      "ndre1_full",
+      "ndre2_full",
+      "psri_full",
+      "bsi_full",
+      "msi_full",
+      "cire_full",
+      "cig_full",
+      "ndvi_growth_delta",
+      "peak_to_early_ratio",
+      "ndvi_senescence_delta",
+      "moisture_loss_delta"
+    ],
+    "class_distribution": {
+      "Paddy": 2260,
+      "Cotton": 1679,
+      "Maize": 1376,
+      "Bengal Gram": 938,
+      "Groundnut": 768,
+      "Chillies": 601,
+      "Red Gram": 221
+    },
+    "models": {
+      "dummy": {
+        "model_name": "dummy",
+        "fit_time_seconds": 0.13,
+        "pooled_oof_macro_f1": 0.0639,
+        "pooled_oof_accuracy": 0.2882,
+        "pooled_oof_balanced_accuracy": 0.1429,
+        "pooled_oof_weighted_f1": 0.1289,
+        "fold_macro_f1_mean": 0.0639,
+        "fold_macro_f1_std": 0.0014,
+        "fold_accuracy_mean": 0.2884,
+        "fold_accuracy_std": 0.0083,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.2881550427132475,
+            "recall": 1.0,
+            "f1": 0.44739186380283086,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            938,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            601,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1679,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            768,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1376,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2260,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            221,
+            0
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.3010610079575597,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06611329547109364,
+            "weighted_f1": 0.1393289476174639,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.281875,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06282649578602773,
+            "weighted_f1": 0.12396452949780595,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.28213166144200624,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06287111421585749,
+            "weighted_f1": 0.1241655233730101,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.2954248366013072,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06515784921435779,
+            "weighted_f1": 0.13474472870210985,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.2813664596273292,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06273803753202686,
+            "weighted_f1": 0.12356665653047032,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          }
+        ]
+      },
+      "rf": {
+        "model_name": "rf",
+        "fit_time_seconds": 15.69,
+        "pooled_oof_macro_f1": 0.6477,
+        "pooled_oof_accuracy": 0.7493,
+        "pooled_oof_balanced_accuracy": 0.6432,
+        "pooled_oof_weighted_f1": 0.7393,
+        "fold_macro_f1_mean": 0.6417,
+        "fold_macro_f1_std": 0.0257,
+        "fold_accuracy_mean": 0.7492,
+        "fold_accuracy_std": 0.0434,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.7571157495256167,
+            "recall": 0.8507462686567164,
+            "f1": 0.8012048192771084,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.4584139264990329,
+            "recall": 0.39434276206322794,
+            "f1": 0.42397137745974955,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.7050811943425878,
+            "recall": 0.8016676593210245,
+            "f1": 0.750278706800446,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.8294871794871795,
+            "recall": 0.8424479166666666,
+            "f1": 0.8359173126614987,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.7321116928446771,
+            "recall": 0.6097383720930233,
+            "f1": 0.6653449643140364,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.8317247167436005,
+            "recall": 0.8769911504424779,
+            "f1": 0.8537583458970494,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.5185185185185185,
+            "recall": 0.12669683257918551,
+            "f1": 0.20363636363636364,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            798,
+            9,
+            47,
+            2,
+            64,
+            12,
+            6
+          ],
+          [
+            4,
+            237,
+            139,
+            32,
+            75,
+            112,
+            2
+          ],
+          [
+            62,
+            94,
+            1346,
+            40,
+            48,
+            76,
+            13
+          ],
+          [
+            0,
+            39,
+            48,
+            647,
+            14,
+            20,
+            0
+          ],
+          [
+            145,
+            65,
+            116,
+            34,
+            839,
+            172,
+            5
+          ],
+          [
+            6,
+            66,
+            105,
+            20,
+            81,
+            1982,
+            0
+          ],
+          [
+            39,
+            7,
+            108,
+            5,
+            25,
+            9,
+            28
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.746684350132626,
+            "balanced_accuracy": 0.6402032621433456,
+            "macro_f1": 0.6379697026586564,
+            "weighted_f1": 0.7312692450819168,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.5,
+            "red_gram_recall": 0.10714285714285714,
+            "red_gram_f1": 0.17647058823529413
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.814375,
+            "balanced_accuracy": 0.6811196397327892,
+            "macro_f1": 0.6868248145833117,
+            "weighted_f1": 0.8034502552761507,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.16666666666666666,
+            "red_gram_recall": 0.038461538461538464,
+            "red_gram_f1": 0.0625
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.773667711598746,
+            "balanced_accuracy": 0.6371906615476075,
+            "macro_f1": 0.6403186065400301,
+            "weighted_f1": 0.7624724220197029,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.1111111111111111,
+            "red_gram_recall": 0.047619047619047616,
+            "red_gram_f1": 0.06666666666666667
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.7248366013071895,
+            "balanced_accuracy": 0.6372250096720963,
+            "macro_f1": 0.6363661622036301,
+            "weighted_f1": 0.7126023490690863,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.631578947368421,
+            "red_gram_recall": 0.2033898305084746,
+            "red_gram_f1": 0.3076923076923077
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.6863354037267081,
+            "balanced_accuracy": 0.6076074829582002,
+            "macro_f1": 0.6068361206694836,
+            "weighted_f1": 0.6822445910810246,
+            "red_gram_support": 59,
+            "red_gram_precision": 1.0,
+            "red_gram_recall": 0.13559322033898305,
+            "red_gram_f1": 0.23880597014925373
+          }
+        ]
+      },
+      "xgb": {
+        "model_name": "xgb",
+        "fit_time_seconds": 188.39,
+        "pooled_oof_macro_f1": 0.7038,
+        "pooled_oof_accuracy": 0.7877,
+        "pooled_oof_balanced_accuracy": 0.6884,
+        "pooled_oof_weighted_f1": 0.7798,
+        "fold_macro_f1_mean": 0.6961,
+        "fold_macro_f1_std": 0.023,
+        "fold_accuracy_mean": 0.7874,
+        "fold_accuracy_std": 0.0373,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.8062563067608476,
+            "recall": 0.8518123667377399,
+            "f1": 0.8284085018144116,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.591304347826087,
+            "recall": 0.4525790349417637,
+            "f1": 0.5127238454288408,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.752226296490309,
+            "recall": 0.8552709946396665,
+            "f1": 0.8004459308807135,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.891156462585034,
+            "recall": 0.8528645833333334,
+            "f1": 0.8715901530272788,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.734789391575663,
+            "recall": 0.684593023255814,
+            "f1": 0.708803611738149,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.847926267281106,
+            "recall": 0.8955752212389381,
+            "f1": 0.8710996341725845,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.6329113924050633,
+            "recall": 0.22624434389140272,
+            "f1": 0.3333333333333333,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            799,
+            4,
+            36,
+            2,
+            85,
+            6,
+            6
+          ],
+          [
+            2,
+            272,
+            113,
+            20,
+            78,
+            112,
+            4
+          ],
+          [
+            35,
+            54,
+            1436,
+            26,
+            54,
+            63,
+            11
+          ],
+          [
+            0,
+            14,
+            62,
+            655,
+            11,
+            26,
+            0
+          ],
+          [
+            116,
+            56,
+            88,
+            18,
+            942,
+            148,
+            8
+          ],
+          [
+            8,
+            58,
+            77,
+            11,
+            82,
+            2024,
+            0
+          ],
+          [
+            31,
+            2,
+            97,
+            3,
+            30,
+            8,
+            50
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.7818302387267905,
+            "balanced_accuracy": 0.6973294548308069,
+            "macro_f1": 0.7095054405714277,
+            "weighted_f1": 0.7722605536965037,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.7,
+            "red_gram_recall": 0.25,
+            "red_gram_f1": 0.3684210526315789
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.853125,
+            "balanced_accuracy": 0.7251461733599557,
+            "macro_f1": 0.734447965565412,
+            "weighted_f1": 0.8450710387005737,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.25,
+            "red_gram_recall": 0.07692307692307693,
+            "red_gram_f1": 0.11764705882352941
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.7974921630094044,
+            "balanced_accuracy": 0.6645368903010859,
+            "macro_f1": 0.6750560076543849,
+            "weighted_f1": 0.7872552907312156,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.2727272727272727,
+            "red_gram_recall": 0.14285714285714285,
+            "red_gram_f1": 0.18749999999999997
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.7581699346405228,
+            "balanced_accuracy": 0.6588523343686143,
+            "macro_f1": 0.6738981527982846,
+            "weighted_f1": 0.7455255909991526,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.6818181818181818,
+            "red_gram_recall": 0.2542372881355932,
+            "red_gram_f1": 0.37037037037037035
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.746583850931677,
+            "balanced_accuracy": 0.6765908388848778,
+            "macro_f1": 0.6877761411229913,
+            "weighted_f1": 0.7427102889033683,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.8888888888888888,
+            "red_gram_recall": 0.2711864406779661,
+            "red_gram_f1": 0.4155844155844156
+          }
+        ]
+      }
+    }
+  },
+  "Exp_C_sensitivity_complete_trajectory": {
+    "experiment": "Exp_C",
+    "run_name": "Multi-Temporal Trajectory Complete-Trajectory Sensitivity",
+    "run_type": "sensitivity_complete_trajectory",
+    "n_samples": 7099,
+    "excluded_samples": 744,
+    "n_features": 140,
+    "feature_names": [
+      "B2_early_mean",
+      "B2_early_std",
+      "B3_early_mean",
+      "B3_early_std",
+      "B4_early_mean",
+      "B4_early_std",
+      "B8_early_mean",
+      "B8_early_std",
+      "B5_early_mean",
+      "B5_early_std",
+      "B6_early_mean",
+      "B6_early_std",
+      "B7_early_mean",
+      "B7_early_std",
+      "B8A_early_mean",
+      "B8A_early_std",
+      "B11_early_mean",
+      "B11_early_std",
+      "B12_early_mean",
+      "B12_early_std",
+      "B2_mid_mean",
+      "B2_mid_std",
+      "B3_mid_mean",
+      "B3_mid_std",
+      "B4_mid_mean",
+      "B4_mid_std",
+      "B8_mid_mean",
+      "B8_mid_std",
+      "B5_mid_mean",
+      "B5_mid_std",
+      "B6_mid_mean",
+      "B6_mid_std",
+      "B7_mid_mean",
+      "B7_mid_std",
+      "B8A_mid_mean",
+      "B8A_mid_std",
+      "B11_mid_mean",
+      "B11_mid_std",
+      "B12_mid_mean",
+      "B12_mid_std",
+      "B2_late_mean",
+      "B2_late_std",
+      "B3_late_mean",
+      "B3_late_std",
+      "B4_late_mean",
+      "B4_late_std",
+      "B8_late_mean",
+      "B8_late_std",
+      "B5_late_mean",
+      "B5_late_std",
+      "B6_late_mean",
+      "B6_late_std",
+      "B7_late_mean",
+      "B7_late_std",
+      "B8A_late_mean",
+      "B8A_late_std",
+      "B11_late_mean",
+      "B11_late_std",
+      "B12_late_mean",
+      "B12_late_std",
+      "B2_full_mean",
+      "B2_full_std",
+      "B3_full_mean",
+      "B3_full_std",
+      "B4_full_mean",
+      "B4_full_std",
+      "B8_full_mean",
+      "B8_full_std",
+      "B5_full_mean",
+      "B5_full_std",
+      "B6_full_mean",
+      "B6_full_std",
+      "B7_full_mean",
+      "B7_full_std",
+      "B8A_full_mean",
+      "B8A_full_std",
+      "B11_full_mean",
+      "B11_full_std",
+      "B12_full_mean",
+      "B12_full_std",
+      "ndvi_early",
+      "evi_early",
+      "gndvi_early",
+      "savi_early",
+      "msavi_early",
+      "ndmi_early",
+      "ndwi_early",
+      "ndre1_early",
+      "ndre2_early",
+      "psri_early",
+      "bsi_early",
+      "msi_early",
+      "cire_early",
+      "cig_early",
+      "ndvi_mid",
+      "evi_mid",
+      "gndvi_mid",
+      "savi_mid",
+      "msavi_mid",
+      "ndmi_mid",
+      "ndwi_mid",
+      "ndre1_mid",
+      "ndre2_mid",
+      "psri_mid",
+      "bsi_mid",
+      "msi_mid",
+      "cire_mid",
+      "cig_mid",
+      "ndvi_late",
+      "evi_late",
+      "gndvi_late",
+      "savi_late",
+      "msavi_late",
+      "ndmi_late",
+      "ndwi_late",
+      "ndre1_late",
+      "ndre2_late",
+      "psri_late",
+      "bsi_late",
+      "msi_late",
+      "cire_late",
+      "cig_late",
+      "ndvi_full",
+      "evi_full",
+      "gndvi_full",
+      "savi_full",
+      "msavi_full",
+      "ndmi_full",
+      "ndwi_full",
+      "ndre1_full",
+      "ndre2_full",
+      "psri_full",
+      "bsi_full",
+      "msi_full",
+      "cire_full",
+      "cig_full",
+      "ndvi_growth_delta",
+      "peak_to_early_ratio",
+      "ndvi_senescence_delta",
+      "moisture_loss_delta"
+    ],
+    "class_distribution": {
+      "Paddy": 2079,
+      "Cotton": 1511,
+      "Maize": 1201,
+      "Bengal Gram": 922,
+      "Groundnut": 727,
+      "Chillies": 514,
+      "Red Gram": 145
+    },
+    "models": {
+      "rf": {
+        "model_name": "rf",
+        "fit_time_seconds": 13.65,
+        "pooled_oof_macro_f1": 0.6347,
+        "pooled_oof_accuracy": 0.7642,
+        "pooled_oof_balanced_accuracy": 0.6358,
+        "pooled_oof_weighted_f1": 0.7527,
+        "fold_macro_f1_mean": 0.6323,
+        "fold_macro_f1_std": 0.0293,
+        "fold_accuracy_mean": 0.7631,
+        "fold_accuracy_std": 0.0368,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.7521367521367521,
+            "recall": 0.8590021691973969,
+            "f1": 0.8020253164556962,
+            "support": 922
+          },
+          "Chillies": {
+            "precision": 0.45901639344262296,
+            "recall": 0.38132295719844356,
+            "f1": 0.4165781083953241,
+            "support": 514
+          },
+          "Cotton": {
+            "precision": 0.7247324613555292,
+            "recall": 0.8067504963600265,
+            "f1": 0.7635452552458503,
+            "support": 1511
+          },
+          "Groundnut": {
+            "precision": 0.8561736770691994,
+            "recall": 0.8679504814305364,
+            "f1": 0.8620218579234973,
+            "support": 727
+          },
+          "Maize": {
+            "precision": 0.7389558232931727,
+            "recall": 0.6128226477935054,
+            "f1": 0.6700045516613564,
+            "support": 1201
+          },
+          "Paddy": {
+            "precision": 0.8406193078324226,
+            "recall": 0.8879268879268879,
+            "f1": 0.8636257309941521,
+            "support": 2079
+          },
+          "Red Gram": {
+            "precision": 0.625,
+            "recall": 0.034482758620689655,
+            "f1": 0.06535947712418301,
+            "support": 145
+          }
+        },
+        "confusion_matrix": [
+          [
+            792,
+            8,
+            44,
+            2,
+            57,
+            17,
+            2
+          ],
+          [
+            3,
+            196,
+            120,
+            24,
+            75,
+            96,
+            0
+          ],
+          [
+            64,
+            82,
+            1219,
+            32,
+            42,
+            72,
+            0
+          ],
+          [
+            0,
+            31,
+            36,
+            631,
+            8,
+            21,
+            0
+          ],
+          [
+            150,
+            56,
+            91,
+            31,
+            736,
+            136,
+            1
+          ],
+          [
+            4,
+            51,
+            101,
+            15,
+            62,
+            1846,
+            0
+          ],
+          [
+            40,
+            3,
+            71,
+            2,
+            16,
+            8,
+            5
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1339,
+            "accuracy": 0.7550410754294249,
+            "balanced_accuracy": 0.6267904197417525,
+            "macro_f1": 0.6159371654322114,
+            "weighted_f1": 0.7392769351085846,
+            "red_gram_support": 37,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 1,
+            "val_samples": 1528,
+            "accuracy": 0.8219895287958116,
+            "balanced_accuracy": 0.6797899365425052,
+            "macro_f1": 0.6862130340693536,
+            "weighted_f1": 0.8104189041555334,
+            "red_gram_support": 24,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.041666666666666664,
+            "red_gram_f1": 0.07407407407407407
+          },
+          {
+            "fold": 2,
+            "val_samples": 1415,
+            "accuracy": 0.7851590106007067,
+            "balanced_accuracy": 0.6330101664669355,
+            "macro_f1": 0.6404122309430801,
+            "weighted_f1": 0.7693242199118255,
+            "red_gram_support": 18,
+            "red_gram_precision": 0.5,
+            "red_gram_recall": 0.05555555555555555,
+            "red_gram_f1": 0.09999999999999999
+          },
+          {
+            "fold": 3,
+            "val_samples": 1391,
+            "accuracy": 0.7340043134435658,
+            "balanced_accuracy": 0.6198772944094108,
+            "macro_f1": 0.6126830794667489,
+            "weighted_f1": 0.7203649208689265,
+            "red_gram_support": 40,
+            "red_gram_precision": 1.0,
+            "red_gram_recall": 0.05,
+            "red_gram_f1": 0.09523809523809523
+          },
+          {
+            "fold": 4,
+            "val_samples": 1426,
+            "accuracy": 0.7194950911640954,
+            "balanced_accuracy": 0.6127919832881684,
+            "macro_f1": 0.6064771898070876,
+            "weighted_f1": 0.7135662560759334,
+            "red_gram_support": 26,
+            "red_gram_precision": 1.0,
+            "red_gram_recall": 0.038461538461538464,
+            "red_gram_f1": 0.07407407407407407
+          }
+        ]
+      },
+      "xgb": {
+        "model_name": "xgb",
+        "fit_time_seconds": 126.13,
+        "pooled_oof_macro_f1": 0.6865,
+        "pooled_oof_accuracy": 0.8074,
+        "pooled_oof_balanced_accuracy": 0.679,
+        "pooled_oof_weighted_f1": 0.7974,
+        "fold_macro_f1_mean": 0.6832,
+        "fold_macro_f1_std": 0.0288,
+        "fold_accuracy_mean": 0.8063,
+        "fold_accuracy_std": 0.0327,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.8026449643947101,
+            "recall": 0.8557483731019523,
+            "f1": 0.8283464566929134,
+            "support": 922
+          },
+          "Chillies": {
+            "precision": 0.6158038147138964,
+            "recall": 0.4396887159533074,
+            "f1": 0.5130533484676504,
+            "support": 514
+          },
+          "Cotton": {
+            "precision": 0.7760754272245138,
+            "recall": 0.871608206485771,
+            "f1": 0.821072319201995,
+            "support": 1511
+          },
+          "Groundnut": {
+            "precision": 0.899171270718232,
+            "recall": 0.8954607977991746,
+            "f1": 0.8973121984838043,
+            "support": 727
+          },
+          "Maize": {
+            "precision": 0.7573858549686661,
+            "recall": 0.704412989175687,
+            "f1": 0.7299396031061259,
+            "support": 1201
+          },
+          "Paddy": {
+            "precision": 0.8659038901601831,
+            "recall": 0.91005291005291,
+            "f1": 0.8874296435272045,
+            "support": 2079
+          },
+          "Red Gram": {
+            "precision": 0.4230769230769231,
+            "recall": 0.07586206896551724,
+            "f1": 0.1286549707602339,
+            "support": 145
+          }
+        },
+        "confusion_matrix": [
+          [
+            789,
+            3,
+            36,
+            2,
+            86,
+            3,
+            3
+          ],
+          [
+            1,
+            226,
+            107,
+            16,
+            64,
+            100,
+            0
+          ],
+          [
+            33,
+            43,
+            1317,
+            27,
+            33,
+            52,
+            6
+          ],
+          [
+            0,
+            14,
+            35,
+            651,
+            6,
+            21,
+            0
+          ],
+          [
+            121,
+            41,
+            61,
+            17,
+            846,
+            109,
+            6
+          ],
+          [
+            6,
+            39,
+            71,
+            10,
+            61,
+            1892,
+            0
+          ],
+          [
+            33,
+            1,
+            70,
+            1,
+            21,
+            8,
+            11
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1339,
+            "accuracy": 0.7953696788648245,
+            "balanced_accuracy": 0.6737150771676103,
+            "macro_f1": 0.6784339979064941,
+            "weighted_f1": 0.7827431986938999,
+            "red_gram_support": 37,
+            "red_gram_precision": 0.6,
+            "red_gram_recall": 0.08108108108108109,
+            "red_gram_f1": 0.14285714285714288
+          },
+          {
+            "fold": 1,
+            "val_samples": 1528,
+            "accuracy": 0.8645287958115183,
+            "balanced_accuracy": 0.7274763956620631,
+            "macro_f1": 0.734542835987177,
+            "weighted_f1": 0.8568041286529378,
+            "red_gram_support": 24,
+            "red_gram_precision": 0.14285714285714285,
+            "red_gram_recall": 0.041666666666666664,
+            "red_gram_f1": 0.06451612903225806
+          },
+          {
+            "fold": 2,
+            "val_samples": 1415,
+            "accuracy": 0.8176678445229681,
+            "balanced_accuracy": 0.6726316760870512,
+            "macro_f1": 0.6899239970435883,
+            "weighted_f1": 0.8076341490367345,
+            "red_gram_support": 18,
+            "red_gram_precision": 0.5,
+            "red_gram_recall": 0.1111111111111111,
+            "red_gram_f1": 0.1818181818181818
+          },
+          {
+            "fold": 3,
+            "val_samples": 1391,
+            "accuracy": 0.7764198418404026,
+            "balanced_accuracy": 0.6460704521972246,
+            "macro_f1": 0.6530179098547032,
+            "weighted_f1": 0.7615928220831287,
+            "red_gram_support": 40,
+            "red_gram_precision": 0.5714285714285714,
+            "red_gram_recall": 0.1,
+            "red_gram_f1": 0.1702127659574468
+          },
+          {
+            "fold": 4,
+            "val_samples": 1426,
+            "accuracy": 0.7776998597475456,
+            "balanced_accuracy": 0.6618845745235813,
+            "macro_f1": 0.6600962112275706,
+            "weighted_f1": 0.7698771646756779,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.3333333333333333,
+            "red_gram_recall": 0.038461538461538464,
+            "red_gram_f1": 0.06896551724137931
+          }
+        ]
+      }
+    }
+  },
+  "Exp_D_primary": {
+    "experiment": "Exp_D",
+    "run_name": "Multimodal Benchmark",
+    "run_type": "primary",
+    "n_samples": 7843,
+    "excluded_samples": 0,
+    "n_features": 146,
+    "feature_names": [
+      "B2_early_mean",
+      "B2_early_std",
+      "B3_early_mean",
+      "B3_early_std",
+      "B4_early_mean",
+      "B4_early_std",
+      "B8_early_mean",
+      "B8_early_std",
+      "B5_early_mean",
+      "B5_early_std",
+      "B6_early_mean",
+      "B6_early_std",
+      "B7_early_mean",
+      "B7_early_std",
+      "B8A_early_mean",
+      "B8A_early_std",
+      "B11_early_mean",
+      "B11_early_std",
+      "B12_early_mean",
+      "B12_early_std",
+      "B2_mid_mean",
+      "B2_mid_std",
+      "B3_mid_mean",
+      "B3_mid_std",
+      "B4_mid_mean",
+      "B4_mid_std",
+      "B8_mid_mean",
+      "B8_mid_std",
+      "B5_mid_mean",
+      "B5_mid_std",
+      "B6_mid_mean",
+      "B6_mid_std",
+      "B7_mid_mean",
+      "B7_mid_std",
+      "B8A_mid_mean",
+      "B8A_mid_std",
+      "B11_mid_mean",
+      "B11_mid_std",
+      "B12_mid_mean",
+      "B12_mid_std",
+      "B2_late_mean",
+      "B2_late_std",
+      "B3_late_mean",
+      "B3_late_std",
+      "B4_late_mean",
+      "B4_late_std",
+      "B8_late_mean",
+      "B8_late_std",
+      "B5_late_mean",
+      "B5_late_std",
+      "B6_late_mean",
+      "B6_late_std",
+      "B7_late_mean",
+      "B7_late_std",
+      "B8A_late_mean",
+      "B8A_late_std",
+      "B11_late_mean",
+      "B11_late_std",
+      "B12_late_mean",
+      "B12_late_std",
+      "B2_full_mean",
+      "B2_full_std",
+      "B3_full_mean",
+      "B3_full_std",
+      "B4_full_mean",
+      "B4_full_std",
+      "B8_full_mean",
+      "B8_full_std",
+      "B5_full_mean",
+      "B5_full_std",
+      "B6_full_mean",
+      "B6_full_std",
+      "B7_full_mean",
+      "B7_full_std",
+      "B8A_full_mean",
+      "B8A_full_std",
+      "B11_full_mean",
+      "B11_full_std",
+      "B12_full_mean",
+      "B12_full_std",
+      "ndvi_early",
+      "evi_early",
+      "gndvi_early",
+      "savi_early",
+      "msavi_early",
+      "ndmi_early",
+      "ndwi_early",
+      "ndre1_early",
+      "ndre2_early",
+      "psri_early",
+      "bsi_early",
+      "msi_early",
+      "cire_early",
+      "cig_early",
+      "ndvi_mid",
+      "evi_mid",
+      "gndvi_mid",
+      "savi_mid",
+      "msavi_mid",
+      "ndmi_mid",
+      "ndwi_mid",
+      "ndre1_mid",
+      "ndre2_mid",
+      "psri_mid",
+      "bsi_mid",
+      "msi_mid",
+      "cire_mid",
+      "cig_mid",
+      "ndvi_late",
+      "evi_late",
+      "gndvi_late",
+      "savi_late",
+      "msavi_late",
+      "ndmi_late",
+      "ndwi_late",
+      "ndre1_late",
+      "ndre2_late",
+      "psri_late",
+      "bsi_late",
+      "msi_late",
+      "cire_late",
+      "cig_late",
+      "ndvi_full",
+      "evi_full",
+      "gndvi_full",
+      "savi_full",
+      "msavi_full",
+      "ndmi_full",
+      "ndwi_full",
+      "ndre1_full",
+      "ndre2_full",
+      "psri_full",
+      "bsi_full",
+      "msi_full",
+      "cire_full",
+      "cig_full",
+      "ndvi_growth_delta",
+      "peak_to_early_ratio",
+      "ndvi_senescence_delta",
+      "moisture_loss_delta",
+      "Season",
+      "sowing_month",
+      "sowing_doy",
+      "area_ha",
+      "perimeter_m",
+      "compactness"
+    ],
+    "class_distribution": {
+      "Paddy": 2260,
+      "Cotton": 1679,
+      "Maize": 1376,
+      "Bengal Gram": 938,
+      "Groundnut": 768,
+      "Chillies": 601,
+      "Red Gram": 221
+    },
+    "models": {
+      "dummy": {
+        "model_name": "dummy",
+        "fit_time_seconds": 0.13,
+        "pooled_oof_macro_f1": 0.0639,
+        "pooled_oof_accuracy": 0.2882,
+        "pooled_oof_balanced_accuracy": 0.1429,
+        "pooled_oof_weighted_f1": 0.1289,
+        "fold_macro_f1_mean": 0.0639,
+        "fold_macro_f1_std": 0.0014,
+        "fold_accuracy_mean": 0.2884,
+        "fold_accuracy_std": 0.0083,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.2881550427132475,
+            "recall": 1.0,
+            "f1": 0.44739186380283086,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            938,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            601,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1679,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            768,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1376,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2260,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            221,
+            0
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.3010610079575597,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06611329547109364,
+            "weighted_f1": 0.1393289476174639,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.281875,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06282649578602773,
+            "weighted_f1": 0.12396452949780595,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.28213166144200624,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06287111421585749,
+            "weighted_f1": 0.1241655233730101,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.2954248366013072,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06515784921435779,
+            "weighted_f1": 0.13474472870210985,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.2813664596273292,
+            "balanced_accuracy": 0.14285714285714285,
+            "macro_f1": 0.06273803753202686,
+            "weighted_f1": 0.12356665653047032,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.0,
+            "red_gram_recall": 0.0,
+            "red_gram_f1": 0.0
+          }
+        ]
+      },
+      "rf": {
+        "model_name": "rf",
+        "fit_time_seconds": 16.27,
+        "pooled_oof_macro_f1": 0.7422,
+        "pooled_oof_accuracy": 0.7959,
+        "pooled_oof_balanced_accuracy": 0.722,
+        "pooled_oof_weighted_f1": 0.7891,
+        "fold_macro_f1_mean": 0.7332,
+        "fold_macro_f1_std": 0.0155,
+        "fold_accuracy_mean": 0.7958,
+        "fold_accuracy_std": 0.0374,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.8051181102362205,
+            "recall": 0.8720682302771855,
+            "f1": 0.8372569089048106,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.6503340757238307,
+            "recall": 0.4858569051580699,
+            "f1": 0.5561904761904762,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.7406649616368286,
+            "recall": 0.8624181060154854,
+            "f1": 0.7969179966978536,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.9234760051880675,
+            "recall": 0.9270833333333334,
+            "f1": 0.9252761533463287,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.7633187772925765,
+            "recall": 0.6351744186046512,
+            "f1": 0.693375644585482,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.8367262152056502,
+            "recall": 0.8911504424778761,
+            "f1": 0.8630812084851082,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.84,
+            "recall": 0.38009049773755654,
+            "f1": 0.5233644859813084,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            818,
+            5,
+            35,
+            3,
+            63,
+            14,
+            0
+          ],
+          [
+            5,
+            292,
+            135,
+            10,
+            61,
+            97,
+            1
+          ],
+          [
+            42,
+            57,
+            1448,
+            19,
+            40,
+            62,
+            11
+          ],
+          [
+            0,
+            2,
+            33,
+            712,
+            3,
+            18,
+            0
+          ],
+          [
+            140,
+            47,
+            103,
+            18,
+            874,
+            190,
+            4
+          ],
+          [
+            4,
+            42,
+            110,
+            8,
+            82,
+            2014,
+            0
+          ],
+          [
+            7,
+            4,
+            91,
+            1,
+            22,
+            12,
+            84
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.7950928381962865,
+            "balanced_accuracy": 0.7268909126749923,
+            "macro_f1": 0.748179630344354,
+            "weighted_f1": 0.7885294534554494,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.8214285714285714,
+            "red_gram_recall": 0.4107142857142857,
+            "red_gram_f1": 0.5476190476190476
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.85125,
+            "balanced_accuracy": 0.7259172439196746,
+            "macro_f1": 0.7368151432568076,
+            "weighted_f1": 0.843286905684358,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.5,
+            "red_gram_recall": 0.07692307692307693,
+            "red_gram_f1": 0.13333333333333336
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.8163009404388715,
+            "balanced_accuracy": 0.7234686210643179,
+            "macro_f1": 0.7488505597130706,
+            "weighted_f1": 0.8083405312591885,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.7777777777777778,
+            "red_gram_recall": 0.3333333333333333,
+            "red_gram_f1": 0.4666666666666666
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.7764705882352941,
+            "balanced_accuracy": 0.7130439188916997,
+            "macro_f1": 0.7241739435681703,
+            "weighted_f1": 0.7649180324905005,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.8064516129032258,
+            "red_gram_recall": 0.423728813559322,
+            "red_gram_f1": 0.5555555555555555
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.739751552795031,
+            "balanced_accuracy": 0.6938847183170408,
+            "macro_f1": 0.7080879497570219,
+            "weighted_f1": 0.7359886136882404,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.9642857142857143,
+            "red_gram_recall": 0.4576271186440678,
+            "red_gram_f1": 0.6206896551724138
+          }
+        ]
+      },
+      "xgb": {
+        "model_name": "xgb",
+        "fit_time_seconds": 171.84,
+        "pooled_oof_macro_f1": 0.7954,
+        "pooled_oof_accuracy": 0.8307,
+        "pooled_oof_balanced_accuracy": 0.775,
+        "pooled_oof_weighted_f1": 0.8273,
+        "fold_macro_f1_mean": 0.7848,
+        "fold_macro_f1_std": 0.0112,
+        "fold_accuracy_mean": 0.8305,
+        "fold_accuracy_std": 0.0343,
+        "per_class": {
+          "Bengal Gram": {
+            "precision": 0.8672936259143156,
+            "recall": 0.8848614072494669,
+            "f1": 0.8759894459102903,
+            "support": 938
+          },
+          "Chillies": {
+            "precision": 0.7836644591611479,
+            "recall": 0.5906821963394343,
+            "f1": 0.6736242884250474,
+            "support": 601
+          },
+          "Cotton": {
+            "precision": 0.7843866171003717,
+            "recall": 0.8796902918403812,
+            "f1": 0.8293093767546322,
+            "support": 1679
+          },
+          "Groundnut": {
+            "precision": 0.9544846050870147,
+            "recall": 0.9283854166666666,
+            "f1": 0.9412541254125413,
+            "support": 768
+          },
+          "Maize": {
+            "precision": 0.778395552025417,
+            "recall": 0.7122093023255814,
+            "f1": 0.7438330170777988,
+            "support": 1376
+          },
+          "Paddy": {
+            "precision": 0.8538011695906432,
+            "recall": 0.904424778761062,
+            "f1": 0.8783841856467555,
+            "support": 2260
+          },
+          "Red Gram": {
+            "precision": 0.7733333333333333,
+            "recall": 0.5248868778280543,
+            "f1": 0.6253369272237197,
+            "support": 221
+          }
+        },
+        "confusion_matrix": [
+          [
+            830,
+            3,
+            26,
+            4,
+            73,
+            2,
+            0
+          ],
+          [
+            5,
+            355,
+            109,
+            4,
+            38,
+            88,
+            2
+          ],
+          [
+            17,
+            34,
+            1477,
+            13,
+            50,
+            70,
+            18
+          ],
+          [
+            0,
+            3,
+            33,
+            713,
+            4,
+            15,
+            0
+          ],
+          [
+            102,
+            27,
+            85,
+            8,
+            980,
+            165,
+            9
+          ],
+          [
+            3,
+            30,
+            79,
+            4,
+            95,
+            2044,
+            5
+          ],
+          [
+            0,
+            1,
+            74,
+            1,
+            19,
+            10,
+            116
+          ]
+        ],
+        "fold_level_metrics": [
+          {
+            "fold": 0,
+            "val_samples": 1508,
+            "accuracy": 0.8189655172413793,
+            "balanced_accuracy": 0.7777945966039514,
+            "macro_f1": 0.7959565507569979,
+            "weighted_f1": 0.8151365420212187,
+            "red_gram_support": 56,
+            "red_gram_precision": 0.7446808510638298,
+            "red_gram_recall": 0.625,
+            "red_gram_f1": 0.6796116504854368
+          },
+          {
+            "fold": 1,
+            "val_samples": 1600,
+            "accuracy": 0.88875,
+            "balanced_accuracy": 0.7834166699896378,
+            "macro_f1": 0.796767929896083,
+            "weighted_f1": 0.8845579782180196,
+            "red_gram_support": 26,
+            "red_gram_precision": 0.5714285714285714,
+            "red_gram_recall": 0.15384615384615385,
+            "red_gram_f1": 0.24242424242424246
+          },
+          {
+            "fold": 2,
+            "val_samples": 1595,
+            "accuracy": 0.8438871473354232,
+            "balanced_accuracy": 0.7591769197094171,
+            "macro_f1": 0.7846758770785274,
+            "weighted_f1": 0.8392855673401559,
+            "red_gram_support": 21,
+            "red_gram_precision": 0.6428571428571429,
+            "red_gram_recall": 0.42857142857142855,
+            "red_gram_f1": 0.5142857142857143
+          },
+          {
+            "fold": 3,
+            "val_samples": 1530,
+            "accuracy": 0.8137254901960784,
+            "balanced_accuracy": 0.7615964961269782,
+            "macro_f1": 0.7801341023688366,
+            "weighted_f1": 0.8062248569024503,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.8205128205128205,
+            "red_gram_recall": 0.5423728813559322,
+            "red_gram_f1": 0.6530612244897959
+          },
+          {
+            "fold": 4,
+            "val_samples": 1610,
+            "accuracy": 0.7869565217391304,
+            "balanced_accuracy": 0.7529479239046661,
+            "macro_f1": 0.7662926551975187,
+            "weighted_f1": 0.7855302524746063,
+            "red_gram_support": 59,
+            "red_gram_precision": 0.8372093023255814,
+            "red_gram_recall": 0.6101694915254238,
+            "red_gram_f1": 0.7058823529411764
+          }
+        ]
+      }
+    }
+  }
+}

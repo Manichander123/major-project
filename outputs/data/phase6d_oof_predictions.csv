@@ -1,0 +1,715 @@
+FarmID,Crop,District,Sub-District,fold,pred_majority,pred_RF_satellite_only,pred_XGB_satellite_only,pred_RF_multimodal,pred_XGB_multimodal
+1327217,Bengal Gram,Adilabad,Sonala,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1314453,Bengal Gram,Siddipet,Akbarpet-bhoompally,4,Bengal Gram,Groundnut,Groundnut,Chillies,Maize
+1329119,Bengal Gram,Nirmal,Bhainsa,2,Bengal Gram,Paddy,Red Gram,Chillies,Bengal Gram
+1319104,Bengal Gram,Medak,Chegunta,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1318704,Bengal Gram,Medak,Medak,3,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1329283,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Groundnut,Bengal Gram,Groundnut,Groundnut
+1332070,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1332071,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1318417,Bengal Gram,Medak,Shankarampet_R,2,Bengal Gram,Chillies,Chillies,Chillies,Maize
+262022,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1318701,Bengal Gram,Medak,Medak,3,Bengal Gram,Red Gram,Red Gram,Cotton,Paddy
+1329032,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1318632,Bengal Gram,Adilabad,Utnur,3,Bengal Gram,Groundnut,Bengal Gram,Bengal Gram,Bengal Gram
+1327172,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Chillies,Chillies,Chillies,Bengal Gram
+1318700,Bengal Gram,Medak,Medak,3,Bengal Gram,Red Gram,Red Gram,Cotton,Paddy
+1332003,Bengal Gram,Nirmal,Bhainsa,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329139,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329235,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Cotton,Bengal Gram
+1330131,Bengal Gram,Adilabad,Gudihathnur,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1331878,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329029,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+1330149,Bengal Gram,Adilabad,Ichoda,3,Bengal Gram,Red Gram,Red Gram,Cotton,Cotton
+1327278,Bengal Gram,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329021,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Groundnut,Bengal Gram,Bengal Gram
+1318491,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1327181,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330504,Chillies,Khammam,Khammam_Rural,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330743,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Bengal Gram,Chillies,Bengal Gram,Bengal Gram
+1321514,Chillies,Adilabad,Utnur,3,Bengal Gram,Cotton,Red Gram,Red Gram,Cotton
+1322406,Chillies,Mahabubnagar,Hanwada,1,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1323512,Chillies,Mahabubabad,Bayyaram,3,Bengal Gram,Groundnut,Maize,Chillies,Maize
+1330349,Chillies,Khammam,Singareni,0,Bengal Gram,Cotton,Red Gram,Chillies,Chillies
+1330781,Chillies,Warangal,Khanapur,4,Bengal Gram,Chillies,Chillies,Chillies,Maize
+1319105,Chillies,Medak,Chegunta,3,Bengal Gram,Cotton,Cotton,Chillies,Chillies
+1330744,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Groundnut,Groundnut,Chillies,Chillies
+1330642,Chillies,Mahabubabad,Nellikudur,3,Bengal Gram,Cotton,Cotton,Cotton,Chillies
+1318890,Chillies,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1305582,Chillies,Adilabad,Utnur,3,Bengal Gram,Paddy,Bengal Gram,Red Gram,Chillies
+1330737,Chillies,Warangal,Nekkonda,0,Bengal Gram,Groundnut,Chillies,Chillies,Chillies
+1324051,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Cotton,Red Gram,Chillies,Chillies
+1323770,Chillies,Medak,Havelighanpur,0,Bengal Gram,Bengal Gram,Bengal Gram,Chillies,Chillies
+1313852,Chillies,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Chillies
+1330565,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Cotton,Cotton,Cotton,Chillies
+1318412,Chillies,Medak,Shankarampet_R,2,Bengal Gram,Red Gram,Paddy,Cotton,Paddy
+1305612,Chillies,Warangal,Nekkonda,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1319389,Chillies,Medak,Yeldurthy,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1323846,Chillies,Mahabubabad,Bayyaram,3,Bengal Gram,Maize,Chillies,Groundnut,Groundnut
+1307028,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Groundnut,Chillies,Chillies,Chillies
+1331843,Cotton,Medak,Manoharabad,3,Bengal Gram,Groundnut,Groundnut,Cotton,Cotton
+1321187,Chillies,Medak,Ramayampet,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1307790,Cotton,Adilabad,Inderavelly,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1307311,Cotton,Nirmal,Mamda,0,Bengal Gram,Chillies,Cotton,Chillies,Cotton
+1328693,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+629650,Cotton,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Chillies,Cotton,Cotton
+1332013,Cotton,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Cotton,Cotton,Red Gram
+1314461,Cotton,Siddipet,Akbarpet-bhoompally,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321976,Cotton,Narayanpet,Narayanpet,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1304581,Cotton,Medak,Ramayampet,4,Bengal Gram,Chillies,Cotton,Chillies,Cotton
+1313597,Cotton,Adilabad,Adilabad Rural,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321503,Cotton,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Maize,Chillies
+1328825,Cotton,Nalgonda,Peddavoora,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329527,Cotton,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1298091,Cotton,Nirmal,Mamda,0,Bengal Gram,Maize,Red Gram,Red Gram,Red Gram
+1329439,Cotton,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1317969,Cotton,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1307247,Cotton,Siddipet,Akbarpet-bhoompally,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321101,Cotton,Mahabubabad,Kuravi,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+794313,Cotton,Medak,Chegunta,3,Bengal Gram,Red Gram,Red Gram,Cotton,Cotton
+1297785,Cotton,Nirmal,Mamda,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328648,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329437,Cotton,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Red Gram,Cotton,Red Gram
+1321977,Cotton,Narayanpet,Narayanpet,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1322087,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1332012,Cotton,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1327346,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Red Gram,Chillies,Bengal Gram,Cotton
+1318599,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331534,Groundnut,Vikarabad,Doma,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327511,Groundnut,Wanaparthy,Amarchintha,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1332123,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1319802,Groundnut,Mahabubabad,Gudur,4,Bengal Gram,Groundnut,Chillies,Groundnut,Groundnut
+1319442,Cotton,Adilabad,Inderavelly,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1319087,Groundnut,Medak,Chegunta,3,Bengal Gram,Red Gram,Chillies,Bengal Gram,Bengal Gram
+1321332,Groundnut,Kamareddy,Bhiknoor,2,Bengal Gram,Chillies,Chillies,Groundnut,Groundnut
+1322410,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327349,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Chillies,Cotton,Cotton
+1317721,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Cotton,Groundnut,Cotton
+1327512,Groundnut,Wanaparthy,Amarchintha,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1332045,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Cotton,Groundnut,Groundnut
+1331569,Groundnut,Mahabubnagar,Mohammadabad,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327347,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Chillies,Chillies,Bengal Gram,Groundnut
+1318250,Groundnut,Narayanpet,Kosgi,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331514,Groundnut,Vikarabad,Kulkacharla,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327503,Groundnut,Wanaparthy,Amarchintha,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331319,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Maize,Groundnut,Groundnut
+1327410,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1318523,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331882,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1304663,Maize,Medak,Ramayampet,4,Bengal Gram,Red Gram,Chillies,Red Gram,Paddy
+1327470,Groundnut,Vikarabad,Doma,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327095,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Maize,Paddy,Paddy
+1327689,Maize,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1331513,Groundnut,Vikarabad,Kulkacharla,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1307254,Maize,Siddipet,Akbarpet-bhoompally,4,Bengal Gram,Cotton,Red Gram,Red Gram,Red Gram
+1297979,Maize,Kamareddy,Bhiknoor,2,Bengal Gram,Chillies,Chillies,Chillies,Paddy
+1322537,Maize,Mahabubnagar,Hanwada,1,Bengal Gram,Chillies,Groundnut,Maize,Maize
+1298498,Maize,Medak,Ramayampet,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1327109,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Maize,Maize
+1314445,Maize,Siddipet,Akbarpet-bhoompally,4,Bengal Gram,Cotton,Cotton,Cotton,Maize
+1321319,Maize,Kamareddy,Bhiknoor,2,Bengal Gram,Maize,Maize,Maize,Maize
+1327622,Maize,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+982690,Maize,Mahabubabad,Peddavangara,0,Bengal Gram,Maize,Maize,Paddy,Paddy
+1326498,Maize,Adilabad,Utnur,3,Bengal Gram,Chillies,Maize,Maize,Maize
+1331168,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1310355,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Maize,Maize,Maize,Maize
+1323832,Maize,Medak,Havelighanpur,0,Bengal Gram,Bengal Gram,Paddy,Paddy,Paddy
+1322914,Maize,Medak,Ramayampet,4,Bengal Gram,Chillies,Chillies,Bengal Gram,Maize
+975685,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Groundnut,Maize,Maize,Maize
+1327886,Maize,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327118,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Bengal Gram,Maize,Maize
+1319100,Maize,Medak,Chegunta,3,Bengal Gram,Chillies,Chillies,Groundnut,Groundnut
+1319950,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Maize,Chillies,Red Gram,Maize
+1327120,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Red Gram,Red Gram,Paddy,Paddy
+1331262,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+513836,Paddy,Medak,Havelighanpur,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1328069,Paddy,Nalgonda,Nidamanoor,1,Bengal Gram,Paddy,Paddy,Paddy,Maize
+1329775,Paddy,Siddipet,Doultabad,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1329560,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Cotton,Cotton,Paddy
+1329657,Paddy,Nagarkurnool,Urkonda,3,Bengal Gram,Chillies,Red Gram,Bengal Gram,Bengal Gram
+1298318,Paddy,Kamareddy,Bhiknoor,2,Bengal Gram,Maize,Maize,Maize,Maize
+1305433,Paddy,Adilabad,Utnur,3,Bengal Gram,Paddy,Red Gram,Paddy,Paddy
+1302232,Paddy,Mahabubabad,Thorrur,1,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1317952,Paddy,Narayanpet,Damargidda,1,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+638092,Paddy,Warangal,Nekkonda,0,Bengal Gram,Maize,Maize,Paddy,Maize
+1297839,Paddy,Nirmal,Laxmanchanda,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1318428,Paddy,Medak,Shankarampet_R,2,Bengal Gram,Paddy,Paddy,Paddy,Bengal Gram
+741404,Paddy,Siddipet,Doultabad,2,Bengal Gram,Chillies,Chillies,Paddy,Paddy
+1310609,Paddy,Nalgonda,Nalgonda,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1329607,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Chillies,Chillies,Chillies,Maize
+1298319,Paddy,Kamareddy,Bhiknoor,2,Bengal Gram,Maize,Maize,Maize,Maize
+1329659,Paddy,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Paddy,Cotton,Paddy
+1319647,Paddy,Mahabubabad,Thorrur,1,Bengal Gram,Maize,Maize,Maize,Maize
+1321605,Paddy,Adilabad,Utnur,3,Bengal Gram,Red Gram,Chillies,Bengal Gram,Paddy
+1298255,Paddy,Nirmal,Mamda,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1318353,Paddy,Narayanpet,Kothapalle,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329711,Paddy,Medak,Kowdipally,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1297547,Paddy,Nalgonda,Kanagal,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+183626,Paddy,Siddipet,Doultabad,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1329569,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Red Gram,Cotton,Cotton
+1331677,Red Gram,Adilabad,Mavala,0,Bengal Gram,Cotton,Cotton,Red Gram,Red Gram
+1318322,Red Gram,Narayanpet,Kothapalle,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1323189,Red Gram,Medak,Shankarampet_R,2,Bengal Gram,Chillies,Red Gram,Chillies,Red Gram
+1321467,Red Gram,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Chillies,Maize
+1322557,Red Gram,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Red Gram,Cotton,Cotton
+1331757,Red Gram,Adilabad,Utnur,3,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1318206,Red Gram,Narayanpet,Kothapalle,0,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1323168,Red Gram,Medak,Shankarampet_R,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1331798,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Groundnut,Red Gram,Red Gram
+1319792,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Chillies,Chillies,Cotton,Cotton
+1323776,Red Gram,Medak,Havelighanpur,0,Bengal Gram,Chillies,Chillies,Paddy,Paddy
+1331827,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Red Gram,Red Gram,Red Gram
+1318529,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1331795,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1319246,Red Gram,Medak,Shankarampet_R,2,Bengal Gram,Chillies,Chillies,Paddy,Cotton
+1318207,Red Gram,Narayanpet,Kothapalle,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321184,Red Gram,Medak,Ramayampet,4,Bengal Gram,Maize,Maize,Maize,Maize
+1331742,Red Gram,Adilabad,Utnur,3,Bengal Gram,Red Gram,Chillies,Red Gram,Red Gram
+1317669,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Red Gram,Cotton,Red Gram
+1331787,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Bengal Gram,Red Gram,Red Gram
+1319253,Red Gram,Medak,Shankarampet_R,2,Bengal Gram,Chillies,Chillies,Chillies,Paddy
+1319891,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Red Gram,Cotton,Red Gram,Red Gram
+1321148,Red Gram,Medak,Ramayampet,4,Bengal Gram,Maize,Cotton,Maize,Paddy
+1318764,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1318431,Red Gram,Narayanpet,Kothapalle,0,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1329308,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327268,Bengal Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1332001,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330120,Bengal Gram,Adilabad,Gudihathnur,2,Bengal Gram,Red Gram,Red Gram,Chillies,Bengal Gram
+1330289,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329359,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Red Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330090,Bengal Gram,Adilabad,Inderavelly,4,Bengal Gram,Cotton,Cotton,Groundnut,Bengal Gram
+1328944,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327229,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Groundnut,Bengal Gram,Groundnut,Bengal Gram
+1329163,Bengal Gram,Nirmal,Kubeer,4,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+1330096,Bengal Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329389,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327232,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Chillies,Bengal Gram
+1328978,Bengal Gram,Nirmal,Bhainsa,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327283,Bengal Gram,Adilabad,Gudihathnur,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329077,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Maize,Maize,Bengal Gram,Bengal Gram
+1330152,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Red Gram,Red Gram,Bengal Gram,Bengal Gram
+1330249,Bengal Gram,Adilabad,Bela,1,Bengal Gram,Paddy,Red Gram,Paddy,Bengal Gram
+1329103,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1328968,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329072,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1328969,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330290,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330191,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1319388,Chillies,Medak,Yeldurthy,0,Bengal Gram,Red Gram,Paddy,Chillies,Chillies
+1307027,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Bengal Gram,Chillies,Chillies,Red Gram
+1322757,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Cotton,Cotton,Cotton,Chillies
+1330148,Bengal Gram,Adilabad,Ichoda,3,Bengal Gram,Bengal Gram,Red Gram,Bengal Gram,Bengal Gram
+1330557,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1307009,Chillies,Warangal,Nekkonda,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1330766,Chillies,Warangal,Khanapur,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1322768,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1304684,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330742,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Maize,Maize,Paddy,Paddy
+1322855,Chillies,Mahabubabad,Bayyaram,3,Bengal Gram,Maize,Maize,Maize,Maize
+1307010,Chillies,Warangal,Nekkonda,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330678,Chillies,Mahabubabad,Thorrur,1,Bengal Gram,Chillies,Bengal Gram,Chillies,Bengal Gram
+1330731,Chillies,Warangal,Nekkonda,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1321251,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330779,Chillies,Warangal,Khanapur,4,Bengal Gram,Cotton,Cotton,Cotton,Paddy
+1321176,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Groundnut,Maize,Chillies,Chillies
+1319781,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Chillies,Chillies,Chillies,Bengal Gram
+1321491,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Groundnut,Paddy,Chillies,Chillies
+1330772,Chillies,Warangal,Khanapur,4,Bengal Gram,Maize,Maize,Maize,Chillies
+1330753,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1330659,Chillies,Mahabubabad,Thorrur,1,Bengal Gram,Paddy,Maize,Maize,Maize
+1330727,Chillies,Warangal,Nekkonda,0,Bengal Gram,Chillies,Groundnut,Chillies,Chillies
+1330775,Chillies,Warangal,Khanapur,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1307932,Chillies,Warangal,Chennaraopet,3,Bengal Gram,Chillies,Chillies,Red Gram,Chillies
+449502,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Groundnut,Groundnut,Maize,Chillies
+1329848,Cotton,Medak,Shankarampet_A,4,Bengal Gram,Cotton,Cotton,Cotton,Groundnut
+690803,Cotton,Adilabad,Sonala,0,Bengal Gram,Groundnut,Cotton,Cotton,Cotton
+1298207,Cotton,Nirmal,Mamda,0,Bengal Gram,Groundnut,Cotton,Maize,Maize
+1328531,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1317798,Cotton,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1322727,Cotton,Mahabubnagar,Koilkonda,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329446,Cotton,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321492,Cotton,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1307250,Cotton,Siddipet,Akbarpet-bhoompally,4,Bengal Gram,Chillies,Chillies,Chillies,Paddy
+1329867,Cotton,Medak,Shankarampet_A,4,Bengal Gram,Cotton,Cotton,Groundnut,Cotton
+1307068,Cotton,Nirmal,Beeravelli,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1319836,Cotton,Adilabad,Utnur,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+687626,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Groundnut,Maize,Groundnut,Groundnut
+1321968,Cotton,Narayanpet,Narayanpet,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329445,Cotton,Nagarkurnool,Urkonda,3,Bengal Gram,Red Gram,Cotton,Cotton,Cotton
+1332014,Cotton,Mahabubnagar,Rajapur,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321108,Cotton,Mahabubabad,Kuravi,2,Bengal Gram,Groundnut,Groundnut,Chillies,Chillies
+1316630,Cotton,Adilabad,Jainad,2,Bengal Gram,Maize,Paddy,Maize,Maize
+568460,Cotton,Nirmal,Mamda,0,Bengal Gram,Red Gram,Cotton,Red Gram,Cotton
+1326688,Cotton,Medak,Shankarampet_A,4,Bengal Gram,Maize,Cotton,Chillies,Cotton
+1328926,Cotton,Nalgonda,Chinthapally,1,Bengal Gram,Red Gram,Red Gram,Cotton,Cotton
+1329508,Cotton,Mahabubnagar,Hanwada,1,Bengal Gram,Chillies,Chillies,Cotton,Cotton
+1329449,Cotton,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1318385,Cotton,Narayanpet,Kothapalle,0,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1321097,Cotton,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Cotton
+1327351,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Groundnut,Groundnut,Groundnut
+1331652,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Cotton,Groundnut,Groundnut,Groundnut
+1318648,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327469,Groundnut,Vikarabad,Doma,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1329998,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1331377,Groundnut,Mahabubnagar,Midjil,4,Bengal Gram,Groundnut,Cotton,Groundnut,Groundnut
+1327520,Groundnut,Wanaparthy,Amarchintha,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327344,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Bengal Gram,Red Gram,Bengal Gram,Groundnut
+1318591,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331508,Groundnut,Vikarabad,Kulkacharla,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1330029,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Maize,Maize,Groundnut,Groundnut
+1327521,Groundnut,Wanaparthy,Amarchintha,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327335,Groundnut,Mahabubnagar,Bhoothpur,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327345,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331509,Groundnut,Vikarabad,Kulkacharla,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1317807,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331313,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Groundnut,Red Gram,Groundnut,Groundnut
+1327510,Groundnut,Wanaparthy,Amarchintha,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327327,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331463,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327467,Groundnut,Vikarabad,Kulkacharla,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1318604,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327435,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Chillies,Chillies,Groundnut,Groundnut
+1330011,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331630,Groundnut,Nagarkurnool,Urkonda,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1319357,Maize,Adilabad,Utnur,3,Bengal Gram,Maize,Maize,Maize,Maize
+1321325,Maize,Medak,Ramayampet,4,Bengal Gram,Chillies,Chillies,Bengal Gram,Bengal Gram
+1314856,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Groundnut,Cotton,Cotton,Cotton
+1327647,Maize,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1326773,Maize,Medak,Ramayampet,4,Bengal Gram,Red Gram,Paddy,Groundnut,Groundnut
+1327122,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Groundnut,Groundnut,Maize,Maize
+1327617,Maize,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Maize
+1326520,Maize,Medak,Ramayampet,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1325583,Maize,Mahabubabad,Thorrur,1,Bengal Gram,Paddy,Maize,Paddy,Maize
+1324503,Maize,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Chillies,Bengal Gram,Bengal Gram
+246479,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Maize,Maize,Maize,Paddy
+1327553,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1324250,Maize,Mahabubabad,Thorrur,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1327075,Maize,Adilabad,Boath,1,Bengal Gram,Chillies,Chillies,Chillies,Paddy
+1319114,Maize,Medak,Chegunta,3,Bengal Gram,Cotton,Maize,Cotton,Bengal Gram
+1322096,Maize,Medak,Ramayampet,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1326467,Maize,Nirmal,Beeravelli,2,Bengal Gram,Maize,Maize,Maize,Maize
+1327086,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Paddy,Paddy
+1322912,Maize,Medak,Ramayampet,4,Bengal Gram,Maize,Maize,Maize,Maize
+1303237,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1327756,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1310533,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1307067,Maize,Medak,Ramayampet,4,Bengal Gram,Paddy,Paddy,Chillies,Red Gram
+1327955,Maize,Nirmal,Mamda,0,Bengal Gram,Maize,Maize,Maize,Maize
+1327079,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Maize,Maize
+1329777,Paddy,Siddipet,Doultabad,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1328177,Paddy,Nalgonda,Shaligouraram,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1324148,Paddy,Medak,Havelighanpur,0,Bengal Gram,Chillies,Maize,Paddy,Maize
+1327099,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Paddy,Red Gram,Paddy,Cotton
+1329586,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Red Gram,Paddy,Paddy,Paddy
+1332021,Paddy,Nagarkurnool,Urkonda,3,Bengal Gram,Chillies,Chillies,Bengal Gram,Paddy
+1318229,Paddy,Narayanpet,Narayanpet,4,Bengal Gram,Bengal Gram,Paddy,Paddy,Paddy
+1305487,Paddy,Adilabad,Utnur,3,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1329795,Paddy,Kamareddy,Bhiknoor,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1311441,Paddy,Mahabubabad,Bayyaram,3,Bengal Gram,Chillies,Chillies,Chillies,Maize
+1297817,Paddy,Nirmal,Laxmanchanda,3,Bengal Gram,Groundnut,Groundnut,Red Gram,Maize
+1324368,Paddy,Medak,Havelighanpur,0,Bengal Gram,Maize,Paddy,Paddy,Paddy
+1329776,Paddy,Siddipet,Doultabad,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1331940,Paddy,Nalgonda,Shaligouraram,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1329665,Paddy,Mahabubnagar,Bhoothpur,4,Bengal Gram,Cotton,Paddy,Chillies,Cotton
+1297980,Paddy,Kamareddy,Bhiknoor,2,Bengal Gram,Maize,Maize,Maize,Maize
+1329660,Paddy,Nagarkurnool,Urkonda,3,Bengal Gram,Cotton,Paddy,Cotton,Paddy
+1317508,Paddy,Narayanpet,Damargidda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1313829,Paddy,Adilabad,Adilabad Rural,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1320912,Paddy,Mahabubabad,Maripeda,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1298559,Paddy,Nalgonda,Kanagal,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+391860,Paddy,Siddipet,Doultabad,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1329637,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1324345,Paddy,Medak,Havelighanpur,0,Bengal Gram,Chillies,Chillies,Chillies,Maize
+1329658,Paddy,Nagarkurnool,Urkonda,3,Bengal Gram,Chillies,Groundnut,Paddy,Paddy
+1318312,Red Gram,Narayanpet,Kosgi,3,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1321215,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Chillies,Bengal Gram,Red Gram,Red Gram
+1323172,Red Gram,Medak,Shankarampet_R,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1318257,Red Gram,Narayanpet,Kosgi,3,Bengal Gram,Cotton,Red Gram,Cotton,Red Gram
+1318703,Red Gram,Medak,Medak,3,Bengal Gram,Paddy,Paddy,Bengal Gram,Bengal Gram
+1322245,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1318674,Red Gram,Narayanpet,Narayanpet,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1317802,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331753,Red Gram,Adilabad,Utnur,3,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331679,Red Gram,Adilabad,Gudihathnur,2,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331697,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1321975,Red Gram,Narayanpet,Narayanpet,4,Bengal Gram,Red Gram,Cotton,Red Gram,Cotton
+1332150,Red Gram,Adilabad,Utnur,3,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1318310,Red Gram,Narayanpet,Kosgi,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1307416,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Maize,Maize,Red Gram,Red Gram
+1317644,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Red Gram,Red Gram,Cotton,Red Gram
+1331834,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Red Gram,Red Gram,Red Gram
+1319832,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331695,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1332154,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1319796,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Cotton,Cotton,Red Gram
+1321636,Red Gram,Narayanpet,Narayanpet,4,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331772,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331747,Red Gram,Adilabad,Utnur,3,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1318208,Red Gram,Narayanpet,Kothapalle,0,Bengal Gram,Red Gram,Cotton,Red Gram,Red Gram
+1329231,Bengal Gram,Nirmal,Beltaroda,4,Bengal Gram,Chillies,Chillies,Groundnut,Groundnut
+1329247,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329091,Bengal Gram,Nirmal,Beltaroda,4,Bengal Gram,Chillies,Chillies,Chillies,Maize
+1327183,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330278,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Maize,Maize
+1330062,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Paddy,Bengal Gram,Paddy,Bengal Gram
+1329155,Bengal Gram,Nirmal,Kubeer,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330310,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Paddy,Bengal Gram,Bengal Gram,Bengal Gram
+1330058,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329360,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Red Gram,Chillies,Chillies,Chillies
+1330265,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Red Gram,Bengal Gram,Bengal Gram
+1332057,Bengal Gram,Adilabad,Gudihathnur,2,Bengal Gram,Red Gram,Red Gram,Red Gram,Chillies
+1327222,Bengal Gram,Adilabad,Sonala,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1332066,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329327,Bengal Gram,Nirmal,Bhainsa,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329353,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Maize,Bengal Gram,Bengal Gram
+1327292,Bengal Gram,Adilabad,Gudihathnur,2,Bengal Gram,Red Gram,Red Gram,Bengal Gram,Bengal Gram
+1329367,Bengal Gram,Nirmal,Kubeer,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330292,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330213,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327220,Bengal Gram,Adilabad,Sonala,0,Bengal Gram,Bengal Gram,Bengal Gram,Groundnut,Bengal Gram
+1328992,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329105,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1328957,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327173,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330065,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329101,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330078,Bengal Gram,Adilabad,Neradigonda,3,Bengal Gram,Maize,Maize,Groundnut,Groundnut
+316045,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Paddy,Paddy,Paddy,Maize
+1330095,Bengal Gram,Adilabad,Inderavelly,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1327165,Bengal Gram,Adilabad,Ichoda,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327236,Bengal Gram,Adilabad,Bazarhathnoor,1,Bengal Gram,Bengal Gram,Maize,Bengal Gram,Bengal Gram
+1329110,Bengal Gram,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Groundnut
+1329260,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Maize,Maize,Maize,Maize
+1329175,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330060,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327287,Bengal Gram,Adilabad,Gudihathnur,2,Bengal Gram,Red Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330212,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Cotton,Bengal Gram,Bengal Gram,Bengal Gram
+1330061,Bengal Gram,Adilabad,Boath,1,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+155939,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330203,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Bengal Gram,Maize,Maize,Maize
+1321164,Bengal Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327270,Bengal Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330208,Bengal Gram,Adilabad,Jainad,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329259,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329004,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329005,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Cotton,Bengal Gram,Cotton,Bengal Gram
+1329120,Bengal Gram,Nirmal,Bhainsa,2,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330195,Bengal Gram,Adilabad,Tamsi,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+526067,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Cotton,Cotton,Red Gram,Bengal Gram
+1327188,Bengal Gram,Adilabad,Bela,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1304612,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1329207,Bengal Gram,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329357,Bengal Gram,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1305587,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Red Gram,Chillies
+1330434,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+1322722,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1319252,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Cotton,Chillies,Chillies,Chillies
+1304582,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Red Gram,Chillies,Red Gram,Red Gram
+1322721,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Groundnut,Groundnut,Chillies,Chillies
+1332077,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Maize,Maize,Maize,Chillies
+948812,Chillies,Mahabubabad,Bayyaram,3,Bengal Gram,Chillies,Red Gram,Chillies,Chillies
+1330488,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1304648,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Paddy,Paddy,Chillies,Red Gram
+1304592,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Cotton,Chillies,Chillies,Chillies
+1321246,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330463,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1323983,Chillies,Mahabubabad,Garla,1,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1321376,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330467,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Chillies,Paddy,Chillies,Chillies
+1330464,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Maize,Groundnut,Maize,Maize
+1330546,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1330689,Chillies,Mahabubabad,Narsimhulapet,1,Bengal Gram,Groundnut,Chillies,Chillies,Chillies
+1304623,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1322345,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Groundnut,Chillies,Chillies,Chillies
+1330650,Chillies,Mahabubabad,Nellikudur,3,Bengal Gram,Cotton,Chillies,Chillies,Chillies
+1307473,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Red Gram,Red Gram
+1330343,Chillies,Mahabubabad,Garla,1,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+1321198,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Maize,Maize,Maize,Maize
+1332096,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Maize,Maize,Maize,Chillies
+1321540,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Cotton,Cotton,Chillies,Chillies
+1304598,Chillies,Mahabubabad,Kothaguda,2,Bengal Gram,Cotton,Chillies,Chillies,Red Gram
+1330472,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Maize,Chillies,Chillies,Chillies
+1322400,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Red Gram,Maize,Chillies,Chillies
+1323557,Chillies,Mahabubabad,Garla,1,Bengal Gram,Groundnut,Groundnut,Chillies,Chillies
+1330335,Chillies,Mahabubabad,Garla,1,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+1330521,Chillies,Mahabubabad,Seerole,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1305619,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1323989,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+226083,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Chillies,Groundnut,Chillies,Chillies
+1330477,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1304610,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Paddy,Paddy,Chillies,Chillies
+1323637,Chillies,Mahabubabad,Garla,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Chillies
+1321312,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Paddy,Chillies,Chillies
+1322772,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Maize,Maize,Maize,Chillies
+1330496,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Groundnut,Groundnut,Maize,Maize
+1322813,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+243535,Chillies,Mahabubabad,Gudur,4,Bengal Gram,Red Gram,Chillies,Chillies,Chillies
+1319161,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Maize,Cotton,Maize,Maize
+1330490,Chillies,Mahabubabad,Dornakal,1,Bengal Gram,Chillies,Paddy,Paddy,Paddy
+1323863,Chillies,Mahabubabad,Bayyaram,3,Bengal Gram,Chillies,Chillies,Chillies,Bengal Gram
+1330401,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Groundnut,Groundnut,Chillies,Chillies
+1313862,Cotton,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1329428,Cotton,Mahabubnagar,Balanagar,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+525451,Chillies,Mahabubabad,Kuravi,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1329821,Cotton,Medak,Alladurg,0,Bengal Gram,Maize,Chillies,Maize,Maize
+1321365,Cotton,Adilabad,Utnur,3,Bengal Gram,Groundnut,Groundnut,Maize,Cotton
+1317944,Cotton,Adilabad,Inderavelly,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+268328,Cotton,Adilabad,Bhoraj,2,Bengal Gram,Groundnut,Groundnut,Maize,Maize
+1322570,Cotton,Adilabad,Utnur,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1321086,Cotton,Adilabad,Inderavelly,4,Bengal Gram,Paddy,Red Gram,Paddy,Bengal Gram
+1328791,Cotton,Nalgonda,Gurrampode,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1306234,Cotton,Adilabad,Bhoraj,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1299401,Cotton,Adilabad,Bela,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1318304,Cotton,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1329852,Cotton,Medak,Shankarampet_A,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1331976,Cotton,Nalgonda,Gurrampode,1,Bengal Gram,Cotton,Chillies,Chillies,Cotton
+1328847,Cotton,Nalgonda,Kondamallapally,4,Bengal Gram,Red Gram,Paddy,Cotton,Paddy
+1328808,Cotton,Nalgonda,Nidamanoor,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1318628,Cotton,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram
+1328468,Cotton,Nalgonda,Gurrampode,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328877,Cotton,Nalgonda,Madugulapally,4,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329406,Cotton,Mahabubnagar,Koukuntla,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1318821,Cotton,Adilabad,Inderavelly,4,Bengal Gram,Red Gram,Red Gram,Chillies,Chillies
+1308650,Cotton,Adilabad,Ichoda,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329823,Cotton,Medak,Alladurg,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329438,Cotton,Mahabubnagar,Hanwada,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1304498,Cotton,Medak,Ramayampet,4,Bengal Gram,Maize,Maize,Cotton,Maize
+1328810,Cotton,Nalgonda,Nidamanoor,1,Bengal Gram,Chillies,Cotton,Cotton,Cotton
+1326822,Cotton,Adilabad,Neradigonda,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329948,Cotton,Medak,Alladurg,0,Bengal Gram,Bengal Gram,Cotton,Cotton,Cotton
+1326971,Cotton,Adilabad,Gadiguda,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+963100,Cotton,Adilabad,Utnur,3,Bengal Gram,Cotton,Bengal Gram,Cotton,Cotton
+1318222,Cotton,Adilabad,Utnur,3,Bengal Gram,Groundnut,Chillies,Maize,Maize
+1306365,Cotton,Adilabad,Gudihathnur,2,Bengal Gram,Groundnut,Red Gram,Cotton,Red Gram
+1328602,Cotton,Nalgonda,Devarakonda,0,Bengal Gram,Cotton,Cotton,Chillies,Chillies
+1311207,Cotton,Adilabad,Sirikonda,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328688,Cotton,Nalgonda,Ammanabole,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1329885,Cotton,Medak,Shankarampet_A,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1328472,Cotton,Nalgonda,Gurrampode,1,Bengal Gram,Chillies,Red Gram,Cotton,Bengal Gram
+1321293,Cotton,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Cotton
+1326705,Cotton,Medak,Alladurg,0,Bengal Gram,Chillies,Chillies,Groundnut,Chillies
+1307471,Cotton,Nalgonda,Nalgonda,3,Bengal Gram,Bengal Gram,Groundnut,Cotton,Red Gram
+1328488,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328923,Cotton,Nalgonda,Chinthapally,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1326706,Cotton,Medak,Alladurg,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1314890,Cotton,Adilabad,Boath,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328854,Cotton,Nalgonda,Devarakonda,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328818,Cotton,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328565,Cotton,Nalgonda,Chandur,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328510,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Bengal Gram,Groundnut,Groundnut,Groundnut
+1328570,Cotton,Nalgonda,Shaligouraram,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+759723,Cotton,Adilabad,Gudihathnur,2,Bengal Gram,Red Gram,Bengal Gram,Red Gram,Red Gram
+1319099,Cotton,Medak,Chegunta,3,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1328880,Cotton,Nalgonda,Chandur,2,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1331339,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Groundnut,Cotton,Groundnut,Groundnut
+1327441,Groundnut,Mahabubnagar,Midjil,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1317759,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1317523,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1322404,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Chillies,Groundnut,Groundnut
+1327362,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331651,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327387,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1322441,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327400,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331639,Groundnut,Mahabubnagar,Mohammadabad,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327419,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1332049,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Chillies,Groundnut,Groundnut
+1322644,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327406,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331553,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Red Gram,Groundnut,Groundnut
+1330035,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Cotton,Cotton,Groundnut,Groundnut
+1330010,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Cotton,Cotton,Groundnut,Cotton
+1322714,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1318209,Groundnut,Narayanpet,Kothapalle,0,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1329980,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Chillies,Cotton,Groundnut,Groundnut
+1327376,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1332044,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1318682,Groundnut,Narayanpet,Narayanpet,4,Bengal Gram,Groundnut,Chillies,Groundnut,Groundnut
+1329997,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Groundnut,Groundnut,Groundnut
+1322573,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327452,Groundnut,Mahabubnagar,Midjil,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327394,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327408,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Chillies,Groundnut,Groundnut,Groundnut
+1331384,Groundnut,Mahabubnagar,Midjil,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331357,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Chillies,Chillies,Groundnut,Groundnut
+1331369,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Red Gram,Groundnut,Groundnut
+1327439,Groundnut,Mahabubnagar,Midjil,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331620,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327403,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1331373,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327461,Groundnut,Mahabubnagar,Balanagar,1,Bengal Gram,Chillies,Cotton,Bengal Gram,Bengal Gram
+1317640,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327399,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1318379,Groundnut,Narayanpet,Kothapalle,0,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327454,Groundnut,Mahabubnagar,Midjil,4,Bengal Gram,Chillies,Chillies,Groundnut,Groundnut
+1321734,Groundnut,Narayanpet,Narayanpet,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1330024,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Red Gram,Groundnut,Groundnut
+1329982,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Red Gram,Groundnut,Groundnut
+1331343,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Red Gram,Groundnut,Groundnut
+1329983,Groundnut,Nalgonda,Tirumalagiri_Sagar,0,Bengal Gram,Red Gram,Red Gram,Groundnut,Groundnut
+1327371,Groundnut,Mahabubnagar,Koilkonda,2,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1317641,Groundnut,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Groundnut,Groundnut,Groundnut
+1318256,Groundnut,Narayanpet,Kosgi,3,Bengal Gram,Groundnut,Cotton,Groundnut,Groundnut
+1331575,Groundnut,Mahabubnagar,Mohammadabad,3,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327430,Groundnut,Mahabubnagar,Hanwada,1,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1327502,Groundnut,Mahabubnagar,Chinna Chinta Kunta,4,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+1318423,Groundnut,Narayanpet,Kothapalle,0,Bengal Gram,Groundnut,Groundnut,Groundnut,Groundnut
+796449,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Red Gram,Maize,Red Gram,Maize
+1313486,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Paddy,Maize,Paddy,Maize
+1327766,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1321308,Maize,Medak,Ramayampet,4,Bengal Gram,Maize,Maize,Maize,Maize
+1327953,Maize,Nirmal,Mamda,0,Bengal Gram,Maize,Maize,Maize,Maize
+1327701,Maize,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Maize,Maize
+1327740,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1327704,Maize,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Chillies,Bengal Gram,Bengal Gram
+1327872,Maize,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327831,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1331155,Maize,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1327797,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Bengal Gram,Maize,Bengal Gram
+1319975,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1319361,Maize,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Maize,Bengal Gram,Maize
+1330985,Maize,Nirmal,Lokeshwaram,2,Bengal Gram,Paddy,Paddy,Paddy,Maize
+1327968,Maize,Nirmal,Mamda,0,Bengal Gram,Maize,Maize,Chillies,Maize
+1327678,Maize,Nirmal,Beltaroda,4,Bengal Gram,Chillies,Chillies,Maize,Maize
+1327097,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Maize,Maize
+1311971,Maize,Mahabubabad,Inugurthy,1,Bengal Gram,Paddy,Maize,Maize,Maize
+1332108,Maize,Nirmal,Lokeshwaram,2,Bengal Gram,Maize,Maize,Maize,Maize
+1327128,Maize,Adilabad,Boath,1,Bengal Gram,Maize,Maize,Maize,Maize
+1323929,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1330998,Maize,Nirmal,Lokeshwaram,2,Bengal Gram,Maize,Maize,Maize,Maize
+1330810,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1297825,Maize,Nirmal,Laxmanchanda,3,Bengal Gram,Chillies,Chillies,Chillies,Cotton
+1327100,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Chillies,Chillies
+1321552,Maize,Medak,Ramayampet,4,Bengal Gram,Chillies,Chillies,Chillies,Paddy
+1331222,Maize,Nirmal,Mudhole,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+602095,Maize,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1331916,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1320707,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Maize,Maize,Maize,Red Gram
+1327958,Maize,Nirmal,Mamda,0,Bengal Gram,Maize,Maize,Maize,Maize
+1317057,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Red Gram,Cotton,Red Gram,Red Gram
+1327698,Maize,Nirmal,Tanoor,0,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1331219,Maize,Nirmal,Dilawarpur,2,Bengal Gram,Maize,Maize,Maize,Maize
+1330838,Maize,Nirmal,Kubeer,4,Bengal Gram,Bengal Gram,Maize,Chillies,Chillies
+1303047,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Paddy,Chillies,Paddy,Paddy
+1331871,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Maize,Maize
+1321071,Maize,Adilabad,Inderavelly,4,Bengal Gram,Maize,Maize,Maize,Maize
+1330833,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1324857,Maize,Mahabubabad,Thorrur,1,Bengal Gram,Maize,Maize,Maize,Maize
+1327130,Maize,Adilabad,Boath,1,Bengal Gram,Groundnut,Chillies,Chillies,Chillies
+1327780,Maize,Nirmal,Basar,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+1330914,Maize,Nirmal,Lokeshwaram,2,Bengal Gram,Maize,Maize,Maize,Maize
+1309125,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Maize,Chillies,Maize,Maize
+1319354,Maize,Adilabad,Utnur,3,Bengal Gram,Maize,Maize,Maize,Maize
+1331167,Maize,Nirmal,Bhainsa,2,Bengal Gram,Maize,Maize,Maize,Maize
+1301843,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1327112,Maize,Adilabad,Bazarhathnoor,1,Bengal Gram,Maize,Maize,Maize,Maize
+1299981,Maize,Mahabubabad,Gangaram,0,Bengal Gram,Maize,Maize,Maize,Maize
+1327771,Maize,Nirmal,Mudhole,4,Bengal Gram,Maize,Maize,Maize,Maize
+1319965,Maize,Mahabubabad,Bayyaram,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1324512,Paddy,Medak,Ramayampet,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1327983,Paddy,Nalgonda,Kanagal,4,Bengal Gram,Paddy,Paddy,Chillies,Chillies
+1328399,Paddy,Nalgonda,Madugulapally,4,Bengal Gram,Bengal Gram,Maize,Bengal Gram,Maize
+1329704,Paddy,Medak,Kowdipally,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1302097,Paddy,Mahabubabad,Maripeda,2,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1317244,Paddy,Mahabubabad,Thorrur,1,Bengal Gram,Maize,Maize,Maize,Paddy
+1320524,Paddy,Mahabubabad,Gudur,4,Bengal Gram,Paddy,Paddy,Paddy,Maize
+1329576,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Red Gram,Chillies,Cotton,Maize
+1327996,Paddy,Nalgonda,Kanagal,4,Bengal Gram,Paddy,Paddy,Chillies,Chillies
+1329577,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Red Gram,Red Gram,Cotton,Paddy
+1329734,Paddy,Medak,Manoharabad,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1324382,Paddy,Medak,Havelighanpur,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+365597,Paddy,Nalgonda,Nidamanoor,1,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1328081,Paddy,Nalgonda,Kondamallapally,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1311257,Paddy,Nalgonda,Narketpally,2,Bengal Gram,Maize,Maize,Maize,Maize
+1320986,Paddy,Nalgonda,Tripuraram,4,Bengal Gram,Chillies,Chillies,Paddy,Paddy
+1331933,Paddy,Nalgonda,Narketpally,2,Bengal Gram,Groundnut,Groundnut,Maize,Maize
+1328326,Paddy,Nalgonda,Tipparthy,2,Bengal Gram,Paddy,Paddy,Bengal Gram,Paddy
+1310201,Paddy,Nalgonda,Nidamanoor,1,Bengal Gram,Maize,Maize,Paddy,Paddy
+1323971,Paddy,Medak,Havelighanpur,0,Bengal Gram,Maize,Maize,Maize,Chillies
+1318488,Paddy,Narayanpet,Damargidda,1,Bengal Gram,Chillies,Maize,Cotton,Red Gram
+1305613,Paddy,Medak,Ramayampet,4,Bengal Gram,Maize,Paddy,Maize,Red Gram
+1324441,Paddy,Medak,Havelighanpur,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1318524,Paddy,Medak,Ramayampet,4,Bengal Gram,Chillies,Paddy,Bengal Gram,Paddy
+1328178,Paddy,Nalgonda,Shaligouraram,2,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1324390,Paddy,Medak,Havelighanpur,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1328212,Paddy,Nalgonda,Madugulapally,4,Bengal Gram,Paddy,Paddy,Chillies,Paddy
+1329605,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1324429,Paddy,Medak,Havelighanpur,0,Bengal Gram,Chillies,Bengal Gram,Chillies,Maize
+1302857,Paddy,Mahabubabad,Maripeda,2,Bengal Gram,Maize,Maize,Maize,Maize
+1329558,Paddy,Mahabubnagar,Hanwada,1,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1297961,Paddy,Nalgonda,Nalgonda,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1324048,Paddy,Medak,Havelighanpur,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1308311,Paddy,Mahabubabad,Seerole,0,Bengal Gram,Red Gram,Maize,Paddy,Maize
+1328220,Paddy,Nalgonda,Madugulapally,4,Bengal Gram,Maize,Paddy,Maize,Paddy
+1307776,Paddy,Mahabubabad,Narsimhulapet,1,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1323464,Paddy,Medak,Ramayampet,4,Bengal Gram,Chillies,Chillies,Bengal Gram,Paddy
+1324288,Paddy,Medak,Havelighanpur,0,Bengal Gram,Chillies,Chillies,Paddy,Paddy
+1324298,Paddy,Medak,Havelighanpur,0,Bengal Gram,Chillies,Chillies,Chillies,Chillies
+1304690,Paddy,Mahabubabad,Gudur,4,Bengal Gram,Paddy,Paddy,Paddy,Red Gram
+1328263,Paddy,Nalgonda,Narketpally,2,Bengal Gram,Paddy,Paddy,Maize,Maize
+1313677,Paddy,Mahabubabad,Inugurthy,1,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1297729,Paddy,Medak,Ramayampet,4,Bengal Gram,Paddy,Paddy,Maize,Maize
+1320156,Paddy,Nalgonda,Chityal,3,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram
+222399,Paddy,Mahabubabad,Gudur,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1312121,Paddy,Nalgonda,Chityal,3,Bengal Gram,Paddy,Paddy,Maize,Maize
+144754,Paddy,Medak,Kowdipally,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1324324,Paddy,Medak,Havelighanpur,0,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+456610,Paddy,Adilabad,Utnur,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1305342,Paddy,Nalgonda,Miryalaguda,3,Bengal Gram,Paddy,Paddy,Paddy,Bengal Gram
+1328280,Paddy,Nalgonda,Nalgonda,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1327997,Paddy,Nalgonda,Kanagal,4,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+884580,Red Gram,Adilabad,Utnur,3,Bengal Gram,Groundnut,Groundnut,Red Gram,Red Gram
+1328386,Paddy,Nalgonda,Nalgonda,3,Bengal Gram,Cotton,Cotton,Bengal Gram,Bengal Gram
+1315645,Paddy,Nalgonda,Chityal,3,Bengal Gram,Paddy,Paddy,Paddy,Paddy
+1331794,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Groundnut,Red Gram,Red Gram
+1317716,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331717,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1317615,Red Gram,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Maize,Red Gram,Red Gram
+1331824,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Cotton,Bengal Gram,Red Gram,Red Gram
+1317634,Red Gram,Narayanpet,Damargidda,1,Bengal Gram,Cotton,Cotton,Cotton,Cotton
+1332147,Red Gram,Adilabad,Gudihathnur,2,Bengal Gram,Groundnut,Groundnut,Red Gram,Red Gram
+1331822,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Cotton,Red Gram,Red Gram,Red Gram
+1331809,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Chillies,Bengal Gram,Red Gram,Red Gram
+1331744,Red Gram,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+603514,Red Gram,Adilabad,Utnur,3,Bengal Gram,Groundnut,Groundnut,Maize,Red Gram
+1331705,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331720,Red Gram,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Red Gram,Red Gram,Red Gram
+1331726,Red Gram,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331678,Red Gram,Adilabad,Gudihathnur,2,Bengal Gram,Bengal Gram,Red Gram,Red Gram,Red Gram
+1331733,Red Gram,Adilabad,Utnur,3,Bengal Gram,Chillies,Chillies,Red Gram,Red Gram
+1331810,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Bengal Gram,Red Gram,Red Gram
+1319025,Red Gram,Adilabad,Utnur,3,Bengal Gram,Groundnut,Red Gram,Red Gram,Red Gram
+1331696,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Maize,Red Gram,Red Gram
+506653,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1314556,Red Gram,Adilabad,Utnur,3,Bengal Gram,Cotton,Cotton,Red Gram,Cotton
+1331825,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331703,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331734,Red Gram,Adilabad,Utnur,3,Bengal Gram,Chillies,Chillies,Red Gram,Red Gram
+1332149,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Maize,Maize,Groundnut,Groundnut
+1331768,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331687,Red Gram,Adilabad,Gudihathnur,2,Bengal Gram,Maize,Groundnut,Groundnut,Red Gram
+1331704,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Red Gram,Red Gram,Red Gram
+1331690,Red Gram,Adilabad,Gudihathnur,2,Bengal Gram,Groundnut,Maize,Red Gram,Red Gram
+1331745,Red Gram,Adilabad,Utnur,3,Bengal Gram,Bengal Gram,Red Gram,Red Gram,Red Gram
+1331689,Red Gram,Adilabad,Gudihathnur,2,Bengal Gram,Chillies,Chillies,Red Gram,Red Gram
+1331813,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Cotton,Cotton,Cotton,Red Gram
+1331682,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331814,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1314002,Red Gram,Adilabad,Sonala,0,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331713,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Paddy,Red Gram,Red Gram,Red Gram
+1317632,Red Gram,Adilabad,Utnur,3,Bengal Gram,Groundnut,Red Gram,Red Gram,Maize
+1319860,Red Gram,Adilabad,Utnur,3,Bengal Gram,Cotton,Cotton,Chillies,Cotton
+1331799,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Groundnut,Red Gram,Red Gram
+1332152,Red Gram,Adilabad,Utnur,3,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1319826,Red Gram,Adilabad,Utnur,3,Bengal Gram,Groundnut,Groundnut,Red Gram,Red Gram
+1331792,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1318441,Red Gram,Narayanpet,Kothapalle,0,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331661,Red Gram,Adilabad,Adilabad Rural,0,Bengal Gram,Chillies,Bengal Gram,Red Gram,Red Gram
+1318801,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331805,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Red Gram,Red Gram,Red Gram,Red Gram
+1331756,Red Gram,Adilabad,Utnur,3,Bengal Gram,Red Gram,Maize,Red Gram,Red Gram
+1331700,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Bengal Gram,Groundnut
+1318828,Red Gram,Adilabad,Inderavelly,4,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram
+1331782,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Groundnut,Bengal Gram,Red Gram,Red Gram
+1331811,Red Gram,Adilabad,Gadiguda,1,Bengal Gram,Bengal Gram,Bengal Gram,Red Gram,Red Gram

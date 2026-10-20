@@ -1,0 +1,108 @@
+{
+  "audit_name": "Phase 6D Research-Grade Verification & Evaluation Integrity Audit",
+  "dataset_inspected": "outputs/data/s2_phase6c_350_features.csv",
+  "manifest_inspected": "outputs/data/s2_phase6c_manifest_350.csv",
+  "oof_predictions_path": "outputs/data/phase6c_oof_predictions.csv",
+  "benchmark_report_path": "outputs/reports/phase6c_model_benchmark.json",
+  "discrepancy_resolution": {
+    "total_manifest_records": 352,
+    "total_extracted_records": 352,
+    "failed_extractions_count": 4,
+    "failed_farms": [
+      {
+        "farm_id": 1319251,
+        "crop": "Chillies",
+        "district": "Medak",
+        "sub_district": "Shankarampet_R",
+        "dates": ["2023-09-03", "2023-09-22"],
+        "reason": "Monsoon 100% cloud cover over 19-day window"
+      },
+      {
+        "farm_id": 1298973,
+        "crop": "Maize",
+        "district": "Mahabubabad",
+        "sub_district": "Gangaram",
+        "dates": ["2023-07-24", "2023-08-11"],
+        "reason": "Monsoon 100% cloud cover over 18-day window"
+      },
+      {
+        "farm_id": 1322898,
+        "crop": "Chillies",
+        "district": "Mahabubabad",
+        "sub_district": "Kuravi",
+        "dates": ["2023-08-22", "2023-08-23"],
+        "reason": "1-day duration with 100% cloud cover"
+      },
+      {
+        "farm_id": 1298212,
+        "crop": "Paddy",
+        "district": "Nirmal",
+        "sub_district": "Mamda",
+        "dates": ["2023-06-20", "2023-07-11"],
+        "reason": "Monsoon 100% cloud cover over 21-day window"
+      }
+    ],
+    "explanation": "The previous narrative summary misreported the 4 failures as (1 Chillies, 3 Maize) and misidentified farm IDs. The physical features CSV on disk, the manifest, and the training pipeline were completely aligned and correct: Manifest had 51 Chillies (2 failed -> 49 valid), 51 Maize (1 failed -> 50 valid), 50 Paddy (1 failed -> 49 valid), and 50 each for Bengal Gram, Cotton, Groundnut, Red Gram (0 failed). Total evaluated rows = 348.",
+    "verified_eval_support": {
+      "Bengal Gram": 50,
+      "Chillies": 49,
+      "Cotton": 50,
+      "Groundnut": 50,
+      "Maize": 50,
+      "Paddy": 49,
+      "Red Gram": 50,
+      "Total": 348
+    }
+  },
+  "mgrs_mosaicking_audit": {
+    "audit_report": "outputs/reports/mgrs_multi_farm_audit.json",
+    "farms_tested": [
+      {
+        "farm_id": 1327181,
+        "crop": "Bengal Gram",
+        "season": "Rabi",
+        "overlap_ratio": "3.67x",
+        "ndvi_delta": 0.02397,
+        "ndmi_delta": 0.00772
+      },
+      {
+        "farm_id": 1331695,
+        "crop": "Red Gram",
+        "season": "Kharif",
+        "overlap_ratio": "1.96x",
+        "ndvi_delta": -0.00252,
+        "ndmi_delta": -0.00568
+      },
+      {
+        "farm_id": 1327617,
+        "crop": "Maize",
+        "season": "Rabi",
+        "overlap_ratio": "3.42x",
+        "ndvi_delta": 0.02792,
+        "ndmi_delta": 0.03516
+      },
+      {
+        "farm_id": 1324368,
+        "crop": "Paddy",
+        "season": "Rabi",
+        "overlap_ratio": "1.92x",
+        "ndvi_delta": 0.00865,
+        "ndmi_delta": 0.00076
+      }
+    ],
+    "finding": "For moderate 2-tile overlaps, delta NDVI < 0.009. For heavy 3-4 tile overlaps (29.3% of all farms), daily tile duplication overweights individual dates in the raw median by 8-10% band reflectance, producing up to +0.028 delta in NDVI and +0.035 in NDMI."
+  },
+  "spatial_validation_audit": {
+    "crs": "EPSG:32644 (UTM Zone 44N, Telangana - Conformal metric projection)",
+    "boundary_proximity": {
+      "within_1km": "6 farms (1.7%)",
+      "within_5km": "123 farms (35.3%)",
+      "within_10km": "251 farms (72.1%)",
+      "within_15km": "312 farms (89.7%)"
+    },
+    "buffer_exclusion_risk": "Enforcing a 15 km spatial buffer between training and test sets would eliminate 89.7% of all labeled farms, causing severe data starvation and leaving only 36 farms.",
+    "spatial_blocks_risk": "50 km projected spatial blocks cause severe class dropout (only 1 out of 24 blocks contains all 7 crops), doubling cross-validation variance (std from 0.057 to 0.109).",
+    "recommendation": "Maintain Sub-District StratifiedGroupKFold as primary benchmark (guarantees 0 administrative group leakage, 7-class representation in every fold, and balanced fold sizes). Disclose inter-mandal boundary proximity transparently in research limitations."
+  },
+  "verdict": "READY FOR PHASE 6D EXPANSION"
+}

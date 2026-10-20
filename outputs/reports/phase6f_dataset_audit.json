@@ -1,0 +1,799 @@
+{
+  "audit_timestamp_utc": "2026-10-18T08:37:20.592753+00:00",
+  "gate_a_verdict": "PASS",
+  "inventory": [
+    {
+      "path": "datasss/Train.csv",
+      "size_bytes": 3497588,
+      "modified_utc": "2026-09-29T17:50:44.538479+00:00",
+      "sha256": "29d31920f5b9aaea8213d7993dedc50c5d19458906f85642d360d785bb07aa06",
+      "rows": 7888,
+      "columns": 20
+    },
+    {
+      "path": "datasss/Test.csv",
+      "size_bytes": 1240789,
+      "modified_utc": "2026-09-29T17:50:44.483481+00:00",
+      "sha256": "8cf6f92a60e057ae684146781a2d52564dadbe2d804006251b95e5aac672485c",
+      "rows": 2718,
+      "columns": 19
+    },
+    {
+      "path": "outputs/data/s2_full_expansion_manifest_7164.csv",
+      "size_bytes": 3027973,
+      "modified_utc": "2026-10-15T14:34:15.391807+00:00",
+      "sha256": "f4b92b55f248edf687c60b85177cb793859d04fd39442a4841991b79110807b9",
+      "rows": 7164,
+      "columns": 11
+    },
+    {
+      "path": "outputs/data/s2_phase6e_7164_raw_bands.csv",
+      "size_bytes": 10962941,
+      "modified_utc": "2026-10-17T07:17:08.407916+00:00",
+      "sha256": "d1ee90a5d9e09126a71bdc8e809767a30860671e88e42a8a8aebb19c46cf83af",
+      "rows": 7164,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6c_manifest_350.csv",
+      "size_bytes": 233026,
+      "modified_utc": "2026-10-15T11:25:21.637002+00:00",
+      "sha256": "47a123741658b97009bdb1e97f632851af130bb88bb47f057c1a147153de0338",
+      "rows": 352,
+      "columns": 32
+    },
+    {
+      "path": "outputs/data/s2_phase6d_manifest_724.csv",
+      "size_bytes": 467092,
+      "modified_utc": "2026-10-15T14:15:29.065934+00:00",
+      "sha256": "326207f8ca1b0848533bdc4ff673db24b18ff46e30b558952444555c20824214",
+      "rows": 724,
+      "columns": 32
+    },
+    {
+      "path": "outputs/data/s2_phase6d_724_features.csv",
+      "size_bytes": 2190393,
+      "modified_utc": "2026-10-15T14:15:29.296136+00:00",
+      "sha256": "98ac03841ea85219f3df1f90d038741aa6faa65e212de6a4d12fd02f0e7bfc75",
+      "rows": 724,
+      "columns": 168
+    },
+    {
+      "path": "outputs/data/phase6d_oof_predictions.csv",
+      "size_bytes": 60933,
+      "modified_utc": "2026-10-15T14:19:58.219691+00:00",
+      "sha256": "dfa09e53ec961edd08c3ba917364e8d2a666e23d4357d7d46864974a53ee49a4",
+      "rows": 714,
+      "columns": 10
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_00_0_500_raw_bands.csv",
+      "size_bytes": 775773,
+      "modified_utc": "2026-10-15T18:24:04.977712+00:00",
+      "sha256": "9cdecd9c3162ca6301883b62ffaeffebf579f2e3c09e8631a986905dccf03ed6",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_01_500_1000_raw_bands.csv",
+      "size_bytes": 782271,
+      "modified_utc": "2026-10-15T19:21:57.674603+00:00",
+      "sha256": "e4f2027ba78cef3267f54287809f9379e6d0dc77b6ab67ae3a059b0297ef9dc5",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_02_1000_1500_raw_bands.csv",
+      "size_bytes": 777969,
+      "modified_utc": "2026-10-15T20:14:56.324343+00:00",
+      "sha256": "ef428abd732902e3625f9be2161f96f2a80742022616452c205ef57b1f202219",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_03_1500_2000_raw_bands.csv",
+      "size_bytes": 777328,
+      "modified_utc": "2026-10-15T21:04:57.392413+00:00",
+      "sha256": "5f03c44197ee3e0a397e56a869cab07f3dafae76736821e1988730d8aff0e30a",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_04_2000_2500_raw_bands.csv",
+      "size_bytes": 779197,
+      "modified_utc": "2026-10-15T22:12:11.214671+00:00",
+      "sha256": "a291487191587bcc1680729e45026740008ee81b89aae55b99b923c7fa24453f",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_05_2500_3000_raw_bands.csv",
+      "size_bytes": 782040,
+      "modified_utc": "2026-10-15T23:20:47.795138+00:00",
+      "sha256": "88650fdb722979455e0d3fa4c8280655872f8ea8db31094e180ed1eb0b0750e5",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_06_3000_3500_raw_bands.csv",
+      "size_bytes": 754691,
+      "modified_utc": "2026-10-16T00:28:09.306178+00:00",
+      "sha256": "32015d7d6733c4b9b2684f4c9a8e05f42b7d29c01a09986ab69fa3368f6e6ce4",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_07_3500_4000_raw_bands.csv",
+      "size_bytes": 753373,
+      "modified_utc": "2026-10-16T01:17:58.215137+00:00",
+      "sha256": "572d96fddf458bebb864da59eb44f27e6e2cec505bb855ccabf75855154a557e",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_08_4000_4500_raw_bands.csv",
+      "size_bytes": 726785,
+      "modified_utc": "2026-10-16T16:29:11.994924+00:00",
+      "sha256": "9db8b9bd2fdd8e2968543fe83ddcfe6a9a5e0b0a317c5d2145fda454f6f10f66",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_09_4500_5000_raw_bands.csv",
+      "size_bytes": 775755,
+      "modified_utc": "2026-10-16T17:24:08.782954+00:00",
+      "sha256": "b9c9e0a53197d115e218501d219e26570c5d7d203097031e57b6e35e01814d6d",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_10_5000_5500_raw_bands.csv",
+      "size_bytes": 769427,
+      "modified_utc": "2026-10-16T18:16:33.638016+00:00",
+      "sha256": "6877114a7dc422d0b8539704bac2d777bcbd6b4fcb8c81a632bd1c13c64f7454",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_11_5500_6000_raw_bands.csv",
+      "size_bytes": 782312,
+      "modified_utc": "2026-10-17T05:42:27.126475+00:00",
+      "sha256": "4fa33f6ecdebfd6b02deba3634832362b56b9af695cb18fb39c68341884640fb",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_12_6000_6500_raw_bands.csv",
+      "size_bytes": 727336,
+      "modified_utc": "2026-10-17T06:22:26.347409+00:00",
+      "sha256": "2458256baddcb4f915ee299dd33e2f2811fd8e57d0f81f78435657804bf5a144",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_13_6500_7000_raw_bands.csv",
+      "size_bytes": 706462,
+      "modified_utc": "2026-10-17T07:03:01.822159+00:00",
+      "sha256": "b26e7e8fa202a7c76252df06df11b3189722a8c0fdc36dabbb7d042a1f040ca3",
+      "rows": 500,
+      "columns": 97
+    },
+    {
+      "path": "outputs/data/s2_phase6e_chunk_14_7000_7164_raw_bands.csv",
+      "size_bytes": 239805,
+      "modified_utc": "2026-10-17T07:17:07.490742+00:00",
+      "sha256": "3ac9eb1a66e7d82c93830d4d7e6a568d2b3d13b24c2fc86c80a9990dcd029c53",
+      "rows": 164,
+      "columns": 97
+    }
+  ],
+  "coverage": {
+    "manifest_total_rows": 7164,
+    "manifest_unique_farmids": 7164,
+    "manifest_duplicate_count": 0,
+    "consolidated_total_rows": 7164,
+    "consolidated_unique_farmids": 7164,
+    "consolidated_duplicate_count": 0,
+    "missing_in_consolidated": [],
+    "unexpected_in_consolidated": [],
+    "exact_farmid_order_match": false
+  },
+  "chunk_reconciliation": {
+    "total_chunks_expected": 15,
+    "total_chunks_found": 15,
+    "total_rows_across_chunks": 7164,
+    "inter_chunk_duplicates_count": 0,
+    "chunks_vs_consolidated_row_match": true,
+    "chunks_vs_consolidated_id_order_match": true,
+    "chunks": [
+      {
+        "chunk_index": 0,
+        "filename": "s2_phase6e_chunk_00_0_500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 498,
+        "failed_count": 2
+      },
+      {
+        "chunk_index": 1,
+        "filename": "s2_phase6e_chunk_01_500_1000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 500,
+        "failed_count": 0
+      },
+      {
+        "chunk_index": 2,
+        "filename": "s2_phase6e_chunk_02_1000_1500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 500,
+        "failed_count": 0
+      },
+      {
+        "chunk_index": 3,
+        "filename": "s2_phase6e_chunk_03_1500_2000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 499,
+        "failed_count": 1
+      },
+      {
+        "chunk_index": 4,
+        "filename": "s2_phase6e_chunk_04_2000_2500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 500,
+        "failed_count": 0
+      },
+      {
+        "chunk_index": 5,
+        "filename": "s2_phase6e_chunk_05_2500_3000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 495,
+        "failed_count": 5
+      },
+      {
+        "chunk_index": 6,
+        "filename": "s2_phase6e_chunk_06_3000_3500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 494,
+        "failed_count": 6
+      },
+      {
+        "chunk_index": 7,
+        "filename": "s2_phase6e_chunk_07_3500_4000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 496,
+        "failed_count": 4
+      },
+      {
+        "chunk_index": 8,
+        "filename": "s2_phase6e_chunk_08_4000_4500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 494,
+        "failed_count": 6
+      },
+      {
+        "chunk_index": 9,
+        "filename": "s2_phase6e_chunk_09_4500_5000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 499,
+        "failed_count": 1
+      },
+      {
+        "chunk_index": 10,
+        "filename": "s2_phase6e_chunk_10_5000_5500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 499,
+        "failed_count": 1
+      },
+      {
+        "chunk_index": 11,
+        "filename": "s2_phase6e_chunk_11_5500_6000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 500,
+        "failed_count": 0
+      },
+      {
+        "chunk_index": 12,
+        "filename": "s2_phase6e_chunk_12_6000_6500_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 495,
+        "failed_count": 5
+      },
+      {
+        "chunk_index": 13,
+        "filename": "s2_phase6e_chunk_13_6500_7000_raw_bands.csv",
+        "total_rows": 500,
+        "unique_farmids": 500,
+        "intra_chunk_duplicates": 0,
+        "success_count": 494,
+        "failed_count": 6
+      },
+      {
+        "chunk_index": 14,
+        "filename": "s2_phase6e_chunk_14_7000_7164_raw_bands.csv",
+        "total_rows": 164,
+        "unique_farmids": 164,
+        "intra_chunk_duplicates": 0,
+        "success_count": 161,
+        "failed_count": 3
+      }
+    ]
+  },
+  "label_alignment": {
+    "train_csv_total_rows": 7888,
+    "farms_matched_in_train": 7164,
+    "crop_label_mismatches_count": 0,
+    "district_mismatches_count": 0,
+    "subdistrict_mismatches_count": 0,
+    "season_mismatches_count": 0,
+    "crop_distribution_consolidated": {
+      "Paddy": 2164,
+      "Cotton": 1589,
+      "Maize": 1280,
+      "Bengal Gram": 835,
+      "Groundnut": 665,
+      "Chillies": 510,
+      "Red Gram": 121
+    }
+  },
+  "failure_analysis": {
+    "total_success": 7124,
+    "total_failed": 40,
+    "reported_success_match": true,
+    "reported_failed_match": true,
+    "failure_modes_distribution": {
+      "No valid cloud-free imagery found across any phenological window": 35,
+      "Computation timed out.": 4,
+      "Earth Engine is not authenticated. Please run `earthengine authenticate`.": 1
+    },
+    "failed_farms_list": [
+      {
+        "FarmID": 1326994,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Sirikonda",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1326947,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Utnur",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1328573,
+        "Crop": "Cotton",
+        "District": "Nalgonda",
+        "Sub-District": "Shaligouraram",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1330055,
+        "Crop": "Bengal Gram",
+        "District": "Adilabad",
+        "Sub-District": "Sonala",
+        "Season": "Rabi",
+        "error_message": "Computation timed out."
+      },
+      {
+        "FarmID": 1330056,
+        "Crop": "Bengal Gram",
+        "District": "Adilabad",
+        "Sub-District": "Boath",
+        "Season": "Rabi",
+        "error_message": "Computation timed out."
+      },
+      {
+        "FarmID": 1330053,
+        "Crop": "Bengal Gram",
+        "District": "Adilabad",
+        "Sub-District": "Sonala",
+        "Season": "Rabi",
+        "error_message": "Computation timed out."
+      },
+      {
+        "FarmID": 1330059,
+        "Crop": "Bengal Gram",
+        "District": "Adilabad",
+        "Sub-District": "Boath",
+        "Season": "Rabi",
+        "error_message": "Computation timed out."
+      },
+      {
+        "FarmID": 1330230,
+        "Crop": "Bengal Gram",
+        "District": "Adilabad",
+        "Sub-District": "Jainad",
+        "Season": "Rabi",
+        "error_message": "Earth Engine is not authenticated. Please run `earthengine authenticate`."
+      },
+      {
+        "FarmID": 1330458,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Dornakal",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1330459,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Dornakal",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1330503,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Dornakal",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1330526,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Seerole",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 101927,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Garla",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1330797,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Gudur",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1331719,
+        "Crop": "Red Gram",
+        "District": "Adilabad",
+        "Sub-District": "Utnur",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1331793,
+        "Crop": "Red Gram",
+        "District": "Adilabad",
+        "Sub-District": "Gadiguda",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1298032,
+        "Crop": "Cotton",
+        "District": "Nalgonda",
+        "Sub-District": "Tipparthy",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 276136,
+        "Crop": "Paddy",
+        "District": "Nalgonda",
+        "Sub-District": "Kanagal",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1304661,
+        "Crop": "Cotton",
+        "District": "Medak",
+        "Sub-District": "Ramayampet",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1304597,
+        "Crop": "Cotton",
+        "District": "Mahabubabad",
+        "Sub-District": "Kothaguda",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1304557,
+        "Crop": "Paddy",
+        "District": "Medak",
+        "Sub-District": "Ramayampet",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1304759,
+        "Crop": "Paddy",
+        "District": "Medak",
+        "Sub-District": "Narsingi",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1307699,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Inderavelly",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1307730,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Utnur",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 715976,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Kuravi",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1319747,
+        "Crop": "Chillies",
+        "District": "Mahabubabad",
+        "Sub-District": "Gudur",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1318568,
+        "Crop": "Paddy",
+        "District": "Nalgonda",
+        "Sub-District": "Chityal",
+        "Season": "Rabi",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1301178,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Gangaram",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 906116,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Gangaram",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1308399,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Gangaram",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1298442,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Gangaram",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1319844,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Thorrur",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1311095,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Thorrur",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1313201,
+        "Crop": "Paddy",
+        "District": "Mahabubabad",
+        "Sub-District": "Nellikudur",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1307668,
+        "Crop": "Paddy",
+        "District": "Mahabubabad",
+        "Sub-District": "Bayyaram",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 459707,
+        "Crop": "Paddy",
+        "District": "Mahabubabad",
+        "Sub-District": "Gudur",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 42013,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Bhoraj",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 757476,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Bhoraj",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1297813,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Bela",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      },
+      {
+        "FarmID": 1324216,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Bela",
+        "Season": "Kharif",
+        "error_message": "No valid cloud-free imagery found across any phenological window"
+      }
+    ],
+    "failed_records_non_nan_count": 100,
+    "failed_records_strictly_preserve_nan": false,
+    "success_records_all_nan_count": 0
+  },
+  "spectral_sanity": {
+    "total_spectral_features_audited": 80,
+    "total_infinite_values": 0,
+    "total_negative_reflectance_values": 0,
+    "total_excessive_reflectance_values": 0,
+    "total_zero_band_means": 1,
+    "total_zero_band_stds": 359,
+    "window_complete_missingness": {
+      "early": {
+        "farms_completely_missing_window": 466,
+        "pct_completely_missing_window": 6.5
+      },
+      "mid": {
+        "farms_completely_missing_window": 134,
+        "pct_completely_missing_window": 1.87
+      },
+      "late": {
+        "farms_completely_missing_window": 198,
+        "pct_completely_missing_window": 2.76
+      },
+      "full": {
+        "farms_completely_missing_window": 40,
+        "pct_completely_missing_window": 0.56
+      }
+    },
+    "column_stats_sample": {
+      "B2_early_mean": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 0.22,
+        "max": 3108.14,
+        "mean": 657.17,
+        "zero_count": 0
+      },
+      "B2_early_std": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 0.0,
+        "max": 1622.29,
+        "mean": 59.67,
+        "zero_count": 6
+      },
+      "B3_early_mean": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 326.26,
+        "max": 2981.03,
+        "mean": 922.11,
+        "zero_count": 0
+      },
+      "B3_early_std": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 0.0,
+        "max": 1407.71,
+        "mean": 69.13,
+        "zero_count": 6
+      },
+      "B4_early_mean": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 174.65,
+        "max": 3055.54,
+        "mean": 1021.08,
+        "zero_count": 0
+      },
+      "B4_early_std": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 0.0,
+        "max": 1408.18,
+        "mean": 107.33,
+        "zero_count": 6
+      },
+      "B8_early_mean": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 609.68,
+        "max": 6385.27,
+        "mean": 2546.08,
+        "zero_count": 0
+      },
+      "B8_early_std": {
+        "nan_count": 467,
+        "nan_pct": 6.52,
+        "inf_count": 0,
+        "min": 0.0,
+        "max": 1021.64,
+        "mean": 199.8,
+        "zero_count": 6
+      }
+    }
+  }
+}

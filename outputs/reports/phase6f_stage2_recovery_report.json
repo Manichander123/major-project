@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "2026-10-18T08:58:32.490731+00:00",
+  "total_farms_attempted": 5,
+  "fully_recovered_farms": 5,
+  "partially_recovered_farms": 0,
+  "still_failed_farms": 0,
+  "total_window_reductions_requested": 15,
+  "successful_window_reductions": 15,
+  "farm_status_summary": [
+    {
+      "FarmID": 1330053,
+      "Crop": "Bengal Gram",
+      "Sub-District": "Sonala",
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "FarmID": 1330055,
+      "Crop": "Bengal Gram",
+      "Sub-District": "Sonala",
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "FarmID": 1330056,
+      "Crop": "Bengal Gram",
+      "Sub-District": "Boath",
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "FarmID": 1330059,
+      "Crop": "Bengal Gram",
+      "Sub-District": "Boath",
+      "status": "success",
+      "error_message": ""
+    },
+    {
+      "FarmID": 1330230,
+      "Crop": "Bengal Gram",
+      "Sub-District": "Jainad",
+      "status": "success",
+      "error_message": ""
+    }
+  ],
+  "artifacts_created": [
+    "outputs/data/s2_phase6f_recovered_farms.csv",
+    "outputs/reports/phase6f_stage2_recovery_ledger.csv"
+  ]
+}

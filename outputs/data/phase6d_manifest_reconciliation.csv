@@ -1,0 +1,8 @@
+Crop,Manifest_Farms,Failed_Extraction_Farms,Clean_Evaluated_Farms,OOF_Prediction_Farms,Agreement_Status
+Bengal Gram,50,0,50,50,VERIFIED
+Chillies,51,2,49,49,VERIFIED
+Cotton,50,0,50,50,VERIFIED
+Groundnut,50,0,50,50,VERIFIED
+Maize,51,1,50,50,VERIFIED
+Paddy,50,1,49,49,VERIFIED
+Red Gram,50,0,50,50,VERIFIED

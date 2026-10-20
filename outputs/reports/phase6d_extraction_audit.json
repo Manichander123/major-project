@@ -1,0 +1,63 @@
+{
+  "report_name": "Phase 6D Dataset Expansion & Extraction Audit Report",
+  "execution_timestamp": "2026-10-15",
+  "status": "EXTRACTION_COMPLETE_AND_VERIFIED",
+  "manifest_summary": {
+    "phase6c_manifest_farms": 352,
+    "phase6d_expansion_manifest_farms": 372,
+    "total_combined_manifest_farms": 724,
+    "manifest_path": "outputs/data/s2_phase6d_manifest_724.csv",
+    "batch3_manifest_path": "outputs/data/s2_phase6d_recommended_manifest_372.csv"
+  },
+  "extraction_results": {
+    "raw_bands_path": "outputs/data/s2_phase6d_724_raw_bands.csv",
+    "batch3_raw_bands_path": "outputs/data/s2_phase6d_batch3_raw_bands.csv",
+    "total_extracted_records": 724,
+    "status_distribution": {
+      "success": 714,
+      "failed": 10
+    },
+    "batch3_extraction_details": {
+      "total_batch3": 372,
+      "batch3_success": 366,
+      "batch3_failed": 6,
+      "batch3_failed_farm_ids": [1330480, 1313666, 1331806, 1298016, 1321168, 1330381],
+      "batch3_failure_reason": "100% monsoon cloud cover across 1- to 4-day short Kharif duration windows"
+    },
+    "phase6c_failed_records": [1319251, 1298973, 1322898, 1298212]
+  },
+  "clean_valid_support_per_crop": {
+    "Bengal Gram": 103,
+    "Paddy": 103,
+    "Groundnut": 103,
+    "Maize": 102,
+    "Cotton": 102,
+    "Red Gram": 102,
+    "Chillies": 99,
+    "Total_Clean_Valid": 714
+  },
+  "data_integrity_audit": {
+    "features_path": "outputs/data/s2_phase6d_724_features.csv",
+    "features_shape": [724, 168],
+    "duplicate_farm_ids_in_features": 0,
+    "duplicate_farm_ids_in_manifest": 0,
+    "crop_label_mismatches_against_train_csv": 0,
+    "invalid_spectral_values_infs": 0,
+    "spectral_ranges_clean_rows": {
+      "ndvi_full": {"min": 0.1055, "max": 0.8743, "mean": 0.49},
+      "evi_full": {"min": 0.0506, "max": 0.7199, "mean": 0.3277},
+      "ndwi_full": {"min": -0.7705, "max": -0.2397, "mean": -0.5182},
+      "ndmi_full": {"min": -0.2492, "max": 0.4776, "mean": 0.0649},
+      "savi_full": {"min": 0.0594, "max": 0.6053, "mean": 0.311}
+    },
+    "missing_value_handling": "Failed rows and missing observation windows strictly preserve NaN (10/10 failed rows have NaN in B4_full_mean and ndvi_full; 0 fabricated zeros)"
+  },
+  "preservation_of_phase6c_artifacts": {
+    "s2_phase6c_manifest_350_csv": "UNTOUCHED_AND_PRESERVED",
+    "s2_phase6c_350_raw_bands_csv": "UNTOUCHED_AND_PRESERVED",
+    "s2_phase6c_350_features_csv": "UNTOUCHED_AND_PRESERVED",
+    "phase6c_oof_predictions_csv": "UNTOUCHED_AND_PRESERVED",
+    "phase6c_model_benchmark_json": "UNTOUCHED_AND_PRESERVED"
+  },
+  "next_gate": "STOPPED_BEFORE_MODEL_TRAINING_FOR_USER_REVIEW"
+}

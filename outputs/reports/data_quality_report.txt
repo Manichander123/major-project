@@ -1,0 +1,39 @@
+=================================================================
+  DATA QUALITY REPORT — Telangana Crop Monitoring Framework
+=================================================================
+  Train :  7,888 rows  ×  20 columns
+  Test  :  2,718 rows  ×  19 columns
+
+── Missing Values ──────────────────────────────────────────
+  ✓ Train: NO missing values in any column.
+  ✓ Test : NO missing values in any column.
+
+── Duplicates ──────────────────────────────────────────────
+  Train FarmID dups   : 0
+  Test  FarmID dups   : 0
+  Train geometry dups : 0
+  Test  geometry dups : 0
+  Train-Test FarmID overlap : 0
+
+── Date Validation ─────────────────────────────────────────
+  Train bad SDate      : 0
+  Train bad HDate      : 0
+  Train HDate ≤ SDate  : 0
+  Test  bad SDate      : 0
+  Test  bad HDate      : 0
+  Test  HDate ≤ SDate  : 0
+
+── Geometry Validation ─────────────────────────────────────
+  Train bad geometry  : 0
+  Train non-POLYGON   : 0
+  Test  bad geometry  : 0
+  Test  non-POLYGON   : 0
+
+── Column Presence ─────────────────────────────────────────
+  'Crop' in Train (Primary Target)   : True
+  'Crop' in Test  (Features/Eval)    : True
+  'category' in Train (Sec. Health)  : True
+  'category' in Test                 : False  (expected False)
+
+  CRITICAL ISSUES DETECTED: False
+=================================================================

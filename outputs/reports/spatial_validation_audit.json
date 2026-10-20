@@ -1,0 +1,73 @@
+{
+  "crs": "EPSG:32644 (UTM Zone 44N, Telangana - units in meters)",
+  "inter_mandal_distance_stats_meters": {
+    "min": 106.0,
+    "percentile_5": 1820.9,
+    "percentile_10": 2332.8,
+    "median": 6700.2,
+    "mean": 8454.3
+  },
+  "boundary_proximity": {
+    "within_1km": {
+      "count": 6,
+      "pct": 1.72
+    },
+    "within_5km": {
+      "count": 123,
+      "pct": 35.34
+    },
+    "within_10km": {
+      "count": 251,
+      "pct": 72.13
+    },
+    "within_15km": {
+      "count": 312,
+      "pct": 89.66
+    },
+    "within_20km": {
+      "count": 325,
+      "pct": 93.39
+    }
+  },
+  "grid_block_analysis": {
+    "25km": {
+      "n_blocks": 43,
+      "min_farms_per_block": 1,
+      "max_farms_per_block": 36,
+      "median_farms_per_block": 5.0,
+      "blocks_with_all_7_classes": 1
+    },
+    "50km": {
+      "n_blocks": 24,
+      "min_farms_per_block": 1,
+      "max_farms_per_block": 40,
+      "median_farms_per_block": 9.0,
+      "blocks_with_all_7_classes": 1
+    },
+    "75km": {
+      "n_blocks": 15,
+      "min_farms_per_block": 1,
+      "max_farms_per_block": 74,
+      "median_farms_per_block": 11.0,
+      "blocks_with_all_7_classes": 1
+    }
+  },
+  "model_comparison": {
+    "sub_district": {
+      "grouping": "Sub-District (Administrative Mandal)",
+      "overall_macro_f1": 0.519,
+      "overall_accuracy": 0.5287,
+      "fold_macro_f1_mean": 0.5142,
+      "fold_macro_f1_std": 0.0575,
+      "folds_with_missing_classes": 0
+    },
+    "block_50km": {
+      "grouping": "50km Projected Spatial Block",
+      "overall_macro_f1": 0.5016,
+      "overall_accuracy": 0.5115,
+      "fold_macro_f1_mean": 0.4755,
+      "fold_macro_f1_std": 0.1087,
+      "folds_with_missing_classes": 1
+    }
+  }
+}

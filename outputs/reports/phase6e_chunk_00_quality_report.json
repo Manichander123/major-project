@@ -1,0 +1,65 @@
+{
+  "report_name": "Phase 6E Chunk 0 Extraction Quality Report",
+  "timestamp": "2026-10-15",
+  "chunk_index": 0,
+  "chunk_range": "0 to 500",
+  "total_candidates": 500,
+  "total_extracted": 500,
+  "unique_farm_ids": 500,
+  "duplicates": 0,
+  "manifest_id_alignment": true,
+  "label_mismatches": 0,
+  "status_distribution": {
+    "success": 498,
+    "failed": 2
+  },
+  "success_count": 498,
+  "failed_count": 2,
+  "success_rate_percent": 99.6,
+  "infinities_detected": 0,
+  "exact_zeros_detected": 0,
+  "spectral_ranges": {
+    "B4_full_mean": {
+      "min": 276.017,
+      "max": 1978.6006,
+      "mean": 881.1239
+    },
+    "B8_full_mean": {
+      "min": 1181.0613,
+      "max": 4471.4889,
+      "mean": 2471.5577
+    }
+  },
+  "crop_distribution": {
+    "Cotton": 261,
+    "Paddy": 87,
+    "Maize": 85,
+    "Bengal Gram": 67
+  },
+  "failed_records": [
+    {
+      "FarmID": 1326947,
+      "Crop": "Cotton",
+      "status": "failed",
+      "error_message": "No valid cloud-free imagery found across any phenological window"
+    },
+    {
+      "FarmID": 1326994,
+      "Crop": "Cotton",
+      "status": "failed",
+      "error_message": "No valid cloud-free imagery found across any phenological window"
+    }
+  ],
+  "checkpoint_integrity": {
+    "checkpoint_file": "outputs\\data\\s2_phase6e_chunk_00_0_500_raw_bands.csv",
+    "file_exists": true,
+    "file_size_bytes": 776325,
+    "resume_ready": true
+  },
+  "throughput_and_timing": {
+    "rate_farms_per_minute": 6.5,
+    "elapsed_time_minutes": 76.9,
+    "workers": 4
+  },
+  "verdict": "CHUNK_0_VERIFIED_PASS"
+}

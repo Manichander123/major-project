@@ -1,0 +1,453 @@
+{
+  "pilot_stage": "Phase 6G Pilot (Outer Fold 0 Nested Grouped CV)",
+  "timestamp": "2026-10-18T17:29:43.252836",
+  "status": "COMPLETED SUCCESSFULLY",
+  "scope_boundary_note": "EXPLORATORY PILOT RESULT ON OUTER FOLD 0. NOT A FINAL 5-FOLD GENERALIZATION ESTIMATE.",
+  "outer_fold": 0,
+  "outer_train_samples": 6335,
+  "outer_val_samples": 1508,
+  "feature_count": 140,
+  "total_trials": 10,
+  "inner_cv_folds": 3,
+  "selected_trial": {
+    "trial_id": 4,
+    "name": "Depth 7 | Feature Subsample 0.75 | L2 Regularized (5.0)",
+    "params": {
+      "max_depth": 7,
+      "learning_rate": 0.05,
+      "subsample": 0.8,
+      "colsample_bytree": 0.75,
+      "min_child_weight": 3,
+      "gamma": 0.2,
+      "reg_alpha": 0.2,
+      "reg_lambda": 5.0
+    },
+    "inner_macro_f1": 0.6797,
+    "inner_accuracy": 0.7699,
+    "inner_balanced_accuracy": 0.6669,
+    "inner_red_gram_f1": 0.3022,
+    "inner_red_gram_recall": 0.2061,
+    "inner_chillies_f1": 0.4767,
+    "inner_chillies_recall": 0.4251,
+    "best_iterations": [
+      307,
+      241,
+      262
+    ],
+    "mean_best_iteration": 270,
+    "fit_time_seconds": 58.4
+  },
+  "outer_validation_metrics": {
+    "macro_f1": 0.7024,
+    "accuracy": 0.7798,
+    "balanced_accuracy": 0.6917,
+    "weighted_f1": 0.7695
+  },
+  "phase6f_outer_fold0_baseline": {
+    "macro_f1": 0.7095,
+    "accuracy": 0.7818,
+    "balanced_accuracy": 0.6973,
+    "weighted_f1": 0.7723,
+    "red_gram_support": 56,
+    "red_gram_precision": 0.7,
+    "red_gram_recall": 0.25,
+    "red_gram_f1": 0.3684
+  },
+  "delta_vs_baseline": {
+    "macro_f1_delta": -0.0071,
+    "accuracy_delta": -0.002,
+    "balanced_accuracy_delta": -0.0056
+  },
+  "per_class_metrics": {
+    "Bengal Gram": {
+      "precision": 0.8201,
+      "recall": 0.8378,
+      "f1": 0.8289,
+      "support": 185
+    },
+    "Chillies": {
+      "precision": 0.6081,
+      "recall": 0.4206,
+      "f1": 0.4972,
+      "support": 107
+    },
+    "Cotton": {
+      "precision": 0.788,
+      "recall": 0.8605,
+      "f1": 0.8227,
+      "support": 337
+    },
+    "Groundnut": {
+      "precision": 0.8246,
+      "recall": 0.9307,
+      "f1": 0.8744,
+      "support": 101
+    },
+    "Maize": {
+      "precision": 0.7068,
+      "recall": 0.6567,
+      "f1": 0.6809,
+      "support": 268
+    },
+    "Paddy": {
+      "precision": 0.8154,
+      "recall": 0.8855,
+      "f1": 0.849,
+      "support": 454
+    },
+    "Red Gram": {
+      "precision": 0.6667,
+      "recall": 0.25,
+      "f1": 0.3636,
+      "support": 56
+    }
+  },
+  "confusion_matrix": [
+    [
+      155,
+      2,
+      9,
+      0,
+      19,
+      0,
+      0
+    ],
+    [
+      0,
+      45,
+      14,
+      5,
+      11,
+      32,
+      0
+    ],
+    [
+      9,
+      6,
+      290,
+      6,
+      14,
+      7,
+      5
+    ],
+    [
+      0,
+      0,
+      5,
+      94,
+      0,
+      2,
+      0
+    ],
+    [
+      8,
+      13,
+      17,
+      3,
+      176,
+      50,
+      1
+    ],
+    [
+      6,
+      8,
+      16,
+      5,
+      16,
+      402,
+      1
+    ],
+    [
+      11,
+      0,
+      17,
+      1,
+      13,
+      0,
+      14
+    ]
+  ],
+  "trial_ledger": [
+    {
+      "trial_id": 0,
+      "name": "Phase 6F Baseline (Reference)",
+      "params": {
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0,
+        "min_child_weight": 1,
+        "gamma": 0.0,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0
+      },
+      "inner_macro_f1": 0.6649,
+      "inner_accuracy": 0.7631,
+      "inner_balanced_accuracy": 0.6529,
+      "inner_red_gram_f1": 0.2559,
+      "inner_red_gram_recall": 0.1636,
+      "inner_chillies_f1": 0.4408,
+      "inner_chillies_recall": 0.3846,
+      "best_iterations": [
+        139,
+        153,
+        184
+      ],
+      "mean_best_iteration": 159,
+      "fit_time_seconds": 76.94
+    },
+    {
+      "trial_id": 1,
+      "name": "Depth 6 | Feature Subsample 0.8 | L2 Regularized",
+      "params": {
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "min_child_weight": 3,
+        "gamma": 0.1,
+        "reg_alpha": 0.1,
+        "reg_lambda": 3.0
+      },
+      "inner_macro_f1": 0.6738,
+      "inner_accuracy": 0.7686,
+      "inner_balanced_accuracy": 0.6615,
+      "inner_red_gram_f1": 0.274,
+      "inner_red_gram_recall": 0.1818,
+      "inner_chillies_f1": 0.4684,
+      "inner_chillies_recall": 0.413,
+      "best_iterations": [
+        247,
+        238,
+        255
+      ],
+      "mean_best_iteration": 247,
+      "fit_time_seconds": 55.06
+    },
+    {
+      "trial_id": 2,
+      "name": "Depth 5 | Feature Subsample 0.75 | Conservative Trees",
+      "params": {
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 0.85,
+        "colsample_bytree": 0.75,
+        "min_child_weight": 3,
+        "gamma": 0.1,
+        "reg_alpha": 0.1,
+        "reg_lambda": 3.0
+      },
+      "inner_macro_f1": 0.6742,
+      "inner_accuracy": 0.7694,
+      "inner_balanced_accuracy": 0.6623,
+      "inner_red_gram_f1": 0.2752,
+      "inner_red_gram_recall": 0.1818,
+      "inner_chillies_f1": 0.4635,
+      "inner_chillies_recall": 0.4109,
+      "best_iterations": [
+        271,
+        272,
+        289
+      ],
+      "mean_best_iteration": 277,
+      "fit_time_seconds": 45.57
+    },
+    {
+      "trial_id": 3,
+      "name": "Depth 6 | Feature Subsample 0.70 | Slower Learning Rate (0.03)",
+      "params": {
+        "max_depth": 6,
+        "learning_rate": 0.03,
+        "subsample": 0.8,
+        "colsample_bytree": 0.7,
+        "min_child_weight": 3,
+        "gamma": 0.2,
+        "reg_alpha": 0.5,
+        "reg_lambda": 5.0
+      },
+      "inner_macro_f1": 0.6719,
+      "inner_accuracy": 0.7684,
+      "inner_balanced_accuracy": 0.6603,
+      "inner_red_gram_f1": 0.2727,
+      "inner_red_gram_recall": 0.1818,
+      "inner_chillies_f1": 0.446,
+      "inner_chillies_recall": 0.3927,
+      "best_iterations": [
+        399,
+        396,
+        398
+      ],
+      "mean_best_iteration": 398,
+      "fit_time_seconds": 75.72
+    },
+    {
+      "trial_id": 4,
+      "name": "Depth 7 | Feature Subsample 0.75 | L2 Regularized (5.0)",
+      "params": {
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.75,
+        "min_child_weight": 3,
+        "gamma": 0.2,
+        "reg_alpha": 0.2,
+        "reg_lambda": 5.0
+      },
+      "inner_macro_f1": 0.6797,
+      "inner_accuracy": 0.7699,
+      "inner_balanced_accuracy": 0.6669,
+      "inner_red_gram_f1": 0.3022,
+      "inner_red_gram_recall": 0.2061,
+      "inner_chillies_f1": 0.4767,
+      "inner_chillies_recall": 0.4251,
+      "best_iterations": [
+        307,
+        241,
+        262
+      ],
+      "mean_best_iteration": 270,
+      "fit_time_seconds": 58.4
+    },
+    {
+      "trial_id": 5,
+      "name": "Depth 8 | Feature Subsample 0.70 | High Leaf Weight (5)",
+      "params": {
+        "max_depth": 8,
+        "learning_rate": 0.04,
+        "subsample": 0.8,
+        "colsample_bytree": 0.7,
+        "min_child_weight": 5,
+        "gamma": 0.3,
+        "reg_alpha": 0.5,
+        "reg_lambda": 5.0
+      },
+      "inner_macro_f1": 0.6736,
+      "inner_accuracy": 0.7694,
+      "inner_balanced_accuracy": 0.6629,
+      "inner_red_gram_f1": 0.2743,
+      "inner_red_gram_recall": 0.1879,
+      "inner_chillies_f1": 0.4515,
+      "inner_chillies_recall": 0.4008,
+      "best_iterations": [
+        330,
+        375,
+        357
+      ],
+      "mean_best_iteration": 354,
+      "fit_time_seconds": 73.73
+    },
+    {
+      "trial_id": 6,
+      "name": "Depth 6 | Strong Decorrelation (colsample 0.65) | Faster LR (0.06)",
+      "params": {
+        "max_depth": 6,
+        "learning_rate": 0.06,
+        "subsample": 0.75,
+        "colsample_bytree": 0.65,
+        "min_child_weight": 1,
+        "gamma": 0.1,
+        "reg_alpha": 0.0,
+        "reg_lambda": 2.0
+      },
+      "inner_macro_f1": 0.667,
+      "inner_accuracy": 0.7667,
+      "inner_balanced_accuracy": 0.6565,
+      "inner_red_gram_f1": 0.2407,
+      "inner_red_gram_recall": 0.1576,
+      "inner_chillies_f1": 0.4538,
+      "inner_chillies_recall": 0.4028,
+      "best_iterations": [
+        160,
+        160,
+        186
+      ],
+      "mean_best_iteration": 169,
+      "fit_time_seconds": 45.97
+    },
+    {
+      "trial_id": 7,
+      "name": "Depth 5 | colsample 0.80 | Fast Rate (0.08)",
+      "params": {
+        "max_depth": 5,
+        "learning_rate": 0.08,
+        "subsample": 0.85,
+        "colsample_bytree": 0.8,
+        "min_child_weight": 1,
+        "gamma": 0.0,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0
+      },
+      "inner_macro_f1": 0.6706,
+      "inner_accuracy": 0.7675,
+      "inner_balanced_accuracy": 0.6588,
+      "inner_red_gram_f1": 0.2559,
+      "inner_red_gram_recall": 0.1636,
+      "inner_chillies_f1": 0.4658,
+      "inner_chillies_recall": 0.413,
+      "best_iterations": [
+        151,
+        121,
+        177
+      ],
+      "mean_best_iteration": 150,
+      "fit_time_seconds": 30.32
+    },
+    {
+      "trial_id": 8,
+      "name": "Depth 7 | colsample 0.85 | Heavy Regularization (L1=1, L2=10)",
+      "params": {
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.85,
+        "min_child_weight": 5,
+        "gamma": 0.2,
+        "reg_alpha": 1.0,
+        "reg_lambda": 10.0
+      },
+      "inner_macro_f1": 0.6751,
+      "inner_accuracy": 0.7702,
+      "inner_balanced_accuracy": 0.6638,
+      "inner_red_gram_f1": 0.2805,
+      "inner_red_gram_recall": 0.1879,
+      "inner_chillies_f1": 0.4572,
+      "inner_chillies_recall": 0.4109,
+      "best_iterations": [
+        296,
+        385,
+        369
+      ],
+      "mean_best_iteration": 350,
+      "fit_time_seconds": 69.0
+    },
+    {
+      "trial_id": 9,
+      "name": "Depth 6 | colsample 0.85 | Balanced Mild Regularization",
+      "params": {
+        "max_depth": 6,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.85,
+        "min_child_weight": 1,
+        "gamma": 0.0,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0
+      },
+      "inner_macro_f1": 0.6649,
+      "inner_accuracy": 0.7667,
+      "inner_balanced_accuracy": 0.6544,
+      "inner_red_gram_f1": 0.2254,
+      "inner_red_gram_recall": 0.1455,
+      "inner_chillies_f1": 0.4511,
+      "inner_chillies_recall": 0.3968,
+      "best_iterations": [
+        176,
+        162,
+        187
+      ],
+      "mean_best_iteration": 175,
+      "fit_time_seconds": 46.84
+    }
+  ],
+  "total_runtime_seconds": 604.98
+}

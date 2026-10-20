@@ -1,0 +1,21 @@
+FarmID,Crop,District,Sub-District,Season,window,was_previously_valid,requested,attempts,outcome,n_images_valid,error_message,timestamp_utc
+1330053,Bengal Gram,Adilabad,Sonala,Rabi,early,True,False,0,preserved_existing,10.0,,2026-10-18T08:56:46.367020+00:00
+1330053,Bengal Gram,Adilabad,Sonala,Rabi,mid,True,False,0,preserved_existing,55.0,,2026-10-18T08:56:46.367036+00:00
+1330053,Bengal Gram,Adilabad,Sonala,Rabi,late,True,False,0,preserved_existing,34.0,,2026-10-18T08:56:46.367041+00:00
+1330053,Bengal Gram,Adilabad,Sonala,Rabi,full,False,True,1,success,74.0,,2026-10-18T08:56:57.268831+00:00
+1330055,Bengal Gram,Adilabad,Sonala,Rabi,early,True,False,0,preserved_existing,8.0,,2026-10-18T08:56:57.271258+00:00
+1330055,Bengal Gram,Adilabad,Sonala,Rabi,mid,False,True,1,success,48.0,,2026-10-18T08:57:06.531283+00:00
+1330055,Bengal Gram,Adilabad,Sonala,Rabi,late,False,True,1,success,43.0,,2026-10-18T08:57:14.209981+00:00
+1330055,Bengal Gram,Adilabad,Sonala,Rabi,full,False,True,1,success,97.0,,2026-10-18T08:57:22.606795+00:00
+1330056,Bengal Gram,Adilabad,Boath,Rabi,early,True,False,0,preserved_existing,23.0,,2026-10-18T08:57:22.609401+00:00
+1330056,Bengal Gram,Adilabad,Boath,Rabi,mid,False,True,1,success,41.0,,2026-10-18T08:57:27.642457+00:00
+1330056,Bengal Gram,Adilabad,Boath,Rabi,late,False,True,1,success,26.0,,2026-10-18T08:57:34.691055+00:00
+1330056,Bengal Gram,Adilabad,Boath,Rabi,full,False,True,1,success,86.0,,2026-10-18T08:57:41.655664+00:00
+1330059,Bengal Gram,Adilabad,Boath,Rabi,early,False,True,1,success,14.0,,2026-10-18T08:57:48.204673+00:00
+1330059,Bengal Gram,Adilabad,Boath,Rabi,mid,False,True,1,success,26.0,,2026-10-18T08:57:53.137250+00:00
+1330059,Bengal Gram,Adilabad,Boath,Rabi,late,False,True,1,success,15.0,,2026-10-18T08:58:00.254968+00:00
+1330059,Bengal Gram,Adilabad,Boath,Rabi,full,False,True,1,success,55.0,,2026-10-18T08:58:05.636894+00:00
+1330230,Bengal Gram,Adilabad,Jainad,Rabi,early,False,True,1,success,33.0,,2026-10-18T08:58:11.553879+00:00
+1330230,Bengal Gram,Adilabad,Jainad,Rabi,mid,False,True,1,success,35.0,,2026-10-18T08:58:16.945864+00:00
+1330230,Bengal Gram,Adilabad,Jainad,Rabi,late,False,True,1,success,46.0,,2026-10-18T08:58:22.512577+00:00
+1330230,Bengal Gram,Adilabad,Jainad,Rabi,full,False,True,1,success,114.0,,2026-10-18T08:58:32.443021+00:00

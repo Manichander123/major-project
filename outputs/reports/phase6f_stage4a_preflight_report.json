@@ -1,0 +1,197 @@
+{
+  "stage": "Phase 6F Stage 4A",
+  "preflight_decision": "READY_WITH_CAVEATS",
+  "timestamp_utc": "2026-10-18T10:00:00Z",
+  "evidence_summary": {
+    "harmonized_dataset": {
+      "path": "outputs/data/s2_phase6f_harmonized_cohort.csv",
+      "status": "VERIFIED",
+      "sha256": "caed402949eb577425b9d2e2cac0ee2c8462f635ca22b466a7675962ebb5a7af",
+      "rows": 7888,
+      "unique_farmids": 7888,
+      "columns": 100
+    },
+    "population_accounting": {
+      "status": "VERIFIED",
+      "train_csv_total": 7888,
+      "phase6e_records": 7164,
+      "phase6d_records": 724,
+      "phase6f_recoveries": 5,
+      "successful_satellite_cohort": 7843,
+      "persistent_cloud_failures": 45
+    },
+    "label_and_metadata_integrity": {
+      "status": "VERIFIED",
+      "target": "Crop",
+      "n_classes": 7,
+      "label_mismatches_against_train": 0,
+      "metadata_mismatches_against_train": 0,
+      "temporal_mismatches_against_train": 0
+    },
+    "test_csv_holdout_status": {
+      "path": "datasss/Test.csv",
+      "status": "DEFECT_IF_PROPOSED_AS_SATELLITE_HOLDOUT",
+      "rows": 2718,
+      "has_satellite_features": false,
+      "overlap_with_harmonized_cohort": 0,
+      "recommendation": "DO_NOT_USE_AS_SATELLITE_HOLDOUT"
+    },
+    "daily_mosaicking": {
+      "implementation_path": "src/satellite/s2_extractor.py",
+      "status": "VERIFIED",
+      "enabled_in_campaign": true,
+      "empirical_audit_report": "outputs/reports/mgrs_multi_farm_audit.json"
+    },
+    "protected_baseline_files": {
+      "status": "VERIFIED",
+      "total_files_monitored": 24,
+      "mutated_files_count": 0
+    }
+  },
+  "cohort_accounting": {
+    "total_farms": 7888,
+    "eligible_modeling_cohort": 7843,
+    "cloud_obscured_failures": 45,
+    "source_breakdown": {
+      "phase6e": 7124,
+      "phase6d": 714,
+      "phase6e_cloud_failed": 35,
+      "phase6d_cloud_failed": 10,
+      "phase6f_recovered": 5
+    },
+    "crop_distribution_eligible": {
+      "Paddy": 2261,
+      "Cotton": 1681,
+      "Maize": 1378,
+      "Bengal Gram": 932,
+      "Groundnut": 767,
+      "Chillies": 603,
+      "Red Gram": 221
+    },
+    "crop_distribution_failed": {
+      "Paddy": 7,
+      "Cotton": 11,
+      "Maize": 6,
+      "Bengal Gram": 6,
+      "Groundnut": 1,
+      "Chillies": 11,
+      "Red Gram": 3
+    }
+  },
+  "temporal_window_completeness": {
+    "full_season_composite": {
+      "valid_farms": 7843,
+      "valid_pct": 100.0,
+      "missing_farms": 0,
+      "features_per_farm": 20
+    },
+    "phenological_subwindows": {
+      "early": {
+        "valid_farms": 7302,
+        "valid_pct": 93.10,
+        "missing_farms": 541
+      },
+      "mid": {
+        "valid_farms": 7722,
+        "valid_pct": 98.46,
+        "missing_farms": 121
+      },
+      "late": {
+        "valid_farms": 7651,
+        "valid_pct": 97.55,
+        "missing_farms": 192
+      }
+    },
+    "trajectory_coverage": {
+      "complete_all_4_windows": 7107,
+      "complete_pct": 90.62,
+      "partial_windows_count": 736,
+      "partial_pct": 9.38,
+      "patterns": {
+        "all_4_complete": 7107,
+        "early_only_missing": 446,
+        "late_only_missing": 121,
+        "mid_only_missing": 51,
+        "early_plus_late_missing": 48,
+        "early_plus_mid_missing": 47,
+        "mid_plus_late_missing": 23,
+        "all_subwindows_missing": 0
+      }
+    }
+  },
+  "dependencies": {
+    "python_version": "3.14",
+    "scikit_learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.6.0"
+  },
+  "spatial_cv_feasibility": {
+    "strategy": "StratifiedGroupKFold",
+    "n_splits": 5,
+    "group_column": "Sub-District",
+    "total_groups": 116,
+    "group_overlap_between_train_and_val": 0,
+    "all_7_classes_present_all_folds": true,
+    "rarest_class_validation_support": {
+      "crop": "Red Gram",
+      "fold_0": 56,
+      "fold_1": 26,
+      "fold_2": 21,
+      "fold_3": 59,
+      "fold_4": 59
+    }
+  },
+  "proposed_experiments": {
+    "experiment_a": {
+      "name": "Satellite-Only Retrospective Full-Season",
+      "n_samples": 7843,
+      "n_features": 34,
+      "missing_data_strategy": "NONE (100% complete features)"
+    },
+    "experiment_b": {
+      "name": "Satellite-Only Early-Season",
+      "n_samples": 7843,
+      "n_features": 34,
+      "missing_data_strategy": "Fold-isolated median imputation for RF / native NaN for XGBoost + complete-case sensitivity (N=7302)"
+    },
+    "experiment_c": {
+      "name": "Multi-Temporal Phenological Trajectory",
+      "n_samples": 7843,
+      "n_features": 136,
+      "missing_data_strategy": "Fold-isolated median imputation for RF / native NaN for XGBoost + complete-case sensitivity (N=7107)"
+    },
+    "experiment_d": {
+      "name": "Multimodal Benchmark (Strictly Non-Leaking)",
+      "n_samples": 7843,
+      "auxiliary_features": [
+        "polygon_area_ha",
+        "polygon_perimeter_m",
+        "compactness_p2a",
+        "Season",
+        "sowing_month",
+        "sowing_doy"
+      ],
+      "prohibited_features": [
+        "category",
+        "FarmID",
+        "lat",
+        "lon",
+        "centroid_lat",
+        "centroid_lon",
+        "State",
+        "District",
+        "Sub-District",
+        "ExpYield",
+        "CropCoveredArea",
+        "CHeight",
+        "CLast",
+        "CNext",
+        "CTransp",
+        "IrriType",
+        "IrriSource",
+        "IrriCount",
+        "WaterCov"
+      ]
+    }
+  }
+}

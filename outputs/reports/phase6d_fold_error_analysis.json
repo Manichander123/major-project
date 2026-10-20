@@ -1,0 +1,950 @@
+{
+  "report_name": "Phase 6D Fold Error Analysis",
+  "timestamp": "2026-10-15",
+  "model": "XGB_multimodal",
+  "fold_error_analysis": {
+    "0": {
+      "n_samples": 136,
+      "accuracy": 0.7426,
+      "macro_f1": 0.7296,
+      "confusion_matrix": [
+        [
+          20,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          2,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          4,
+          12,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          21,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          1,
+          0,
+          11,
+          3,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          5,
+          13,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          7
+        ]
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.8696,
+          "recall": 0.9524,
+          "f1": 0.9091,
+          "support": 21
+        },
+        "Chillies": {
+          "precision": 0.7391,
+          "recall": 0.85,
+          "f1": 0.7907,
+          "support": 20
+        },
+        "Cotton": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6,
+          "support": 20
+        },
+        "Groundnut": {
+          "precision": 1.0,
+          "recall": 0.913,
+          "f1": 0.9545,
+          "support": 23
+        },
+        "Maize": {
+          "precision": 0.55,
+          "recall": 0.55,
+          "f1": 0.55,
+          "support": 20
+        },
+        "Paddy": {
+          "precision": 0.7222,
+          "recall": 0.619,
+          "f1": 0.6667,
+          "support": 21
+        },
+        "Red Gram": {
+          "precision": 0.6364,
+          "recall": 0.6364,
+          "f1": 0.6364,
+          "support": 11
+        }
+      },
+      "mandals": {
+        "Tanoor": 21,
+        "Tirumalagiri_Sagar": 21,
+        "Havelighanpur": 16,
+        "Seerole": 13,
+        "Kothapalle": 11,
+        "Gangaram": 10,
+        "Mamda": 10,
+        "Nekkonda": 7,
+        "Sonala": 5,
+        "Alladurg": 5,
+        "Adilabad Rural": 3,
+        "Kowdipally": 3,
+        "Yeldurthy": 2,
+        "Devarakonda": 2,
+        "Khammam_Rural": 1,
+        "Singareni": 1,
+        "Peddavangara": 1,
+        "Tamsi": 1,
+        "Mavala": 1,
+        "Koukuntla": 1,
+        "Sirikonda": 1
+      }
+    },
+    "1": {
+      "n_samples": 151,
+      "accuracy": 0.7748,
+      "macro_f1": 0.7644,
+      "confusion_matrix": [
+        [
+          19,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          12,
+          1,
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          18,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          18,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          0,
+          12,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          4,
+          11,
+          4
+        ],
+        [
+          0,
+          0,
+          4,
+          0,
+          0,
+          0,
+          27
+        ]
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.8261,
+          "recall": 0.9048,
+          "f1": 0.8636,
+          "support": 21
+        },
+        "Chillies": {
+          "precision": 0.8,
+          "recall": 0.6316,
+          "f1": 0.7059,
+          "support": 19
+        },
+        "Cotton": {
+          "precision": 0.6667,
+          "recall": 0.9,
+          "f1": 0.766,
+          "support": 20
+        },
+        "Groundnut": {
+          "precision": 1.0,
+          "recall": 0.9,
+          "f1": 0.9474,
+          "support": 20
+        },
+        "Maize": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6,
+          "support": 20
+        },
+        "Paddy": {
+          "precision": 0.6875,
+          "recall": 0.55,
+          "f1": 0.6111,
+          "support": 20
+        },
+        "Red Gram": {
+          "precision": 0.8438,
+          "recall": 0.871,
+          "f1": 0.8571,
+          "support": 31
+        }
+      },
+      "mandals": {
+        "Damargidda": 26,
+        "Hanwada": 25,
+        "Bazarhathnoor": 24,
+        "Gadiguda": 21,
+        "Boath": 11,
+        "Dornakal": 10,
+        "Thorrur": 8,
+        "Nidamanoor": 5,
+        "Garla": 5,
+        "Gurrampode": 4,
+        "Bela": 3,
+        "Chinthapally": 2,
+        "Balanagar": 2,
+        "Narsimhulapet": 2,
+        "Inugurthy": 2,
+        "Rajapur": 1
+      }
+    },
+    "2": {
+      "n_samples": 134,
+      "accuracy": 0.7612,
+      "macro_f1": 0.7506,
+      "confusion_matrix": [
+        [
+          18,
+          1,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          16,
+          0,
+          0,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          13,
+          2,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          18,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          0,
+          0,
+          7,
+          10,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          0,
+          1,
+          7
+        ]
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.8571,
+          "recall": 0.8571,
+          "f1": 0.8571,
+          "support": 21
+        },
+        "Chillies": {
+          "precision": 0.7273,
+          "recall": 0.8,
+          "f1": 0.7619,
+          "support": 20
+        },
+        "Cotton": {
+          "precision": 0.8667,
+          "recall": 0.619,
+          "f1": 0.7222,
+          "support": 21
+        },
+        "Groundnut": {
+          "precision": 0.9091,
+          "recall": 1.0,
+          "f1": 0.9524,
+          "support": 20
+        },
+        "Maize": {
+          "precision": 0.5806,
+          "recall": 0.9,
+          "f1": 0.7059,
+          "support": 20
+        },
+        "Paddy": {
+          "precision": 0.7692,
+          "recall": 0.4762,
+          "f1": 0.5882,
+          "support": 21
+        },
+        "Red Gram": {
+          "precision": 0.7,
+          "recall": 0.6364,
+          "f1": 0.6667,
+          "support": 11
+        }
+      },
+      "mandals": {
+        "Kuravi": 21,
+        "Koilkonda": 20,
+        "Bhainsa": 17,
+        "Gudihathnur": 14,
+        "Shaligouraram": 10,
+        "Jainad": 10,
+        "Shankarampet_R": 8,
+        "Bhiknoor": 7,
+        "Doultabad": 6,
+        "Lokeshwaram": 4,
+        "Narketpally": 3,
+        "Maripeda": 3,
+        "Bhoraj": 2,
+        "Beeravelli": 2,
+        "Chandur": 2,
+        "Peddavoora": 1,
+        "Ammanabole": 1,
+        "Kothaguda": 1,
+        "Dilawarpur": 1,
+        "Tipparthy": 1
+      }
+    },
+    "3": {
+      "n_samples": 146,
+      "accuracy": 0.6233,
+      "macro_f1": 0.6133,
+      "confusion_matrix": [
+        [
+          13,
+          1,
+          2,
+          2,
+          0,
+          2,
+          0
+        ],
+        [
+          4,
+          9,
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          14,
+          0,
+          1,
+          0,
+          4
+        ],
+        [
+          1,
+          0,
+          2,
+          17,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          2,
+          1,
+          1,
+          6,
+          5,
+          0
+        ],
+        [
+          4,
+          1,
+          0,
+          0,
+          3,
+          13,
+          0
+        ],
+        [
+          1,
+          1,
+          3,
+          0,
+          1,
+          0,
+          19
+        ]
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.4333,
+          "recall": 0.65,
+          "f1": 0.52,
+          "support": 20
+        },
+        "Chillies": {
+          "precision": 0.6429,
+          "recall": 0.4737,
+          "f1": 0.5455,
+          "support": 19
+        },
+        "Cotton": {
+          "precision": 0.6087,
+          "recall": 0.7,
+          "f1": 0.6512,
+          "support": 20
+        },
+        "Groundnut": {
+          "precision": 0.8095,
+          "recall": 0.85,
+          "f1": 0.8293,
+          "support": 20
+        },
+        "Maize": {
+          "precision": 0.4615,
+          "recall": 0.2857,
+          "f1": 0.3529,
+          "support": 21
+        },
+        "Paddy": {
+          "precision": 0.619,
+          "recall": 0.619,
+          "f1": 0.619,
+          "support": 21
+        },
+        "Red Gram": {
+          "precision": 0.7917,
+          "recall": 0.76,
+          "f1": 0.7755,
+          "support": 25
+        }
+      },
+      "mandals": {
+        "Utnur": 44,
+        "Urkonda": 20,
+        "Basar": 15,
+        "Bayyaram": 14,
+        "Chennaraopet": 7,
+        "Chegunta": 7,
+        "Kulkacharla": 5,
+        "Nalgonda": 5,
+        "Kosgi": 5,
+        "Medak": 4,
+        "Ichoda": 4,
+        "Chityal": 3,
+        "Laxmanchanda": 3,
+        "Mohammadabad": 3,
+        "Manoharabad": 2,
+        "Nellikudur": 2,
+        "Neradigonda": 2,
+        "Miryalaguda": 1
+      }
+    },
+    "4": {
+      "n_samples": 147,
+      "accuracy": 0.6395,
+      "macro_f1": 0.6281,
+      "confusion_matrix": [
+        [
+          11,
+          4,
+          0,
+          2,
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          2,
+          0,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          12,
+          2,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          2,
+          0,
+          1,
+          7,
+          4,
+          2
+        ],
+        [
+          0,
+          2,
+          1,
+          0,
+          3,
+          12,
+          2
+        ],
+        [
+          0,
+          0,
+          2,
+          2,
+          1,
+          1,
+          18
+        ]
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.6111,
+          "recall": 0.55,
+          "f1": 0.5789,
+          "support": 20
+        },
+        "Chillies": {
+          "precision": 0.5833,
+          "recall": 0.6667,
+          "f1": 0.6222,
+          "support": 21
+        },
+        "Cotton": {
+          "precision": 0.7059,
+          "recall": 0.5714,
+          "f1": 0.6316,
+          "support": 21
+        },
+        "Groundnut": {
+          "precision": 0.7407,
+          "recall": 1.0,
+          "f1": 0.8511,
+          "support": 20
+        },
+        "Maize": {
+          "precision": 0.4375,
+          "recall": 0.3333,
+          "f1": 0.3784,
+          "support": 21
+        },
+        "Paddy": {
+          "precision": 0.6,
+          "recall": 0.6,
+          "f1": 0.6,
+          "support": 20
+        },
+        "Red Gram": {
+          "precision": 0.72,
+          "recall": 0.75,
+          "f1": 0.7347,
+          "support": 24
+        }
+      },
+      "mandals": {
+        "Inderavelly": 32,
+        "Ramayampet": 21,
+        "Gudur": 19,
+        "Mudhole": 13,
+        "Narayanpet": 9,
+        "Akbarpet-bhoompally": 6,
+        "Amarchintha": 6,
+        "Midjil": 6,
+        "Khanapur": 5,
+        "Shankarampet_A": 5,
+        "Kanagal": 5,
+        "Madugulapally": 4,
+        "Kubeer": 4,
+        "Doma": 3,
+        "Beltaroda": 3,
+        "Bhoothpur": 2,
+        "Kondamallapally": 2,
+        "Chinna Chinta Kunta": 1,
+        "Tripuraram": 1
+      }
+    }
+  },
+  "missingness_by_fold": {
+    "0": {
+      "early": 22.06,
+      "mid": 4.41,
+      "late": 5.15,
+      "full": 0.0
+    },
+    "1": {
+      "early": 17.22,
+      "mid": 2.65,
+      "late": 5.96,
+      "full": 0.0
+    },
+    "2": {
+      "early": 9.7,
+      "mid": 0.75,
+      "late": 4.48,
+      "full": 0.0
+    },
+    "3": {
+      "early": 17.81,
+      "mid": 4.79,
+      "late": 3.42,
+      "full": 0.0
+    },
+    "4": {
+      "early": 12.93,
+      "mid": 5.44,
+      "late": 4.08,
+      "full": 0.0
+    }
+  },
+  "missingness_by_crop": {
+    "Bengal Gram": {
+      "early": 5.83,
+      "mid": 0.0,
+      "late": 2.91,
+      "full": 0.0
+    },
+    "Chillies": {
+      "early": 8.08,
+      "mid": 6.06,
+      "late": 9.09,
+      "full": 0.0
+    },
+    "Cotton": {
+      "early": 10.78,
+      "mid": 8.82,
+      "late": 8.82,
+      "full": 0.0
+    },
+    "Groundnut": {
+      "early": 18.45,
+      "mid": 0.97,
+      "late": 1.94,
+      "full": 0.0
+    },
+    "Maize": {
+      "early": 14.71,
+      "mid": 4.9,
+      "late": 4.9,
+      "full": 0.0
+    },
+    "Paddy": {
+      "early": 14.56,
+      "mid": 4.85,
+      "late": 1.94,
+      "full": 0.0
+    },
+    "Red Gram": {
+      "early": 39.22,
+      "mid": 0.0,
+      "late": 2.94,
+      "full": 0.0
+    }
+  },
+  "missingness_by_fold_x_crop_early_window": {
+    "0": {
+      "Bengal Gram": 0.0,
+      "Chillies": 10.0,
+      "Cotton": 5.0,
+      "Groundnut": 65.2,
+      "Maize": 35.0,
+      "Paddy": 19.0,
+      "Red Gram": 9.1
+    },
+    "1": {
+      "Bengal Gram": 0.0,
+      "Chillies": 15.8,
+      "Cotton": 0.0,
+      "Groundnut": 10.0,
+      "Maize": 5.0,
+      "Paddy": 15.0,
+      "Red Gram": 54.8
+    },
+    "2": {
+      "Bengal Gram": 0.0,
+      "Chillies": 5.0,
+      "Cotton": 23.8,
+      "Groundnut": 5.0,
+      "Maize": 0.0,
+      "Paddy": 23.8,
+      "Red Gram": 9.1
+    },
+    "3": {
+      "Bengal Gram": 15.0,
+      "Chillies": 10.5,
+      "Cotton": 10.0,
+      "Groundnut": 0.0,
+      "Maize": 19.0,
+      "Paddy": 9.5,
+      "Red Gram": 52.0
+    },
+    "4": {
+      "Bengal Gram": 15.0,
+      "Chillies": 0.0,
+      "Cotton": 14.3,
+      "Groundnut": 5.0,
+      "Maize": 14.3,
+      "Paddy": 5.0,
+      "Red Gram": 33.3
+    }
+  },
+  "fold_mandals": {
+    "0": {
+      "n_mandals": 21,
+      "n_farms": 136,
+      "mandals": {
+        "Tanoor": 21,
+        "Tirumalagiri_Sagar": 21,
+        "Havelighanpur": 16,
+        "Seerole": 13,
+        "Kothapalle": 11,
+        "Gangaram": 10,
+        "Mamda": 10,
+        "Nekkonda": 7,
+        "Sonala": 5,
+        "Alladurg": 5,
+        "Adilabad Rural": 3,
+        "Kowdipally": 3,
+        "Yeldurthy": 2,
+        "Devarakonda": 2,
+        "Khammam_Rural": 1,
+        "Singareni": 1,
+        "Peddavangara": 1,
+        "Tamsi": 1,
+        "Mavala": 1,
+        "Koukuntla": 1,
+        "Sirikonda": 1
+      }
+    },
+    "1": {
+      "n_mandals": 16,
+      "n_farms": 151,
+      "mandals": {
+        "Damargidda": 26,
+        "Hanwada": 25,
+        "Bazarhathnoor": 24,
+        "Gadiguda": 21,
+        "Boath": 11,
+        "Dornakal": 10,
+        "Thorrur": 8,
+        "Nidamanoor": 5,
+        "Garla": 5,
+        "Gurrampode": 4,
+        "Bela": 3,
+        "Chinthapally": 2,
+        "Balanagar": 2,
+        "Narsimhulapet": 2,
+        "Inugurthy": 2,
+        "Rajapur": 1
+      }
+    },
+    "2": {
+      "n_mandals": 20,
+      "n_farms": 134,
+      "mandals": {
+        "Kuravi": 21,
+        "Koilkonda": 20,
+        "Bhainsa": 17,
+        "Gudihathnur": 14,
+        "Shaligouraram": 10,
+        "Jainad": 10,
+        "Shankarampet_R": 8,
+        "Bhiknoor": 7,
+        "Doultabad": 6,
+        "Lokeshwaram": 4,
+        "Narketpally": 3,
+        "Maripeda": 3,
+        "Bhoraj": 2,
+        "Beeravelli": 2,
+        "Chandur": 2,
+        "Peddavoora": 1,
+        "Ammanabole": 1,
+        "Kothaguda": 1,
+        "Dilawarpur": 1,
+        "Tipparthy": 1
+      }
+    },
+    "3": {
+      "n_mandals": 18,
+      "n_farms": 146,
+      "mandals": {
+        "Utnur": 44,
+        "Urkonda": 20,
+        "Basar": 15,
+        "Bayyaram": 14,
+        "Chennaraopet": 7,
+        "Chegunta": 7,
+        "Kulkacharla": 5,
+        "Nalgonda": 5,
+        "Kosgi": 5,
+        "Medak": 4,
+        "Ichoda": 4,
+        "Chityal": 3,
+        "Laxmanchanda": 3,
+        "Mohammadabad": 3,
+        "Manoharabad": 2,
+        "Nellikudur": 2,
+        "Neradigonda": 2,
+        "Miryalaguda": 1
+      }
+    },
+    "4": {
+      "n_mandals": 19,
+      "n_farms": 147,
+      "mandals": {
+        "Inderavelly": 32,
+        "Ramayampet": 21,
+        "Gudur": 19,
+        "Mudhole": 13,
+        "Narayanpet": 9,
+        "Akbarpet-bhoompally": 6,
+        "Amarchintha": 6,
+        "Midjil": 6,
+        "Khanapur": 5,
+        "Shankarampet_A": 5,
+        "Kanagal": 5,
+        "Madugulapally": 4,
+        "Kubeer": 4,
+        "Doma": 3,
+        "Beltaroda": 3,
+        "Bhoothpur": 2,
+        "Kondamallapally": 2,
+        "Chinna Chinta Kunta": 1,
+        "Tripuraram": 1
+      }
+    }
+  },
+  "weak_fold_diagnosis": {
+    "folds_3_and_4_macro_f1": [
+      0.6133,
+      0.6281
+    ],
+    "folds_0_1_2_macro_f1": [
+      0.7296,
+      0.7644,
+      0.7506
+    ],
+    "observations": [
+      "Folds 3 and 4 have F1 ~0.61-0.63 vs ~0.73-0.76 for folds 0-2.",
+      "Maize is the weakest class in folds 3 (F1=0.353) and 4 (F1=0.378) vs 0.55-0.71 in other folds.",
+      "Bengal Gram drops sharply in fold 3 (F1=0.520) and fold 4 (F1=0.579) vs 0.86-0.91 in folds 0-2.",
+      "Early-window missingness is NOT systematically higher in folds 3-4 than folds 0-2 (fold 0 actually has 22% vs fold 3 at 18%).",
+      "Fold 3 has higher early missingness for Red Gram (52%) which is well-classified (F1=0.776), ruling out missingness as the primary cause.",
+      "Likely cause: folds 3 and 4 contain mandals with distinct agroclimatic characteristics that the model has not seen enough spatial diversity to generalize to. This is expected behavior for spatial CV and indicates geographic heterogeneity, not a pipeline bug.",
+      "Evidence against implementation bug: fold-level preprocessing is strictly within-fold (sklearn Pipeline), all 7 classes represented in all folds, and strong folds show the model can learn the task well."
+    ]
+  }
+}

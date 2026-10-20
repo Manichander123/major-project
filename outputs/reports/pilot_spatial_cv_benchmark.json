@@ -1,0 +1,701 @@
+{
+  "dataset": "Sentinel-2 Multi-Crop Pilot (173 valid farms)",
+  "majority_baseline": {
+    "accuracy": 0.1445,
+    "macro_f1": 0.0361
+  },
+  "models": {
+    "RF_satellite_only": {
+      "track_name": "satellite_only",
+      "model_type": "rf",
+      "n_samples": 173,
+      "n_features": 60,
+      "validation_strategy": "5-Fold StratifiedGroupKFold (grouped by Sub-District)",
+      "spatial_leakage_between_folds": 0,
+      "overall_oof_accuracy": 0.3699,
+      "overall_oof_macro_f1": 0.3479,
+      "overall_oof_weighted_f1": 0.3506,
+      "fold_results": [
+        {
+          "fold": 0,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.3529,
+          "macro_f1": 0.2908,
+          "weighted_f1": 0.2993
+        },
+        {
+          "fold": 1,
+          "n_train": 140,
+          "n_val": 33,
+          "val_groups_count": 8,
+          "val_classes_represented": 7,
+          "accuracy": 0.2727,
+          "macro_f1": 0.2673,
+          "weighted_f1": 0.2748
+        },
+        {
+          "fold": 2,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.5294,
+          "macro_f1": 0.4972,
+          "weighted_f1": 0.5034
+        },
+        {
+          "fold": 3,
+          "n_train": 138,
+          "n_val": 35,
+          "val_groups_count": 14,
+          "val_classes_represented": 7,
+          "accuracy": 0.4,
+          "macro_f1": 0.3541,
+          "weighted_f1": 0.3214
+        },
+        {
+          "fold": 4,
+          "n_train": 136,
+          "n_val": 37,
+          "val_groups_count": 9,
+          "val_classes_represented": 7,
+          "accuracy": 0.2973,
+          "macro_f1": 0.2715,
+          "weighted_f1": 0.2793
+        }
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.3714,
+          "recall": 0.52,
+          "f1": 0.4333,
+          "support": 25.0
+        },
+        "Chillies": {
+          "precision": 0.0714,
+          "recall": 0.0417,
+          "f1": 0.0526,
+          "support": 24.0
+        },
+        "Cotton": {
+          "precision": 0.4444,
+          "recall": 0.48,
+          "f1": 0.4615,
+          "support": 25.0
+        },
+        "Groundnut": {
+          "precision": 0.5172,
+          "recall": 0.6,
+          "f1": 0.5556,
+          "support": 25.0
+        },
+        "Maize": {
+          "precision": 0.2,
+          "recall": 0.1667,
+          "f1": 0.1818,
+          "support": 24.0
+        },
+        "Paddy": {
+          "precision": 0.5,
+          "recall": 0.56,
+          "f1": 0.5283,
+          "support": 25.0
+        },
+        "Red Gram": {
+          "precision": 0.25,
+          "recall": 0.2,
+          "f1": 0.2222,
+          "support": 25.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          13,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          7,
+          1,
+          5,
+          4,
+          3,
+          3,
+          1
+        ],
+        [
+          1,
+          3,
+          12,
+          0,
+          2,
+          2,
+          5
+        ],
+        [
+          3,
+          2,
+          0,
+          15,
+          4,
+          0,
+          1
+        ],
+        [
+          5,
+          3,
+          1,
+          3,
+          4,
+          4,
+          4
+        ],
+        [
+          3,
+          2,
+          3,
+          0,
+          2,
+          14,
+          1
+        ],
+        [
+          3,
+          2,
+          5,
+          5,
+          3,
+          2,
+          5
+        ]
+      ],
+      "persisted_model_path": "outputs\\models\\rf_satellite_only_pilot.joblib"
+    },
+    "XGB_satellite_only": {
+      "track_name": "satellite_only",
+      "model_type": "xgb",
+      "n_samples": 173,
+      "n_features": 60,
+      "validation_strategy": "5-Fold StratifiedGroupKFold (grouped by Sub-District)",
+      "spatial_leakage_between_folds": 0,
+      "overall_oof_accuracy": 0.3468,
+      "overall_oof_macro_f1": 0.3422,
+      "overall_oof_weighted_f1": 0.3443,
+      "fold_results": [
+        {
+          "fold": 0,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.3235,
+          "macro_f1": 0.2951,
+          "weighted_f1": 0.294
+        },
+        {
+          "fold": 1,
+          "n_train": 140,
+          "n_val": 33,
+          "val_groups_count": 8,
+          "val_classes_represented": 7,
+          "accuracy": 0.303,
+          "macro_f1": 0.2956,
+          "weighted_f1": 0.3059
+        },
+        {
+          "fold": 2,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.4706,
+          "macro_f1": 0.4511,
+          "weighted_f1": 0.4545
+        },
+        {
+          "fold": 3,
+          "n_train": 138,
+          "n_val": 35,
+          "val_groups_count": 14,
+          "val_classes_represented": 7,
+          "accuracy": 0.3429,
+          "macro_f1": 0.3208,
+          "weighted_f1": 0.3013
+        },
+        {
+          "fold": 4,
+          "n_train": 136,
+          "n_val": 37,
+          "val_groups_count": 9,
+          "val_classes_represented": 7,
+          "accuracy": 0.2973,
+          "macro_f1": 0.3068,
+          "weighted_f1": 0.3207
+        }
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.3333,
+          "recall": 0.44,
+          "f1": 0.3793,
+          "support": 25.0
+        },
+        "Chillies": {
+          "precision": 0.12,
+          "recall": 0.125,
+          "f1": 0.1224,
+          "support": 24.0
+        },
+        "Cotton": {
+          "precision": 0.3846,
+          "recall": 0.4,
+          "f1": 0.3922,
+          "support": 25.0
+        },
+        "Groundnut": {
+          "precision": 0.52,
+          "recall": 0.52,
+          "f1": 0.52,
+          "support": 25.0
+        },
+        "Maize": {
+          "precision": 0.25,
+          "recall": 0.1667,
+          "f1": 0.2,
+          "support": 24.0
+        },
+        "Paddy": {
+          "precision": 0.5652,
+          "recall": 0.52,
+          "f1": 0.5417,
+          "support": 25.0
+        },
+        "Red Gram": {
+          "precision": 0.24,
+          "recall": 0.24,
+          "f1": 0.24,
+          "support": 25.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          11,
+          5,
+          1,
+          3,
+          2,
+          0,
+          3
+        ],
+        [
+          5,
+          3,
+          6,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          7,
+          10,
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          3,
+          3,
+          0,
+          13,
+          3,
+          1,
+          2
+        ],
+        [
+          7,
+          2,
+          1,
+          2,
+          4,
+          5,
+          3
+        ],
+        [
+          5,
+          2,
+          3,
+          0,
+          0,
+          13,
+          2
+        ],
+        [
+          2,
+          3,
+          5,
+          5,
+          3,
+          1,
+          6
+        ]
+      ],
+      "persisted_model_path": "outputs\\models\\xgb_satellite_only_pilot.joblib"
+    },
+    "RF_multimodal": {
+      "track_name": "multimodal",
+      "model_type": "rf",
+      "n_samples": 173,
+      "n_features": 70,
+      "validation_strategy": "5-Fold StratifiedGroupKFold (grouped by Sub-District)",
+      "spatial_leakage_between_folds": 0,
+      "overall_oof_accuracy": 0.4682,
+      "overall_oof_macro_f1": 0.4547,
+      "overall_oof_weighted_f1": 0.4553,
+      "fold_results": [
+        {
+          "fold": 0,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.4118,
+          "macro_f1": 0.3511,
+          "weighted_f1": 0.3614
+        },
+        {
+          "fold": 1,
+          "n_train": 140,
+          "n_val": 33,
+          "val_groups_count": 8,
+          "val_classes_represented": 7,
+          "accuracy": 0.4242,
+          "macro_f1": 0.4194,
+          "weighted_f1": 0.4362
+        },
+        {
+          "fold": 2,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.5882,
+          "macro_f1": 0.5698,
+          "weighted_f1": 0.5792
+        },
+        {
+          "fold": 3,
+          "n_train": 138,
+          "n_val": 35,
+          "val_groups_count": 14,
+          "val_classes_represented": 7,
+          "accuracy": 0.4857,
+          "macro_f1": 0.4619,
+          "weighted_f1": 0.4333
+        },
+        {
+          "fold": 4,
+          "n_train": 136,
+          "n_val": 37,
+          "val_groups_count": 9,
+          "val_classes_represented": 7,
+          "accuracy": 0.4324,
+          "macro_f1": 0.4509,
+          "weighted_f1": 0.4486
+        }
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.4615,
+          "recall": 0.48,
+          "f1": 0.4706,
+          "support": 25.0
+        },
+        "Chillies": {
+          "precision": 0.4583,
+          "recall": 0.4583,
+          "f1": 0.4583,
+          "support": 24.0
+        },
+        "Cotton": {
+          "precision": 0.3636,
+          "recall": 0.48,
+          "f1": 0.4138,
+          "support": 25.0
+        },
+        "Groundnut": {
+          "precision": 0.6774,
+          "recall": 0.84,
+          "f1": 0.75,
+          "support": 25.0
+        },
+        "Maize": {
+          "precision": 0.3478,
+          "recall": 0.3333,
+          "f1": 0.3404,
+          "support": 24.0
+        },
+        "Paddy": {
+          "precision": 0.6364,
+          "recall": 0.56,
+          "f1": 0.5957,
+          "support": 25.0
+        },
+        "Red Gram": {
+          "precision": 0.2143,
+          "recall": 0.12,
+          "f1": 0.1538,
+          "support": 25.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          12,
+          3,
+          3,
+          3,
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          5,
+          3,
+          3,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          12,
+          1,
+          3,
+          1,
+          6
+        ],
+        [
+          2,
+          0,
+          1,
+          21,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          2,
+          1,
+          1,
+          8,
+          5,
+          2
+        ],
+        [
+          5,
+          0,
+          4,
+          0,
+          1,
+          14,
+          1
+        ],
+        [
+          1,
+          7,
+          7,
+          2,
+          3,
+          2,
+          3
+        ]
+      ],
+      "persisted_model_path": "outputs\\models\\rf_multimodal_pilot.joblib"
+    },
+    "XGB_multimodal": {
+      "track_name": "multimodal",
+      "model_type": "xgb",
+      "n_samples": 173,
+      "n_features": 70,
+      "validation_strategy": "5-Fold StratifiedGroupKFold (grouped by Sub-District)",
+      "spatial_leakage_between_folds": 0,
+      "overall_oof_accuracy": 0.526,
+      "overall_oof_macro_f1": 0.5137,
+      "overall_oof_weighted_f1": 0.5143,
+      "fold_results": [
+        {
+          "fold": 0,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.5,
+          "macro_f1": 0.4782,
+          "weighted_f1": 0.4857
+        },
+        {
+          "fold": 1,
+          "n_train": 140,
+          "n_val": 33,
+          "val_groups_count": 8,
+          "val_classes_represented": 7,
+          "accuracy": 0.6061,
+          "macro_f1": 0.5918,
+          "weighted_f1": 0.605
+        },
+        {
+          "fold": 2,
+          "n_train": 139,
+          "n_val": 34,
+          "val_groups_count": 13,
+          "val_classes_represented": 7,
+          "accuracy": 0.5588,
+          "macro_f1": 0.5213,
+          "weighted_f1": 0.5269
+        },
+        {
+          "fold": 3,
+          "n_train": 138,
+          "n_val": 35,
+          "val_groups_count": 14,
+          "val_classes_represented": 7,
+          "accuracy": 0.5429,
+          "macro_f1": 0.5258,
+          "weighted_f1": 0.4919
+        },
+        {
+          "fold": 4,
+          "n_train": 136,
+          "n_val": 37,
+          "val_groups_count": 9,
+          "val_classes_represented": 7,
+          "accuracy": 0.4324,
+          "macro_f1": 0.4269,
+          "weighted_f1": 0.4206
+        }
+      ],
+      "per_class": {
+        "Bengal Gram": {
+          "precision": 0.56,
+          "recall": 0.56,
+          "f1": 0.56,
+          "support": 25.0
+        },
+        "Chillies": {
+          "precision": 0.48,
+          "recall": 0.5,
+          "f1": 0.4898,
+          "support": 24.0
+        },
+        "Cotton": {
+          "precision": 0.3871,
+          "recall": 0.48,
+          "f1": 0.4286,
+          "support": 25.0
+        },
+        "Groundnut": {
+          "precision": 0.697,
+          "recall": 0.92,
+          "f1": 0.7931,
+          "support": 25.0
+        },
+        "Maize": {
+          "precision": 0.5294,
+          "recall": 0.375,
+          "f1": 0.439,
+          "support": 24.0
+        },
+        "Paddy": {
+          "precision": 0.6667,
+          "recall": 0.64,
+          "f1": 0.6531,
+          "support": 25.0
+        },
+        "Red Gram": {
+          "precision": 0.2778,
+          "recall": 0.2,
+          "f1": 0.2326,
+          "support": 25.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          14,
+          1,
+          1,
+          3,
+          3,
+          1,
+          2
+        ],
+        [
+          2,
+          12,
+          5,
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          1,
+          3,
+          12,
+          1,
+          0,
+          1,
+          7
+        ],
+        [
+          1,
+          0,
+          1,
+          23,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2,
+          1,
+          9,
+          5,
+          3
+        ],
+        [
+          4,
+          0,
+          4,
+          0,
+          0,
+          16,
+          1
+        ],
+        [
+          1,
+          7,
+          6,
+          3,
+          3,
+          0,
+          5
+        ]
+      ],
+      "persisted_model_path": "outputs\\models\\xgb_multimodal_pilot.joblib"
+    }
+  }
+}

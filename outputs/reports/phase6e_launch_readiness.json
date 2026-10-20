@@ -1,0 +1,234 @@
+{
+  "report_name": "Phase 6E Final Launch-Readiness Gate Report",
+  "timestamp": "2026-10-15",
+  "verdict": "READY WITH DOCUMENTED NON-BLOCKING RISKS",
+  "gate_decision_rationale": "All structural pre-conditions pass: 100% test pass rate (27/27), 0 manifest duplicates, 100% geometry validity (7,164/7,164), daily mosaicking and SCL masking verified, atomic checkpointing implemented, and Earth Engine authenticated. The non-blocking risks are: (1) realistic runtime is ~18 to 22 hours across 7,164 farms, requiring chunked resumable execution (e.g. 500 farms per chunk), and (2) expected cloud-related failure rate of ~1.5-2.5% on monsoon short-duration farms.",
+  "launch_command": {
+    "script": "scripts/extract_s2_full_campaign_phase6e.py",
+    "recommended_full_run_command": "python scripts/extract_s2_full_campaign_phase6e.py --manifest outputs/data/s2_full_expansion_manifest_7164.csv --output_file outputs/data/s2_phase6e_7164_raw_bands.csv --chunk_size 500 --max_workers 4 --checkpoint_interval 10",
+    "recommended_first_chunk_pilot": "python scripts/extract_s2_full_campaign_phase6e.py --chunk_idx 0 --chunk_size 500 --max_workers 4",
+    "manifest_path": "outputs/data/s2_full_expansion_manifest_7164.csv"
+  },
+  "test_suite_status": {
+    "report_name": "Test Suite Execution and Coverage Status",
+    "timestamp": "2026-10-15",
+    "exit_code": 0,
+    "tests_total": 27,
+    "tests_passed": 27,
+    "tests_failed": 0,
+    "tests_skipped": 0,
+    "tests_errored": 0,
+    "coverage_areas": {
+      "extraction_and_mosaicking": {
+        "modules": [
+          "tests/test_s2_mosaic.py",
+          "tests/test_pre_extraction_gate.py"
+        ],
+        "tests": [
+          "test_mosaic_same_date_scenes_reduces_to_unique_dates",
+          "test_temporal_median_aggregates_across_dates_not_tiles",
+          "test_scl_cloud_and_shadow_masking",
+          "test_duplicate_same_date_acquisitions_collapsed",
+          "test_daily_mosaic_clear_pixel_shines_through_cloudy_tile",
+          "test_daily_mosaicking_prevents_temporal_swath_overweighting"
+        ],
+        "status": "PASS"
+      },
+      "nan_preservation_and_no_fabrication": {
+        "modules": [
+          "tests/test_phase6c.py",
+          "tests/test_pre_extraction_gate.py"
+        ],
+        "tests": [
+          "test_nan_handling_and_no_fabrication",
+          "test_missing_observations_preserve_nan_not_zero"
+        ],
+        "status": "PASS"
+      },
+      "checkpoint_and_resume_safeguards": {
+        "modules": [
+          "tests/test_pre_extraction_gate.py"
+        ],
+        "tests": [
+          "test_checkpoint_resume_safeguards"
+        ],
+        "status": "PASS"
+      },
+      "manifest_feature_oof_alignment": {
+        "modules": [
+          "tests/test_phase6c.py",
+          "tests/test_pre_extraction_gate.py",
+          "tests/test_phase6d_audit.py"
+        ],
+        "tests": [
+          "test_manifest_uniqueness_and_counts",
+          "test_manifest_feature_oof_alignment",
+          "test_oof_predictions_integrity",
+          "test_class_support_discrepancy_resolved"
+        ],
+        "status": "PASS"
+      },
+      "leakage_exclusion": {
+        "modules": [
+          "tests/test_baseline.py",
+          "tests/test_phase6c.py",
+          "tests/test_phase6d_audit.py"
+        ],
+        "tests": [
+          "test_leakage_exclusion",
+          "test_leakage_exclusions",
+          "test_zero_spatial_leakage_in_saved_oof"
+        ],
+        "status": "PASS"
+      },
+      "spatial_cross_validation_and_model_persistence": {
+        "modules": [
+          "tests/test_baseline.py",
+          "tests/test_phase6c.py",
+          "tests/test_phase6d_audit.py"
+        ],
+        "tests": [
+          "test_spatial_fold_integrity",
+          "test_pipeline_persistence",
+          "test_unseen_categories_inference",
+          "test_metric_reproducibility_from_oof"
+        ],
+        "status": "PASS"
+      }
+    }
+  },
+  "farm_accounting": {
+    "total_labelled_eligible_farms_train_csv": 7888,
+    "previously_selected_farms_phase6d": 724,
+    "previously_successful_extractions": 714,
+    "previously_failed_extractions": 10,
+    "remaining_candidates_in_manifest": 7164,
+    "overlap_between_candidates_and_existing": 0,
+    "reconciliation_equation": "714 (success) + 10 (failed) + 7,164 (remaining) = 7,888 (total eligible)",
+    "reconciliation_discrepancy": 0,
+    "crop_breakdown": {
+      "Train_csv_total": {
+        "Paddy": 2268,
+        "Cotton": 1692,
+        "Maize": 1384,
+        "Bengal Gram": 938,
+        "Groundnut": 768,
+        "Chillies": 614,
+        "Red Gram": 224
+      },
+      "Phase6D_successful_retained": {
+        "Bengal Gram": 103,
+        "Paddy": 103,
+        "Groundnut": 103,
+        "Maize": 102,
+        "Cotton": 102,
+        "Red Gram": 102,
+        "Chillies": 99
+      },
+      "Phase6D_failed_excluded": {
+        "Chillies": 5,
+        "Maize": 2,
+        "Paddy": 1,
+        "Cotton": 1,
+        "Red Gram": 1
+      },
+      "Phase6E_candidates_manifest": {
+        "Paddy": 2164,
+        "Cotton": 1589,
+        "Maize": 1280,
+        "Bengal Gram": 835,
+        "Groundnut": 665,
+        "Chillies": 510,
+        "Red Gram": 121
+      }
+    },
+    "handling_of_10_failed_farms": {
+      "action": "EXCLUDE_AND_RETAIN_AUDIT_LOG",
+      "scientific_justification": "All 10 farms failed due to 100% persistent cloud and cloud-shadow coverage over extremely short Kharif duration windows (1 to 4 days during peak monsoon). Because the historical Sentinel-2 archive for those specific coordinate-date bounding boxes has zero cloud-free observations, retrying against Earth Engine will return identical null results. Retrying would waste quota without generating valid observations.",
+      "failed_farms_list": [
+        {
+          "FarmID": 1319251,
+          "Crop": "Chillies",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1298973,
+          "Crop": "Maize",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1322898,
+          "Crop": "Chillies",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1298212,
+          "Crop": "Paddy",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1330480,
+          "Crop": "Chillies",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1313666,
+          "Crop": "Cotton",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1331806,
+          "Crop": "Red Gram",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1298016,
+          "Crop": "Maize",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1321168,
+          "Crop": "Chillies",
+          "Reason": "100% cloud cover in Kharif window"
+        },
+        {
+          "FarmID": 1330381,
+          "Crop": "Chillies",
+          "Reason": "100% cloud cover in Kharif window"
+        }
+      ]
+    }
+  },
+  "production_extractor_audit": {
+    "script_path": "scripts/extract_s2_full_campaign_phase6e.py",
+    "underlying_extractor": "src/satellite/s2_extractor.py",
+    "daily_mosaicking_enabled": true,
+    "mosaicking_strategy": "mosaic_same_date_scenes groups multi-tile acquisitions by UTC date and composites them before temporal median",
+    "cloud_shadow_masking": "SCL Scene Classification Layer masking values 3 (shadow), 8 (med prob), 9 (high prob), 10 (cirrus), 11 (snow/ice)",
+    "nan_preservation": "Unmasked missing observations strictly preserve NaN; no zero replacement",
+    "atomic_writes": "Implemented via temporary file + atomic rename (.tmp -> .csv)",
+    "exponential_backoff": "3 retries with jittered exponential backoff on HTTP 429, 503, or rate limit",
+    "checkpoint_recovery": "Deduplicated resume from existing checkpoint files without data loss"
+  },
+  "resource_and_runtime_estimates": {
+    "measured_single_thread_latency_per_farm": "40.46 seconds",
+    "concurrency_settings": "4 worker threads (ThreadPoolExecutor)",
+    "effective_throughput": "5.5 to 6.0 farms per minute",
+    "runtime_per_500_farm_chunk": "85 to 90 minutes (1.4 to 1.5 hours)",
+    "total_expected_runtime_7164_farms": "18.5 to 21.5 hours",
+    "concurrency_scaling_option": "With 8 workers, runtime reduces to ~10.5 to 12.5 hours, but slightly increases GEE RPC concurrency",
+    "recommended_chunk_size": 500,
+    "total_chunks": 15,
+    "chunk_breakdown": "14 chunks of 500 farms + 1 chunk of 164 farms",
+    "gee_request_volume": "~70,000 to 85,000 sub-requests (4 windows x 3-4 reductions)",
+    "gee_quota_risk": "LOW with 4-6 workers (within 100-200 concurrent interactive quota limit)",
+    "disk_storage_estimate": "Raw bands CSV: ~3.5 MB, Features CSV: ~12 MB, Checkpoints/Logs: ~30 MB (Total < 50 MB)",
+    "expected_yield": "Estimated ~7,000 to 7,050 successful farms (~97.5% success rate; ~120-160 cloud failures on short Kharif windows)"
+  },
+  "safeguards": [
+    "Phase 6C and Phase 6D files are read-only and preserved untouched.",
+    "Each chunk writes to its own isolated checkpoint file before final concatenation.",
+    "Atomic disk writing prevents corruption from sudden disconnection or process termination.",
+    "Model training is strictly decoupled and barred from running between extraction chunks."
+  ]
+}

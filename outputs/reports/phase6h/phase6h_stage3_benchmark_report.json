@@ -1,0 +1,2424 @@
+{
+  "benchmark_name": "Phase 6H Stage 3 S/T/P Controlled Feature Ablation Benchmark",
+  "timestamp": "2026-10-20T07:10:16.543557",
+  "classifier": "XGBoost",
+  "classifier_parameters": {
+    "max_depth": 7,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.75,
+    "subsample": 0.8,
+    "reg_lambda": 5.0,
+    "min_child_weight": 3,
+    "gamma": 0.2,
+    "reg_alpha": 0.2,
+    "n_estimators": 300,
+    "random_state": 42,
+    "n_jobs": -1,
+    "eval_metric": "mlogloss"
+  },
+  "class_weighting": "None (unweighted)",
+  "cohort_size": 7843,
+  "cv_folds": 5,
+  "cv_grouping": "Sub-District (Mandal) - StratifiedGroupKFold",
+  "experiments": {
+    "S": {
+      "experiment_id": "S",
+      "description": "Spectral-only full season (34 features)",
+      "n_features": 34,
+      "features": [
+        "B2_full_mean",
+        "B2_full_std",
+        "B3_full_mean",
+        "B3_full_std",
+        "B4_full_mean",
+        "B4_full_std",
+        "B8_full_mean",
+        "B8_full_std",
+        "B5_full_mean",
+        "B5_full_std",
+        "B6_full_mean",
+        "B6_full_std",
+        "B7_full_mean",
+        "B7_full_std",
+        "B8A_full_mean",
+        "B8A_full_std",
+        "B11_full_mean",
+        "B11_full_std",
+        "B12_full_mean",
+        "B12_full_std",
+        "ndvi_full",
+        "evi_full",
+        "gndvi_full",
+        "savi_full",
+        "msavi_full",
+        "ndmi_full",
+        "ndwi_full",
+        "ndre1_full",
+        "ndre2_full",
+        "psri_full",
+        "bsi_full",
+        "msi_full",
+        "cire_full",
+        "cig_full"
+      ],
+      "runtime_seconds": 27.58,
+      "refit_time_seconds": 5.32,
+      "pooled_metrics": {
+        "accuracy": 0.7365,
+        "macro_f1": 0.6227,
+        "balanced_accuracy": 0.6219,
+        "weighted_f1": 0.7246
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.6212,
+        "macro_f1_std": 0.0322,
+        "accuracy_mean": 0.7362,
+        "accuracy_std": 0.0403,
+        "balanced_accuracy_mean": 0.6228,
+        "balanced_accuracy_std": 0.0285
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.7158,
+          "recall": 0.7921,
+          "f1_score": 0.752
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.4886,
+          "recall": 0.3561,
+          "f1_score": 0.4119
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.7083,
+          "recall": 0.7868,
+          "f1_score": 0.7455
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.7975,
+          "recall": 0.8411,
+          "f1_score": 0.8188
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.6878,
+          "recall": 0.6294,
+          "f1_score": 0.6573
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.8266,
+          "recall": 0.8712,
+          "f1_score": 0.8483
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.3333,
+          "recall": 0.0769,
+          "f1_score": 0.125
+        }
+      },
+      "confusion_matrix": [
+        [
+          743,
+          6,
+          62,
+          3,
+          98,
+          15,
+          11
+        ],
+        [
+          5,
+          214,
+          140,
+          36,
+          82,
+          123,
+          1
+        ],
+        [
+          63,
+          64,
+          1321,
+          64,
+          68,
+          84,
+          15
+        ],
+        [
+          0,
+          25,
+          41,
+          646,
+          20,
+          36,
+          0
+        ],
+        [
+          155,
+          62,
+          107,
+          36,
+          866,
+          143,
+          7
+        ],
+        [
+          16,
+          60,
+          98,
+          20,
+          97,
+          1969,
+          0
+        ],
+        [
+          56,
+          7,
+          96,
+          5,
+          28,
+          12,
+          17
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.7361,
+          "macro_f1": 0.6237,
+          "balanced_accuracy": 0.6301,
+          "weighted_f1": 0.7199,
+          "fit_time_seconds": 6.96
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.8025,
+          "macro_f1": 0.6726,
+          "balanced_accuracy": 0.6687,
+          "weighted_f1": 0.7906,
+          "fit_time_seconds": 5.24
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.753,
+          "macro_f1": 0.635,
+          "balanced_accuracy": 0.6286,
+          "weighted_f1": 0.7437,
+          "fit_time_seconds": 5.31
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.6954,
+          "macro_f1": 0.5817,
+          "balanced_accuracy": 0.5851,
+          "weighted_f1": 0.6787,
+          "fit_time_seconds": 4.69
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.6938,
+          "macro_f1": 0.593,
+          "balanced_accuracy": 0.6015,
+          "weighted_f1": 0.6834,
+          "fit_time_seconds": 5.35
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "B11_full_mean",
+          "importance": 0.062853
+        },
+        {
+          "feature": "msi_full",
+          "importance": 0.058619
+        },
+        {
+          "feature": "B6_full_mean",
+          "importance": 0.057977
+        },
+        {
+          "feature": "B12_full_mean",
+          "importance": 0.05573
+        },
+        {
+          "feature": "cire_full",
+          "importance": 0.048328
+        },
+        {
+          "feature": "B8A_full_mean",
+          "importance": 0.041482
+        },
+        {
+          "feature": "msavi_full",
+          "importance": 0.039767
+        },
+        {
+          "feature": "ndmi_full",
+          "importance": 0.039685
+        },
+        {
+          "feature": "ndre1_full",
+          "importance": 0.039379
+        },
+        {
+          "feature": "B11_full_std",
+          "importance": 0.03635
+        },
+        {
+          "feature": "B12_full_std",
+          "importance": 0.034643
+        },
+        {
+          "feature": "bsi_full",
+          "importance": 0.034027
+        },
+        {
+          "feature": "ndre2_full",
+          "importance": 0.031479
+        },
+        {
+          "feature": "B7_full_mean",
+          "importance": 0.030514
+        },
+        {
+          "feature": "B2_full_mean",
+          "importance": 0.028732
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_s.joblib"
+    },
+    "T": {
+      "experiment_id": "T",
+      "description": "Temporal-only additional features (106 features)",
+      "n_features": 106,
+      "features": [
+        "B2_early_mean",
+        "B2_early_std",
+        "B3_early_mean",
+        "B3_early_std",
+        "B4_early_mean",
+        "B4_early_std",
+        "B8_early_mean",
+        "B8_early_std",
+        "B5_early_mean",
+        "B5_early_std",
+        "B6_early_mean",
+        "B6_early_std",
+        "B7_early_mean",
+        "B7_early_std",
+        "B8A_early_mean",
+        "B8A_early_std",
+        "B11_early_mean",
+        "B11_early_std",
+        "B12_early_mean",
+        "B12_early_std",
+        "B2_mid_mean",
+        "B2_mid_std",
+        "B3_mid_mean",
+        "B3_mid_std",
+        "B4_mid_mean",
+        "B4_mid_std",
+        "B8_mid_mean",
+        "B8_mid_std",
+        "B5_mid_mean",
+        "B5_mid_std",
+        "B6_mid_mean",
+        "B6_mid_std",
+        "B7_mid_mean",
+        "B7_mid_std",
+        "B8A_mid_mean",
+        "B8A_mid_std",
+        "B11_mid_mean",
+        "B11_mid_std",
+        "B12_mid_mean",
+        "B12_mid_std",
+        "B2_late_mean",
+        "B2_late_std",
+        "B3_late_mean",
+        "B3_late_std",
+        "B4_late_mean",
+        "B4_late_std",
+        "B8_late_mean",
+        "B8_late_std",
+        "B5_late_mean",
+        "B5_late_std",
+        "B6_late_mean",
+        "B6_late_std",
+        "B7_late_mean",
+        "B7_late_std",
+        "B8A_late_mean",
+        "B8A_late_std",
+        "B11_late_mean",
+        "B11_late_std",
+        "B12_late_mean",
+        "B12_late_std",
+        "ndvi_early",
+        "evi_early",
+        "gndvi_early",
+        "savi_early",
+        "msavi_early",
+        "ndmi_early",
+        "ndwi_early",
+        "ndre1_early",
+        "ndre2_early",
+        "psri_early",
+        "bsi_early",
+        "msi_early",
+        "cire_early",
+        "cig_early",
+        "ndvi_mid",
+        "evi_mid",
+        "gndvi_mid",
+        "savi_mid",
+        "msavi_mid",
+        "ndmi_mid",
+        "ndwi_mid",
+        "ndre1_mid",
+        "ndre2_mid",
+        "psri_mid",
+        "bsi_mid",
+        "msi_mid",
+        "cire_mid",
+        "cig_mid",
+        "ndvi_late",
+        "evi_late",
+        "gndvi_late",
+        "savi_late",
+        "msavi_late",
+        "ndmi_late",
+        "ndwi_late",
+        "ndre1_late",
+        "ndre2_late",
+        "psri_late",
+        "bsi_late",
+        "msi_late",
+        "cire_late",
+        "cig_late",
+        "ndvi_growth_delta",
+        "peak_to_early_ratio",
+        "ndvi_senescence_delta",
+        "moisture_loss_delta"
+      ],
+      "runtime_seconds": 111.29,
+      "refit_time_seconds": 30.34,
+      "pooled_metrics": {
+        "accuracy": 0.7815,
+        "macro_f1": 0.6948,
+        "balanced_accuracy": 0.6807,
+        "weighted_f1": 0.7733
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.6851,
+        "macro_f1_std": 0.0194,
+        "accuracy_mean": 0.7811,
+        "accuracy_std": 0.0384,
+        "balanced_accuracy_mean": 0.675,
+        "balanced_accuracy_std": 0.0212
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.8086,
+          "recall": 0.838,
+          "f1_score": 0.823
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.5727,
+          "recall": 0.4193,
+          "f1_score": 0.4841
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.7516,
+          "recall": 0.8505,
+          "f1_score": 0.798
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.8789,
+          "recall": 0.8503,
+          "f1_score": 0.8643
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.7254,
+          "recall": 0.6817,
+          "f1_score": 0.7029
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.8417,
+          "recall": 0.8942,
+          "f1_score": 0.8672
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.5426,
+          "recall": 0.2308,
+          "f1_score": 0.3238
+        }
+      },
+      "confusion_matrix": [
+        [
+          786,
+          4,
+          37,
+          2,
+          96,
+          5,
+          8
+        ],
+        [
+          1,
+          252,
+          117,
+          18,
+          80,
+          126,
+          7
+        ],
+        [
+          37,
+          57,
+          1428,
+          33,
+          48,
+          62,
+          14
+        ],
+        [
+          0,
+          20,
+          55,
+          653,
+          12,
+          26,
+          2
+        ],
+        [
+          116,
+          45,
+          91,
+          23,
+          938,
+          153,
+          10
+        ],
+        [
+          5,
+          54,
+          78,
+          12,
+          88,
+          2021,
+          2
+        ],
+        [
+          27,
+          8,
+          94,
+          2,
+          31,
+          8,
+          51
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.7659,
+          "macro_f1": 0.6924,
+          "balanced_accuracy": 0.6807,
+          "weighted_f1": 0.7563,
+          "fit_time_seconds": 20.13
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.8481,
+          "macro_f1": 0.7191,
+          "balanced_accuracy": 0.7135,
+          "weighted_f1": 0.8387,
+          "fit_time_seconds": 22.79
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.7969,
+          "macro_f1": 0.6671,
+          "balanced_accuracy": 0.6571,
+          "weighted_f1": 0.7872,
+          "fit_time_seconds": 24.09
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.7549,
+          "macro_f1": 0.6675,
+          "balanced_accuracy": 0.6556,
+          "weighted_f1": 0.742,
+          "fit_time_seconds": 22.28
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.7398,
+          "macro_f1": 0.6794,
+          "balanced_accuracy": 0.6682,
+          "weighted_f1": 0.7359,
+          "fit_time_seconds": 21.94
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "B6_mid_mean",
+          "importance": 0.036107
+        },
+        {
+          "feature": "B11_mid_mean",
+          "importance": 0.027988
+        },
+        {
+          "feature": "B6_early_mean",
+          "importance": 0.025761
+        },
+        {
+          "feature": "msi_mid",
+          "importance": 0.02485
+        },
+        {
+          "feature": "B11_early_mean",
+          "importance": 0.023975
+        },
+        {
+          "feature": "cire_early",
+          "importance": 0.020818
+        },
+        {
+          "feature": "B7_early_mean",
+          "importance": 0.019358
+        },
+        {
+          "feature": "B12_mid_mean",
+          "importance": 0.01874
+        },
+        {
+          "feature": "ndmi_mid",
+          "importance": 0.017637
+        },
+        {
+          "feature": "B5_early_mean",
+          "importance": 0.017006
+        },
+        {
+          "feature": "B11_mid_std",
+          "importance": 0.016084
+        },
+        {
+          "feature": "ndwi_early",
+          "importance": 0.015574
+        },
+        {
+          "feature": "B12_mid_std",
+          "importance": 0.015518
+        },
+        {
+          "feature": "gndvi_early",
+          "importance": 0.015384
+        },
+        {
+          "feature": "B7_mid_mean",
+          "importance": 0.015254
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_t.joblib"
+    },
+    "P": {
+      "experiment_id": "P",
+      "description": "Spatial texture only (20 features)",
+      "n_features": 20,
+      "features": [
+        "glcm_contrast_early",
+        "glcm_contrast_mid",
+        "glcm_contrast_late",
+        "glcm_contrast_full",
+        "glcm_dissimilarity_early",
+        "glcm_dissimilarity_mid",
+        "glcm_dissimilarity_late",
+        "glcm_dissimilarity_full",
+        "glcm_homogeneity_early",
+        "glcm_homogeneity_mid",
+        "glcm_homogeneity_late",
+        "glcm_homogeneity_full",
+        "glcm_energy_early",
+        "glcm_energy_mid",
+        "glcm_energy_late",
+        "glcm_energy_full",
+        "glcm_correlation_early",
+        "glcm_correlation_mid",
+        "glcm_correlation_late",
+        "glcm_correlation_full"
+      ],
+      "runtime_seconds": 43.95,
+      "refit_time_seconds": 8.48,
+      "pooled_metrics": {
+        "accuracy": 0.3899,
+        "macro_f1": 0.2945,
+        "balanced_accuracy": 0.2956,
+        "weighted_f1": 0.366
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.2905,
+        "macro_f1_std": 0.0204,
+        "accuracy_mean": 0.3896,
+        "accuracy_std": 0.0193,
+        "balanced_accuracy_mean": 0.2953,
+        "balanced_accuracy_std": 0.0164
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.3532,
+          "recall": 0.2783,
+          "f1_score": 0.3113
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.1957,
+          "recall": 0.0449,
+          "f1_score": 0.0731
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.3961,
+          "recall": 0.3758,
+          "f1_score": 0.3857
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.423,
+          "recall": 0.4258,
+          "f1_score": 0.4244
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.2995,
+          "recall": 0.2594,
+          "f1_score": 0.278
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.4298,
+          "recall": 0.6394,
+          "f1_score": 0.5141
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.2174,
+          "recall": 0.0452,
+          "f1_score": 0.0749
+        }
+      },
+      "confusion_matrix": [
+        [
+          261,
+          14,
+          138,
+          68,
+          163,
+          293,
+          1
+        ],
+        [
+          51,
+          27,
+          133,
+          45,
+          97,
+          246,
+          2
+        ],
+        [
+          111,
+          28,
+          631,
+          95,
+          176,
+          626,
+          12
+        ],
+        [
+          49,
+          11,
+          87,
+          327,
+          111,
+          180,
+          3
+        ],
+        [
+          139,
+          28,
+          206,
+          131,
+          357,
+          502,
+          13
+        ],
+        [
+          102,
+          27,
+          363,
+          90,
+          228,
+          1445,
+          5
+        ],
+        [
+          26,
+          3,
+          35,
+          17,
+          60,
+          70,
+          10
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.376,
+          "macro_f1": 0.2798,
+          "balanced_accuracy": 0.2874,
+          "weighted_f1": 0.3493,
+          "fit_time_seconds": 10.74
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.4113,
+          "macro_f1": 0.3148,
+          "balanced_accuracy": 0.3179,
+          "weighted_f1": 0.3864,
+          "fit_time_seconds": 8.39
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.415,
+          "macro_f1": 0.3152,
+          "balanced_accuracy": 0.3119,
+          "weighted_f1": 0.3944,
+          "fit_time_seconds": 8.84
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.3719,
+          "macro_f1": 0.2675,
+          "balanced_accuracy": 0.2811,
+          "weighted_f1": 0.3437,
+          "fit_time_seconds": 9.12
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.3739,
+          "macro_f1": 0.2751,
+          "balanced_accuracy": 0.2782,
+          "weighted_f1": 0.3506,
+          "fit_time_seconds": 6.81
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "glcm_contrast_mid",
+          "importance": 0.078212
+        },
+        {
+          "feature": "glcm_dissimilarity_mid",
+          "importance": 0.068337
+        },
+        {
+          "feature": "glcm_contrast_early",
+          "importance": 0.055373
+        },
+        {
+          "feature": "glcm_homogeneity_late",
+          "importance": 0.053926
+        },
+        {
+          "feature": "glcm_homogeneity_mid",
+          "importance": 0.051403
+        },
+        {
+          "feature": "glcm_energy_early",
+          "importance": 0.050899
+        },
+        {
+          "feature": "glcm_contrast_late",
+          "importance": 0.050802
+        },
+        {
+          "feature": "glcm_energy_late",
+          "importance": 0.048286
+        },
+        {
+          "feature": "glcm_energy_mid",
+          "importance": 0.047382
+        },
+        {
+          "feature": "glcm_dissimilarity_late",
+          "importance": 0.047356
+        },
+        {
+          "feature": "glcm_homogeneity_early",
+          "importance": 0.046713
+        },
+        {
+          "feature": "glcm_dissimilarity_early",
+          "importance": 0.0467
+        },
+        {
+          "feature": "glcm_correlation_full",
+          "importance": 0.046042
+        },
+        {
+          "feature": "glcm_homogeneity_full",
+          "importance": 0.045966
+        },
+        {
+          "feature": "glcm_dissimilarity_full",
+          "importance": 0.044742
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_p.joblib"
+    },
+    "S+T": {
+      "experiment_id": "S+T",
+      "description": "Spectral + Temporal (140 features)",
+      "n_features": 140,
+      "features": [
+        "B2_full_mean",
+        "B2_full_std",
+        "B3_full_mean",
+        "B3_full_std",
+        "B4_full_mean",
+        "B4_full_std",
+        "B8_full_mean",
+        "B8_full_std",
+        "B5_full_mean",
+        "B5_full_std",
+        "B6_full_mean",
+        "B6_full_std",
+        "B7_full_mean",
+        "B7_full_std",
+        "B8A_full_mean",
+        "B8A_full_std",
+        "B11_full_mean",
+        "B11_full_std",
+        "B12_full_mean",
+        "B12_full_std",
+        "ndvi_full",
+        "evi_full",
+        "gndvi_full",
+        "savi_full",
+        "msavi_full",
+        "ndmi_full",
+        "ndwi_full",
+        "ndre1_full",
+        "ndre2_full",
+        "psri_full",
+        "bsi_full",
+        "msi_full",
+        "cire_full",
+        "cig_full",
+        "B2_early_mean",
+        "B2_early_std",
+        "B3_early_mean",
+        "B3_early_std",
+        "B4_early_mean",
+        "B4_early_std",
+        "B8_early_mean",
+        "B8_early_std",
+        "B5_early_mean",
+        "B5_early_std",
+        "B6_early_mean",
+        "B6_early_std",
+        "B7_early_mean",
+        "B7_early_std",
+        "B8A_early_mean",
+        "B8A_early_std",
+        "B11_early_mean",
+        "B11_early_std",
+        "B12_early_mean",
+        "B12_early_std",
+        "B2_mid_mean",
+        "B2_mid_std",
+        "B3_mid_mean",
+        "B3_mid_std",
+        "B4_mid_mean",
+        "B4_mid_std",
+        "B8_mid_mean",
+        "B8_mid_std",
+        "B5_mid_mean",
+        "B5_mid_std",
+        "B6_mid_mean",
+        "B6_mid_std",
+        "B7_mid_mean",
+        "B7_mid_std",
+        "B8A_mid_mean",
+        "B8A_mid_std",
+        "B11_mid_mean",
+        "B11_mid_std",
+        "B12_mid_mean",
+        "B12_mid_std",
+        "B2_late_mean",
+        "B2_late_std",
+        "B3_late_mean",
+        "B3_late_std",
+        "B4_late_mean",
+        "B4_late_std",
+        "B8_late_mean",
+        "B8_late_std",
+        "B5_late_mean",
+        "B5_late_std",
+        "B6_late_mean",
+        "B6_late_std",
+        "B7_late_mean",
+        "B7_late_std",
+        "B8A_late_mean",
+        "B8A_late_std",
+        "B11_late_mean",
+        "B11_late_std",
+        "B12_late_mean",
+        "B12_late_std",
+        "ndvi_early",
+        "evi_early",
+        "gndvi_early",
+        "savi_early",
+        "msavi_early",
+        "ndmi_early",
+        "ndwi_early",
+        "ndre1_early",
+        "ndre2_early",
+        "psri_early",
+        "bsi_early",
+        "msi_early",
+        "cire_early",
+        "cig_early",
+        "ndvi_mid",
+        "evi_mid",
+        "gndvi_mid",
+        "savi_mid",
+        "msavi_mid",
+        "ndmi_mid",
+        "ndwi_mid",
+        "ndre1_mid",
+        "ndre2_mid",
+        "psri_mid",
+        "bsi_mid",
+        "msi_mid",
+        "cire_mid",
+        "cig_mid",
+        "ndvi_late",
+        "evi_late",
+        "gndvi_late",
+        "savi_late",
+        "msavi_late",
+        "ndmi_late",
+        "ndwi_late",
+        "ndre1_late",
+        "ndre2_late",
+        "psri_late",
+        "bsi_late",
+        "msi_late",
+        "cire_late",
+        "cig_late",
+        "ndvi_growth_delta",
+        "peak_to_early_ratio",
+        "ndvi_senescence_delta",
+        "moisture_loss_delta"
+      ],
+      "runtime_seconds": 155.02,
+      "refit_time_seconds": 34.11,
+      "pooled_metrics": {
+        "accuracy": 0.7873,
+        "macro_f1": 0.7069,
+        "balanced_accuracy": 0.6914,
+        "weighted_f1": 0.7796
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.6997,
+        "macro_f1_std": 0.0228,
+        "accuracy_mean": 0.787,
+        "accuracy_std": 0.0394,
+        "balanced_accuracy_mean": 0.6878,
+        "balanced_accuracy_std": 0.0235
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.8061,
+          "recall": 0.8507,
+          "f1_score": 0.8278
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.5942,
+          "recall": 0.4409,
+          "f1_score": 0.5062
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.758,
+          "recall": 0.8505,
+          "f1_score": 0.8016
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.8785,
+          "recall": 0.8568,
+          "f1_score": 0.8675
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.7341,
+          "recall": 0.6781,
+          "f1_score": 0.7049
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.8447,
+          "recall": 0.9004,
+          "f1_score": 0.8717
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.617,
+          "recall": 0.2624,
+          "f1_score": 0.3683
+        }
+      },
+      "confusion_matrix": [
+        [
+          798,
+          7,
+          30,
+          2,
+          88,
+          5,
+          8
+        ],
+        [
+          1,
+          265,
+          113,
+          23,
+          79,
+          116,
+          4
+        ],
+        [
+          37,
+          50,
+          1428,
+          31,
+          52,
+          67,
+          14
+        ],
+        [
+          0,
+          18,
+          54,
+          658,
+          12,
+          26,
+          0
+        ],
+        [
+          118,
+          54,
+          92,
+          20,
+          933,
+          151,
+          8
+        ],
+        [
+          6,
+          51,
+          72,
+          12,
+          82,
+          2035,
+          2
+        ],
+        [
+          30,
+          1,
+          95,
+          3,
+          25,
+          9,
+          58
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.7798,
+          "macro_f1": 0.7091,
+          "balanced_accuracy": 0.696,
+          "weighted_f1": 0.7702,
+          "fit_time_seconds": 29.66
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.855,
+          "macro_f1": 0.7369,
+          "balanced_accuracy": 0.7263,
+          "weighted_f1": 0.8463,
+          "fit_time_seconds": 33.3
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.8013,
+          "macro_f1": 0.6959,
+          "balanced_accuracy": 0.6857,
+          "weighted_f1": 0.7938,
+          "fit_time_seconds": 30.62
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.7556,
+          "macro_f1": 0.6683,
+          "balanced_accuracy": 0.6548,
+          "weighted_f1": 0.7423,
+          "fit_time_seconds": 30.76
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.7435,
+          "macro_f1": 0.6883,
+          "balanced_accuracy": 0.6764,
+          "weighted_f1": 0.7399,
+          "fit_time_seconds": 30.62
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "B6_full_mean",
+          "importance": 0.035637
+        },
+        {
+          "feature": "ndre1_full",
+          "importance": 0.027835
+        },
+        {
+          "feature": "cire_full",
+          "importance": 0.027145
+        },
+        {
+          "feature": "ndmi_full",
+          "importance": 0.02682
+        },
+        {
+          "feature": "B11_full_mean",
+          "importance": 0.021433
+        },
+        {
+          "feature": "bsi_full",
+          "importance": 0.020591
+        },
+        {
+          "feature": "B12_full_mean",
+          "importance": 0.020495
+        },
+        {
+          "feature": "B6_early_mean",
+          "importance": 0.020093
+        },
+        {
+          "feature": "B11_mid_mean",
+          "importance": 0.019891
+        },
+        {
+          "feature": "B6_mid_mean",
+          "importance": 0.018352
+        },
+        {
+          "feature": "B11_full_std",
+          "importance": 0.017838
+        },
+        {
+          "feature": "B11_early_mean",
+          "importance": 0.015305
+        },
+        {
+          "feature": "cig_mid",
+          "importance": 0.014949
+        },
+        {
+          "feature": "B12_full_std",
+          "importance": 0.014811
+        },
+        {
+          "feature": "msi_full",
+          "importance": 0.013833
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_s_t.joblib"
+    },
+    "S+P": {
+      "experiment_id": "S+P",
+      "description": "Spectral + Spatial texture (54 features)",
+      "n_features": 54,
+      "features": [
+        "B2_full_mean",
+        "B2_full_std",
+        "B3_full_mean",
+        "B3_full_std",
+        "B4_full_mean",
+        "B4_full_std",
+        "B8_full_mean",
+        "B8_full_std",
+        "B5_full_mean",
+        "B5_full_std",
+        "B6_full_mean",
+        "B6_full_std",
+        "B7_full_mean",
+        "B7_full_std",
+        "B8A_full_mean",
+        "B8A_full_std",
+        "B11_full_mean",
+        "B11_full_std",
+        "B12_full_mean",
+        "B12_full_std",
+        "ndvi_full",
+        "evi_full",
+        "gndvi_full",
+        "savi_full",
+        "msavi_full",
+        "ndmi_full",
+        "ndwi_full",
+        "ndre1_full",
+        "ndre2_full",
+        "psri_full",
+        "bsi_full",
+        "msi_full",
+        "cire_full",
+        "cig_full",
+        "glcm_contrast_early",
+        "glcm_contrast_mid",
+        "glcm_contrast_late",
+        "glcm_contrast_full",
+        "glcm_dissimilarity_early",
+        "glcm_dissimilarity_mid",
+        "glcm_dissimilarity_late",
+        "glcm_dissimilarity_full",
+        "glcm_homogeneity_early",
+        "glcm_homogeneity_mid",
+        "glcm_homogeneity_late",
+        "glcm_homogeneity_full",
+        "glcm_energy_early",
+        "glcm_energy_mid",
+        "glcm_energy_late",
+        "glcm_energy_full",
+        "glcm_correlation_early",
+        "glcm_correlation_mid",
+        "glcm_correlation_late",
+        "glcm_correlation_full"
+      ],
+      "runtime_seconds": 57.76,
+      "refit_time_seconds": 11.4,
+      "pooled_metrics": {
+        "accuracy": 0.7379,
+        "macro_f1": 0.6282,
+        "balanced_accuracy": 0.6238,
+        "weighted_f1": 0.7263
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.625,
+        "macro_f1_std": 0.0334,
+        "accuracy_mean": 0.7376,
+        "accuracy_std": 0.0429,
+        "balanced_accuracy_mean": 0.6234,
+        "balanced_accuracy_std": 0.0294
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.7197,
+          "recall": 0.8049,
+          "f1_score": 0.7599
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.4688,
+          "recall": 0.3378,
+          "f1_score": 0.3926
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.7014,
+          "recall": 0.7892,
+          "f1_score": 0.7427
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.8184,
+          "recall": 0.8216,
+          "f1_score": 0.82
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.6864,
+          "recall": 0.6235,
+          "f1_score": 0.6535
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.8317,
+          "recall": 0.881,
+          "f1_score": 0.8556
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.4211,
+          "recall": 0.1086,
+          "f1_score": 0.1727
+        }
+      },
+      "confusion_matrix": [
+        [
+          755,
+          6,
+          60,
+          4,
+          95,
+          12,
+          6
+        ],
+        [
+          5,
+          203,
+          157,
+          25,
+          86,
+          123,
+          2
+        ],
+        [
+          66,
+          72,
+          1325,
+          57,
+          67,
+          82,
+          10
+        ],
+        [
+          2,
+          23,
+          66,
+          631,
+          13,
+          33,
+          0
+        ],
+        [
+          151,
+          71,
+          106,
+          31,
+          858,
+          145,
+          14
+        ],
+        [
+          14,
+          54,
+          84,
+          19,
+          97,
+          1991,
+          1
+        ],
+        [
+          56,
+          4,
+          91,
+          4,
+          34,
+          8,
+          24
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.7354,
+          "macro_f1": 0.6407,
+          "balanced_accuracy": 0.6404,
+          "weighted_f1": 0.7225,
+          "fit_time_seconds": 12.95
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.8056,
+          "macro_f1": 0.6737,
+          "balanced_accuracy": 0.6667,
+          "weighted_f1": 0.7924,
+          "fit_time_seconds": 12.03
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.7599,
+          "macro_f1": 0.6354,
+          "balanced_accuracy": 0.6279,
+          "weighted_f1": 0.7494,
+          "fit_time_seconds": 11.37
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.7039,
+          "macro_f1": 0.5912,
+          "balanced_accuracy": 0.5957,
+          "weighted_f1": 0.6891,
+          "fit_time_seconds": 10.29
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.6832,
+          "macro_f1": 0.5838,
+          "balanced_accuracy": 0.5864,
+          "weighted_f1": 0.6731,
+          "fit_time_seconds": 11.08
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "B6_full_mean",
+          "importance": 0.053692
+        },
+        {
+          "feature": "B11_full_mean",
+          "importance": 0.049913
+        },
+        {
+          "feature": "ndmi_full",
+          "importance": 0.044254
+        },
+        {
+          "feature": "msi_full",
+          "importance": 0.042301
+        },
+        {
+          "feature": "B12_full_mean",
+          "importance": 0.042285
+        },
+        {
+          "feature": "ndre1_full",
+          "importance": 0.038505
+        },
+        {
+          "feature": "cire_full",
+          "importance": 0.037188
+        },
+        {
+          "feature": "B8A_full_mean",
+          "importance": 0.033225
+        },
+        {
+          "feature": "B12_full_std",
+          "importance": 0.032668
+        },
+        {
+          "feature": "msavi_full",
+          "importance": 0.031481
+        },
+        {
+          "feature": "B11_full_std",
+          "importance": 0.030429
+        },
+        {
+          "feature": "cig_full",
+          "importance": 0.028734
+        },
+        {
+          "feature": "B7_full_mean",
+          "importance": 0.025198
+        },
+        {
+          "feature": "ndre2_full",
+          "importance": 0.025198
+        },
+        {
+          "feature": "B2_full_mean",
+          "importance": 0.023563
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_s_p.joblib"
+    },
+    "T+P": {
+      "experiment_id": "T+P",
+      "description": "Temporal + Spatial texture (126 features)",
+      "n_features": 126,
+      "features": [
+        "B2_early_mean",
+        "B2_early_std",
+        "B3_early_mean",
+        "B3_early_std",
+        "B4_early_mean",
+        "B4_early_std",
+        "B8_early_mean",
+        "B8_early_std",
+        "B5_early_mean",
+        "B5_early_std",
+        "B6_early_mean",
+        "B6_early_std",
+        "B7_early_mean",
+        "B7_early_std",
+        "B8A_early_mean",
+        "B8A_early_std",
+        "B11_early_mean",
+        "B11_early_std",
+        "B12_early_mean",
+        "B12_early_std",
+        "B2_mid_mean",
+        "B2_mid_std",
+        "B3_mid_mean",
+        "B3_mid_std",
+        "B4_mid_mean",
+        "B4_mid_std",
+        "B8_mid_mean",
+        "B8_mid_std",
+        "B5_mid_mean",
+        "B5_mid_std",
+        "B6_mid_mean",
+        "B6_mid_std",
+        "B7_mid_mean",
+        "B7_mid_std",
+        "B8A_mid_mean",
+        "B8A_mid_std",
+        "B11_mid_mean",
+        "B11_mid_std",
+        "B12_mid_mean",
+        "B12_mid_std",
+        "B2_late_mean",
+        "B2_late_std",
+        "B3_late_mean",
+        "B3_late_std",
+        "B4_late_mean",
+        "B4_late_std",
+        "B8_late_mean",
+        "B8_late_std",
+        "B5_late_mean",
+        "B5_late_std",
+        "B6_late_mean",
+        "B6_late_std",
+        "B7_late_mean",
+        "B7_late_std",
+        "B8A_late_mean",
+        "B8A_late_std",
+        "B11_late_mean",
+        "B11_late_std",
+        "B12_late_mean",
+        "B12_late_std",
+        "ndvi_early",
+        "evi_early",
+        "gndvi_early",
+        "savi_early",
+        "msavi_early",
+        "ndmi_early",
+        "ndwi_early",
+        "ndre1_early",
+        "ndre2_early",
+        "psri_early",
+        "bsi_early",
+        "msi_early",
+        "cire_early",
+        "cig_early",
+        "ndvi_mid",
+        "evi_mid",
+        "gndvi_mid",
+        "savi_mid",
+        "msavi_mid",
+        "ndmi_mid",
+        "ndwi_mid",
+        "ndre1_mid",
+        "ndre2_mid",
+        "psri_mid",
+        "bsi_mid",
+        "msi_mid",
+        "cire_mid",
+        "cig_mid",
+        "ndvi_late",
+        "evi_late",
+        "gndvi_late",
+        "savi_late",
+        "msavi_late",
+        "ndmi_late",
+        "ndwi_late",
+        "ndre1_late",
+        "ndre2_late",
+        "psri_late",
+        "bsi_late",
+        "msi_late",
+        "cire_late",
+        "cig_late",
+        "ndvi_growth_delta",
+        "peak_to_early_ratio",
+        "ndvi_senescence_delta",
+        "moisture_loss_delta",
+        "glcm_contrast_early",
+        "glcm_contrast_mid",
+        "glcm_contrast_late",
+        "glcm_contrast_full",
+        "glcm_dissimilarity_early",
+        "glcm_dissimilarity_mid",
+        "glcm_dissimilarity_late",
+        "glcm_dissimilarity_full",
+        "glcm_homogeneity_early",
+        "glcm_homogeneity_mid",
+        "glcm_homogeneity_late",
+        "glcm_homogeneity_full",
+        "glcm_energy_early",
+        "glcm_energy_mid",
+        "glcm_energy_late",
+        "glcm_energy_full",
+        "glcm_correlation_early",
+        "glcm_correlation_mid",
+        "glcm_correlation_late",
+        "glcm_correlation_full"
+      ],
+      "runtime_seconds": 125.61,
+      "refit_time_seconds": 29.42,
+      "pooled_metrics": {
+        "accuracy": 0.782,
+        "macro_f1": 0.6935,
+        "balanced_accuracy": 0.6782,
+        "weighted_f1": 0.773
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.6853,
+        "macro_f1_std": 0.0143,
+        "accuracy_mean": 0.7818,
+        "accuracy_std": 0.0348,
+        "balanced_accuracy_mean": 0.6745,
+        "balanced_accuracy_std": 0.015
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.819,
+          "recall": 0.8539,
+          "f1_score": 0.8361
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.555,
+          "recall": 0.386,
+          "f1_score": 0.4553
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.7475,
+          "recall": 0.8517,
+          "f1_score": 0.7962
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.8823,
+          "recall": 0.8294,
+          "f1_score": 0.855
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.7388,
+          "recall": 0.6846,
+          "f1_score": 0.7107
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.8349,
+          "recall": 0.9018,
+          "f1_score": 0.867
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.5521,
+          "recall": 0.2398,
+          "f1_score": 0.3344
+        }
+      },
+      "confusion_matrix": [
+        [
+          801,
+          4,
+          38,
+          2,
+          72,
+          9,
+          12
+        ],
+        [
+          3,
+          232,
+          130,
+          20,
+          79,
+          132,
+          5
+        ],
+        [
+          35,
+          57,
+          1430,
+          28,
+          50,
+          66,
+          13
+        ],
+        [
+          0,
+          17,
+          67,
+          637,
+          12,
+          34,
+          1
+        ],
+        [
+          109,
+          52,
+          85,
+          23,
+          942,
+          155,
+          10
+        ],
+        [
+          6,
+          49,
+          63,
+          10,
+          92,
+          2038,
+          2
+        ],
+        [
+          24,
+          7,
+          100,
+          2,
+          28,
+          7,
+          53
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.7732,
+          "macro_f1": 0.6845,
+          "balanced_accuracy": 0.675,
+          "weighted_f1": 0.761,
+          "fit_time_seconds": 27.15
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.8394,
+          "macro_f1": 0.7118,
+          "balanced_accuracy": 0.7025,
+          "weighted_f1": 0.8269,
+          "fit_time_seconds": 26.22
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.7962,
+          "macro_f1": 0.6701,
+          "balanced_accuracy": 0.6605,
+          "weighted_f1": 0.7863,
+          "fit_time_seconds": 25.5
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.7647,
+          "macro_f1": 0.6844,
+          "balanced_accuracy": 0.6718,
+          "weighted_f1": 0.7538,
+          "fit_time_seconds": 23.56
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.7354,
+          "macro_f1": 0.6758,
+          "balanced_accuracy": 0.6628,
+          "weighted_f1": 0.7298,
+          "fit_time_seconds": 23.13
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "B6_mid_mean",
+          "importance": 0.031283
+        },
+        {
+          "feature": "B11_mid_mean",
+          "importance": 0.029175
+        },
+        {
+          "feature": "B6_early_mean",
+          "importance": 0.025909
+        },
+        {
+          "feature": "msi_mid",
+          "importance": 0.02211
+        },
+        {
+          "feature": "B11_early_mean",
+          "importance": 0.021805
+        },
+        {
+          "feature": "msavi_mid",
+          "importance": 0.017577
+        },
+        {
+          "feature": "B12_mid_mean",
+          "importance": 0.016083
+        },
+        {
+          "feature": "ndre1_early",
+          "importance": 0.015929
+        },
+        {
+          "feature": "ndwi_early",
+          "importance": 0.015895
+        },
+        {
+          "feature": "ndmi_mid",
+          "importance": 0.015863
+        },
+        {
+          "feature": "B5_early_mean",
+          "importance": 0.015792
+        },
+        {
+          "feature": "B11_mid_std",
+          "importance": 0.015635
+        },
+        {
+          "feature": "B12_mid_std",
+          "importance": 0.015465
+        },
+        {
+          "feature": "ndre1_mid",
+          "importance": 0.015369
+        },
+        {
+          "feature": "B8_mid_mean",
+          "importance": 0.014921
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_t_p.joblib"
+    },
+    "S+T+P": {
+      "experiment_id": "S+T+P",
+      "description": "Full feature fusion: Spectral + Temporal + Spatial (160 features)",
+      "n_features": 160,
+      "features": [
+        "B2_full_mean",
+        "B2_full_std",
+        "B3_full_mean",
+        "B3_full_std",
+        "B4_full_mean",
+        "B4_full_std",
+        "B8_full_mean",
+        "B8_full_std",
+        "B5_full_mean",
+        "B5_full_std",
+        "B6_full_mean",
+        "B6_full_std",
+        "B7_full_mean",
+        "B7_full_std",
+        "B8A_full_mean",
+        "B8A_full_std",
+        "B11_full_mean",
+        "B11_full_std",
+        "B12_full_mean",
+        "B12_full_std",
+        "ndvi_full",
+        "evi_full",
+        "gndvi_full",
+        "savi_full",
+        "msavi_full",
+        "ndmi_full",
+        "ndwi_full",
+        "ndre1_full",
+        "ndre2_full",
+        "psri_full",
+        "bsi_full",
+        "msi_full",
+        "cire_full",
+        "cig_full",
+        "B2_early_mean",
+        "B2_early_std",
+        "B3_early_mean",
+        "B3_early_std",
+        "B4_early_mean",
+        "B4_early_std",
+        "B8_early_mean",
+        "B8_early_std",
+        "B5_early_mean",
+        "B5_early_std",
+        "B6_early_mean",
+        "B6_early_std",
+        "B7_early_mean",
+        "B7_early_std",
+        "B8A_early_mean",
+        "B8A_early_std",
+        "B11_early_mean",
+        "B11_early_std",
+        "B12_early_mean",
+        "B12_early_std",
+        "B2_mid_mean",
+        "B2_mid_std",
+        "B3_mid_mean",
+        "B3_mid_std",
+        "B4_mid_mean",
+        "B4_mid_std",
+        "B8_mid_mean",
+        "B8_mid_std",
+        "B5_mid_mean",
+        "B5_mid_std",
+        "B6_mid_mean",
+        "B6_mid_std",
+        "B7_mid_mean",
+        "B7_mid_std",
+        "B8A_mid_mean",
+        "B8A_mid_std",
+        "B11_mid_mean",
+        "B11_mid_std",
+        "B12_mid_mean",
+        "B12_mid_std",
+        "B2_late_mean",
+        "B2_late_std",
+        "B3_late_mean",
+        "B3_late_std",
+        "B4_late_mean",
+        "B4_late_std",
+        "B8_late_mean",
+        "B8_late_std",
+        "B5_late_mean",
+        "B5_late_std",
+        "B6_late_mean",
+        "B6_late_std",
+        "B7_late_mean",
+        "B7_late_std",
+        "B8A_late_mean",
+        "B8A_late_std",
+        "B11_late_mean",
+        "B11_late_std",
+        "B12_late_mean",
+        "B12_late_std",
+        "ndvi_early",
+        "evi_early",
+        "gndvi_early",
+        "savi_early",
+        "msavi_early",
+        "ndmi_early",
+        "ndwi_early",
+        "ndre1_early",
+        "ndre2_early",
+        "psri_early",
+        "bsi_early",
+        "msi_early",
+        "cire_early",
+        "cig_early",
+        "ndvi_mid",
+        "evi_mid",
+        "gndvi_mid",
+        "savi_mid",
+        "msavi_mid",
+        "ndmi_mid",
+        "ndwi_mid",
+        "ndre1_mid",
+        "ndre2_mid",
+        "psri_mid",
+        "bsi_mid",
+        "msi_mid",
+        "cire_mid",
+        "cig_mid",
+        "ndvi_late",
+        "evi_late",
+        "gndvi_late",
+        "savi_late",
+        "msavi_late",
+        "ndmi_late",
+        "ndwi_late",
+        "ndre1_late",
+        "ndre2_late",
+        "psri_late",
+        "bsi_late",
+        "msi_late",
+        "cire_late",
+        "cig_late",
+        "ndvi_growth_delta",
+        "peak_to_early_ratio",
+        "ndvi_senescence_delta",
+        "moisture_loss_delta",
+        "glcm_contrast_early",
+        "glcm_contrast_mid",
+        "glcm_contrast_late",
+        "glcm_contrast_full",
+        "glcm_dissimilarity_early",
+        "glcm_dissimilarity_mid",
+        "glcm_dissimilarity_late",
+        "glcm_dissimilarity_full",
+        "glcm_homogeneity_early",
+        "glcm_homogeneity_mid",
+        "glcm_homogeneity_late",
+        "glcm_homogeneity_full",
+        "glcm_energy_early",
+        "glcm_energy_mid",
+        "glcm_energy_late",
+        "glcm_energy_full",
+        "glcm_correlation_early",
+        "glcm_correlation_mid",
+        "glcm_correlation_late",
+        "glcm_correlation_full"
+      ],
+      "runtime_seconds": 164.82,
+      "refit_time_seconds": 41.8,
+      "pooled_metrics": {
+        "accuracy": 0.79,
+        "macro_f1": 0.7038,
+        "balanced_accuracy": 0.6895,
+        "weighted_f1": 0.7818
+      },
+      "fold_summary": {
+        "macro_f1_mean": 0.6965,
+        "macro_f1_std": 0.0173,
+        "accuracy_mean": 0.7897,
+        "accuracy_std": 0.036,
+        "balanced_accuracy_mean": 0.6858,
+        "balanced_accuracy_std": 0.0173
+      },
+      "per_class_metrics": {
+        "Bengal Gram": {
+          "support": 938,
+          "precision": 0.8101,
+          "recall": 0.8689,
+          "f1_score": 0.8385
+        },
+        "Chillies": {
+          "support": 601,
+          "precision": 0.5644,
+          "recall": 0.4376,
+          "f1_score": 0.493
+        },
+        "Cotton": {
+          "support": 1679,
+          "precision": 0.7603,
+          "recall": 0.8577,
+          "f1_score": 0.806
+        },
+        "Groundnut": {
+          "support": 768,
+          "precision": 0.8933,
+          "recall": 0.8503,
+          "f1_score": 0.8712
+        },
+        "Maize": {
+          "support": 1376,
+          "precision": 0.7454,
+          "recall": 0.6788,
+          "f1_score": 0.7105
+        },
+        "Paddy": {
+          "support": 2260,
+          "precision": 0.8472,
+          "recall": 0.9027,
+          "f1_score": 0.874
+        },
+        "Red Gram": {
+          "support": 221,
+          "precision": 0.6,
+          "recall": 0.2308,
+          "f1_score": 0.3333
+        }
+      },
+      "confusion_matrix": [
+        [
+          815,
+          7,
+          25,
+          2,
+          76,
+          5,
+          8
+        ],
+        [
+          2,
+          263,
+          118,
+          20,
+          74,
+          120,
+          4
+        ],
+        [
+          34,
+          58,
+          1440,
+          26,
+          52,
+          59,
+          10
+        ],
+        [
+          0,
+          19,
+          57,
+          653,
+          12,
+          26,
+          1
+        ],
+        [
+          119,
+          59,
+          85,
+          19,
+          934,
+          150,
+          10
+        ],
+        [
+          7,
+          56,
+          69,
+          9,
+          78,
+          2040,
+          1
+        ],
+        [
+          29,
+          4,
+          100,
+          2,
+          27,
+          8,
+          51
+        ]
+      ],
+      "fold_details": [
+        {
+          "fold": 0,
+          "n_train": 6335,
+          "n_val": 1508,
+          "accuracy": 0.7832,
+          "macro_f1": 0.7048,
+          "balanced_accuracy": 0.6928,
+          "weighted_f1": 0.7719,
+          "fit_time_seconds": 29.37
+        },
+        {
+          "fold": 1,
+          "n_train": 6243,
+          "n_val": 1600,
+          "accuracy": 0.8475,
+          "macro_f1": 0.7258,
+          "balanced_accuracy": 0.7158,
+          "weighted_f1": 0.8377,
+          "fit_time_seconds": 31.99
+        },
+        {
+          "fold": 2,
+          "n_train": 6248,
+          "n_val": 1595,
+          "accuracy": 0.81,
+          "macro_f1": 0.6879,
+          "balanced_accuracy": 0.6784,
+          "weighted_f1": 0.8016,
+          "fit_time_seconds": 39.81
+        },
+        {
+          "fold": 3,
+          "n_train": 6313,
+          "n_val": 1530,
+          "accuracy": 0.7627,
+          "macro_f1": 0.6759,
+          "balanced_accuracy": 0.6655,
+          "weighted_f1": 0.7506,
+          "fit_time_seconds": 33.62
+        },
+        {
+          "fold": 4,
+          "n_train": 6233,
+          "n_val": 1610,
+          "accuracy": 0.7453,
+          "macro_f1": 0.6879,
+          "balanced_accuracy": 0.6764,
+          "weighted_f1": 0.7417,
+          "fit_time_seconds": 29.97
+        }
+      ],
+      "top_features": [
+        {
+          "feature": "cig_early",
+          "importance": 0.037369
+        },
+        {
+          "feature": "B6_full_mean",
+          "importance": 0.030661
+        },
+        {
+          "feature": "msi_full",
+          "importance": 0.025987
+        },
+        {
+          "feature": "ndre1_full",
+          "importance": 0.025564
+        },
+        {
+          "feature": "B11_full_mean",
+          "importance": 0.024594
+        },
+        {
+          "feature": "B6_early_mean",
+          "importance": 0.022341
+        },
+        {
+          "feature": "B12_full_mean",
+          "importance": 0.019921
+        },
+        {
+          "feature": "ndmi_full",
+          "importance": 0.018978
+        },
+        {
+          "feature": "B11_full_std",
+          "importance": 0.018886
+        },
+        {
+          "feature": "B11_mid_mean",
+          "importance": 0.017106
+        },
+        {
+          "feature": "cire_full",
+          "importance": 0.016182
+        },
+        {
+          "feature": "B12_full_std",
+          "importance": 0.015588
+        },
+        {
+          "feature": "bsi_full",
+          "importance": 0.01524
+        },
+        {
+          "feature": "cig_full",
+          "importance": 0.014387
+        },
+        {
+          "feature": "B6_mid_mean",
+          "importance": 0.014031
+        }
+      ],
+      "model_path": "outputs\\models\\phase6h\\xgb_model_s_t_p.joblib"
+    }
+  },
+  "synthesis": {
+    "historical_exp_c_baseline": {
+      "macro_f1": 0.7038,
+      "accuracy": 0.7877
+    },
+    "trial4_s_plus_t": {
+      "macro_f1": 0.7069,
+      "accuracy": 0.7873
+    },
+    "trial4_s_plus_t_plus_p": {
+      "macro_f1": 0.7038,
+      "accuracy": 0.79
+    },
+    "incremental_spatial_delta": {
+      "macro_f1_delta": -0.0031,
+      "accuracy_delta": 0.0027
+    },
+    "minority_crop_comparison": {
+      "Red Gram": {
+        "S+T_f1": 0.3683,
+        "S+T+P_f1": 0.3333,
+        "delta": -0.035
+      },
+      "Chillies": {
+        "S+T_f1": 0.5062,
+        "S+T+P_f1": 0.493,
+        "delta": -0.0132
+      }
+    }
+  }
+}

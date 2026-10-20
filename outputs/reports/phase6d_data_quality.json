@@ -1,0 +1,64 @@
+{
+  "dataset_name": "Sentinel-2 Multi-Crop Expanded Dataset (Phase 6D)",
+  "total_manifest_farms": 724,
+  "total_extracted_records": 724,
+  "status_distribution": {
+    "success": 714,
+    "failed": 10
+  },
+  "total_valid_farms": 714,
+  "clean_crop_distribution": {
+    "Bengal Gram": 103,
+    "Paddy": 103,
+    "Groundnut": 103,
+    "Maize": 102,
+    "Cotton": 102,
+    "Red Gram": 102,
+    "Chillies": 99
+  },
+  "raw_crop_distribution": {
+    "Chillies": 104,
+    "Paddy": 104,
+    "Maize": 104,
+    "Cotton": 103,
+    "Bengal Gram": 103,
+    "Groundnut": 103,
+    "Red Gram": 103
+  },
+  "index_missing_pct": {
+    "ndvi_early": 16.99,
+    "ndvi_mid": 4.97,
+    "ndvi_late": 5.94,
+    "ndvi_full": 1.38,
+    "ndmi_early": 17.13,
+    "ndmi_mid": 4.97,
+    "ndmi_late": 5.94,
+    "ndmi_full": 1.38,
+    "evi_full": 1.38,
+    "ndre1_full": 1.38,
+    "msi_full": 1.38
+  },
+  "index_ranges": {
+    "ndvi_full": {
+      "min": 0.1055,
+      "max": 0.8743,
+      "mean": 0.49
+    },
+    "evi_full": {
+      "min": 0.0506,
+      "max": 0.7199,
+      "mean": 0.3277
+    },
+    "ndwi_full": {
+      "min": -0.7705,
+      "max": -0.2397,
+      "mean": -0.5182
+    },
+    "ndmi_full": {
+      "min": -0.2492,
+      "max": 0.4776,
+      "mean": 0.0649
+    }
+  },
+  "suitable_for_modeling": true
+}

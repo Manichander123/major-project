@@ -1,0 +1,88 @@
+{
+  "report_name": "Test Suite Execution and Coverage Status",
+  "timestamp": "2026-10-15",
+  "exit_code": 0,
+  "tests_total": 27,
+  "tests_passed": 27,
+  "tests_failed": 0,
+  "tests_skipped": 0,
+  "tests_errored": 0,
+  "coverage_areas": {
+    "extraction_and_mosaicking": {
+      "modules": [
+        "tests/test_s2_mosaic.py",
+        "tests/test_pre_extraction_gate.py"
+      ],
+      "tests": [
+        "test_mosaic_same_date_scenes_reduces_to_unique_dates",
+        "test_temporal_median_aggregates_across_dates_not_tiles",
+        "test_scl_cloud_and_shadow_masking",
+        "test_duplicate_same_date_acquisitions_collapsed",
+        "test_daily_mosaic_clear_pixel_shines_through_cloudy_tile",
+        "test_daily_mosaicking_prevents_temporal_swath_overweighting"
+      ],
+      "status": "PASS"
+    },
+    "nan_preservation_and_no_fabrication": {
+      "modules": [
+        "tests/test_phase6c.py",
+        "tests/test_pre_extraction_gate.py"
+      ],
+      "tests": [
+        "test_nan_handling_and_no_fabrication",
+        "test_missing_observations_preserve_nan_not_zero"
+      ],
+      "status": "PASS"
+    },
+    "checkpoint_and_resume_safeguards": {
+      "modules": [
+        "tests/test_pre_extraction_gate.py"
+      ],
+      "tests": [
+        "test_checkpoint_resume_safeguards"
+      ],
+      "status": "PASS"
+    },
+    "manifest_feature_oof_alignment": {
+      "modules": [
+        "tests/test_phase6c.py",
+        "tests/test_pre_extraction_gate.py",
+        "tests/test_phase6d_audit.py"
+      ],
+      "tests": [
+        "test_manifest_uniqueness_and_counts",
+        "test_manifest_feature_oof_alignment",
+        "test_oof_predictions_integrity",
+        "test_class_support_discrepancy_resolved"
+      ],
+      "status": "PASS"
+    },
+    "leakage_exclusion": {
+      "modules": [
+        "tests/test_baseline.py",
+        "tests/test_phase6c.py",
+        "tests/test_phase6d_audit.py"
+      ],
+      "tests": [
+        "test_leakage_exclusion",
+        "test_leakage_exclusions",
+        "test_zero_spatial_leakage_in_saved_oof"
+      ],
+      "status": "PASS"
+    },
+    "spatial_cross_validation_and_model_persistence": {
+      "modules": [
+        "tests/test_baseline.py",
+        "tests/test_phase6c.py",
+        "tests/test_phase6d_audit.py"
+      ],
+      "tests": [
+        "test_spatial_fold_integrity",
+        "test_pipeline_persistence",
+        "test_unseen_categories_inference",
+        "test_metric_reproducibility_from_oof"
+      ],
+      "status": "PASS"
+    }
+  }
+}

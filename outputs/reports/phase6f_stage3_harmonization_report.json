@@ -1,0 +1,77 @@
+{
+  "dataset_name": "s2_phase6f_harmonized_cohort.csv",
+  "sha256_hash": "caed402949eb577425b9d2e2cac0ee2c8462f635ca22b466a7675962ebb5a7af",
+  "row_count": 7888,
+  "column_count": 100,
+  "unique_farms": 7888,
+  "cohort_breakdown": {
+    "total_farms": 7888,
+    "successful_extractions": 7843,
+    "success_rate_pct": 99.42951318458418,
+    "cloud_obscured_failures": 45,
+    "failure_rate_pct": 0.5704868154158215,
+    "by_source": {
+      "phase6e": 7124,
+      "phase6d": 714,
+      "phase6e_cloud_failed": 35,
+      "phase6d_cloud_failed": 10,
+      "phase6f_recovered": 5
+    }
+  },
+  "recovery_audit": {
+    "approved_farm_ids": [
+      1330053,
+      1330055,
+      1330056,
+      1330059,
+      1330230
+    ],
+    "recovered_count": 5,
+    "all_recovered_status": "success",
+    "spectral_completeness_pct": 100.0
+  },
+  "crop_distribution": {
+    "Paddy": 2268,
+    "Cotton": 1692,
+    "Maize": 1384,
+    "Bengal Gram": 938,
+    "Groundnut": 768,
+    "Chillies": 614,
+    "Red Gram": 224
+  },
+  "window_completeness_successful_cohort": {
+    "early": {
+      "valid_farms": 7302,
+      "valid_pct": 93.10212928726253,
+      "zero_valid_farms": 541,
+      "nan_spectral_farms": 543
+    },
+    "mid": {
+      "valid_farms": 7722,
+      "valid_pct": 98.45722300140253,
+      "zero_valid_farms": 121,
+      "nan_spectral_farms": 122
+    },
+    "late": {
+      "valid_farms": 7651,
+      "valid_pct": 97.55195715925029,
+      "zero_valid_farms": 192,
+      "nan_spectral_farms": 194
+    },
+    "full": {
+      "valid_farms": 7843,
+      "valid_pct": 100.0,
+      "zero_valid_farms": 0,
+      "nan_spectral_farms": 0
+    }
+  },
+  "data_integrity": {
+    "infinities": 0,
+    "fabricated_zeros_in_failed": 0,
+    "failed_records_nan_completeness_pct": 100.0,
+    "label_mismatches_against_train": 0,
+    "metadata_mismatches_against_train": 0,
+    "protected_files_verified": 24,
+    "protected_files_mutated": 0
+  }
+}

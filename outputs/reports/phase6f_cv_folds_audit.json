@@ -1,0 +1,106 @@
+{
+  "dataset_name": "phase6f_cv_folds.csv",
+  "sha256": "8ba2bb116b5a1fb8c8c1125a1478273887971ab49f8b3557d8bc5de64191f233",
+  "n_splits": 5,
+  "group_column": "Sub-District",
+  "total_eligible_farms": 7843,
+  "total_unique_groups": 116,
+  "folds": [
+    {
+      "fold": 0,
+      "train_samples": 6335,
+      "val_samples": 1508,
+      "val_groups_count": 23,
+      "group_overlap": 0,
+      "val_class_distribution": {
+        "Paddy": 454,
+        "Cotton": 337,
+        "Maize": 268,
+        "Bengal Gram": 185,
+        "Chillies": 107,
+        "Groundnut": 101,
+        "Red Gram": 56
+      },
+      "val_red_gram_support": 56
+    },
+    {
+      "fold": 1,
+      "train_samples": 6243,
+      "val_samples": 1600,
+      "val_groups_count": 21,
+      "group_overlap": 0,
+      "val_class_distribution": {
+        "Paddy": 451,
+        "Cotton": 332,
+        "Maize": 270,
+        "Bengal Gram": 204,
+        "Groundnut": 174,
+        "Chillies": 143,
+        "Red Gram": 26
+      },
+      "val_red_gram_support": 26
+    },
+    {
+      "fold": 2,
+      "train_samples": 6248,
+      "val_samples": 1595,
+      "val_groups_count": 22,
+      "group_overlap": 0,
+      "val_class_distribution": {
+        "Paddy": 450,
+        "Cotton": 335,
+        "Maize": 286,
+        "Groundnut": 209,
+        "Bengal Gram": 177,
+        "Chillies": 117,
+        "Red Gram": 21
+      },
+      "val_red_gram_support": 21
+    },
+    {
+      "fold": 3,
+      "train_samples": 6313,
+      "val_samples": 1530,
+      "val_groups_count": 26,
+      "group_overlap": 0,
+      "val_class_distribution": {
+        "Paddy": 452,
+        "Cotton": 341,
+        "Maize": 282,
+        "Bengal Gram": 187,
+        "Chillies": 106,
+        "Groundnut": 103,
+        "Red Gram": 59
+      },
+      "val_red_gram_support": 59
+    },
+    {
+      "fold": 4,
+      "train_samples": 6233,
+      "val_samples": 1610,
+      "val_groups_count": 24,
+      "group_overlap": 0,
+      "val_class_distribution": {
+        "Paddy": 453,
+        "Cotton": 334,
+        "Maize": 270,
+        "Bengal Gram": 185,
+        "Groundnut": 181,
+        "Chillies": 128,
+        "Red Gram": 59
+      },
+      "val_red_gram_support": 59
+    }
+  ],
+  "rare_class_summary": {
+    "crop": "Red Gram",
+    "total_eligible": 221,
+    "support_by_fold": {
+      "0": 56,
+      "1": 26,
+      "2": 21,
+      "3": 59,
+      "4": 59
+    }
+  }
+}

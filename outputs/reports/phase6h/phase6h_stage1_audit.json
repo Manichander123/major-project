@@ -1,0 +1,279 @@
+{
+  "audit_phase": "Phase 6H Stage 1 (Read-Only Audit & Feasibility Preflight)",
+  "timestamp": "2026-10-19T00:13:06.172672",
+  "status": "AUDIT COMPLETE \u2014 READY FOR STAGE 2 APPROVAL",
+  "scope_boundary_note": "READ-ONLY AUDIT. NO MODEL RETRAINING OR EARTH ENGINE MUTATION PERFORMED.",
+  "item_01_spectral_features": {
+    "source_collection": "COPERNICUS/S2_SR_HARMONIZED (Level-2A Surface Reflectance)",
+    "bands_10m": [
+      "B2",
+      "B3",
+      "B4",
+      "B8"
+    ],
+    "bands_20m": [
+      "B5",
+      "B6",
+      "B7",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "raw_band_features_count": 80,
+    "raw_band_stats": [
+      "mean",
+      "std"
+    ],
+    "spectral_indices_count": 56,
+    "indices_definitions": {
+      "ndvi": "(B8 - B4) / (B8 + B4)",
+      "evi": "2.5 * (B8 - B4) / (B8 + 6.0*B4 - 7.5*B2 + 1.0)",
+      "gndvi": "(B8 - B3) / (B8 + B3)",
+      "savi": "1.5 * (B8 - B4) / (B8 + B4 + 0.5)",
+      "msavi": "0.5 * (2*B8 + 1 - sqrt((2*B8 + 1)^2 - 8*(B8 - B4)))",
+      "ndmi": "(B8 - B11) / (B8 + B11)",
+      "ndwi": "(B3 - B8) / (B3 + B8)",
+      "ndre1": "(B8 - B5) / (B8 + B5)",
+      "ndre2": "(B8 - B6) / (B8 + B6)",
+      "psri": "(B4 - B2) / B6",
+      "bsi": "((B11 + B4) - (B8 + B2)) / ((B11 + B4) + (B8 + B2))",
+      "msi": "B11 / B8",
+      "cire": "(B8 / B5) - 1.0",
+      "cig": "(B8 / B3) - 1.0"
+    },
+    "total_spectral_features": 136
+  },
+  "item_02_temporal_windows_and_deltas": {
+    "phenological_windows": {
+      "early": "0% to 25% of growing season duration (emergence / early vegetative)",
+      "mid": "25% to 75% of growing season duration (peak growth / flowering)",
+      "late": "75% to 100% of growing season duration (maturation / senescence)",
+      "full": "0% to 100% of growing season duration (entire season composite)"
+    },
+    "temporal_deltas_count": 4,
+    "temporal_deltas_definitions": {
+      "ndvi_growth_delta": "ndvi_mid - ndvi_early",
+      "peak_to_early_ratio": "ndvi_mid / (ndvi_early + 1e-4)",
+      "ndvi_senescence_delta": "ndvi_mid - ndvi_late",
+      "moisture_loss_delta": "ndmi_mid - ndmi_late"
+    },
+    "total_experiment_c_features": 140
+  },
+  "item_03_geometry_descriptors": {
+    "descriptors": [
+      "area_ha",
+      "perimeter_m",
+      "compactness"
+    ],
+    "compactness_formula": "4 * pi * area / (perimeter^2) [Polsby-Popper ratio]",
+    "usage": {
+      "satellite_only_experiments (Exp A, B, C)": "EXCLUDED",
+      "farm_assisted_multimodal (Exp D)": "INCLUDED alongside pre-sowing calendar features"
+    },
+    "distinction_note": "Parcel geometry descriptors measure macro parcel polygon boundary shape, NOT raster pixel-level canopy texture."
+  },
+  "item_04_raster_pixel_availability": {
+    "local_raster_files_count": 0,
+    "status": "NO LOCAL RASTER ARRAYS OR GEOTIFF PATCHES EXIST ON DISK.",
+    "extraction_history": "All prior phases (Phase 6C, 6D, 6E) executed GEE server-side reduceRegion() aggregations, saving only tabular scalar band means and stds to CSV.",
+    "operational_requirement": "GLCM texture computation requires querying Google Earth Engine server-side via image.glcmTexture() or extracting pixel arrays."
+  },
+  "item_05_candidate_glcm_parameters": {
+    "candidate_bands": [
+      {
+        "band": "B8",
+        "resolution": "10m",
+        "rationale": "Primary choice; NIR canopy reflection captures foliage density, canopy gaps, and row spacing without 20m coarse-pixel artifacts."
+      },
+      {
+        "band": "B4",
+        "resolution": "10m",
+        "rationale": "Secondary choice; Red band sensitive to soil-vegetation contrast and bare soil patches."
+      },
+      {
+        "band": "NDVI",
+        "resolution": "10m",
+        "rationale": "Derived normalized greenness texture."
+      }
+    ],
+    "excluded_bands": [
+      "B5",
+      "B6",
+      "B7",
+      "B8A",
+      "B11",
+      "B12"
+    ],
+    "exclusion_rationale": "20m native resolution is too coarse for Telangana smallholders; single pixel (400 m2) exceeds 5.86% of farms.",
+    "recommended_resolution": "10m native pixel grid",
+    "recommended_window_size": "3x3 moving window (30m x 30m = 900 m2)",
+    "quantization": "32 gray levels (linear scaling of 0-10000 surface reflectance into [0, 31])",
+    "directions": "4 standard directions (0, 45, 90, 135 deg) directionally averaged (omnidirectional isotropic)",
+    "candidate_metrics": [
+      "contrast",
+      "dissimilarity",
+      "homogeneity",
+      "energy",
+      "correlation"
+    ],
+    "polygon_aggregation": "Zonal mean (ee.Reducer.mean()) over farm parcel polygon"
+  },
+  "item_06_label_independence": {
+    "status": "FULLY DECOUPLED",
+    "proof": "GLCM computation operates strictly on satellite reflectance arrays and vector parcel geometries. Crop labels (Crop, category) are never passed to the extractor."
+  },
+  "item_07_small_polygon_and_boundary_constraints": {
+    "total_farms": 7888,
+    "area_min_m2": 53.74717376611925,
+    "area_max_m2": 69490.98570245643,
+    "area_mean_m2": 4230.50612906212,
+    "area_median_m2": 2779.458711874627,
+    "area_std_m2": 4643.167685420136,
+    "percentiles_m2": {
+      "p1": 188.76776456809222,
+      "p5": 370.0597397538601,
+      "p10": 580.3001919986377,
+      "p25": 1251.1444063356007,
+      "p50": 2779.458711874627,
+      "p75": 5516.390337072879,
+      "p90": 9520.625218566667,
+      "p95": 13207.87936943742,
+      "p99": 21483.862026329403
+    },
+    "threshold_analysis": {
+      "under_100m2_single_10m_pixel": {
+        "count": 6,
+        "pct": 0.08
+      },
+      "under_400m2_single_20m_pixel": {
+        "count": 438,
+        "pct": 5.55
+      },
+      "under_900m2_3x3_window_10m": {
+        "count": 1371,
+        "pct": 17.38
+      },
+      "under_2500m2_5x5_window_10m": {
+        "count": 3659,
+        "pct": 46.39
+      },
+      "under_3600m2_3x3_window_20m": {
+        "count": 4703,
+        "pct": 59.62
+      }
+    }
+  },
+  "item_08_computational_cost_and_dependencies": {
+    "approach_comparison": {
+      "option_a_gee_server_side": {
+        "method": "ee.Image.glcmTexture() + reduceRegion(ee.Reducer.mean(), ee_region)",
+        "dependencies": [
+          "earthengine-api (already installed)"
+        ],
+        "estimated_runtime": "2 - 3 hours for full cohort (resumable chunks with ThreadPoolExecutor)",
+        "disk_storage": "0 GB rasters; ~15 MB tabular CSV",
+        "failure_risk": "Low (handles cloudy/empty windows natively via masked reducers)",
+        "recommendation": "STRONGLY RECOMMENDED"
+      },
+      "option_b_local_raster_download": {
+        "method": "Download 31,552 image patches via GEE REST API + skimage.feature.graycomatrix",
+        "dependencies": [
+          "scikit-image",
+          "rasterio / geopandas",
+          "earthengine-api"
+        ],
+        "estimated_runtime": "8 - 15 hours + high risk of GEE 429 quota exhaustion",
+        "disk_storage": "5 - 10 GB raster files",
+        "failure_risk": "High (network latency, quota exhaustion, disk I/O)",
+        "recommendation": "NOT RECOMMENDED"
+      }
+    }
+  },
+  "item_09_cohort_and_spatial_cv_preservation": {
+    "cohort_reference": "outputs/data/s2_phase6f_harmonized_cohort.csv (N=7,888 total)",
+    "eligible_benchmark_cohort": "outputs/data/phase6f_cv_folds.csv (N=7,843 eligible)",
+    "cv_strategy": "5-Fold StratifiedGroupKFold grouped strictly by Sub-District (Mandal)",
+    "mandal_overlap": 0,
+    "farms_per_fold": {
+      "0.0": 1508,
+      "1.0": 1600,
+      "2.0": 1595,
+      "3.0": 1530,
+      "4.0": 1610
+    },
+    "mandals_per_fold": {
+      "0.0": 23,
+      "1.0": 21,
+      "2.0": 22,
+      "3.0": 26,
+      "4.0": 24
+    },
+    "guarantee": "All 7 ablation experiments will use the exact same 7,843 farms and the identical 5 folds."
+  },
+  "item_10_proposed_schema_and_experiment_matrix": {
+    "feature_groups": {
+      "S (Spectral)": {
+        "count": 34,
+        "description": "20 full-season raw band stats (B2-B12 mean & std) + 14 full-season spectral indices (ndvi, evi, etc.). Identical to Phase 6F Exp A."
+      },
+      "T (Temporal)": {
+        "count": 106,
+        "description": "Multi-window spectral features across early, mid, late (102 features) + 4 temporal trajectory deltas. (S + T = 140 features, identical to Phase 6F Exp C)."
+      },
+      "P (Spatial Texture)": {
+        "count": 20,
+        "description": "5 GLCM texture metrics (contrast, dissimilarity, homogeneity, energy, correlation) computed on B8 across 4 phenological windows (5 x 4 = 20 features)."
+      }
+    },
+    "ablation_matrix": [
+      {
+        "exp_id": "exp1_s",
+        "name": "Spectral Only (S)",
+        "feature_count": 34,
+        "formula": "S"
+      },
+      {
+        "exp_id": "exp2_t",
+        "name": "Temporal Only (T)",
+        "feature_count": 106,
+        "formula": "T"
+      },
+      {
+        "exp_id": "exp3_p",
+        "name": "Spatial Texture Only (P)",
+        "feature_count": 20,
+        "formula": "P"
+      },
+      {
+        "exp_id": "exp4_st",
+        "name": "Spectral + Temporal (S+T)",
+        "feature_count": 140,
+        "formula": "S + T (Phase 6F Exp C)"
+      },
+      {
+        "exp_id": "exp5_sp",
+        "name": "Spectral + Spatial (S+P)",
+        "feature_count": 54,
+        "formula": "S + P"
+      },
+      {
+        "exp_id": "exp6_tp",
+        "name": "Temporal + Spatial (T+P)",
+        "feature_count": 126,
+        "formula": "T + P"
+      },
+      {
+        "exp_id": "exp7_stp",
+        "name": "Full Tri-Modal Satellite Fusion (S+T+P)",
+        "feature_count": 160,
+        "formula": "S + T + P"
+      }
+    ],
+    "common_classifier": "XGBoost (Trial 4 regularized parameters: depth=7, lr=0.05, colsample=0.75, subsample=0.80, reg_lambda=5.0)",
+    "isolated_paths": {
+      "data": "outputs/data/phase6h/",
+      "reports": "outputs/reports/phase6h/",
+      "models": "outputs/models/phase6h/"
+    }
+  }
+}

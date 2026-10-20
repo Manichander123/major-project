@@ -1,0 +1,117 @@
+{
+  "dataset_name": "Sentinel-2 Multi-Crop Pilot (Phase 6A)",
+  "total_manifest_farms": 175,
+  "total_extracted_records": 175,
+  "status_distribution": {
+    "success": 173,
+    "failed": 2
+  },
+  "crop_distribution": {
+    "Bengal Gram": 25,
+    "Chillies": 25,
+    "Cotton": 25,
+    "Groundnut": 25,
+    "Maize": 25,
+    "Paddy": 25,
+    "Red Gram": 25
+  },
+  "image_acquisitions": {
+    "n_images_valid_early": {
+      "mean": 9.7,
+      "min": 0,
+      "max": 73,
+      "zero_image_farms": 28
+    },
+    "n_images_valid_mid": {
+      "mean": 20.2,
+      "min": 0,
+      "max": 89,
+      "zero_image_farms": 12
+    },
+    "n_images_valid_late": {
+      "mean": 12.7,
+      "min": 0,
+      "max": 66,
+      "zero_image_farms": 15
+    },
+    "n_images_valid_full": {
+      "mean": 42.6,
+      "min": 0,
+      "max": 206,
+      "zero_image_farms": 2
+    }
+  },
+  "index_missing_pct": {
+    "ndvi_early": 16.0,
+    "ndvi_mid": 6.86,
+    "ndvi_late": 8.57,
+    "ndvi_full": 1.14,
+    "ndmi_early": 16.0,
+    "ndmi_mid": 6.86,
+    "ndmi_late": 8.57,
+    "ndmi_full": 1.14,
+    "evi_full": 1.14,
+    "ndre1_full": 1.14,
+    "msi_full": 1.14
+  },
+  "crop_missingness": {
+    "Bengal Gram": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 0.0,
+      "mid_season_missing_pct": 0.0
+    },
+    "Chillies": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 4.0,
+      "mid_season_missing_pct": 16.0
+    },
+    "Cotton": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 0.0,
+      "mid_season_missing_pct": 16.0
+    },
+    "Groundnut": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 0.0,
+      "mid_season_missing_pct": 0.0
+    },
+    "Maize": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 4.0,
+      "mid_season_missing_pct": 8.0
+    },
+    "Paddy": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 0.0,
+      "mid_season_missing_pct": 8.0
+    },
+    "Red Gram": {
+      "n_farms": 25,
+      "ndvi_full_missing_pct": 0.0,
+      "mid_season_missing_pct": 0.0
+    }
+  },
+  "index_ranges": {
+    "ndvi_full": {
+      "min": 0.1055,
+      "max": 0.8091,
+      "mean": 0.4578
+    },
+    "evi_full": {
+      "min": 0.0506,
+      "max": 0.62,
+      "mean": 0.3035
+    },
+    "ndwi_full": {
+      "min": -0.7222,
+      "max": -0.2911,
+      "mean": -0.5009
+    },
+    "ndmi_full": {
+      "min": -0.2196,
+      "max": 0.3873,
+      "mean": 0.0369
+    }
+  },
+  "suitable_for_modeling": true
+}

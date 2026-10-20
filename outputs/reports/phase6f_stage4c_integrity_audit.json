@@ -1,0 +1,895 @@
+{
+  "audit_stage": "Phase 6F Stage 4C",
+  "timestamp": "2026-10-18T16:53:53.474946",
+  "overall_status": "PASS WITH CRITICAL SCIENTIFIC ADDENDA",
+  "cohort_accounting": {
+    "total_farms": 7888,
+    "unique_farms": 7888,
+    "cloud_failures_excluded": 45,
+    "eligible_modeling_farms": 7843,
+    "status": "PASS"
+  },
+  "protected_baseline_hashes": {
+    "all_passed": true,
+    "details": {
+      "datasss/Train.csv": {
+        "status": "PASS",
+        "expected": "29d31920f5b9aaea8213d7993dedc50c5d19458906f85642d360d785bb07aa06",
+        "actual": "29d31920f5b9aaea8213d7993dedc50c5d19458906f85642d360d785bb07aa06",
+        "error": false
+      },
+      "outputs/data/s2_full_expansion_manifest_7164.csv": {
+        "status": "PASS",
+        "expected": "f4b92b55f248edf687c60b85177cb793859d04fd39442a4841991b79110807b9",
+        "actual": "f4b92b55f248edf687c60b85177cb793859d04fd39442a4841991b79110807b9",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_7164_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "d1ee90a5d9e09126a71bdc8e809767a30860671e88e42a8a8aebb19c46cf83af",
+        "actual": "d1ee90a5d9e09126a71bdc8e809767a30860671e88e42a8a8aebb19c46cf83af",
+        "error": false
+      },
+      "outputs/data/s2_phase6d_manifest_724.csv": {
+        "status": "PASS",
+        "expected": "326207f8ca1b0848533bdc4ff673db24b18ff46e30b558952444555c20824214",
+        "actual": "326207f8ca1b0848533bdc4ff673db24b18ff46e30b558952444555c20824214",
+        "error": false
+      },
+      "outputs/data/s2_phase6d_724_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "cdd3cf8a8a6ac0dde6c0e13d262011a379e129598e8f667a38fab747f1f73826",
+        "actual": "cdd3cf8a8a6ac0dde6c0e13d262011a379e129598e8f667a38fab747f1f73826",
+        "error": false
+      },
+      "outputs/data/s2_phase6d_724_features.csv": {
+        "status": "PASS",
+        "expected": "98ac03841ea85219f3df1f90d038741aa6faa65e212de6a4d12fd02f0e7bfc75",
+        "actual": "98ac03841ea85219f3df1f90d038741aa6faa65e212de6a4d12fd02f0e7bfc75",
+        "error": false
+      },
+      "outputs/data/phase6d_oof_predictions.csv": {
+        "status": "PASS",
+        "expected": "dfa09e53ec961edd08c3ba917364e8d2a666e23d4357d7d46864974a53ee49a4",
+        "actual": "dfa09e53ec961edd08c3ba917364e8d2a666e23d4357d7d46864974a53ee49a4",
+        "error": false
+      },
+      "outputs/data/s2_phase6f_recovered_farms.csv": {
+        "status": "PASS",
+        "expected": "235ca39d953be9b0ef3984f9042fecda4c3fb3e0324de1e94f0af04ccebdc32f",
+        "actual": "235ca39d953be9b0ef3984f9042fecda4c3fb3e0324de1e94f0af04ccebdc32f",
+        "error": false
+      },
+      "outputs/reports/phase6f_stage2_recovery_ledger.csv": {
+        "status": "PASS",
+        "expected": "ced6944ce6db7ee02841c3de11b6c8edc48ea27f2f2dfaa013a42054f299e272",
+        "actual": "ced6944ce6db7ee02841c3de11b6c8edc48ea27f2f2dfaa013a42054f299e272",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_00_0_500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "9cdecd9c3162ca6301883b62ffaeffebf579f2e3c09e8631a986905dccf03ed6",
+        "actual": "9cdecd9c3162ca6301883b62ffaeffebf579f2e3c09e8631a986905dccf03ed6",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_01_500_1000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "e4f2027ba78cef3267f54287809f9379e6d0dc77b6ab67ae3a059b0297ef9dc5",
+        "actual": "e4f2027ba78cef3267f54287809f9379e6d0dc77b6ab67ae3a059b0297ef9dc5",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_02_1000_1500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "ef428abd732902e3625f9be2161f96f2a80742022616452c205ef57b1f202219",
+        "actual": "ef428abd732902e3625f9be2161f96f2a80742022616452c205ef57b1f202219",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_03_1500_2000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "5f03c44197ee3e0a397e56a869cab07f3dafae76736821e1988730d8aff0e30a",
+        "actual": "5f03c44197ee3e0a397e56a869cab07f3dafae76736821e1988730d8aff0e30a",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_04_2000_2500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "a291487191587bcc1680729e45026740008ee81b89aae55b99b923c7fa24453f",
+        "actual": "a291487191587bcc1680729e45026740008ee81b89aae55b99b923c7fa24453f",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_05_2500_3000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "88650fdb722979455e0d3fa4c8280655872f8ea8db31094e180ed1eb0b0750e5",
+        "actual": "88650fdb722979455e0d3fa4c8280655872f8ea8db31094e180ed1eb0b0750e5",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_06_3000_3500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "32015d7d6733c4b9b2684f4c9a8e05f42b7d29c01a09986ab69fa3368f6e6ce4",
+        "actual": "32015d7d6733c4b9b2684f4c9a8e05f42b7d29c01a09986ab69fa3368f6e6ce4",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_07_3500_4000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "572d96fddf458bebb864da59eb44f27e6e2cec505bb855ccabf75855154a557e",
+        "actual": "572d96fddf458bebb864da59eb44f27e6e2cec505bb855ccabf75855154a557e",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_08_4000_4500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "9db8b9bd2fdd8e2968543fe83ddcfe6a9a5e0b0a317c5d2145fda454f6f10f66",
+        "actual": "9db8b9bd2fdd8e2968543fe83ddcfe6a9a5e0b0a317c5d2145fda454f6f10f66",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_09_4500_5000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "b9c9e0a53197d115e218501d219e26570c5d7d203097031e57b6e35e01814d6d",
+        "actual": "b9c9e0a53197d115e218501d219e26570c5d7d203097031e57b6e35e01814d6d",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_10_5000_5500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "6877114a7dc422d0b8539704bac2d777bcbd6b4fcb8c81a632bd1c13c64f7454",
+        "actual": "6877114a7dc422d0b8539704bac2d777bcbd6b4fcb8c81a632bd1c13c64f7454",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_11_5500_6000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "4fa33f6ecdebfd6b02deba3634832362b56b9af695cb18fb39c68341884640fb",
+        "actual": "4fa33f6ecdebfd6b02deba3634832362b56b9af695cb18fb39c68341884640fb",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_12_6000_6500_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "2458256baddcb4f915ee299dd33e2f2811fd8e57d0f81f78435657804bf5a144",
+        "actual": "2458256baddcb4f915ee299dd33e2f2811fd8e57d0f81f78435657804bf5a144",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_13_6500_7000_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "b26e7e8fa202a7c76252df06df11b3189722a8c0fdc36dabbb7d042a1f040ca3",
+        "actual": "b26e7e8fa202a7c76252df06df11b3189722a8c0fdc36dabbb7d042a1f040ca3",
+        "error": false
+      },
+      "outputs/data/s2_phase6e_chunk_14_7000_7164_raw_bands.csv": {
+        "status": "PASS",
+        "expected": "3ac9eb1a66e7d82c93830d4d7e6a568d2b3d13b24c2fc86c80a9990dcd029c53",
+        "actual": "3ac9eb1a66e7d82c93830d4d7e6a568d2b3d13b24c2fc86c80a9990dcd029c53",
+        "error": false
+      }
+    }
+  },
+  "cv_fold_audit": {
+    "total_folds_farms": 7843,
+    "unique_folds_farms": 7843,
+    "folds_present": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "mandal_overlap": false,
+    "all_classes_present_per_fold": true,
+    "fold_details": {
+      "fold_0": {
+        "validation_farms": 1508,
+        "mandals": 23,
+        "red_gram_count": 56,
+        "class_counts": {
+          "Paddy": 454,
+          "Cotton": 337,
+          "Maize": 268,
+          "Bengal Gram": 185,
+          "Chillies": 107,
+          "Groundnut": 101,
+          "Red Gram": 56
+        }
+      },
+      "fold_1": {
+        "validation_farms": 1600,
+        "mandals": 21,
+        "red_gram_count": 26,
+        "class_counts": {
+          "Paddy": 451,
+          "Cotton": 332,
+          "Maize": 270,
+          "Bengal Gram": 204,
+          "Groundnut": 174,
+          "Chillies": 143,
+          "Red Gram": 26
+        }
+      },
+      "fold_2": {
+        "validation_farms": 1595,
+        "mandals": 22,
+        "red_gram_count": 21,
+        "class_counts": {
+          "Paddy": 450,
+          "Cotton": 335,
+          "Maize": 286,
+          "Groundnut": 209,
+          "Bengal Gram": 177,
+          "Chillies": 117,
+          "Red Gram": 21
+        }
+      },
+      "fold_3": {
+        "validation_farms": 1530,
+        "mandals": 26,
+        "red_gram_count": 59,
+        "class_counts": {
+          "Paddy": 452,
+          "Cotton": 341,
+          "Maize": 282,
+          "Bengal Gram": 187,
+          "Chillies": 106,
+          "Groundnut": 103,
+          "Red Gram": 59
+        }
+      },
+      "fold_4": {
+        "validation_farms": 1610,
+        "mandals": 24,
+        "red_gram_count": 59,
+        "class_counts": {
+          "Paddy": 453,
+          "Cotton": 334,
+          "Maize": 270,
+          "Bengal Gram": 185,
+          "Groundnut": 181,
+          "Chillies": 128,
+          "Red Gram": 59
+        }
+      }
+    }
+  },
+  "feature_schema_audit": {
+    "Exp_A_feature_count": 34,
+    "Exp_B_feature_count": 34,
+    "Exp_C_feature_count": 140,
+    "Exp_D_feature_count": 146
+  },
+  "trajectory_count_reconciliation": {
+    "metadata_image_valid_4windows_count": 7107,
+    "strictly_zero_nan_140_features_count": 7099,
+    "discrepancy_count": 8,
+    "explanation": "7,107 farms have >=1 valid image recorded across all 4 windows in image metadata. However, 8 farms suffer from historical partial-band nulls in Phase 6D/6E raw extraction (e.g., 10m bands extracted successfully but 20m red-edge/SWIR bands null). Consequently, exactly 7,099 farms possess complete non-null values across all 140 features in Experiment C.",
+    "discrepant_farms": [
+      {
+        "FarmID": 1304367,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Bayyaram",
+        "nan_feature_count": 20,
+        "affected_feature_sample": [
+          "B5_mid_mean",
+          "B5_mid_std",
+          "B6_mid_mean",
+          "B6_mid_std",
+          "B7_mid_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1311790,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Gangaram",
+        "nan_feature_count": 36,
+        "affected_feature_sample": [
+          "B2_early_mean",
+          "B2_early_std",
+          "B3_early_mean",
+          "B3_early_std",
+          "B4_early_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1317244,
+        "Crop": "Paddy",
+        "District": "Mahabubabad",
+        "Sub-District": "Thorrur",
+        "nan_feature_count": 19,
+        "affected_feature_sample": [
+          "B5_early_mean",
+          "B5_early_std",
+          "B6_early_mean",
+          "B6_early_std",
+          "B7_early_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1317978,
+        "Crop": "Cotton",
+        "District": "Adilabad",
+        "Sub-District": "Inderavelly",
+        "nan_feature_count": 24,
+        "affected_feature_sample": [
+          "B2_late_mean",
+          "B2_late_std",
+          "B3_late_mean",
+          "B3_late_std",
+          "B4_late_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1320213,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Thorrur",
+        "nan_feature_count": 24,
+        "affected_feature_sample": [
+          "B2_late_mean",
+          "B2_late_std",
+          "B3_late_mean",
+          "B3_late_std",
+          "B4_late_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1325016,
+        "Crop": "Maize",
+        "District": "Mahabubabad",
+        "Sub-District": "Gangaram",
+        "nan_feature_count": 19,
+        "affected_feature_sample": [
+          "B5_early_mean",
+          "B5_early_std",
+          "B6_early_mean",
+          "B6_early_std",
+          "B7_early_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1331153,
+        "Crop": "Maize",
+        "District": "Nirmal",
+        "Sub-District": "Mudhole",
+        "nan_feature_count": 20,
+        "affected_feature_sample": [
+          "B5_late_mean",
+          "B5_late_std",
+          "B6_late_mean",
+          "B6_late_std",
+          "B7_late_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      },
+      {
+        "FarmID": 1331755,
+        "Crop": "Red Gram",
+        "District": "Adilabad",
+        "Sub-District": "Utnur",
+        "nan_feature_count": 24,
+        "affected_feature_sample": [
+          "B2_early_mean",
+          "B2_early_std",
+          "B3_early_mean",
+          "B3_early_std",
+          "B4_early_mean"
+        ],
+        "reason": "Partial spectral band nulls in historical extraction (e.g., 10m bands present, 20m red-edge/SWIR bands null, or vice versa)"
+      }
+    ]
+  },
+  "metric_reproduction": {
+    "all_15_models_reproduced_exactly": true,
+    "runs": {
+      "Exp_A_primary": {
+        "dummy": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.0639,
+          "reported_pooled_macro_f1": 0.0639,
+          "recomputed_pooled_accuracy": 0.2882,
+          "reported_pooled_accuracy": 0.2882,
+          "recomputed_fold_macro_mean": 0.0639,
+          "reported_fold_macro_mean": 0.0639,
+          "recomputed_fold_macro_std_ddof0": 0.0014,
+          "sample_fold_macro_std_ddof1": 0.0016,
+          "reported_fold_macro_std": 0.0014,
+          "matches_report": true
+        },
+        "rf": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.59,
+          "reported_pooled_macro_f1": 0.59,
+          "recomputed_pooled_accuracy": 0.7106,
+          "reported_pooled_accuracy": 0.7106,
+          "recomputed_fold_macro_mean": 0.5879,
+          "reported_fold_macro_mean": 0.5879,
+          "recomputed_fold_macro_std_ddof0": 0.0361,
+          "sample_fold_macro_std_ddof1": 0.0404,
+          "reported_fold_macro_std": 0.0361,
+          "matches_report": true
+        },
+        "xgb": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.6174,
+          "reported_pooled_macro_f1": 0.6174,
+          "recomputed_pooled_accuracy": 0.7366,
+          "reported_pooled_accuracy": 0.7366,
+          "recomputed_fold_macro_mean": 0.6164,
+          "reported_fold_macro_mean": 0.6164,
+          "recomputed_fold_macro_std_ddof0": 0.0316,
+          "sample_fold_macro_std_ddof1": 0.0353,
+          "reported_fold_macro_std": 0.0316,
+          "matches_report": true
+        }
+      },
+      "Exp_B_primary": {
+        "dummy": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.0639,
+          "reported_pooled_macro_f1": 0.0639,
+          "recomputed_pooled_accuracy": 0.2882,
+          "reported_pooled_accuracy": 0.2882,
+          "recomputed_fold_macro_mean": 0.0639,
+          "reported_fold_macro_mean": 0.0639,
+          "recomputed_fold_macro_std_ddof0": 0.0014,
+          "sample_fold_macro_std_ddof1": 0.0016,
+          "reported_fold_macro_std": 0.0014,
+          "matches_report": true
+        },
+        "rf": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.5101,
+          "reported_pooled_macro_f1": 0.5101,
+          "recomputed_pooled_accuracy": 0.5977,
+          "reported_pooled_accuracy": 0.5977,
+          "recomputed_fold_macro_mean": 0.5051,
+          "reported_fold_macro_mean": 0.5051,
+          "recomputed_fold_macro_std_ddof0": 0.0247,
+          "sample_fold_macro_std_ddof1": 0.0276,
+          "reported_fold_macro_std": 0.0247,
+          "matches_report": true
+        },
+        "xgb": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.5058,
+          "reported_pooled_macro_f1": 0.5058,
+          "recomputed_pooled_accuracy": 0.6245,
+          "reported_pooled_accuracy": 0.6245,
+          "recomputed_fold_macro_mean": 0.504,
+          "reported_fold_macro_mean": 0.504,
+          "recomputed_fold_macro_std_ddof0": 0.026,
+          "sample_fold_macro_std_ddof1": 0.0291,
+          "reported_fold_macro_std": 0.026,
+          "matches_report": true
+        }
+      },
+      "Exp_B_sensitivity_complete_case": {
+        "rf": {
+          "sample_count": 7298,
+          "expected_sample_count": 7298,
+          "unique_farms": 7298,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.5058,
+          "reported_pooled_macro_f1": 0.5058,
+          "recomputed_pooled_accuracy": 0.6332,
+          "reported_pooled_accuracy": 0.6332,
+          "recomputed_fold_macro_mean": 0.5035,
+          "reported_fold_macro_mean": 0.5035,
+          "recomputed_fold_macro_std_ddof0": 0.021,
+          "sample_fold_macro_std_ddof1": 0.0235,
+          "reported_fold_macro_std": 0.021,
+          "matches_report": true
+        },
+        "xgb": {
+          "sample_count": 7298,
+          "expected_sample_count": 7298,
+          "unique_farms": 7298,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.5286,
+          "reported_pooled_macro_f1": 0.5286,
+          "recomputed_pooled_accuracy": 0.6561,
+          "reported_pooled_accuracy": 0.6561,
+          "recomputed_fold_macro_mean": 0.5257,
+          "reported_fold_macro_mean": 0.5257,
+          "recomputed_fold_macro_std_ddof0": 0.0165,
+          "sample_fold_macro_std_ddof1": 0.0184,
+          "reported_fold_macro_std": 0.0165,
+          "matches_report": true
+        }
+      },
+      "Exp_C_primary": {
+        "dummy": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.0639,
+          "reported_pooled_macro_f1": 0.0639,
+          "recomputed_pooled_accuracy": 0.2882,
+          "reported_pooled_accuracy": 0.2882,
+          "recomputed_fold_macro_mean": 0.0639,
+          "reported_fold_macro_mean": 0.0639,
+          "recomputed_fold_macro_std_ddof0": 0.0014,
+          "sample_fold_macro_std_ddof1": 0.0016,
+          "reported_fold_macro_std": 0.0014,
+          "matches_report": true
+        },
+        "rf": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.6477,
+          "reported_pooled_macro_f1": 0.6477,
+          "recomputed_pooled_accuracy": 0.7493,
+          "reported_pooled_accuracy": 0.7493,
+          "recomputed_fold_macro_mean": 0.6417,
+          "reported_fold_macro_mean": 0.6417,
+          "recomputed_fold_macro_std_ddof0": 0.0257,
+          "sample_fold_macro_std_ddof1": 0.0287,
+          "reported_fold_macro_std": 0.0257,
+          "matches_report": true
+        },
+        "xgb": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.7038,
+          "reported_pooled_macro_f1": 0.7038,
+          "recomputed_pooled_accuracy": 0.7877,
+          "reported_pooled_accuracy": 0.7877,
+          "recomputed_fold_macro_mean": 0.6961,
+          "reported_fold_macro_mean": 0.6961,
+          "recomputed_fold_macro_std_ddof0": 0.023,
+          "sample_fold_macro_std_ddof1": 0.0258,
+          "reported_fold_macro_std": 0.023,
+          "matches_report": true
+        }
+      },
+      "Exp_C_sensitivity_complete_trajectory": {
+        "rf": {
+          "sample_count": 7099,
+          "expected_sample_count": 7099,
+          "unique_farms": 7099,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.6347,
+          "reported_pooled_macro_f1": 0.6347,
+          "recomputed_pooled_accuracy": 0.7642,
+          "reported_pooled_accuracy": 0.7642,
+          "recomputed_fold_macro_mean": 0.6323,
+          "reported_fold_macro_mean": 0.6323,
+          "recomputed_fold_macro_std_ddof0": 0.0293,
+          "sample_fold_macro_std_ddof1": 0.0328,
+          "reported_fold_macro_std": 0.0293,
+          "matches_report": true
+        },
+        "xgb": {
+          "sample_count": 7099,
+          "expected_sample_count": 7099,
+          "unique_farms": 7099,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.6865,
+          "reported_pooled_macro_f1": 0.6865,
+          "recomputed_pooled_accuracy": 0.8074,
+          "reported_pooled_accuracy": 0.8074,
+          "recomputed_fold_macro_mean": 0.6832,
+          "reported_fold_macro_mean": 0.6832,
+          "recomputed_fold_macro_std_ddof0": 0.0288,
+          "sample_fold_macro_std_ddof1": 0.0322,
+          "reported_fold_macro_std": 0.0288,
+          "matches_report": true
+        }
+      },
+      "Exp_D_primary": {
+        "dummy": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.0639,
+          "reported_pooled_macro_f1": 0.0639,
+          "recomputed_pooled_accuracy": 0.2882,
+          "reported_pooled_accuracy": 0.2882,
+          "recomputed_fold_macro_mean": 0.0639,
+          "reported_fold_macro_mean": 0.0639,
+          "recomputed_fold_macro_std_ddof0": 0.0014,
+          "sample_fold_macro_std_ddof1": 0.0016,
+          "reported_fold_macro_std": 0.0014,
+          "matches_report": true
+        },
+        "rf": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.7422,
+          "reported_pooled_macro_f1": 0.7422,
+          "recomputed_pooled_accuracy": 0.7959,
+          "reported_pooled_accuracy": 0.7959,
+          "recomputed_fold_macro_mean": 0.7332,
+          "reported_fold_macro_mean": 0.7332,
+          "recomputed_fold_macro_std_ddof0": 0.0155,
+          "sample_fold_macro_std_ddof1": 0.0173,
+          "reported_fold_macro_std": 0.0155,
+          "matches_report": true
+        },
+        "xgb": {
+          "sample_count": 7843,
+          "expected_sample_count": 7843,
+          "unique_farms": 7843,
+          "nan_predictions": 0,
+          "recomputed_pooled_macro_f1": 0.7954,
+          "reported_pooled_macro_f1": 0.7954,
+          "recomputed_pooled_accuracy": 0.8307,
+          "reported_pooled_accuracy": 0.8307,
+          "recomputed_fold_macro_mean": 0.7848,
+          "reported_fold_macro_mean": 0.7848,
+          "recomputed_fold_macro_std_ddof0": 0.0112,
+          "sample_fold_macro_std_ddof1": 0.0126,
+          "reported_fold_macro_std": 0.0112,
+          "matches_report": true
+        }
+      }
+    },
+    "statistical_degrees_of_freedom_note": "Standard deviations in benchmark reports were computed using numpy.std(ddof=0) (population std). Sample standard deviations (ddof=1) are reported in this audit for complete scientific transparency."
+  },
+  "red_gram_variability_audit": {
+    "Exp_C_xgb": {
+      "pooled_support": 221,
+      "pooled_precision": 0.6329,
+      "pooled_recall": 0.2262,
+      "pooled_f1": 0.3333,
+      "per_fold": [
+        {
+          "fold": 0,
+          "support": 56,
+          "precision": 0.7,
+          "recall": 0.25,
+          "f1": 0.3684
+        },
+        {
+          "fold": 1,
+          "support": 26,
+          "precision": 0.25,
+          "recall": 0.0769,
+          "f1": 0.1176
+        },
+        {
+          "fold": 2,
+          "support": 21,
+          "precision": 0.2727,
+          "recall": 0.1429,
+          "f1": 0.1875
+        },
+        {
+          "fold": 3,
+          "support": 59,
+          "precision": 0.6818,
+          "recall": 0.2542,
+          "f1": 0.3704
+        },
+        {
+          "fold": 4,
+          "support": 59,
+          "precision": 0.8889,
+          "recall": 0.2712,
+          "f1": 0.4156
+        }
+      ],
+      "fold_f1_mean": 0.2919,
+      "actual_red_gram_fold_f1_std_ddof0": 0.1171,
+      "actual_red_gram_fold_f1_std_ddof1": 0.131,
+      "previously_misattributed_macro_f1_std": 0.023
+    },
+    "Exp_D_xgb": {
+      "pooled_support": 221,
+      "pooled_precision": 0.7733,
+      "pooled_recall": 0.5249,
+      "pooled_f1": 0.6253,
+      "per_fold": [
+        {
+          "fold": 0,
+          "support": 56,
+          "precision": 0.7447,
+          "recall": 0.625,
+          "f1": 0.6796
+        },
+        {
+          "fold": 1,
+          "support": 26,
+          "precision": 0.5714,
+          "recall": 0.1538,
+          "f1": 0.2424
+        },
+        {
+          "fold": 2,
+          "support": 21,
+          "precision": 0.6429,
+          "recall": 0.4286,
+          "f1": 0.5143
+        },
+        {
+          "fold": 3,
+          "support": 59,
+          "precision": 0.8205,
+          "recall": 0.5424,
+          "f1": 0.6531
+        },
+        {
+          "fold": 4,
+          "support": 59,
+          "precision": 0.8372,
+          "recall": 0.6102,
+          "f1": 0.7059
+        }
+      ],
+      "fold_f1_mean": 0.5591,
+      "actual_red_gram_fold_f1_std_ddof0": 0.1716,
+      "actual_red_gram_fold_f1_std_ddof1": 0.1918,
+      "previously_misattributed_macro_f1_std": 0.0112
+    },
+    "Exp_A_xgb": {
+      "pooled_support": 221,
+      "pooled_precision": 0.2683,
+      "pooled_recall": 0.0498,
+      "pooled_f1": 0.084,
+      "per_fold": [
+        {
+          "fold": 0,
+          "support": 56,
+          "precision": 0.25,
+          "recall": 0.0357,
+          "f1": 0.0625
+        },
+        {
+          "fold": 1,
+          "support": 26,
+          "precision": 0.25,
+          "recall": 0.0385,
+          "f1": 0.0667
+        },
+        {
+          "fold": 2,
+          "support": 21,
+          "precision": 0.2222,
+          "recall": 0.0952,
+          "f1": 0.1333
+        },
+        {
+          "fold": 3,
+          "support": 59,
+          "precision": 0.3333,
+          "recall": 0.0847,
+          "f1": 0.1351
+        },
+        {
+          "fold": 4,
+          "support": 59,
+          "precision": 0.2,
+          "recall": 0.0169,
+          "f1": 0.0312
+        }
+      ],
+      "fold_f1_mean": 0.0858,
+      "actual_red_gram_fold_f1_std_ddof0": 0.0414,
+      "actual_red_gram_fold_f1_std_ddof1": 0.0463,
+      "previously_misattributed_macro_f1_std": 0.0316
+    }
+  },
+  "experiment_b_sensitivity_audit": {
+    "primary_sample_count": 7843,
+    "complete_case_sample_count": 7298,
+    "excluded_sample_count": 545,
+    "primary_metrics": {
+      "rf_macro_f1": 0.5101,
+      "xgb_macro_f1": 0.5058,
+      "ranking": "RF > XGB (0.5101 vs 0.5058)"
+    },
+    "complete_case_metrics": {
+      "rf_macro_f1": 0.5058,
+      "xgb_macro_f1": 0.5286,
+      "ranking": "XGB > RF (0.5286 vs 0.5058)"
+    },
+    "ranking_reversal": true,
+    "class_distribution_comparison": {
+      "full_eligible_cohort": {
+        "Paddy": 2260,
+        "Cotton": 1679,
+        "Maize": 1376,
+        "Bengal Gram": 938,
+        "Groundnut": 768,
+        "Chillies": 601,
+        "Red Gram": 221
+      },
+      "complete_case_cohort": {
+        "Paddy": 2111,
+        "Cotton": 1582,
+        "Maize": 1233,
+        "Bengal Gram": 929,
+        "Groundnut": 729,
+        "Chillies": 563,
+        "Red Gram": 151
+      },
+      "excluded_cloud_farms": {
+        "Paddy": 149,
+        "Maize": 143,
+        "Cotton": 97,
+        "Red Gram": 70,
+        "Groundnut": 39,
+        "Chillies": 38,
+        "Bengal Gram": 9
+      },
+      "red_gram_exclusion_rate": "70 / 221 (31.67%)",
+      "bengal_gram_exclusion_rate": "9 / 938 (0.96%)"
+    },
+    "scientific_interpretation": "The model ranking reverses between primary (RF > XGB) and complete-case (XGB > RF). This CANNOT be attributed solely to imputation vs native missing-value routing. 31.67% of the rarest and hardest class (Red Gram) is excluded from the complete-case cohort due to early-monsoon cloud cover, altering the underlying class distribution and making the evaluation cohort structurally less challenging for gradient boosting."
+  },
+  "experiment_d_provenance_audit": {
+    "features": [
+      "Season",
+      "sowing_month",
+      "sowing_doy",
+      "area_ha",
+      "perimeter_m",
+      "compactness"
+    ],
+    "provenance": {
+      "Season": {
+        "source": "Train.csv (survey record)",
+        "operational_availability": "Available pre-season based on regional agro-climatic calendar.",
+        "leakage_risk": "None. Categorical ordinal variable."
+      },
+      "sowing_month": {
+        "source": "Derived from SDate in Train.csv",
+        "operational_availability": "Available at sowing time if farmer registers planting date in portal/survey. In an autonomous satellite-only monitoring workflow, SDate would NOT be available without farmer input or satellite phenological emergence estimation.",
+        "leakage_risk": "Valid pre-harvest, but assumes external knowledge of farmer planting date."
+      },
+      "sowing_doy": {
+        "source": "Derived from SDate in Train.csv",
+        "operational_availability": "Same as sowing_month.",
+        "leakage_risk": "Valid pre-harvest, but assumes external knowledge of farmer planting date."
+      },
+      "area_ha": {
+        "source": "Planar polygon area from Train.csv geometry",
+        "operational_availability": "Available at registration (cadastral farm boundary).",
+        "leakage_risk": "None. Fixed boundary geometry."
+      },
+      "perimeter_m": {
+        "source": "Planar polygon perimeter from Train.csv geometry",
+        "operational_availability": "Available at registration (cadastral farm boundary).",
+        "leakage_risk": "None. Fixed boundary geometry."
+      },
+      "compactness": {
+        "source": "Polsby-Popper isoperimetric quotient: 4 * pi * area / perimeter^2",
+        "operational_availability": "Available at registration (cadastral farm boundary).",
+        "leakage_risk": "None. Fixed boundary geometry."
+      }
+    },
+    "scientific_conclusion": "Experiment D is a Multimodal benchmark combining satellite imagery with farmer-declared calendar timing and parcel shape. It must NOT be represented as an autonomous satellite-only monitoring system. The performance boost (+9.16% macro-F1 over Exp C) reflects valuable complementary information from farmer registration, but is not an ablation baseline for pure remote sensing."
+  },
+  "required_documentation_corrections": [
+    "Correct Red Gram variability attribution: replace macro-F1 std dev (\u00b10.0230) with actual Red Gram F1 std dev (\u00b10.1309 in Exp C, \u00b10.1918 in Exp D).",
+    "Document 7,107 vs 7,099 cohort difference: 7,107 is based on valid-image metadata counts, while 7,099 is the strictly zero-NaN feature matrix subset across all 140 columns (8 farms have historical partial band nulls).",
+    "Acknowledge Experiment B ranking reversal (RF > XGB on primary, XGB > RF on complete-case) as driven by structural class composition change (31.7% of Red Gram excluded due to monsoon clouds), not purely imputation behavior.",
+    "Clarify Experiment D operational requirements: SDate represents farmer-declared calendar information, not autonomous satellite extraction.",
+    "Explicitly note that standard deviations in the primary report use ddof=0."
+  ]
+}

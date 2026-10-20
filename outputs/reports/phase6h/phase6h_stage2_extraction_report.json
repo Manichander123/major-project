@@ -1,0 +1,216 @@
+{
+  "phase": "Phase 6H Stage 2: Spatial Texture Extraction",
+  "timestamp": "2026-10-19T20:39:40.355837",
+  "expected_cohort_size": 7843,
+  "extracted_farms": 7843,
+  "successful_farms": 7843,
+  "failed_farms": 0,
+  "success_rate_pct": 100.0,
+  "cohort_coverage_pct": 100.0,
+  "unique_farm_ids": 7843,
+  "glcm_features_count": 20,
+  "glcm_feature_names": [
+    "glcm_contrast_early",
+    "glcm_contrast_mid",
+    "glcm_contrast_late",
+    "glcm_contrast_full",
+    "glcm_dissimilarity_early",
+    "glcm_dissimilarity_mid",
+    "glcm_dissimilarity_late",
+    "glcm_dissimilarity_full",
+    "glcm_homogeneity_early",
+    "glcm_homogeneity_mid",
+    "glcm_homogeneity_late",
+    "glcm_homogeneity_full",
+    "glcm_energy_early",
+    "glcm_energy_mid",
+    "glcm_energy_late",
+    "glcm_energy_full",
+    "glcm_correlation_early",
+    "glcm_correlation_mid",
+    "glcm_correlation_late",
+    "glcm_correlation_full"
+  ],
+  "feature_statistics": {
+    "glcm_contrast_early": {
+      "finite_count": 7368,
+      "finite_rate_pct": 93.94,
+      "nan_count": 475,
+      "mean": 0.648466,
+      "std": 0.527584,
+      "min": 0.0,
+      "max": 8.383934
+    },
+    "glcm_contrast_mid": {
+      "finite_count": 7740,
+      "finite_rate_pct": 98.69,
+      "nan_count": 103,
+      "mean": 0.676318,
+      "std": 0.539548,
+      "min": 0.002236,
+      "max": 8.209371
+    },
+    "glcm_contrast_late": {
+      "finite_count": 7675,
+      "finite_rate_pct": 97.86,
+      "nan_count": 168,
+      "mean": 0.697573,
+      "std": 0.572018,
+      "min": 0.0,
+      "max": 8.220182
+    },
+    "glcm_contrast_full": {
+      "finite_count": 7843,
+      "finite_rate_pct": 100.0,
+      "nan_count": 0,
+      "mean": 0.519543,
+      "std": 0.360587,
+      "min": 0.0,
+      "max": 4.711233
+    },
+    "glcm_dissimilarity_early": {
+      "finite_count": 7368,
+      "finite_rate_pct": 93.94,
+      "nan_count": 475,
+      "mean": 0.46153,
+      "std": 0.221365,
+      "min": 0.0,
+      "max": 2.247735
+    },
+    "glcm_dissimilarity_mid": {
+      "finite_count": 7740,
+      "finite_rate_pct": 98.69,
+      "nan_count": 103,
+      "mean": 0.476561,
+      "std": 0.2261,
+      "min": 0.002236,
+      "max": 2.168723
+    },
+    "glcm_dissimilarity_late": {
+      "finite_count": 7675,
+      "finite_rate_pct": 97.86,
+      "nan_count": 168,
+      "mean": 0.484572,
+      "std": 0.228471,
+      "min": 0.0,
+      "max": 2.080761
+    },
+    "glcm_dissimilarity_full": {
+      "finite_count": 7843,
+      "finite_rate_pct": 100.0,
+      "nan_count": 0,
+      "mean": 0.40875,
+      "std": 0.180102,
+      "min": 0.0,
+      "max": 1.5897
+    },
+    "glcm_homogeneity_early": {
+      "finite_count": 7368,
+      "finite_rate_pct": 93.94,
+      "nan_count": 475,
+      "mean": 0.787214,
+      "std": 0.086848,
+      "min": 0.353188,
+      "max": 1.0
+    },
+    "glcm_homogeneity_mid": {
+      "finite_count": 7740,
+      "finite_rate_pct": 98.69,
+      "nan_count": 103,
+      "mean": 0.780986,
+      "std": 0.087549,
+      "min": 0.395697,
+      "max": 0.998882
+    },
+    "glcm_homogeneity_late": {
+      "finite_count": 7675,
+      "finite_rate_pct": 97.86,
+      "nan_count": 168,
+      "mean": 0.778137,
+      "std": 0.087308,
+      "min": 0.382129,
+      "max": 1.0
+    },
+    "glcm_homogeneity_full": {
+      "finite_count": 7843,
+      "finite_rate_pct": 100.0,
+      "nan_count": 0,
+      "mean": 0.806505,
+      "std": 0.075129,
+      "min": 0.468145,
+      "max": 1.0
+    },
+    "glcm_energy_early": {
+      "finite_count": 7368,
+      "finite_rate_pct": 93.94,
+      "nan_count": 475,
+      "mean": 0.511303,
+      "std": 0.145128,
+      "min": 0.162386,
+      "max": 1.0
+    },
+    "glcm_energy_mid": {
+      "finite_count": 7740,
+      "finite_rate_pct": 98.69,
+      "nan_count": 103,
+      "mean": 0.501075,
+      "std": 0.141432,
+      "min": 0.176752,
+      "max": 0.997522
+    },
+    "glcm_energy_late": {
+      "finite_count": 7675,
+      "finite_rate_pct": 97.86,
+      "nan_count": 168,
+      "mean": 0.497204,
+      "std": 0.140488,
+      "min": 0.164913,
+      "max": 1.0
+    },
+    "glcm_energy_full": {
+      "finite_count": 7843,
+      "finite_rate_pct": 100.0,
+      "nan_count": 0,
+      "mean": 0.537671,
+      "std": 0.136199,
+      "min": 0.205994,
+      "max": 1.0
+    },
+    "glcm_correlation_early": {
+      "finite_count": 7368,
+      "finite_rate_pct": 93.94,
+      "nan_count": 475,
+      "mean": 0.487013,
+      "std": 0.127195,
+      "min": -0.015102,
+      "max": 1.0
+    },
+    "glcm_correlation_mid": {
+      "finite_count": 7740,
+      "finite_rate_pct": 98.69,
+      "nan_count": 103,
+      "mean": 0.483526,
+      "std": 0.128627,
+      "min": -0.161443,
+      "max": 0.948526
+    },
+    "glcm_correlation_late": {
+      "finite_count": 7675,
+      "finite_rate_pct": 97.86,
+      "nan_count": 168,
+      "mean": 0.488463,
+      "std": 0.125517,
+      "min": -0.258477,
+      "max": 1.0
+    },
+    "glcm_correlation_full": {
+      "finite_count": 7843,
+      "finite_rate_pct": 100.0,
+      "nan_count": 0,
+      "mean": 0.452528,
+      "std": 0.128816,
+      "min": -0.161443,
+      "max": 1.0
+    }
+  }
+}
