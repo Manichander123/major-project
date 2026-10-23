@@ -1,0 +1,10 @@
+{
+  "status": "ALL_PDF_CHECKS_PASSED",
+  "total_pages": 24,
+  "tables_verified": 10,
+  "figures_verified": 6,
+  "references_verified": 13,
+  "pdf_path": "C:\\Users\\Manichander\\OneDrive\\Desktop\\cbit\\major project\\major_proj_final\\outputs\\submission\\MANUSCRIPT_ICIDA_2026.pdf",
+  "docx_path": "C:\\Users\\Manichander\\OneDrive\\Desktop\\cbit\\major project\\major_proj_final\\outputs\\submission\\MANUSCRIPT_ICIDA_2026.docx",
+  "tex_path": "C:\\Users\\Manichander\\OneDrive\\Desktop\\cbit\\major project\\major_proj_final\\outputs\\submission\\MANUSCRIPT_ICIDA_2026_LNCS.tex"
+}

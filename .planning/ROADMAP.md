@@ -18,19 +18,22 @@
 
 ---
 
-## ⚠️ Unprocessed Datasets & Unimplemented Workstreams
+---
 
-### Test Set Ingestion & Inference (Pending / Not Yet Executed)
-- **Status**: **NOT YET PROCESSED OR EVALUATED**
-- **Details**: `datasss/Test.csv` (2,718 farm records) has **not** been extracted for Sentinel-2 satellite features, and no model inference or test-set evaluation has been executed.
+## Phase 7: Test.csv Satellite Feature Extraction, Model Inference & Independent Evaluation Audit
 
-### Phase 7: Crop Health & Stress Classification (Planned / Not Yet Implemented)
+- [x] **Plan 1**: Read-only preflight audit & leakage-safe evaluation protocol (`phase7_test_preflight_audit.md`, `phase7_evaluation_protocol.md`) — **COMPLETE**
+- [x] **Plan 2**: Test.csv Sentinel-2 feature extraction via GEE (2,718 parcels, 140 S+T features, 2,265 successful, 453 cloud failures, 100% schema matched) — **COMPLETE**
+- [x] **Plan 3**: Model inference with frozen Phase 6I Weighted S+T model & supervised evaluation against verified `Crop` ground truth (N=2,265, Macro-F1: 0.7308, Accuracy: 81.55%) — **COMPLETE**
+- [x] **Plan 4**: Quality control, reproducibility checks, offline test suite (`test_phase7_inference.py`), and `PHASE7_FINAL_SUMMARY.md` — **COMPLETE**
+
+---
+
+## ⚠️ Future Workstreams & Downstream Modules
+
+### Phase 8: Crop Health & Stress Classification (Planned / Secondary Target)
 - **Goal**: Model secondary target `category` (`Healthy`, `Diseased`, `Pests`, `Stressed`) independently without leaking into primary crop-type classification.
 - **Status**: **NOT YET IMPLEMENTED** (No crop-health models trained).
-
-### Phase 8: Sentinel-2 Extraction & Inference for Test Cohort (Planned)
-- **Goal**: Run multi-temporal Sentinel-2 extraction on `datasss/Test.csv` (2,718 parcels) and generate out-of-sample crop predictions using the selected Phase 6I Weighted S+T model.
-- **Status**: **PLANNED**
 
 ### Phase 9: Weather & Agro-Meteorological Integration (Planned / Not Yet Implemented)
 - **Goal**: Ingest ERA5-Land or CHIRPS precipitation, temperature, and solar radiation metrics.

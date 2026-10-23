@@ -1,0 +1,61 @@
+{
+  "partitions": {
+    "status": "PASS",
+    "train_parcels": 7843,
+    "fold0_train": 6335,
+    "fold0_val": 1508,
+    "train_mandals": 116
+  },
+  "metrics": {
+    "status": "PASS",
+    "total_test": 2718,
+    "evaluated": 2265,
+    "excluded": 453,
+    "correct": 1847,
+    "incorrect": 418,
+    "accuracy": 0.8154525386313466,
+    "macro_f1": 0.730809859453357,
+    "balanced_accuracy": 0.7325848174305465,
+    "weighted_f1": 0.813670689753967
+  },
+  "features": {
+    "status": "PASS",
+    "s_plus_t_count": 140,
+    "glcm_count": 20,
+    "s_plus_t_p_count": 160
+  },
+  "model_hyperparameters": {
+    "status": "PASS",
+    "verified_params": {
+      "max_depth": 7,
+      "learning_rate": 0.05,
+      "n_estimators": 300,
+      "subsample": 0.8,
+      "colsample_bytree": 0.75,
+      "min_child_weight": 3,
+      "gamma": 0.2,
+      "reg_alpha": 0.2,
+      "reg_lambda": 5.0
+    }
+  },
+  "text": {
+    "status": "PASS",
+    "forbidden_phrases_count": 0
+  },
+  "citations": {
+    "status": "PASS",
+    "citations_checked": 13,
+    "unique_dois": 13
+  },
+  "figures_and_tables": {
+    "status": "PASS",
+    "tables_verified": 10,
+    "figures_verified": 6,
+    "images_found": 6
+  },
+  "sync": {
+    "status": "PASS",
+    "files_synchronized": 7
+  },
+  "overall_status": "ALL_CHECKS_PASSED"
+}
